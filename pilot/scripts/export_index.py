@@ -29,6 +29,19 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:60]
 
 
+def with_paper(colors, tagged):
+    """When the scan shows almost no paper, use the tagger's lightest colour toned towards warm paper,
+    so the app never needs the tagger palette itself (it isn't published)."""
+    if colors.get("paper") or not tagged:
+        return colors
+    rgbs = [[int(h[i:i + 2], 16) for i in (1, 3, 5)] for h in tagged]
+    light = max(rgbs, key=lambda c: 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2])
+    paper = [round(v * 0.65 + w * 0.35) for v, w in zip(light, (233, 226, 211))]
+    colors["paper"] = "#%02x%02x%02x" % tuple(paper)
+    colors["paper_source"] = "tagger fallback"
+    return colors
+
+
 def copy_fallback(pid):
     """Copy the pilot image into web/fallback/ and return its path relative to web/ (or None)."""
     src = PROJECT / "pilot" / "images" / f"{pid}.jpg"
@@ -65,7 +78,8 @@ for rec in json.loads(SRC.read_text()):
         "rotation": ROTATION.get(m["id"], 0),
         "crop_shape": t.get("crop_shape", "rect"),
         "palette": t.get("palette"),
-        "colors": measure(PROJECT / "pilot" / "images" / f"{m['id']}.jpg", t.get("crop"), t.get("palette")),
+        "colors": with_paper(measure(PROJECT / "pilot" / "images" / f"{m['id']}.jpg", t.get("crop"), t.get("palette")),
+                             t.get("palette")),
         "era": t.get("era"),
         "group": m.get("group"),
         "tags": {k: t.get(k) for k in (

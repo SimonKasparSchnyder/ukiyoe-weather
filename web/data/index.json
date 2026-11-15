@@ -1231,7 +1231,7 @@
    "#373325"
   ],
   "colors": {
-   "paper": null,
+   "paper": "#869f7e",
    "accent_light": "#537f4e",
    "accent_dark": "#537f4e",
    "palette": [
@@ -1241,7 +1241,8 @@
     "#110f0d",
     "#0d0c0a",
     "#46664a"
-   ]
+   ],
+   "paper_source": "tagger fallback"
   },
   "era": "edo",
   "group": "round2_famous",
@@ -2243,7 +2244,7 @@
    "#e8e2cf"
   ],
   "colors": {
-   "paper": null,
+   "paper": "#e8e2d0",
    "accent_light": "#9b6e57",
    "accent_dark": "#9b6e57",
    "palette": [
@@ -2253,7 +2254,8 @@
     "#446e6b",
     "#345e5a",
     "#366a66"
-   ]
+   ],
+   "paper_source": "tagger fallback"
   },
   "era": "edo",
   "group": "round2_random_landscape",
@@ -7005,7 +7007,7 @@
    "#4b4439"
   ],
   "colors": {
-   "paper": null,
+   "paper": "#cfb18b",
    "accent_light": "#c19764",
    "accent_dark": "#ca9f69",
    "palette": [
@@ -7015,7 +7017,8 @@
     "#54685f",
     "#9d7e57",
     "#b79061"
-   ]
+   ],
+   "paper_source": "tagger fallback"
   },
   "era": "edo",
   "group": "gap",
