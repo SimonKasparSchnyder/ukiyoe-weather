@@ -1,6 +1,6 @@
 import { loadConfig, rankPrints, pickPrint, timeVectorFromSun, croppedAspect } from "./lib/scoring.js";
 import { sunElevation, isMorning, moonInfo } from "./lib/sky.js";
-import { fetchWeather, mapWeather, describe, currentHourIndex } from "./lib/weather.js";
+import { fetchWeatherRace, mapWeather, describe, currentHourIndex } from "./lib/weather.js";
 import { getEnvironment, cachedEnvironment, searchPlaces, placeName } from "./lib/environment.js";
 import { storage } from "./lib/storage.js";
 import { ICON, weatherIcon } from "./lib/icons.js";
@@ -28,7 +28,8 @@ function splitTitle(p) {
   return { title: title.trim(), series: cleanSeries(series) };
 }
 const DEFAULT_PLACE = { name: "Nihonbashi, Tokyo", lat: 35.684, lon: 139.774 };
-const K = { settings: "ukiyoe-settings-v1", recent: "ukiyoe-recent-designs-v1", current: "ukiyoe-current-print-v1" };
+const K = { settings: "ukiyoe-settings-v1", recent: "ukiyoe-recent-designs-v1", current: "ukiyoe-current-print-v1", last: "ukiyoe-last-view-v1" };
+const LAST_VIEW_MAX_AGE = 30 * 60 * 1000; // show the remembered view straight away if it is younger than this
 const PARAMS = new URLSearchParams(location.search);
 const DEBUG = PARAMS.has("debug");
 // Developer mode: off by default everywhere, so the default view is what friends see.
@@ -45,6 +46,15 @@ settings.surround = "washi"; // Japanese paper over the print colour is the only
 if (!["framed", "fit"].includes(settings.size)) settings.size = DEFAULT_SETTINGS.size;
 let state = { place: null, weather: null, env: null, cur: null, ranked: [], chosen: null, lastRefresh: 0 };
 if (DEBUG) window.__state = state;
+
+// load timing (shown under "Why this print" with ?debug, and in the console in developer mode)
+const T0 = performance.now();
+state.timings = [];
+function mark(label) {
+  const ms = Math.round(performance.now() - T0);
+  state.timings.push([label, ms]);
+  if (DEV) console.info(`[timing] ${label}: ${ms} ms`);
+}
 
 // ---------------------------------------------------------------- location
 
@@ -359,7 +369,7 @@ function showPrint(r) {
     img.dataset.id = p.id;
     img.dataset.fallback = p.local_image || "";
     img.alt = `${p.title}${p.artist ? ", " + p.artist.split(";")[0] : ""}`;
-    img.onload = () => img.classList.add("loaded");
+    img.onload = () => { img.classList.add("loaded"); mark("print image loaded"); };
     img.onerror = () => {
       if (img.dataset.fallback) { img.src = img.dataset.fallback; img.dataset.fallback = ""; return; }
       // museum server unreachable and no local copy: show the best match among the prints we host
@@ -397,7 +407,7 @@ function renderWhy(r) {
     <div class="conds">Now: ${esc(vecText(c.weather))} · ${esc(vecText(c.time_of_day))}${c.moon ? " · moon up" : ""}
       ${c.environment.settlement ? " · " + esc(vecText(c.environment.settlement)) + ", " + esc(vecText(c.environment.water)) : ""}
       <br>Print: ${esc(vecText(t.weather))} · ${esc(vecText(t.time_of_day))} · ${esc(vecText(t.season))}
-      <br>Rank ${rank} of ${state.ranked.length}, score ${r.total.toFixed(2)}${DEBUG ? `<br>sun ${c._sun.toFixed(1)}°, moon ${c._moon.altitude.toFixed(0)}° (${Math.round(c._moon.fraction * 100)}%), clouds ${c._cloud}%` : ""}</div>`;
+      <br>Rank ${rank} of ${state.ranked.length}, score ${r.total.toFixed(2)}${DEBUG ? `<br>timing: ${state.timings.map(([l, ms]) => `${l} ${ms} ms`).join(" · ")}` : ""}${DEBUG ? `<br>sun ${c._sun.toFixed(1)}°, moon ${c._moon.altitude.toFixed(0)}° (${Math.round(c._moon.fraction * 100)}%), clouds ${c._cloud}%` : ""}</div>`;
 }
 
 function renderWeather() {
@@ -467,7 +477,9 @@ function rescore(forcePick) {
 async function refresh({ forcePick = false, newPlace = false } = {}) {
   try {
     if (newPlace || !state.place) {
+      mark("locating");
       state.place = await resolvePlace();
+      mark(state.place.fallback ? "location unavailable" : "location known");
       $("place-name").textContent = state.place.name || "Here";
     }
     const p = state.place;
@@ -475,11 +487,22 @@ async function refresh({ forcePick = false, newPlace = false } = {}) {
     if (!p.name) placeName(p.lat, p.lon).then((n) => { p.name = n; $("place-name").textContent = n; });
     const cachedEnv = cachedEnvironment(p.lat, p.lon);
     const envPromise = cachedEnv?.terrain ? Promise.resolve(cachedEnv) : getEnvironment(p.lat, p.lon);
-    state.weather = await fetchWeather(p.lat, p.lon, p.timezone);
+    mark("weather requested");
+    state.weather = await fetchWeatherRace(p.lat, p.lon, p.timezone, (better) => {
+      if (state.place !== p) return;          // the place changed meanwhile
+      state.weather = better;
+      mark("weather upgraded (Open-Meteo)");
+      rescore(false);
+      rememberView();
+      report();
+    });
+    mark(`weather received (${state.weather.provider})`);
     state.env = cachedEnv;
     rescore(forcePick);
+    mark("print and forecast shown");
+    rememberView();
     state.lastRefresh = Date.now();
-    const report = () => {
+    function report() {
       const notes = [];
       if (p.fallback) notes.push("Location unavailable — showing Tokyo. Set a place in Settings.");
       if (DEV) {
@@ -490,15 +513,34 @@ async function refresh({ forcePick = false, newPlace = false } = {}) {
       const time = new Date().toLocaleTimeString("en", { hour: "2-digit", minute: "2-digit" });
       // friends only see notes that need their attention; developer mode also shows the last update
       setStatus(notes.join(" ") || (DEV ? `Updated ${time} · ${state.weather.provider}` : ""));
-    };
+    }
     report();
     if (!cachedEnv?.terrain) {
-      envPromise.then((env) => { state.env = env; rescore(false); report(); });
+      envPromise.then((env) => { state.env = env; mark("geographic features received"); rescore(false); report(); });
     }
   } catch (e) {
     setStatus(DEV ? `Could not update: ${e.message}. Retrying in a few minutes.` : "Couldn't load the weather. Trying again in a few minutes.");
     setTimeout(() => refresh(), 3 * 60 * 1000);
   }
+}
+
+/** Remember place and weather, so the next visit can show them at once (see showRememberedView). */
+function rememberView() {
+  storage.setJSON(K.last, { time: Date.now(), locmode: settings.locmode, place: state.place, weather: state.weather });
+}
+
+/** On start: if the last view is recent and for the same location setting, show it immediately. */
+function showRememberedView() {
+  const last = storage.getJSON(K.last, null);
+  if (!last || Date.now() - last.time > LAST_VIEW_MAX_AGE || last.locmode !== settings.locmode) return false;
+  if (settings.locmode === "fixed" && (last.place?.lat !== settings.place?.lat || last.place?.lon !== settings.place?.lon)) return false;
+  state.place = last.place;
+  state.weather = last.weather;
+  state.env = cachedEnvironment(last.place.lat, last.place.lon);
+  $("place-name").textContent = last.place.name || "Here";
+  rescore(false);
+  mark("shown from last visit");
+  return true;
 }
 
 // ---------------------------------------------------------------- settings
@@ -560,7 +602,9 @@ function wireSettings() {
 // ---------------------------------------------------------------- start
 
 async function init() {
+  mark("script started");
   [cfg, index] = await Promise.all([loadConfig("config/"), fetch("data/index.json").then((r) => r.json())]);
+  mark("config and print index loaded");
   document.documentElement.style.setProperty("--layout-ms", `${cfg.layout.layout_transition_ms}ms`);
   document.documentElement.style.setProperty("--fade-ms", `${cfg.layout.print_fade_ms}ms`);
   applySurround();
@@ -593,6 +637,7 @@ async function init() {
   setInterval(() => { if (!document.hidden) refresh(); }, REFRESH_MS);
   placeBubble();
   layout();
+  showRememberedView();
   await refresh({ newPlace: true });
 }
 

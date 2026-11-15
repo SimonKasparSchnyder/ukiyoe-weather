@@ -29,6 +29,28 @@ PUBLIC = [
 ]
 
 
+# fields of web/data/index.json the published app doesn't need (developer-only texts and analysis leftovers);
+# the full index stays in web/ for the tuner and "Why this print"
+DROP_PRINT = ("palette", "group", "era")
+DROP_TAGS = ("evidence", "genre", "fuji")
+DROP_COLORS = ("palette",)
+
+
+def slim_index(path):
+    import json
+    before = path.stat().st_size
+    index = json.loads(path.read_text())
+    for p in index:
+        for k in DROP_PRINT:
+            p.pop(k, None)
+        for k in DROP_TAGS:
+            p.get("tags", {}).pop(k, None)
+        for k in DROP_COLORS:
+            p.get("colors", {}).pop(k, None)
+    path.write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
+    print(f"index.json: {before / 1000:.0f} KB -> {path.stat().st_size / 1000:.0f} KB")
+
+
 def main():
     if SITE.exists():
         shutil.rmtree(SITE)
@@ -43,6 +65,7 @@ def main():
         else:
             shutil.copy2(src, dst)
     (SITE / ".nojekyll").write_text("")  # serve files as they are, no Jekyll processing
+    slim_index(SITE / "data" / "index.json")
 
     # sanity check: nothing developer-only slipped in
     for name in ("tuning.html", "tuning.js", "icons.html"):

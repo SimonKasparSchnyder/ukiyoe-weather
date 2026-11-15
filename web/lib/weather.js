@@ -11,6 +11,26 @@ function withTimeout(ms) {
   return { signal: c.signal, done: () => clearTimeout(t) };
 }
 
+/**
+ * Weather for a place, as fast as possible: ask Open-Meteo and MET Norway at the same time and return whichever
+ * answers first. If MET Norway wins, Open-Meteo's richer data (snow depth, visibility, rain probability) is handed
+ * to `onUpgrade` when it arrives. Both return Open-Meteo's shape.
+ */
+export function fetchWeatherRace(lat, lon, timeZone, onUpgrade) {
+  const om = fetchOpenMeteo(lat, lon).then((d) => Object.assign(d, { provider: "Open-Meteo" }));
+  const mn = fetchMetNo(lat, lon, timeZone).then((d) => Object.assign(d, { provider: "MET Norway" }));
+  return new Promise((resolve, reject) => {
+    let done = false, failures = 0;
+    const fail = (e) => { if (++failures === 2 && !done) reject(e); };
+    om.then((d) => {
+      if (!done) { done = true; resolve(d); } else if (onUpgrade) onUpgrade(d);
+    }, fail);
+    mn.then((d) => {
+      if (!done) { done = true; d.providerNote = "answered first; Open-Meteo still loading"; resolve(d); }
+    }, fail);
+  });
+}
+
 /** Weather for a place: Open-Meteo first, MET Norway as fallback. Both return Open-Meteo's shape. */
 export async function fetchWeather(lat, lon, timeZone) {
   try {
