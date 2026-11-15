@@ -27,6 +27,19 @@
    "#e9dcc0",
    "#ef9a7c"
   ],
+  "colors": {
+   "paper": "#dfcfb3",
+   "accent_light": "#9b6f5e",
+   "accent_dark": "#bc967c",
+   "palette": [
+    "#dfcfb3",
+    "#4b7478",
+    "#9d9d91",
+    "#756356",
+    "#0a263b",
+    "#4e3e37"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -95,6 +108,19 @@
    "#4a8ab8",
    "#c97a5a"
   ],
+  "colors": {
+   "paper": "#b09e84",
+   "accent_light": "#886959",
+   "accent_dark": "#ad846c",
+   "palette": [
+    "#b09e84",
+    "#574f49",
+    "#70979d",
+    "#d4c9af",
+    "#d7cdb4",
+    "#6a9198"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -161,6 +187,19 @@
    "#4f7ea8",
    "#9a9a96"
   ],
+  "colors": {
+   "paper": "#f9e6bf",
+   "accent_light": "#4f7ea8",
+   "accent_dark": "#f1d09c",
+   "palette": [
+    "#f9e6bf",
+    "#8e938e",
+    "#b1c3be",
+    "#f2dcb5",
+    "#f4e3bd",
+    "#4e4c4b"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -225,6 +264,19 @@
    "#3f6f9a",
    "#8a5a3c"
   ],
+  "colors": {
+   "paper": "#cbbda0",
+   "accent_light": "#4e7e85",
+   "accent_dark": "#4e7e85",
+   "palette": [
+    "#cbbda0",
+    "#4e7e85",
+    "#45413d",
+    "#d2c2a4",
+    "#a1947e",
+    "#cdc0a4"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -292,6 +344,19 @@
    "#2e4f7a",
    "#6f8f8a"
   ],
+  "colors": {
+   "paper": "#e6d5b0",
+   "accent_light": "#6c8283",
+   "accent_dark": "#6c8283",
+   "palette": [
+    "#e6d5b0",
+    "#697778",
+    "#958376",
+    "#6c8283",
+    "#3a3e46",
+    "#dbceb2"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -362,6 +427,19 @@
    "#2e3f6e",
    "#a0805a"
   ],
+  "colors": {
+   "paper": "#cfbfa7",
+   "accent_light": "#2e3f6e",
+   "accent_dark": "#a0816c",
+   "palette": [
+    "#cfbfa7",
+    "#848c84",
+    "#7e8279",
+    "#6d6459",
+    "#cdb497",
+    "#494744"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -431,6 +509,19 @@
    "#4fa0c8",
    "#e6d38e"
   ],
+  "colors": {
+   "paper": "#afa28d",
+   "accent_light": "#4fa0c8",
+   "accent_dark": "#4fa0c8",
+   "palette": [
+    "#afa28d",
+    "#7e7467",
+    "#8c7c6c",
+    "#c7bda8",
+    "#dbccb5",
+    "#d3c2a7"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -499,6 +590,19 @@
    "#1f3a5c",
    "#e3d6c0"
   ],
+  "colors": {
+   "paper": "#e9dabe",
+   "accent_light": "#8c5d49",
+   "accent_dark": "#b48368",
+   "palette": [
+    "#3d6865",
+    "#456f6c",
+    "#0f0c0b",
+    "#b48368",
+    "#57544b",
+    "#e9dabe"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -568,6 +672,19 @@
    "#9fb0c2",
    "#1f2f6a"
   ],
+  "colors": {
+   "paper": "#b3b9ac",
+   "accent_light": "#1f2f6a",
+   "accent_dark": "#9fb0c2",
+   "palette": [
+    "#b3b9ac",
+    "#f4eacd",
+    "#f1e6c7",
+    "#e8ddbc",
+    "#c9c3a8",
+    "#b9bfb2"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -638,6 +755,19 @@
    "#e2c9a6",
    "#2c3a2f"
   ],
+  "colors": {
+   "paper": "#e5d2b9",
+   "accent_light": "#7e5750",
+   "accent_dark": "#7e5750",
+   "palette": [
+    "#5e5e58",
+    "#787f7a",
+    "#68675f",
+    "#737672",
+    "#5b5750",
+    "#4f4d47"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -709,6 +839,19 @@
    "#f0a3a0",
    "#2c2c2c"
   ],
+  "colors": {
+   "paper": "#bdb8a1",
+   "accent_light": "#466f4e",
+   "accent_dark": "#537d5d",
+   "palette": [
+    "#466f4e",
+    "#bdb8a1",
+    "#2e3435",
+    "#4c7855",
+    "#948372",
+    "#c2bda5"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -781,6 +924,19 @@
    "#3f8f6a",
    "#6f7275"
   ],
+  "colors": {
+   "paper": "#dcbf95",
+   "accent_light": "#1b5738",
+   "accent_dark": "#e18a6e",
+   "palette": [
+    "#1b5738",
+    "#5c6254",
+    "#e18a6e",
+    "#62574c",
+    "#d67c65",
+    "#819e77"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -855,6 +1011,19 @@
    "#3f8a4a",
    "#2f5f9a"
   ],
+  "colors": {
+   "paper": "#d8c19d",
+   "accent_light": "#225b61",
+   "accent_dark": "#6d9691",
+   "palette": [
+    "#394f41",
+    "#6d9691",
+    "#769993",
+    "#225b61",
+    "#d8c19d",
+    "#5b6f5b"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -926,6 +1095,19 @@
    "#e9e2cf",
    "#2c3e66"
   ],
+  "colors": {
+   "paper": "#a2b1a5",
+   "accent_light": "#763838",
+   "accent_dark": "#a38979",
+   "palette": [
+    "#a2b1a5",
+    "#9bafa4",
+    "#dacaaf",
+    "#d9c8ad",
+    "#516052",
+    "#4b3f3e"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -999,6 +1181,19 @@
    "#6aa84a",
    "#4a7ab0"
   ],
+  "colors": {
+   "paper": null,
+   "accent_light": "#537f4e",
+   "accent_dark": "#537f4e",
+   "palette": [
+    "#537f4e",
+    "#0e0d0b",
+    "#353d29",
+    "#110f0d",
+    "#0d0c0a",
+    "#46664a"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1069,6 +1264,19 @@
    "#e2dccb",
    "#2d3a2e"
   ],
+  "colors": {
+   "paper": "#dbd0b7",
+   "accent_light": "#446d80",
+   "accent_dark": "#6c888f",
+   "palette": [
+    "#6c888f",
+    "#446d80",
+    "#dbd0b7",
+    "#f6f2e6",
+    "#b7af9a",
+    "#3c464a"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1136,6 +1344,19 @@
    "#3f7a4a",
    "#1f3f7a"
   ],
+  "colors": {
+   "paper": "#d7ccb8",
+   "accent_light": "#2e4566",
+   "accent_dark": "#5d7f77",
+   "palette": [
+    "#d7ccb8",
+    "#f3f0e9",
+    "#949885",
+    "#4d6b6d",
+    "#d3c8b4",
+    "#c1b79a"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1200,6 +1421,19 @@
    "#c45a34",
    "#e6e2d6"
   ],
+  "colors": {
+   "paper": "#d7d0c3",
+   "accent_light": "#9e634c",
+   "accent_dark": "#9e634c",
+   "palette": [
+    "#373430",
+    "#3d3834",
+    "#d7d0c3",
+    "#634d46",
+    "#524743",
+    "#dbd4c8"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1268,6 +1502,19 @@
    "#2d4f8a",
    "#a89a80"
   ],
+  "colors": {
+   "paper": "#cfc7b7",
+   "accent_light": "#2c476e",
+   "accent_dark": "#697d86",
+   "palette": [
+    "#cfc7b7",
+    "#acaca3",
+    "#b3b4ab",
+    "#ccc2b2",
+    "#c3bbac",
+    "#2c476e"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -1329,6 +1576,19 @@
    "#2d4d8a",
    "#c9a978"
   ],
+  "colors": {
+   "paper": "#cfc6b3",
+   "accent_light": "#3c586c",
+   "accent_dark": "#2d4d8a",
+   "palette": [
+    "#cfc6b3",
+    "#ae9b7f",
+    "#968168",
+    "#9f9078",
+    "#beb9a6",
+    "#b8a588"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -1395,6 +1655,19 @@
    "#f0c58a",
    "#4a4a3a"
   ],
+  "colors": {
+   "paper": "#e8d5b2",
+   "accent_light": "#438185",
+   "accent_dark": "#4d898b",
+   "palette": [
+    "#403c34",
+    "#578c8e",
+    "#e8d5b2",
+    "#4d898b",
+    "#438185",
+    "#816f61"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1461,6 +1734,19 @@
    "#6b5a52",
    "#c84a2a"
   ],
+  "colors": {
+   "paper": "#e6dbc6",
+   "accent_light": "#845c52",
+   "accent_dark": "#c0a08c",
+   "palette": [
+    "#e6dbc6",
+    "#c0a08c",
+    "#cbb6a5",
+    "#6f6059",
+    "#856b62",
+    "#927e71"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -1533,6 +1819,19 @@
    "#f0ece4",
    "#6b6a72"
   ],
+  "colors": {
+   "paper": "#afaa96",
+   "accent_light": "#716258",
+   "accent_dark": "#7c9c96",
+   "palette": [
+    "#7c9c96",
+    "#afaa96",
+    "#e6d8b9",
+    "#e3d5b4",
+    "#917f6e",
+    "#dfcfae"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1606,6 +1905,19 @@
    "#5a87a8",
    "#2a2a2a"
   ],
+  "colors": {
+   "paper": "#f1e2c2",
+   "accent_light": "#5a87a8",
+   "accent_dark": "#a49184",
+   "palette": [
+    "#f1e2c2",
+    "#ecdebf",
+    "#f1debc",
+    "#efd6ab",
+    "#a6a79c",
+    "#7b8788"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -1678,6 +1990,19 @@
    "#8aa978",
    "#d9785a"
   ],
+  "colors": {
+   "paper": "#c2c5b5",
+   "accent_light": "#8aa978",
+   "accent_dark": "#a8aa90",
+   "palette": [
+    "#c2c5b5",
+    "#a8aa90",
+    "#818371",
+    "#d7cfb8",
+    "#ada080",
+    "#9b9d85"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -1743,6 +2068,19 @@
    "#5aa0c0",
    "#2a4a8a"
   ],
+  "colors": {
+   "paper": "#ece1be",
+   "accent_light": "#3e6052",
+   "accent_dark": "#6a9489",
+   "palette": [
+    "#ece1be",
+    "#8a9f84",
+    "#dbccac",
+    "#3e6052",
+    "#e4d5b0",
+    "#7b7a66"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -1809,6 +2147,19 @@
    "#b08a78",
    "#efe7d0"
   ],
+  "colors": {
+   "paper": "#d0b58c",
+   "accent_light": "#9c6f57",
+   "accent_dark": "#9c6f57",
+   "palette": [
+    "#9c6f57",
+    "#3b4640",
+    "#507c79",
+    "#456f6c",
+    "#5f817d",
+    "#d0b58c"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -1871,6 +2222,19 @@
    "#e8a6b0",
    "#5b5a4a"
   ],
+  "colors": {
+   "paper": "#e0d1bc",
+   "accent_light": "#91796c",
+   "accent_dark": "#c49a8b",
+   "palette": [
+    "#e0d1bc",
+    "#c0b6a7",
+    "#a69080",
+    "#c49a8b",
+    "#91796c",
+    "#625a54"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -1939,6 +2303,19 @@
    "#5c9e6a",
    "#8b4a32"
   ],
+  "colors": {
+   "paper": "#f7dfb1",
+   "accent_light": "#986654",
+   "accent_dark": "#986654",
+   "palette": [
+    "#f7dfb1",
+    "#f8dcad",
+    "#a38c70",
+    "#5f9174",
+    "#5f7a64",
+    "#393736"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -2006,6 +2383,19 @@
    "#45457a",
    "#a89268"
   ],
+  "colors": {
+   "paper": "#e5d9c6",
+   "accent_light": "#514a5f",
+   "accent_dark": "#958377",
+   "palette": [
+    "#e5d9c6",
+    "#a38a71",
+    "#8b7563",
+    "#cfbca8",
+    "#e1d3be",
+    "#b69b80"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -2078,6 +2468,19 @@
    "#7a4a48",
    "#e8c060"
   ],
+  "colors": {
+   "paper": "#ddcdb3",
+   "accent_light": "#695452",
+   "accent_dark": "#e8c060",
+   "palette": [
+    "#737f7f",
+    "#695452",
+    "#5b5b5d",
+    "#604c4b",
+    "#ddcdb3",
+    "#615250"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -2146,6 +2549,19 @@
    "#3aa8a0",
    "#e8d48a"
   ],
+  "colors": {
+   "paper": "#dad2b6",
+   "accent_light": "#51847f",
+   "accent_dark": "#51847f",
+   "palette": [
+    "#54524d",
+    "#6f695f",
+    "#51847f",
+    "#a2937d",
+    "#dad2b6",
+    "#8d8676"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -2212,6 +2628,19 @@
    "#8fb0b9",
    "#4f7a4c"
   ],
+  "colors": {
+   "paper": "#efe4d2",
+   "accent_light": "#4f7a4c",
+   "accent_dark": "#4f7a4c",
+   "palette": [
+    "#efe4d2",
+    "#ad9a7d",
+    "#e9ddcb",
+    "#8b958d",
+    "#807968",
+    "#61685d"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -2273,6 +2702,19 @@
    "#6a6e6a",
    "#1e2f5c"
   ],
+  "colors": {
+   "paper": "#e5c79e",
+   "accent_light": "#7a3e35",
+   "accent_dark": "#d9ad7b",
+   "palette": [
+    "#453c36",
+    "#568583",
+    "#564f48",
+    "#e5c79e",
+    "#625f55",
+    "#4a7d7c"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2344,6 +2786,19 @@
    "#7a3e30",
    "#c9c3b6"
   ],
+  "colors": {
+   "paper": "#e7d8c0",
+   "accent_light": "#6f8164",
+   "accent_dark": "#6f8164",
+   "palette": [
+    "#e7d8c0",
+    "#6f8164",
+    "#686e62",
+    "#625e59",
+    "#4f5d51",
+    "#8a9375"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "landscape",
@@ -2417,6 +2872,19 @@
    "#f0a888",
    "#3a6a4a"
   ],
+  "colors": {
+   "paper": "#d2bd9f",
+   "accent_light": "#8f3e37",
+   "accent_dark": "#f0a888",
+   "palette": [
+    "#6b5f53",
+    "#7a7768",
+    "#39564b",
+    "#d2bd9f",
+    "#cfba9b",
+    "#ada98e"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2486,6 +2954,19 @@
    "#3e3a38",
    "#d8d0c0"
   ],
+  "colors": {
+   "paper": "#b5a186",
+   "accent_light": "#494032",
+   "accent_dark": "#494032",
+   "palette": [
+    "#b5a186",
+    "#dccfb4",
+    "#54493b",
+    "#736b59",
+    "#d6c8ac",
+    "#8f826e"
+   ]
+  },
   "era": "meiji",
   "tags": {
    "genre": "landscape",
@@ -2553,6 +3034,19 @@
    "#9a9a98",
    "#e6dc6a"
   ],
+  "colors": {
+   "paper": "#bab189",
+   "accent_light": "#0c4844",
+   "accent_dark": "#decb7f",
+   "palette": [
+    "#3e3b37",
+    "#183835",
+    "#0c4844",
+    "#decb7f",
+    "#918770",
+    "#9b957e"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2622,6 +3116,19 @@
    "#2e2e2e",
    "#4a9a8a"
   ],
+  "colors": {
+   "paper": "#c6c6c0",
+   "accent_light": "#4a9a8a",
+   "accent_dark": "#4a9a8a",
+   "palette": [
+    "#c6c6c0",
+    "#c8c8c1",
+    "#e2e0d6",
+    "#b3b3ac",
+    "#e0ddd2",
+    "#cacac4"
+   ]
+  },
   "era": "shin_hanga",
   "tags": {
    "genre": "flora_fauna",
@@ -2671,6 +3178,19 @@
    "#2f5e4a",
    "#e8885c"
   ],
+  "colors": {
+   "paper": "#d4ccae",
+   "accent_light": "#546c5c",
+   "accent_dark": "#bf8b69",
+   "palette": [
+    "#d4ccae",
+    "#d0c8ab",
+    "#d6bb94",
+    "#607663",
+    "#d6ceb1",
+    "#b5a381"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "flora_fauna",
@@ -2719,6 +3239,19 @@
    "#d8384a",
    "#4a3a5e"
   ],
+  "colors": {
+   "paper": "#dec7a8",
+   "accent_light": "#944646",
+   "accent_dark": "#d85c5e",
+   "palette": [
+    "#dec7a8",
+    "#e0d3b2",
+    "#cbb493",
+    "#d85c5e",
+    "#727b6b",
+    "#d0c4a5"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "flora_fauna",
@@ -2767,6 +3300,19 @@
    "#e8e2d0",
    "#5a8a6a"
   ],
+  "colors": {
+   "paper": "#ede2c5",
+   "accent_light": "#70818f",
+   "accent_dark": "#70818f",
+   "palette": [
+    "#ede2c5",
+    "#e4d5b7",
+    "#615a55",
+    "#ecdec0",
+    "#70818f",
+    "#798a96"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2838,6 +3384,19 @@
    "#7a9a8a",
    "#e8c8a8"
   ],
+  "colors": {
+   "paper": "#9cabac",
+   "accent_light": "#5a7090",
+   "accent_dark": "#819199",
+   "palette": [
+    "#78888a",
+    "#819199",
+    "#6e7d7f",
+    "#647376",
+    "#8f9ea4",
+    "#9cabac"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2906,6 +3465,19 @@
    "#3f6fa8",
    "#d47a5a"
   ],
+  "colors": {
+   "paper": "#e4ddbd",
+   "accent_light": "#d47a5a",
+   "accent_dark": "#a28373",
+   "palette": [
+    "#e4ddbd",
+    "#73716b",
+    "#c4b398",
+    "#4a4a4f",
+    "#e4dbbb",
+    "#999a92"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -2977,6 +3549,19 @@
    "#5a5a5a",
    "#1e3a6a"
   ],
+  "colors": {
+   "paper": "#a0aeb1",
+   "accent_light": "#1e3a6a",
+   "accent_dark": "#8aa0b8",
+   "palette": [
+    "#a0aeb1",
+    "#ede1c3",
+    "#98a7ac",
+    "#a2a094",
+    "#514c49",
+    "#79756b"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3050,6 +3635,19 @@
    "#8a8a88",
    "#6a4a3a"
   ],
+  "colors": {
+   "paper": "#a49f96",
+   "accent_light": "#3a6aa8",
+   "accent_dark": "#9aacb4",
+   "palette": [
+    "#a49f96",
+    "#786d65",
+    "#e4dfc9",
+    "#9aacb4",
+    "#656361",
+    "#95958f"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3122,6 +3720,19 @@
    "#b5482c",
    "#3e4a6a"
   ],
+  "colors": {
+   "paper": "#aab4aa",
+   "accent_light": "#7c4e40",
+   "accent_dark": "#b5482c",
+   "palette": [
+    "#aab4aa",
+    "#5c6767",
+    "#545c61",
+    "#a5aea4",
+    "#7c4e40",
+    "#9a9487"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3194,6 +3805,19 @@
    "#6f8fb8",
    "#d9d4c4"
   ],
+  "colors": {
+   "paper": "#c5bda6",
+   "accent_light": "#616c78",
+   "accent_dark": "#616c78",
+   "palette": [
+    "#7d8891",
+    "#41413c",
+    "#3b3b38",
+    "#474842",
+    "#c5bda6",
+    "#eae4c9"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3264,6 +3888,19 @@
    "#2a3a5a",
    "#e8d8b0"
   ],
+  "colors": {
+   "paper": "#e9e0cd",
+   "accent_light": "#526067",
+   "accent_dark": "#839198",
+   "palette": [
+    "#8e877d",
+    "#3c3f43",
+    "#393a3b",
+    "#526067",
+    "#e9e0cd",
+    "#464a4c"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -3325,6 +3962,19 @@
    "#4a8ac0",
    "#6a6a6a"
   ],
+  "colors": {
+   "paper": "#d4cdac",
+   "accent_light": "#635048",
+   "accent_dark": "#a9a989",
+   "palette": [
+    "#d4cdac",
+    "#d7d0ad",
+    "#cfcaa8",
+    "#a49879",
+    "#ccc5a1",
+    "#757568"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3391,6 +4041,19 @@
    "#3a6ab8",
    "#6a6a70"
   ],
+  "colors": {
+   "paper": "#c9c2a2",
+   "accent_light": "#447d87",
+   "accent_dark": "#699da1",
+   "palette": [
+    "#c9c2a2",
+    "#f3eacc",
+    "#3e4139",
+    "#c2b593",
+    "#a7a282",
+    "#92896c"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3463,6 +4126,19 @@
    "#d9c9a8",
    "#4f4a44"
   ],
+  "colors": {
+   "paper": "#dfd5b5",
+   "accent_light": "#437e8b",
+   "accent_dark": "#437e8b",
+   "palette": [
+    "#5e5a4a",
+    "#dfd5b5",
+    "#c4a07d",
+    "#437e8b",
+    "#9f8d66",
+    "#dacfaf"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3531,6 +4207,19 @@
    "#7aa9a0",
    "#5a4a3a"
   ],
+  "colors": {
+   "paper": "#e5daba",
+   "accent_light": "#7aa9a0",
+   "accent_dark": "#768c80",
+   "palette": [
+    "#4f4c41",
+    "#e5daba",
+    "#ccc4a5",
+    "#768c80",
+    "#9b8d71",
+    "#7a7561"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -3596,6 +4285,19 @@
    "#1e3c8a",
    "#6aa0a0"
   ],
+  "colors": {
+   "paper": "#ebe1c7",
+   "accent_light": "#1c4f77",
+   "accent_dark": "#587886",
+   "palette": [
+    "#ebe1c7",
+    "#1c4f77",
+    "#e6dcc4",
+    "#eae0c6",
+    "#e8dfc5",
+    "#bdc4b8"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3668,6 +4370,19 @@
    "#4a9a3a",
    "#e05050"
   ],
+  "colors": {
+   "paper": "#cfc19b",
+   "accent_light": "#577847",
+   "accent_dark": "#698350",
+   "palette": [
+    "#577847",
+    "#cfc19b",
+    "#ccbb95",
+    "#43624b",
+    "#a59b73",
+    "#8ea491"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3738,6 +4453,19 @@
    "#e8a090",
    "#ece4d0"
   ],
+  "colors": {
+   "paper": "#e3dabb",
+   "accent_light": "#1f5f7b",
+   "accent_dark": "#cba27e",
+   "palette": [
+    "#e3dabb",
+    "#1f5f7b",
+    "#abbca9",
+    "#ded5b6",
+    "#d6af8c",
+    "#e1d8b8"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3803,6 +4531,19 @@
    "#8fc0d0",
    "#8a8a88"
   ],
+  "colors": {
+   "paper": "#c0b094",
+   "accent_light": "#1d3752",
+   "accent_dark": "#94bebb",
+   "palette": [
+    "#c0b094",
+    "#968c74",
+    "#94bebb",
+    "#727060",
+    "#e7dcbf",
+    "#a1c2bb"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -3867,6 +4608,19 @@
    "#3a3a40",
    "#c0563a"
   ],
+  "colors": {
+   "paper": "#ece3c5",
+   "accent_light": "#916b50",
+   "accent_dark": "#916b50",
+   "palette": [
+    "#ece3c5",
+    "#bbb594",
+    "#c4be9e",
+    "#605f4d",
+    "#3e3f32",
+    "#eae1c2"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -3933,6 +4687,19 @@
    "#2e5a3a",
    "#3a6aa8"
   ],
+  "colors": {
+   "paper": "#ede5c8",
+   "accent_light": "#6a8e94",
+   "accent_dark": "#6a8e94",
+   "palette": [
+    "#8c927c",
+    "#ede5c8",
+    "#e2d9ba",
+    "#455f56",
+    "#6a8e94",
+    "#546e5f"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4005,6 +4772,19 @@
    "#6aa6d0",
    "#1f3f7a"
   ],
+  "colors": {
+   "paper": "#d9d3b6",
+   "accent_light": "#27637c",
+   "accent_dark": "#769798",
+   "palette": [
+    "#d1d0b6",
+    "#d9d3b6",
+    "#dbd5b9",
+    "#1d4661",
+    "#ded9bc",
+    "#b0c1b1"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4072,6 +4852,19 @@
    "#1a2a4a",
    "#5a9a6a"
   ],
+  "colors": {
+   "paper": "#dbccaf",
+   "accent_light": "#2c555b",
+   "accent_dark": "#aeb19b",
+   "palette": [
+    "#aeb19b",
+    "#dbccaf",
+    "#342f2b",
+    "#2e2c28",
+    "#727b6a",
+    "#323530"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4144,6 +4937,19 @@
    "#5d7290",
    "#2a3c78"
   ],
+  "colors": {
+   "paper": "#a3aeac",
+   "accent_light": "#2a3c78",
+   "accent_dark": "#2a3c78",
+   "palette": [
+    "#a3aeac",
+    "#e2d8c4",
+    "#d6cdb9",
+    "#e6deca",
+    "#9da39d",
+    "#a69683"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4215,6 +5021,19 @@
    "#3a5a9a",
    "#c8b070"
   ],
+  "colors": {
+   "paper": "#e4ddbf",
+   "accent_light": "#345967",
+   "accent_dark": "#5b7f7f",
+   "palette": [
+    "#545c4d",
+    "#e4ddbf",
+    "#e1d7b9",
+    "#e3dbbd",
+    "#91a190",
+    "#a3baaf"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",
@@ -4282,6 +5101,19 @@
    "#2a2a2a",
    "#3a6aa8"
   ],
+  "colors": {
+   "paper": "#b6b6a5",
+   "accent_light": "#694c43",
+   "accent_dark": "#556e79",
+   "palette": [
+    "#694c43",
+    "#b6b6a5",
+    "#36332f",
+    "#393632",
+    "#556e79",
+    "#aead9e"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4351,6 +5183,19 @@
    "#2c6fb0",
    "#3f8c5e"
   ],
+  "colors": {
+   "paper": "#f2e7ca",
+   "accent_light": "#41888b",
+   "accent_dark": "#ebd099",
+   "palette": [
+    "#436d5c",
+    "#b59879",
+    "#f2e7ca",
+    "#e4d4b3",
+    "#41888b",
+    "#f0e3c6"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "landscape",
@@ -4422,6 +5267,19 @@
    "#6aa8a0",
    "#2a4a2a"
   ],
+  "colors": {
+   "paper": "#ede6cb",
+   "accent_light": "#705848",
+   "accent_dark": "#edd19a",
+   "palette": [
+    "#7fa791",
+    "#ede6cb",
+    "#ede3c8",
+    "#e4dabd",
+    "#4e4b3d",
+    "#807359"
+   ]
+  },
   "era": "edo",
   "tags": {
    "genre": "figures_in_landscape",

@@ -8,7 +8,7 @@ import { ICON, weatherIcon } from "./lib/icons.js";
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-const REFRESH_MS = 20 * 60 * 1000;
+const REFRESH_MS = 15 * 60 * 1000; // Open-Meteo updates its "current" values every 15 minutes
 
 const CJK = /[々〆぀-ヿ㐀-鿿豈-﫿]+/g;
 /** "English (romaji 漢字), also known as …" → "English 漢字". */
@@ -41,7 +41,7 @@ let cfg, index;
 const DEFAULT_SETTINGS = { locmode: "device", place: null, surround: "washi", size: "framed", collapsed: true };
 // saved settings on top of the defaults, so a value missing from an older save falls back to its default
 let settings = { ...DEFAULT_SETTINGS, ...storage.getJSON(K.settings, {}) };
-if (!["washi", "plain"].includes(settings.surround)) settings.surround = DEFAULT_SETTINGS.surround;
+settings.surround = "washi"; // Japanese paper over the print colour is the only surround
 if (!["framed", "fit"].includes(settings.size)) settings.size = DEFAULT_SETTINGS.size;
 let state = { place: null, weather: null, env: null, cur: null, ranked: [], chosen: null, lastRefresh: 0 };
 if (DEBUG) window.__state = state;
@@ -127,18 +127,58 @@ function hexToRgb(h) {
 const lum = ([r, g, b]) => (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
 const mix = (a, b, t) => a.map((x, i) => Math.round(x * (1 - t) + b[i] * t));
 const css = ([r, g, b]) => `rgb(${r} ${g} ${b})`;
+const PANEL_LIGHT = [248, 244, 234], PANEL_DARK = [35, 32, 27]; // --panel in light and dark mode
+
+/** WCAG contrast ratio between two colours. */
+function contrast(a, b) {
+  const L = (c) => {
+    const [r, g, bl] = c.map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; });
+    return 0.2126 * r + 0.7152 * g + 0.0722 * bl;
+  };
+  const [hi, lo] = [L(a), L(b)].sort((x, y) => y - x);
+  return (hi + 0.05) / (lo + 0.05);
+}
+
+/** Move `col` towards `target` (black or white) until it reads well on `bg`. */
+function withContrast(col, bg, target, min = 4.5) {
+  for (let t = 0; t <= 1; t += 0.05) {
+    const c = mix(col, target, t);
+    if (contrast(c, bg) >= min) return c;
+  }
+  return target;
+}
 
 function applyPalette(print) {
-  const cols = (print.palette || []).map(hexToRgb).filter(Boolean).sort((a, b) => lum(a) - lum(b));
   const root = document.documentElement.style;
-  if (!cols.length) return;
+  const measured = print.colors || {};
+  const cols = (print.palette || []).map(hexToRgb).filter(Boolean).sort((a, b) => lum(a) - lum(b));
   const dark = cols[0], light = cols[cols.length - 1];
-  // accent: darkest palette colour, kept dark enough to read on the panel
-  root.setProperty("--accent", css(lum(dark) > 0.45 ? mix(dark, [40, 30, 20], 0.5) : dark));
-  root.setProperty("--plain", css(mix(light, [233, 226, 211], 0.35)));
+
+  // surround: the print's paper colour as measured from the scan, else the tagger's lightest colour toned down
+  const paper = hexToRgb(measured.paper) || (light && mix(light, [233, 226, 211], 0.35));
+  if (paper) root.setProperty("--plain", css(paper));
+
+  // Two accents: a dark ink of the print for the light panel, a lighter ink for the dark panel (both measured
+  // from the scan), each adjusted until it reaches readable contrast (WCAG 4.5 : 1) against its panel colour.
+  const inkL = hexToRgb(measured.accent_light) || dark;
+  const inkD = hexToRgb(measured.accent_dark) || inkL;
+  if (inkL) root.setProperty("--accent-l", css(withContrast(inkL, PANEL_LIGHT, [0, 0, 0])));
+  if (inkD) root.setProperty("--accent-d", css(withContrast(inkD, PANEL_DARK, [255, 255, 255])));
 }
 
 // ---------------------------------------------------------------- layout
+
+/** Current interface scale: the size of one --u in pixels (1 on desktops, larger on touch screens / Dynamic Type). */
+function uiScale() {
+  let probe = document.getElementById("u-probe");
+  if (!probe) {
+    probe = document.createElement("div");
+    probe.id = "u-probe";
+    probe.style.cssText = "position:absolute;visibility:hidden;pointer-events:none;width:calc(100 * var(--u));height:0";
+    document.body.appendChild(probe);
+  }
+  return probe.offsetWidth / 100 || 1;
+}
 
 /**
  * Place the print and the panel. All numbers come from config/layout.json.
@@ -162,17 +202,25 @@ function layout() {
   const box = { w: vw - 2 * pad - 2 * mat, h: vh - 2 * pad - 2 * mat };
   const shapeMatch = Math.abs(Math.log(a / (box.w / box.h))) < L.shape_tolerance;
 
-  // panel sizes for each mode
+  // panel sizes for each mode, scaled with the interface (larger on touch screens, see --ui-scale)
+  const scale = uiScale();
   const S = L.side_panel, B = L.below_panel, O = L.overlay_panel;
-  const sideW = Math.min(S.max_px, Math.max(S.min_px, vw * S.width_fraction));
-  const belowW = Math.min(B.max_width_px, vw - 2 * pad);
-  const overlayW = Math.min(O.max_width_px, vw - 2 * pad);
+  const sideW = Math.min(S.max_px * scale, Math.max(S.min_px * scale, vw * S.width_fraction), vw - 2 * pad);
+  const belowW = Math.min(B.max_width_px * scale, vw - 2 * pad);
+  const overlayW = Math.min(O.max_width_px * scale, vw - 2 * inset);
+
+  // the always-visible buttons (credits, settings) sit in the bottom-right corner; the panel keeps clear of them
+  const controls = $("controls");
+  Object.assign(controls.style, { right: `${inset}px`, bottom: `${inset}px` });
+  const ctrlW = controls.offsetWidth, gap = 8 * scale;
+  const ctrlReserve = controls.offsetHeight + gap;           // height to keep free above the buttons
+  const hitsControls = (left, width) => left + width > vw - inset - ctrlW - gap;
 
   // the panel's height when it sits below the print, measured at that width
   panel.style.width = `${belowW}px`;
   panel.style.height = "auto";
   panel.style.maxHeight = "none";
-  const belowH = Math.min(panel.scrollHeight || 400, vh * B.max_height_fraction);
+  const belowH = Math.min(panel.scrollHeight || 400, vh * B.max_height_fraction) + (hitsControls((vw - belowW) / 2, belowW) ? ctrlReserve : 0);
 
   const side = fit(vw - 3 * pad - sideW - 2 * mat, box.h);
   const below = fit(box.w, vh - 3 * pad - belowH - 2 * mat);
@@ -184,23 +232,26 @@ function layout() {
   if (mode === "overlay") {
     const f = fit(box.w, box.h);
     pr = { x: (vw - f.w) / 2, y: (vh - f.h) / 2, w: f.w, h: f.h };
+    const lift = hitsControls(inset, overlayW) ? ctrlReserve : 0;
     Object.assign(panel.style, {
-      left: `${inset}px`, top: "auto", bottom: `${inset}px`,
-      width: `${Math.min(overlayW, vw - 2 * inset)}px`, height: "auto", maxHeight: `${vh * O.max_height_fraction}px`,
+      left: `${inset}px`, top: "auto", bottom: `${inset + lift}px`,
+      width: `${overlayW}px`, height: "auto", maxHeight: `${Math.min(vh * O.max_height_fraction, vh - 2 * inset - lift)}px`,
     });
   } else if (mode === "side") {
     const left = pad + mat + (vw - 3 * pad - sideW - 2 * mat - side.w) / 2;
     pr = { x: left, y: (vh - side.h) / 2, w: side.w, h: side.h };
     Object.assign(panel.style, {
       left: `${vw - pad - sideW}px`, top: `${pad}px`, bottom: "auto",
-      width: `${sideW}px`, height: "auto", maxHeight: `${vh - 2 * pad}px`,
+      width: `${sideW}px`, height: "auto", maxHeight: `${vh - 2 * pad - ctrlReserve}px`,
     });
   } else {
     pr = { x: (vw - below.w) / 2, y: pad + mat, w: below.w, h: below.h };
     const top = pad + mat + below.h + mat + pad;
+    const left = (vw - belowW) / 2;
+    const keep = hitsControls(left, belowW) ? ctrlReserve : 0;
     Object.assign(panel.style, {
-      left: `${(vw - belowW) / 2}px`, top: `${top}px`, bottom: "auto",
-      width: `${belowW}px`, height: "auto", maxHeight: `${vh - top - pad}px`,
+      left: `${left}px`, top: `${top}px`, bottom: "auto",
+      width: `${belowW}px`, height: "auto", maxHeight: `${vh - top - pad - keep}px`,
     });
   }
   Object.assign($("printbox").style, { left: `${pr.x}px`, top: `${pr.y}px`, width: `${pr.w}px`, height: `${pr.h}px` });
@@ -326,7 +377,7 @@ function showPrint(r) {
 }
 
 const LABELS = { weather: "weather", wind: "wind", snow_ground: "snow on the ground", time_of_day: "time of day", moon: "moon",
-  season: "season", environment: "surroundings", environment_flags: "local features", proximity: "nearby place", orientation: "fits the screen" };
+  season: "season", environment: "geographic features", environment_flags: "local features", proximity: "nearby place", orientation: "fits the screen" };
 
 function vecText(v) {
   return v ? Object.entries(v).sort((a, b) => b[1] - a[1]).map(([k, x]) => (x >= 0.99 ? k : `${k} ${x.toFixed(1)}`)).join(", ") : "—";
@@ -362,7 +413,6 @@ function renderWeather() {
     today.sunrise[0] ? `<span title="Sunrise">${ICON.sunrise} ${today.sunrise[0].slice(11, 16)}</span>` : "",
     today.sunset[0] ? `<span title="Sunset">${ICON.sunset} ${today.sunset[0].slice(11, 16)}</span>` : "",
   ].join("");
-  $("local-time").textContent = c.time.slice(11, 16);
 
   const h0 = currentHourIndex(data);
   const riseH = today.sunrise[0] ? +today.sunrise[0].slice(11, 13) : 6;
@@ -431,8 +481,8 @@ async function refresh({ forcePick = false, newPlace = false } = {}) {
       if (p.fallback) notes.push("Location unavailable — showing Tokyo. Set a place in Settings.");
       if (DEV) {
         if (state.weather.providerNote) notes.push(`Weather from ${state.weather.provider} (${state.weather.providerNote}).`);
-        if (!state.env) notes.push("Looking up the surroundings…");
-        else if (state.env.error) notes.push("Surroundings unavailable right now; matching without them.");
+        if (!state.env) notes.push("Looking up geographic features…");
+        else if (state.env.error) notes.push("Can't look up geographic features right now; matching without them.");
       }
       const time = new Date().toLocaleTimeString("en", { hour: "2-digit", minute: "2-digit" });
       // friends only see notes that need their attention; developer mode also shows the last update
@@ -460,7 +510,6 @@ function applySurround() {
 function openSettings() {
   const d = $("settings");
   d.querySelectorAll('input[name="locmode"]').forEach((r) => { r.checked = r.value === settings.locmode; });
-  d.querySelectorAll('input[name="surround"]').forEach((r) => { r.checked = r.value === settings.surround; });
   d.querySelectorAll('input[name="size"]').forEach((r) => { r.checked = r.value === settings.size; });
   $("fixed-name").textContent = settings.place?.name || "none yet — search below";
   $("place-results").innerHTML = "";
@@ -470,7 +519,6 @@ function openSettings() {
 function wireSettings() {
   const d = $("settings");
   d.addEventListener("change", (e) => {
-    if (e.target.name === "surround") { settings.surround = e.target.value; saveSettings(); applySurround(); }
     if (e.target.name === "size") { settings.size = e.target.value; saveSettings(); applySurround(); anchorBubble(); }
     if (e.target.name === "locmode") {
       if (e.target.value === "fixed" && !settings.place) { $("place-search").focus(); return; }
@@ -511,6 +559,11 @@ async function init() {
   $("settings-btn").innerHTML = ICON.gear;
   $("credits-btn").innerHTML = ICON.info;
   $("credits-btn").addEventListener("click", () => $("credits").showModal());
+  // a click or tap on the print (or the paper around it) minimises the weather box
+  $("stage").addEventListener("click", (e) => {
+    if (settings.collapsed || e.target.closest("#panel, #controls, #expand-btn")) return;
+    collapsePanel();
+  });
   $("settings-btn").addEventListener("click", openSettings);
   settings.collapsed = true; // always start with the weather box minimised
   $("another-btn").addEventListener("click", () => {

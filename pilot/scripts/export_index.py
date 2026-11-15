@@ -6,9 +6,12 @@ Throwaway pilot tool until the real pipeline exists. Run with:
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from colors import measure  # noqa: E402  (paper and accent colours measured from the scan)
 SRC = PROJECT / "pilot" / "data" / "tags_v2.json"
 OUT = PROJECT / "web" / "data" / "index.json"
 ALIASES = {"wild_geese_flying": "wild_geese", "wild_geese_descending": "wild_geese"}
@@ -56,6 +59,7 @@ for rec in json.loads(SRC.read_text()):
         "crop": t.get("crop"),
         "crop_shape": t.get("crop_shape", "rect"),
         "palette": t.get("palette"),
+        "colors": measure(PROJECT / "pilot" / "images" / f"{m['id']}.jpg", t.get("crop"), t.get("palette")),
         "era": t.get("era"),
         "tags": {k: t.get(k) for k in (
             "genre", "weather", "wind", "snow_ground", "time_of_day", "moon", "season",
