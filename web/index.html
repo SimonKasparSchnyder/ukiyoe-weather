@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ukiyo-e Weather</title>
 <meta name="description" content="Weather forecast styled with the ukiyo-e print that best matches the moment.">
 <link rel="stylesheet" href="app.css">
+<!-- icons: a square from Hokusai's "South Wind, Clear Weather" (Red Fuji), Minneapolis Institute of Art, public domain -->
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<!-- "Add to Home Screen" on iPhone: open full screen, without Safari's address bar -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ukiyo-e">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#e9e2d3">
 </head>
 <body>
 <div id="stage" class="surround-washi size-framed">
@@ -81,11 +92,13 @@
 <dialog id="credits" tabindex="-1">
   <form method="dialog" class="settings-form credits">
     <div class="dlg-head"><h2>Credits</h2><button value="close" class="close-btn" title="Close" aria-label="Close credits"></button></div>
+    <p><strong>Ukiyo-e Weather</strong> © 2026 Simon K. Schnyder. The app's code is free to reuse under the
+      <a href="https://github.com/SimonKasparSchnyder/ukiyoe-weather/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p>
     <p><strong>Prints</strong> — public-domain scans from the
       <a href="https://collections.artsmia.org/" target="_blank" rel="noopener">Minneapolis Institute of Art</a>,
       the <a href="https://www.rijksmuseum.nl/en" target="_blank" rel="noopener">Rijksmuseum</a> and the
       <a href="https://www.artic.edu/" target="_blank" rel="noopener">Art Institute of Chicago</a>,
-      loaded from their servers. Each print links to its museum page.</p>
+      loaded from their servers. Each print links to its museum page. The app icon is a detail of Hokusai's <em>South Wind, Clear Weather</em> (Red Fuji), Minneapolis Institute of Art.</p>
     <p><strong>Weather</strong> — <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> and
       <a href="https://api.met.no/" target="_blank" rel="noopener">MET Norway</a>, licensed
       <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>

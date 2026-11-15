@@ -24,6 +24,8 @@ PUBLIC = [
     "data/index.json",
     "fonts",
     "fallback",
+    "icons",
+    "manifest.webmanifest",
 ]
 
 

@@ -12,12 +12,17 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from colors import measure  # noqa: E402  (paper and accent colours measured from the scan)
-SRC = PROJECT / "pilot" / "data" / "tags_v2.json"
+ROUND = sys.argv[1] if len(sys.argv) > 1 else "v2"
+SRC = PROJECT / "pilot" / "data" / f"tags_{ROUND}.json"
+# hosted fallback copies only for the original pilot prints (a curated ~100-print set will replace these later)
+FALLBACK_IDS = {r["id"] for r in json.loads((PROJECT / "pilot" / "data" / "sample.json").read_text())}
 OUT = PROJECT / "web" / "data" / "index.json"
 ALIASES = {"wild_geese_flying": "wild_geese", "wild_geese_descending": "wild_geese"}
 FALLBACK_DIR = PROJECT / "web" / "fallback"
 # Prints whose local copy we don't host (still in copyright in Japan); the app links to the museum only.
 NO_FALLBACK = {"mia-83142"}  # Yoshida Tōshi, 1954
+# scans that need turning (degrees, clockwise), found during tagging
+ROTATION = {"rijks-RP-P-1952-193": 180}  # Toyoharu, Meguro Fudō: scanned upside down
 
 
 def slug(s):
@@ -27,7 +32,7 @@ def slug(s):
 def copy_fallback(pid):
     """Copy the pilot image into web/fallback/ and return its path relative to web/ (or None)."""
     src = PROJECT / "pilot" / "images" / f"{pid}.jpg"
-    if pid in NO_FALLBACK or not src.exists():
+    if pid in NO_FALLBACK or pid not in FALLBACK_IDS or not src.exists():
         return None
     FALLBACK_DIR.mkdir(exist_ok=True)
     dst = FALLBACK_DIR / f"{pid}.jpg"
@@ -57,10 +62,12 @@ for rec in json.loads(SRC.read_text()):
         "local_image": copy_fallback(m["id"]),
         "pixel_size": m.get("pixel_size"),
         "crop": t.get("crop"),
+        "rotation": ROTATION.get(m["id"], 0),
         "crop_shape": t.get("crop_shape", "rect"),
         "palette": t.get("palette"),
         "colors": measure(PROJECT / "pilot" / "images" / f"{m['id']}.jpg", t.get("crop"), t.get("palette")),
         "era": t.get("era"),
+        "group": m.get("group"),
         "tags": {k: t.get(k) for k in (
             "genre", "weather", "wind", "snow_ground", "time_of_day", "moon", "season",
             "seasonal_markers", "environment", "place", "fuji", "evidence")},

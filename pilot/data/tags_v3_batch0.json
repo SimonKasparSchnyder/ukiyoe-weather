@@ -1,0 +1,1216 @@
+[
+ {
+  "id": "mia-63210",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dawn": 0.9,
+   "day": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shinagawa (Tōkaidō station)",
+   "lat": 35.62,
+   "lon": 139.74,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan; rounded corners",
+  "fading": false,
+  "palette": [
+   "#e9dcc0",
+   "#3f6a8a",
+   "#e98c78",
+   "#2b3d55"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.9,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Title 'Sunrise'; pink dawn glow along the horizon, the tail of a daimyo procession setting out past the post-station shops. Pale/blue sky with white clouds, no precipitation; no plant, festival or clothing cue for season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-63422",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Gotenyama, Shinagawa (Edo)",
+   "lat": 35.622,
+   "lon": 139.739,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#cfd8c0",
+   "#2f8a4a",
+   "#e8a0a8",
+   "#2e3a3a",
+   "#d8463a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": 0.95,
+   "environment": 0.75
+  },
+  "evidence": "Blossoming cherries crowd the top of the quarried Gotenyama bluff (also the series' spring section); pale unprinted sky with only a conventional red horizon band and dark top bokashi, so day.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64059",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Chōshi, outer coast (Shimōsa)",
+   "lat": 35.7,
+   "lon": 140.85,
+   "precision_km": 5
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#e8dcc0",
+   "#3f9bb5",
+   "#f0a050",
+   "#5a5038",
+   "#1e3c6e"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with an orange horizon band (Hiroshige convention) and calm sea with surf; no time or season cue beyond that. title_alt says 'Kazusa' but the cartouche and series title read Shimōsa, where Chōshi lies; Fuji drawn small on the horizon.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-117500",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.7,
+   "night": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Nigatsu-dō, Tōdai-ji, Nara",
+   "lat": 34.6893,
+   "lon": 135.8445,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "cream sheet with margins on a lighter backing; pencil signature in lower margin",
+  "fading": false,
+  "palette": [
+   "#4f7a7e",
+   "#6a3a3a",
+   "#2e3f4a",
+   "#e8c050",
+   "#e6dcc8"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.85,
+   "season": null,
+   "environment": 0.75
+  },
+  "evidence": "Title 'Evening in Nara'; deepening blue-green sky and the hanging bronze lanterns of the Nigatsu-dō gallery being lit. Sky clear, no precipitation; tall cedar gives no season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62276",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": null,
+  "weather_null_reason": "not_applicable",
+  "wind": null,
+  "snow_ground": null,
+  "time_of_day": null,
+  "time_null_reason": "not_applicable",
+  "time_source": null,
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": null,
+  "environment_null_reason": "not_applicable",
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "fan",
+  "crop_note": "uncut uchiwa-e sheet; fan mask needed, handle notch at bottom centre",
+  "fading": false,
+  "palette": [
+   "#f4eee0",
+   "#d8384a",
+   "#3a2c5a",
+   "#3a8a6a",
+   "#e8c838"
+  ],
+  "confidence": {
+   "weather": null,
+   "time_of_day": null,
+   "season": 0.95,
+   "environment": null
+  },
+  "evidence": "Cherry branch in full bloom with a spring-titled Ono no Komachi cartouche; the dark-blue-to-red background is a decorative gradient, so no weather or time.",
+  "taxonomy_friction": "Fan prints with only a decorative gradient have every environment group null; place has no null_reason field in the schema."
+ },
+ {
+  "id": "aic-18278",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.7,
+   "snowfall": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Katabira Bridge, Hodogaya (Tōkaidō station)",
+   "lat": 35.4448,
+   "lon": 139.5967,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan; thin cream margins inside",
+  "fading": false,
+  "palette": [
+   "#f2ece0",
+   "#7a7a78",
+   "#2a7ac0",
+   "#e8a8a0",
+   "#3a6a4a"
+  ],
+  "confidence": {
+   "weather": 0.55,
+   "time_of_day": 0.7,
+   "season": 0.95,
+   "environment": 0.85
+  },
+  "evidence": "Heavy snow on roofs, trees, bridge and banks under a dark grey snow sky; travellers in straw capes and hats, but no flakes drawn and the title does not say it is snowing, so mostly cloudy with a small snowfall share. Dark sky read as gloom, not night.",
+  "taxonomy_friction": "Implied-snowfall rule needs the title to say it is snowing; here only the sky and snow-capes suggest it, so the snowfall share is a judgement call."
+ },
+ {
+  "id": "aic-18366",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "spring": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "series_section",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ōmayagashi, Sumida River (Edo)",
+   "lat": 35.7015,
+   "lon": 139.7945,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#c8d0c8",
+   "#2a2e2e",
+   "#3a6ab0",
+   "#6aa86a",
+   "#d84a3a"
+  ],
+  "confidence": {
+   "weather": 0.45,
+   "time_of_day": 0.75,
+   "season": 0.65,
+   "environment": 0.85
+  },
+  "evidence": "Dark grey sky over a blue-black far bank, silhouetted ferry boats and two hooded nighthawk prostitutes: night falling. Willow and tree in full green leaf; season from the series' summer section, which the foliage supports.",
+  "taxonomy_friction": "No sky event: the dark gradient is night, so clear vs. cloudy is a guess (low confidence)."
+ },
+ {
+  "id": "mia-22479",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "harimaze sheet: five unrelated vignettes (landscapes, a still life of souvenirs), no single scene to tag",
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "mist": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.6,
+   "dawn": 0.4
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.2,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "river": 0.6,
+    "none": 0.4
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "pink-ground sheet; sheet edge visible all round",
+  "fading": false,
+  "palette": [
+   "#f0c8c0",
+   "#1e2e6e",
+   "#4a8a5a",
+   "#e85a4a",
+   "#9a9a98"
+  ],
+  "confidence": {
+   "weather": 0.3,
+   "time_of_day": 0.3,
+   "season": 0.3,
+   "environment": 0.4
+  },
+  "evidence": "Composite of Ōyama-road vignettes: Ryōben waterfall, Tamura ferry, Fuji seen from the Ōyama approach and a panel titled 'morning fog' (asagiri) in grey mist. Season only from the 6th–7th-month Ōyama pilgrimage season (weak convention).",
+  "taxonomy_friction": "Harimaze (multi-image) sheets have no genre or exclusion rule; each panel has its own weather/time/place. Classed as 'other'. The Ōyama pilgrimage season (summer) is not a listed convention or marker."
+ },
+ {
+  "id": "mia-62446",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.7,
+   "night": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "temple_shrine",
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Five-storey pagoda, Ueno Tōshōgū, Tokyo",
+   "lat": 35.7155,
+   "lon": 139.7713,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "cream sheet with margins; pencil inscription left margin",
+  "fading": false,
+  "palette": [
+   "#2a4a9a",
+   "#3aa0a8",
+   "#e0b8d8",
+   "#6a2a2a",
+   "#f0e070"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.9,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Title 'Spring Dusk'; deep blue-to-teal clear evening sky with a crescent moon and evening star behind the pagoda. Cherry trees in full bloom.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-76487",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "temple_shrine",
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kiyomizu Kannon-dō, Ueno, Tokyo",
+   "lat": 35.713,
+   "lon": 139.7736,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "cream sheet with margins on a backing",
+  "fading": false,
+  "palette": [
+   "#2a3450",
+   "#c8302a",
+   "#f4f2ec",
+   "#4a8ac8",
+   "#3a7a5a"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.55,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Dense white flakes against a dark navy sky, snow heaped on roofs, tree and steps, a woman with an umbrella; the dark sky is snow gloom, no lanterns or lit windows, so day.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-83121",
+  "genre": "animal_portrait",
+  "include": false,
+  "exclude_reason": "animal_portrait: zoo cockatoo on a perch with a feed tin against a plain grey ground; every scored dimension null",
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": null,
+  "weather_null_reason": "not_applicable",
+  "wind": null,
+  "snow_ground": null,
+  "time_of_day": null,
+  "time_null_reason": "not_applicable",
+  "time_source": null,
+  "moon": false,
+  "season": null,
+  "season_null_reason": "not_applicable",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": null,
+  "environment_null_reason": "not_applicable",
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.04,
+   0.01,
+   0.93,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "deckle-edged sheet with margins; trial-proof seal (shizuri) at left",
+  "fading": false,
+  "palette": [
+   "#a8a498",
+   "#f2e4e4",
+   "#e84a2a",
+   "#6a5a6a",
+   "#5a6a9a"
+  ],
+  "confidence": {
+   "weather": null,
+   "time_of_day": null,
+   "season": null,
+   "environment": null
+  },
+  "evidence": "Plain mottled grey background, perch and feed tin of a zoo cage: no outdoor atmosphere, time or season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-83103",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "castle"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ajmer Gate, Jaipur, India",
+   "lat": 26.9187,
+   "lon": 75.816,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "cream sheet with margins; pencil title and signature below",
+  "fading": false,
+  "palette": [
+   "#a8c4c8",
+   "#e0a0a8",
+   "#e8b860",
+   "#5a5a62",
+   "#d8d0c0"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.85,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale blue sky with a few light cloud streaks, bright even light and short shadows on the square: clear day. No seasonal cue in a Rajasthan street scene.",
+  "taxonomy_friction": "City-wall gateway tagged 'castle' (fortifications); 'temple_shrine'/'castle' are the only built-heritage flags."
+ },
+ {
+  "id": "mia-63402",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "book plate from Yoshida's 'Japanese Wood-Block Printing' illustrating a printing stage, with colour test bars; a process demonstration, not a finished print (small image on a large page)",
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "book_page",
+  "weather": {
+   "clear": 0.6,
+   "mist": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dawn": 0.5,
+   "dusk": 0.5
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": null,
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "whole book page; image block only ~0.38 x 0.5 of the page",
+  "fading": false,
+  "palette": [
+   "#e2d8c4",
+   "#c8d4a8",
+   "#9a8aa0",
+   "#3a8a8a",
+   "#f0d890"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.3,
+   "season": null,
+   "environment": 0.6
+  },
+  "evidence": "Junk with two sails on a glassy sea under a hazy green-yellow sky with golden light on the water: low sun, but no cue for morning vs. evening, so split.",
+  "taxonomy_friction": "Crop is defined as the sheet edge; for book plates the useful picture is a small block on the page, so a separate image-area crop would be needed if such plates were ever included."
+ },
+ {
+  "id": "mia-64642",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Suzugamori (Tōkaidō), Edo Bay shore",
+   "lat": 35.5935,
+   "lon": 139.7405,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#c8dce0",
+   "#1e2e5a",
+   "#3a8a6a",
+   "#d84a3a",
+   "#5a5a58"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.75
+  },
+  "evidence": "Pale sky with a conventional red band behind the hills, shogunal procession marching along the beach with Fuji beyond; no title or activity cue for time, no plant or festival cue for season.",
+  "taxonomy_friction": "The 1863 Tōkaidō series records the shogun's spring journey to Kyoto, but that is historical context, not a listed season cue; left null."
+ },
+ {
+  "id": "rijks-9",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.6,
+   "storm": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.4,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "summer": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Sanmaibashi, Hakone-Yumoto",
+   "lat": 35.2318,
+   "lon": 139.1064,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "cream sheet with margins; faint centre fold at top",
+  "fading": false,
+  "palette": [
+   "#e8dcc0",
+   "#4a5a5e",
+   "#c8d0d0",
+   "#b85a3a",
+   "#e04a3a"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.85,
+   "season": 0.8,
+   "environment": 0.8
+  },
+  "evidence": "Dense slanting white rain lines across a dark sky, travellers in rain capes bent forward on the wet bridge: heavy rain with wind. The printed inscription dates the sketch to early July at 4 p.m.",
+  "taxonomy_friction": "Season and time come from a printed date inscription on the image; season_source has no 'inscription/title' value, so recorded as 'image'."
+ },
+ {
+  "id": "mia-22543",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "lake": 0.5,
+    "river": 0.5
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Sayo no Nakayama pass, Nissaka (Tōkaidō)",
+   "lat": 34.8128,
+   "lon": 138.0789,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#ece2c8",
+   "#2a4a9a",
+   "#5aa88a",
+   "#8aa8c0",
+   "#e88a8a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.55
+  },
+  "evidence": "Pale sky with a blue top band and a small pink horizon glow (convention); travellers and a kago at the Night-Weeping Stone under pines. No time or season cue.",
+  "taxonomy_friction": "The water body below Mugen-san is drawn but not identifiable (river vs. lake), so split."
+ },
+ {
+  "id": "mia-93991",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.6,
+   "summer": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Katakura tea plantation, Suruga (near Fuji city)",
+   "lat": 35.19,
+   "lon": 138.67,
+   "precision_km": 10
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin margins; some stains on the sheet",
+  "fading": false,
+  "palette": [
+   "#e8d8c8",
+   "#2a4a8a",
+   "#3a7a8a",
+   "#d8a898",
+   "#f4f0e8"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.8,
+   "season": 0.5,
+   "environment": 0.75
+  },
+  "evidence": "Blue sky with stylised cloud bands, bright light; workers carry and pack freshly picked tea leaves into jars and baskets (the spring–early-summer tea harvest). Fuji with snow cap.",
+  "taxonomy_friction": "Tea picking (late April–May) is a strong season cue with no marker ID; suggest a 'tea_picking' marker (peak ~5 May, half-width ~15 days)."
+ }
+]

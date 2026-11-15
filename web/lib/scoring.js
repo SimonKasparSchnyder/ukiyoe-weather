@@ -37,15 +37,16 @@ function bump(doy, peak, halfWidth) {
 
 /**
  * The print's season curve, evaluated at one day of the year.
- * Season vector entries scale broad bumps; each marker adds a narrow bump.
- * The curve is normalised so its peak over the year is 1.
+ * Season vector entries scale broad bumps (at most `broad_season_peak`, so a vague "spring" never scores as
+ * high as a specific marker); each marker adds a narrow bump reaching 1 at its peak.
  * Returns null when the print has neither a season vector nor markers.
  */
 export function seasonCurve(tags, seasonCfg) {
   const parts = [];
+  const broad = seasonCfg.broad_season_peak ?? 1;
   for (const [s, w] of Object.entries(tags.season || {})) {
     const b = seasonCfg.seasons[s];
-    if (b && w > 0) parts.push({ peak: b.peak_doy, hw: b.half_width, w });
+    if (b && w > 0) parts.push({ peak: b.peak_doy, hw: b.half_width, w: w * broad });
   }
   for (let m of tags.seasonal_markers || []) {
     m = seasonCfg.aliases?.[m] ?? m;
@@ -53,10 +54,7 @@ export function seasonCurve(tags, seasonCfg) {
     if (b) parts.push({ peak: b.peak_doy, hw: b.half_width, w: 1 });
   }
   if (!parts.length) return null;
-  const raw = (doy) => Math.max(...parts.map((p) => p.w * bump(doy, p.peak, p.hw)));
-  let peak = 0;
-  for (let d = 0; d < DAYS; d += 2) peak = Math.max(peak, raw(d));
-  return (doy) => raw(doy) / peak;
+  return (doy) => Math.min(1, Math.max(...parts.map((p) => p.w * bump(doy, p.peak, p.hw))));
 }
 
 function haversineKm(a, b) {

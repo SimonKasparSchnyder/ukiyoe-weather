@@ -9,7 +9,7 @@ site/
 .dropbox
 .dropbox.attr
 *conflicted copy*
-Icon?
+Icon
 
 # Python
 __pycache__/

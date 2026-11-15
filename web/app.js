@@ -351,6 +351,9 @@ function showPrint(r) {
   const img = $("printimg");
   const [cx, cy, cw, ch] = p.crop || [0, 0, 1, 1];
   Object.assign(img.style, { left: `${(-cx / cw) * 100}%`, top: `${(-cy / ch) * 100}%`, width: `${100 / cw}%`, height: `${100 / ch}%` });
+  // scans that were digitised turned: rotate about the centre of the cropped area (index field "rotation")
+  img.style.transformOrigin = `${(cx + cw / 2) * 100}% ${(cy + ch / 2) * 100}%`;
+  img.style.transform = p.rotation ? `rotate(${p.rotation}deg)` : "";
   if (img.dataset.id !== p.id) {
     img.classList.remove("loaded");
     img.dataset.id = p.id;

@@ -11,7 +11,8 @@ PAT = "tags_batch*.json" if VERSION == "v1" else f"tags_{VERSION}_batch*.json"
 SUFFIX = "" if VERSION == "v1" else f"_{VERSION}"
 
 ROOT = Path(__file__).resolve().parent.parent
-sample = {r["id"]: r for r in json.loads((ROOT / "data" / "sample.json").read_text())}
+SAMPLE_FILE = "sample_v3.json" if VERSION == "v3" else "sample.json"
+sample = {r["id"]: r for r in json.loads((ROOT / "data" / SAMPLE_FILE).read_text())}
 order = list(sample)
 
 tags = {}
@@ -103,6 +104,9 @@ textarea { font: inherit; font-size: 13px; width: 100%; min-height: 44px; border
       <option value="famous">famous series</option>
       <option value="random_landscape">random landscapes</option>
       <option value="kacho_e">bird-and-flower</option>
+      <option value="gap">round 3: gap-fillers</option>
+      <option value="shin_hanga">round 3: shin-hanga</option>
+      <option value="random">round 3: random</option>
       <option value="flagged">my disagreements</option>
       <option value="friction">with taxonomy friction</option>
     </select></label>
@@ -177,7 +181,7 @@ function render() {
     if (f === "excluded") return !t.include;
     if (f === "flagged") return (notes[m.id] || {}).flag;
     if (f === "friction") return t.taxonomy_friction && !/^\\s*(nothing|none)\\.?\\s*$/i.test(t.taxonomy_friction);
-    if (["famous", "random_landscape", "kacho_e"].includes(f)) return m.group === f;
+    if (["famous", "random_landscape", "kacho_e", "gap", "shin_hanga", "random"].includes(f)) return m.group === f;
     return true;
   });
   document.getElementById("grid").innerHTML = shown.map(card).join("");

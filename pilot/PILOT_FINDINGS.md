@@ -136,3 +136,32 @@ Season `null` rose to 32 of 66 included prints (48%) — honest, but it means ha
 8. **Outdoor scenes without visible sky:** tag the evident weather with low confidence instead of `null`.
 9. **Fields:** `fragment` gains `book_cover`; `era` describes the object (reproductions are handled by `edition`); `shin_hanga` covers the movement incl. the post-war Yoshida school, `modern` means post-1960 creative prints; `time_source` is `null` when time is `null`; environment groups may be `null` individually.
 10. **Genre boundary:** `figures_in_landscape` when the setting fills roughly half the picture or more.
+
+---
+
+# Round 3 — 100 new prints, all 166 tagged with taxonomy draft 3
+
+*Sample: 40 gap-fillers (titles hinting at mist, dawn, night, moon, rain, snow, evening, wind), 30 shin-hanga (Kawase Hasui, Yoshida Hiroshi), 30 random landscapes; 90 from Minneapolis, 10 from the Rijksmuseum (the Art Institute refused scripted requests during this round). The 66 prints already in the app were re-tagged independently. Review page: `contact_sheet_v3.html`.*
+
+## Results
+
+- **Included: 156** (all 66 earlier prints + 90 of the 100 new). Excluded: a harimaze sheet, a reproduction, a drypoint etching, two book plates from Yoshida's printing manual, a preparatory study, a zoo cockatoo, two actor/figure prints, a crowd scene.
+- **Season "no cue" for the 66: down from 32 to 20** (draft 3's series sections and weak conventions). New prints: 30 of 90. Overall 50 of 156 (32 %).
+- **Consistency with round 2** (dominant category, the 66): weather 57/62, time 58/62, season 33/34.
+- **The thin categories filled up** (dominant category, 156 prints vs. the 66 before): rain 11 (was ~5), snowfall 9 plus 17 prints with snow on the ground, mist 6 (3), dawn 11 (3), dusk 22 (5), night 23 (8), moon shown 15.
+- **Eras:** Edo 105, shin-hanga 45, Meiji 5, modern 1. **Places outside Japan:** Agra, Giza, Jaipur, Guangzhou, Granada (Yoshida's travel prints) — useful when the location is abroad.
+- **Data problems found:** one Rijksmuseum scan is upside down (now turned via the index's `rotation` field); several metadata errors (Izumi → Izumo, Iwado → Imado, a missing series, a lake that is Naha harbour).
+
+## Scoring fix found while testing
+
+A print tagged only broadly ("spring") scored the full season match in cherry-blossom week — as much as a print whose cherry blossoms pin it to that week. Broad seasons are now capped at 80 % (`broad_season_peak` in `web/config/season.json`), so specific markers win: Gotenyama's cherry blossoms now beat Yoshida's peony garden on 1 April, and New Year's Eve Foxfires leads on 31 December.
+
+## Candidates for draft 4
+
+1. `season_source` gains **`title`** (nearly every batch asked for it).
+2. **Moon convention:** say where the remaining share goes (e.g. to the neighbouring seasons) and that a thin crescent counts less.
+3. **New markers:** `late_snow` (spring snow, ~March), `peony`, `paulownia`, `tea_picking`, `cranes` (winter / New Year), `bare_trees` (late autumn–winter, weak).
+4. **Implied snowfall** also from a heavy snow sky with straw rain-capes, not only from the title.
+5. **Harimaze** (several unrelated vignettes on one sheet): exclude, genre `other`.
+6. **Rain gloom vs. lit windows:** lit windows decide dusk/night; the dark sky alone doesn't.
+7. Fields: `edition` gains `derivative` (contemporary copies), `place_null_reason`; a `rotation` note when a scan is turned.
