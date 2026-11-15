@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ukiyo-e Weather</title>
+<meta name="description" content="Weather forecast styled with the ukiyo-e print that best matches the moment.">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="stage" class="surround-washi size-framed">
+  <figure id="printbox" aria-live="polite">
+    <div class="frame" id="frame"><img id="printimg" alt=""></div>
+  </figure>
+
+  <aside id="panel" aria-label="Weather">
+    <header class="p-head">
+      <button class="place" id="place-btn" title="Change location"><span id="place-name">Locating…</span></button>
+      <span class="local-time" id="local-time"></span>
+      <button class="icon-btn" id="collapse-btn" title="Hide panel" aria-label="Hide panel">–</button>
+    </header>
+
+    <div class="p-body">
+      <section class="now" id="now">
+        <div class="now-main">
+          <span class="temp" id="temp">–</span>
+          <span class="cond"><span class="sym" id="sym"></span> <span id="cond-text"></span></span>
+        </div>
+        <div class="now-sub" id="now-sub"></div>
+      </section>
+
+      <section class="hours" id="hours" aria-label="Next hours"></section>
+      <section class="days" id="days" aria-label="Next days"></section>
+
+      <section class="print-info" id="print-info"></section>
+
+      <details class="why dev-only" id="why">
+        <summary>Why this print</summary>
+        <div id="why-body"></div>
+      </details>
+
+      <div class="foot">
+        <p class="status" id="status"></p>
+        <div class="actions">
+          <button id="another-btn" class="dev-only">Another print</button>
+          <button id="credits-btn" class="gear-btn" title="Credits" aria-label="Credits"></button>
+          <button id="settings-btn" class="gear-btn" title="Settings" aria-label="Settings"></button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <button id="expand-btn" class="expand" hidden aria-label="Show weather">
+    <span id="mini-temp"></span> <span id="mini-sym"></span>
+  </button>
+</div>
+
+<dialog id="settings">
+  <form method="dialog" class="settings-form">
+    <h2>Settings</h2>
+    <fieldset>
+      <legend>Location</legend>
+      <label class="radio"><input type="radio" name="locmode" value="device"> Use this device's location</label>
+      <label class="radio"><input type="radio" name="locmode" value="fixed"> A set place: <strong id="fixed-name">–</strong></label>
+      <div class="search">
+        <input type="search" id="place-search" placeholder="Search a place, e.g. Kyoto" autocomplete="off">
+        <ul id="place-results"></ul>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Print size</legend>
+      <label class="radio"><input type="radio" name="size" value="framed"> Framed with a margin</label>
+      <label class="radio"><input type="radio" name="size" value="fit"> Fit to window</label>
+    </fieldset>
+    <fieldset>
+      <legend>Surround</legend>
+      <label class="radio"><input type="radio" name="surround" value="washi"> Japanese paper</label>
+      <label class="radio"><input type="radio" name="surround" value="plain"> Print colour</label>
+    </fieldset>
+    <p class="small dev-only"><a href="tuning.html" target="_blank" rel="noopener">Open the Matching Tuner</a> · <a href="icons.html" target="_blank" rel="noopener">Icon set</a></p>
+    <div class="actions"><button value="close" class="primary">Done</button></div>
+  </form>
+</dialog>
+
+<dialog id="credits">
+  <form method="dialog" class="settings-form credits">
+    <h2>Credits</h2>
+    <p><strong>Prints</strong> — public-domain scans from the
+      <a href="https://collections.artsmia.org/" target="_blank" rel="noopener">Minneapolis Institute of Art</a>,
+      the <a href="https://www.rijksmuseum.nl/en" target="_blank" rel="noopener">Rijksmuseum</a> and the
+      <a href="https://www.artic.edu/" target="_blank" rel="noopener">Art Institute of Chicago</a>,
+      loaded from their servers. Each print links to its museum page.</p>
+    <p><strong>Weather</strong> — <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> and
+      <a href="https://api.met.no/" target="_blank" rel="noopener">MET Norway</a>, licensed
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+    <p><strong>Places and surroundings</strong> — map data ©
+      <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL),
+      via Overpass and Nominatim; place search by Open-Meteo with data from
+      <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0);
+      elevation from Open-Meteo (Copernicus DEM).</p>
+    <p><strong>Typeface</strong> — Source Serif 4 by Frank Grießhammer for Adobe,
+      <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License</a>.</p>
+    <p class="small"><strong>Privacy</strong> — your location is sent only to the weather and map services above, to look up
+      conditions and surroundings. Settings stay in this browser.</p>
+    <div class="actions"><button value="close" class="primary">Close</button></div>
+  </form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "seasons": {
+    "spring": {"peak_doy": 95,  "half_width": 45},
+    "summer": {"peak_doy": 196, "half_width": 45},
+    "autumn": {"peak_doy": 288, "half_width": 45},
+    "winter": {"peak_doy": 15,  "half_width": 45}
+  },
+  "markers": {
+    "new_year":         {"peak_doy": 15,  "half_width": 25},
+    "plum_blossom":     {"peak_doy": 51,  "half_width": 20},
+    "rapeseed":         {"peak_doy": 91,  "half_width": 20},
+    "cherry_blossom":   {"peak_doy": 91,  "half_width": 10},
+    "peach_blossom":    {"peak_doy": 95,  "half_width": 10},
+    "hazakura":         {"peak_doy": 121, "half_width": 12},
+    "azalea":           {"peak_doy": 125, "half_width": 12},
+    "wisteria":         {"peak_doy": 121, "half_width": 12},
+    "willow_green":     {"peak_doy": 135, "half_width": 40},
+    "iris":             {"peak_doy": 156, "half_width": 12},
+    "rice_planting":    {"peak_doy": 156, "half_width": 15},
+    "loquat":           {"peak_doy": 161, "half_width": 12},
+    "fireflies":        {"peak_doy": 176, "half_width": 15},
+    "lotus":            {"peak_doy": 206, "half_width": 25},
+    "morning_glory":    {"peak_doy": 213, "half_width": 15},
+    "summer_fireworks": {"peak_doy": 213, "half_width": 20},
+    "lingering_snow":   {"peak_doy": 196, "half_width": 40},
+    "moon_viewing":     {"peak_doy": 263, "half_width": 15},
+    "autumn_grasses":   {"peak_doy": 268, "half_width": 20},
+    "rice_harvest":     {"peak_doy": 274, "half_width": 15},
+    "wild_geese":       {"peak_doy": 305, "half_width": 60},
+    "chrysanthemum":    {"peak_doy": 305, "half_width": 15},
+    "autumn_maples":    {"peak_doy": 324, "half_width": 15},
+    "snow":             {"peak_doy": 25,  "half_width": 35}
+  },
+  "aliases": {"wild_geese_flying": "wild_geese", "wild_geese_descending": "wild_geese"},
+  "southern_hemisphere_shift_days": 182
+}

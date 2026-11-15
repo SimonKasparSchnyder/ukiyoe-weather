@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Icon Set</title>
+<link rel="stylesheet" href="app.css">
+<style>
+  body { overflow: auto; background: var(--mat); padding: 24px 16px 40px; }
+  h1 { font-weight: 600; font-size: 24px; margin: 0 0 4px; }
+  p { color: var(--muted); margin: 0 0 18px; max-width: 60ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; max-width: 1100px; }
+  .cell { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 10px 10px; text-align: center; }
+  .cell .big { color: var(--accent); }
+  .cell .big .ico { width: 64px; height: 64px; stroke-width: 1; }
+  .cell .small { margin-top: 8px; color: var(--accent); display: flex; gap: 10px; justify-content: center; align-items: center; }
+  .cell .small .ico:nth-child(1) { width: 14px; height: 14px; }
+  .cell .small .ico:nth-child(2) { width: 20px; height: 20px; }
+  .cell .name { font-size: 13px; margin-top: 6px; }
+  .cell .use { font-size: 11.5px; color: var(--muted); }
+  h2 { font-size: 16px; font-weight: 600; margin: 26px 0 10px; }
+</style>
+</head>
+<body>
+<h1>Icon set</h1>
+<p>Line drawings on a 24 × 24 grid, in the panel's accent colour (taken from the print). Large, and at the sizes used in the panel.</p>
+<div class="grid" id="weather"></div>
+<h2>Details</h2>
+<div class="grid" id="details"></div>
+<script type="module">
+  import { ICON } from "./lib/icons.js";
+  const WEATHER = [
+    ["clear", "Clear, mainly clear"], ["clear_night", "Clear at night"],
+    ["partly_cloudy", "Partly cloudy"], ["partly_cloudy_night", "Partly cloudy at night"],
+    ["cloudy", "Overcast"], ["fog", "Fog, rime fog"], ["drizzle", "Drizzle, light rain"],
+    ["rain", "Rain, showers"], ["heavy_rain", "Heavy rain, violent showers"],
+    ["sleet", "Freezing drizzle and rain"], ["snow", "Snow, snow grains and showers"],
+    ["thunder", "Thunderstorm, with or without hail"],
+  ];
+  const DETAILS = [["sunrise", "Sunrise time"], ["sunset", "Sunset time"], ["wind", "Wind speed"],
+    ["drop", "Chance of rain"], ["gear", "Settings button"]];
+  const cell = ([k, use]) => `<div class="cell"><div class="big">${ICON[k]}</div>
+    <div class="small">${ICON[k]}${ICON[k]}</div><div class="name">${k.replaceAll("_", " ")}</div><div class="use">${use}</div></div>`;
+  document.getElementById("weather").innerHTML = WEATHER.map(cell).join("");
+  document.getElementById("details").innerHTML = DETAILS.map(cell).join("");
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matching Tuner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3eee3; --panel: #faf7f0; --ink: #29261f; --muted: #776f62; --line: #dcd3c1;
+  --accent: #9c3d2a; --bar-bg: #e7e0d2;
+  --c-weather: #3f6382; --c-wind: #7c95a8; --c-snow_ground: #a9bfd0; --c-time_of_day: #b0743a;
+  --c-moon: #d9b56b; --c-season: #5d7b45; --c-environment: #7a5c8a; --c-environment_flags: #b39cc0;
+  --c-proximity: #9c3d2a; --c-orientation: #8a8478;
+  --mat: #efe9dc; --mat-edge: #d8cfbd;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1c1a17; --panel: #25221e; --ink: #ece5d8; --muted: #a49a8a; --line: #3b362e;
+    --accent: #e0846c; --bar-bg: #35302a; --mat: #2e2a25; --mat-edge: #45403a;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1c1a17; --panel: #25221e; --ink: #ece5d8; --muted: #a49a8a; --line: #3b362e;
+  --accent: #e0846c; --bar-bg: #35302a; --mat: #2e2a25; --mat-edge: #45403a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Source Serif 4", Georgia, serif; font-size: 15px; line-height: 1.4; }
+header { max-width: 1500px; margin: 0 auto; padding: 18px 16px 6px; }
+h1 { font-size: 26px; font-weight: 600; margin: 0; }
+h2 { font-size: 15px; font-weight: 600; margin: 0 0 8px; letter-spacing: .02em; }
+.sub { color: var(--muted); margin: 2px 0 0; }
+.layout { max-width: 1500px; margin: 0 auto; padding: 10px 16px 40px;
+  display: grid; grid-template-columns: 330px 1fr; gap: 18px; align-items: start; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; margin-bottom: 14px; }
+label.f { display: grid; grid-template-columns: 110px 1fr; gap: 8px; align-items: center; font-size: 13.5px; margin: 5px 0; }
+label.f > span:first-child { color: var(--muted); }
+select, input[type=date], button { font: inherit; font-size: 13.5px; padding: 3px 8px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--ink); border-radius: 4px; }
+button { cursor: pointer; }
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+.rangewrap { display: grid; grid-template-columns: 1fr 38px; gap: 6px; align-items: center; }
+.rangewrap output { font-variant-numeric: tabular-nums; font-size: 12.5px; color: var(--muted); text-align: right; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; }
+.chips label { display: flex; gap: 4px; align-items: center; }
+.scenarios { display: flex; flex-direction: column; gap: 5px; }
+.scenarios button { text-align: left; }
+.scenarios button.active { border-color: var(--accent); color: var(--accent); }
+.derived { font-size: 12.5px; color: var(--muted); margin: 2px 0 0 118px; }
+.row-buttons { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+textarea { width: 100%; font: 12px ui-monospace, Menlo, monospace; background: var(--bg); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 4px; display: none; margin-top: 8px; }
+
+/* results */
+.feature { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 18px; }
+@media (max-width: 1150px) { .feature { grid-template-columns: 1fr; } }
+.mat { background: var(--mat); border: 1px solid var(--mat-edge); padding: 6%; border-radius: 3px;
+  display: flex; justify-content: center; align-items: center; min-height: 260px; }
+.frame { position: relative; overflow: hidden; width: 100%; box-shadow: 0 1px 6px rgba(0,0,0,.18); background: var(--bar-bg); }
+.frame img { position: absolute; display: block; max-width: none; }
+.frame.tall { width: auto; height: 62vh; }
+.details h3 { margin: 0 0 2px; font-size: 19px; font-weight: 600; }
+.details .meta { color: var(--muted); font-size: 13px; }
+.details .evidence { font-size: 13.5px; font-style: italic; margin: 8px 0; }
+.bars { display: flex; flex-direction: column; gap: 4px; margin-top: 8px; }
+.bar { display: grid; grid-template-columns: 120px 1fr 92px; gap: 8px; align-items: center; font-size: 12.5px; }
+.bar i { height: 8px; background: var(--bar-bg); border-radius: 4px; position: relative; display: block; }
+.bar i b { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+.bar .num { font-variant-numeric: tabular-nums; color: var(--muted); text-align: right; }
+.neutral-tag { font-size: 11px; color: var(--muted); border: 1px dashed var(--muted); border-radius: 8px; padding: 0 5px; margin-left: 4px; }
+.ranking { margin-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+.rk { display: grid; grid-template-columns: 26px 92px 1fr 64px; gap: 10px; align-items: center;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 6px 8px; cursor: pointer; }
+.rk.sel { outline: 2px solid var(--accent); }
+.rk.picked { box-shadow: inset 4px 0 0 var(--accent); }
+.rk .n { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+.rk .thumb { width: 92px; }
+.rk .t { font-size: 14px; }
+.rk .t small { display: block; color: var(--muted); font-size: 12px; }
+.stack { display: flex; height: 7px; border-radius: 3px; overflow: hidden; margin-top: 4px; background: var(--bar-bg); }
+.stack span { display: block; height: 100%; }
+.rk .total { font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); margin-top: 8px; }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; background: var(--c); }
+.status { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Matching Tuner</h1>
+  <p class="sub">Pilot index: <span id="count">…</span> tagged prints. Pick a scenario or set conditions; adjust weights and watch the ranking change.</p>
+</header>
+<div class="layout">
+  <aside>
+    <section class="panel">
+      <h2>Scenarios</h2>
+      <div class="scenarios" id="scenarios"></div>
+    </section>
+
+    <section class="panel" id="conditions">
+      <h2>Conditions</h2>
+      <label class="f"><span>Weather</span><select id="w1"></select></label>
+      <label class="f"><span>mixed with</span><select id="w2"></select></label>
+      <label class="f"><span>mix share</span><span class="rangewrap"><input type="range" id="wmix" min="0" max="0.5" step="0.1"><output></output></span></label>
+      <label class="f"><span>Wind</span><span class="rangewrap"><input type="range" id="wind" min="0" max="1" step="0.1"><output></output></span></label>
+      <label class="f"><span>Snow on ground</span><span class="rangewrap"><input type="range" id="snow" min="0" max="1" step="0.1"><output></output></span></label>
+      <label class="f"><span>Sun elevation</span><span class="rangewrap"><input type="range" id="sun" min="-30" max="70" step="1"><output></output></span></label>
+      <label class="f"><span>Part of day</span><select id="ampm"><option value="am">morning</option><option value="pm">afternoon / evening</option></select></label>
+      <div class="derived" id="timevec"></div>
+      <label class="f"><span>Moon visible</span><input type="checkbox" id="moon"></label>
+      <label class="f"><span>Date</span><input type="date" id="date"></label>
+      <label class="f"><span>Southern hem.</span><input type="checkbox" id="south"></label>
+      <label class="f"><span>Settlement</span><select id="settlement"></select></label>
+      <label class="f"><span>Water</span><select id="water"></select></label>
+      <label class="f"><span>Terrain</span><select id="terrain"></select></label>
+      <div class="chips" id="flags" style="margin:6px 0 4px"></div>
+      <label class="f"><span>Location</span><select id="location"></select></label>
+      <label class="f"><span>Window</span><select id="window">
+        <option value="1.6">desktop (16:10)</option>
+        <option value="0.46">phone, upright</option>
+        <option value="1">square</option>
+      </select></label>
+    </section>
+
+    <section class="panel">
+      <h2>Weights</h2>
+      <div id="weights"></div>
+      <div class="row-buttons">
+        <button id="reset">Reset to config</button>
+        <button id="export">Export weights.json</button>
+      </div>
+      <textarea id="export-out" rows="13" readonly></textarea>
+    </section>
+  </aside>
+
+  <main>
+    <div class="feature">
+      <div class="mat" id="mat"></div>
+      <div class="details" id="details"></div>
+    </div>
+    <div class="row-buttons">
+      <button class="primary" id="pick">Pick like the app would</button>
+      <span class="status" id="pickinfo"></span>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="ranking" id="ranking"></div>
+  </main>
+</div>
+<script type="module" src="tuning.js"></script>
+</body>
+</html>

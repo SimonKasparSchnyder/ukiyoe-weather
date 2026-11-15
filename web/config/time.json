@@ -1,0 +1,11 @@
+{
+  "categories": ["dawn", "day", "dusk", "night"],
+  "closeness": {
+    "dawn":  {"dawn": 1,   "day": 0.4, "dusk": 0.5, "night": 0.3},
+    "day":   {"dawn": 0.4, "day": 1,   "dusk": 0.3, "night": 0},
+    "dusk":  {"dawn": 0.5, "day": 0.3, "dusk": 1,   "night": 0.5},
+    "night": {"dawn": 0.3, "day": 0,   "dusk": 0.5, "night": 1}
+  },
+  "sun_elevation": {"twilight_low": -8, "twilight_high": 6, "blend": 2},
+  "moon_max_cloud_cover": 50
+}

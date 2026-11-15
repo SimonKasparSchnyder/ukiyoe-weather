@@ -1,0 +1,19 @@
+# build output (made by publish.py, published by GitHub Actions)
+site/
+
+# macOS
+.DS_Store
+._*
+
+# Dropbox
+.dropbox
+.dropbox.attr
+*conflicted copy*
+Icon?
+
+# Python
+__pycache__/
+*.pyc
+
+# local Claude Code session files
+.claude/settings.local.json

@@ -1,0 +1,13 @@
+{
+  "weather": 1.5,
+  "wind": 0.15,
+  "snow_ground": 0.5,
+  "time_of_day": 0.9,
+  "moon": 0.2,
+  "season": 0.5,
+  "environment": 0.5,
+  "environment_flags": 0.15,
+  "proximity": 0.4,
+  "orientation": 0.15,
+  "neutral": 0.4
+}

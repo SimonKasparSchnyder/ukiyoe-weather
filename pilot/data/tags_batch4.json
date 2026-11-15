@@ -1,0 +1,1150 @@
+[
+ {
+  "id": "mia-60820",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "wind": 0.1,
+  "time_of_day": {
+   "day": 0.4,
+   "dusk": 0.6
+  },
+  "moon": false,
+  "season": {
+   "spring": 0.3,
+   "summer": 0.4,
+   "autumn": 0.3
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "place": {
+   "name": "Totsuka (Tōkaidō station), Motomachi fork",
+   "lat": 35.4,
+   "lon": 139.53,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "crop_note": "light grey backdrop around the sheet; sheet edges clear, slightly wavy",
+  "palette": [
+   "#e9dfae",
+   "#3e5f86",
+   "#8fa7a0"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.4,
+   "season": 0.2,
+   "environment": 0.8
+  },
+  "evidence": "Yellow upper sky over a blue horizon band, no precipitation. Time is a guess: the traveller getting down from his horse at the Komeya inn suggests arrival (dusk), but the light could be plain daytime. No plants or clothing pin the season.",
+  "taxonomy_friction": "Yellow/blue bokashi sky can be a convention or evening light; the arrival cue is weak. Season has no plant cues, but the schema makes me spread a vector instead of saying 'unknown' (a null would score neutral, which may be more honest)."
+ },
+ {
+  "id": "mia-9183",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 1.0
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "seasonal_markers": [
+   "new_year"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "place": {
+   "name": "Ōji, Shōzoku enoki (hackberry tree)",
+   "lat": 35.75,
+   "lon": 139.74,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "crop_note": "sheet on light backdrop; small sheet margins, slight stain at lower left edge",
+  "palette": [
+   "#4a5154",
+   "#e9c9a6",
+   "#2f3a3a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.95,
+   "season": 0.95,
+   "environment": 0.7
+  },
+  "evidence": "Title 'New Year's Eve'; dark sky with scattered stars, glowing foxfires, bare tree. Night is certain, winter from title and bare branches.",
+  "taxonomy_friction": "The scene is a supernatural event (foxfires) on one specific night (Ōmisoka, 31 Dec); 'new_year' marker peaks 1 Jan, which fits, but the print really wants a narrow one-night window. Marker names are not given as keys in TAXONOMY.md; I used snake_case ('new_year'). Ōji Inari shrine is the reason for the scene but isn't shown, so no temple_shrine flag."
+ },
+ {
+  "id": "mia-61148",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "rain": 0.8,
+   "storm": 0.2
+  },
+  "wind": 0.2,
+  "time_of_day": {
+   "day": 0.5,
+   "dusk": 0.3,
+   "night": 0.2
+  },
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "spring": 0.2
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "bridge",
+    "temple_shrine"
+   ]
+  },
+  "place": {
+   "name": "Shōhei Bridge / Yushima Seidō, Kanda River, Edo",
+   "lat": 35.7,
+   "lon": 139.77,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_note": "scan trimmed to the sheet; no visible border",
+  "palette": [
+   "#141414",
+   "#5ea24e",
+   "#7aa7d2"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.3,
+   "season": 0.6,
+   "environment": 0.8
+  },
+  "evidence": "Dense slanted rain lines over the whole image, figures with umbrellas on the slope. Black sky is ambiguous (rain darkness vs evening) — time of day is a guess. Lush green bank suggests summer.",
+  "taxonomy_friction": "A solid black sky in a rain scene is a pictorial device for heavy rain and gloom, not necessarily night; the taxonomy only warns about ichimonji-bokashi, not full black skies. Seidō is a Confucian temple; temple_shrine is defined as Buddhist/Shinto, so it is a stretch."
+ },
+ {
+  "id": "mia-22462",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "spring": 0.2,
+   "summer": 0.2,
+   "autumn": 0.3,
+   "winter": 0.3
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "place": {
+   "name": "Tatekawa canal, Honjo, Edo",
+   "lat": 35.69,
+   "lon": 139.81,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "crop_note": "sheet on light backdrop; margins thin, sheet edge visible",
+  "palette": [
+   "#e3d7b8",
+   "#2f4f8a",
+   "#d1b98a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": 0.1,
+   "environment": 0.8
+  },
+  "evidence": "Pale even sky with blue at top and horizon, lumberyard workers in full daylight. No seasonal cue (snow-capped Fuji is a constant convention), season is essentially unknown.",
+  "taxonomy_friction": "Season is unknown, not all-season; I spread the vector but there is no 'unknown' option distinct from null. Fuji's white cap should not be read as snow_cover or winter — worth stating in the tagging notes. A lumberyard on a canal is 'city' but feels industrial; no category for workplaces."
+ },
+ {
+  "id": "mia-81827",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.9,
+   "cloudy": 0.1
+  },
+  "wind": 0.1,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "spring": 0.5,
+   "summer": 0.2,
+   "autumn": 0.3
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "place": {
+   "name": "Enoshima, Ryūdō (Iwaya caves)",
+   "lat": 35.3,
+   "lon": 139.47,
+   "precision_km": 1
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_note": "surimono, near square; sheet fills the scan with a thin backdrop strip; orange border rule is part of the print",
+  "palette": [
+   "#a9c2bf",
+   "#8fa874",
+   "#e7a98c"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.6,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with stylised horizontal cloud bands (not weather), picnicking party on mats, cave entrance; daylight. Season guessed from picnic outing (spring), no plants or seasonal markers visible.",
+  "taxonomy_friction": "Surimono WITH a full scene: included per brief, but poems cover a third of the sky. A cave/grotto (Iwaya) has no flag; 'rocky coast/cliffs' isn't expressible (terrain hilly + sea is the nearest). Picnic is a weak seasonal cue."
+ },
+ {
+  "id": "mia-117462",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "mist": 0.5,
+   "cloudy": 0.3,
+   "clear": 0.2
+  },
+  "wind": 0.2,
+  "time_of_day": {
+   "day": 0.6,
+   "dusk": 0.2,
+   "dawn": 0.2
+  },
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "autumn": 0.2
+  },
+  "seasonal_markers": [
+   "lingering_snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "place": {
+   "name": "Tateyama Betsuzan, Northern Japan Alps",
+   "lat": 36.59,
+   "lon": 137.62,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.95
+  ],
+  "crop_note": "wide paper margins with pencil title/signature below image; deckled right edge; museum label strip overlaps lower right corner",
+  "palette": [
+   "#4a4a7e",
+   "#b39e7a",
+   "#e8e2d8"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.4,
+   "season": 0.6,
+   "environment": 0.95
+  },
+  "evidence": "Clouds and mist rolling over the ridge, sunlit pinkish peaks and cloud tops, large snowfield on the plateau with summer-brown grass. Pink light might be late afternoon or morning — time is a guess.",
+  "taxonomy_friction": "Summer snowfields (sekkei) in the Alps: snow lying on the ground but not winter. snow_cover would mis-signal winter and the snow marker peaks in January, so I added marker 'lingering_snow' (alpine summer). Mist vs. cloud is blurred at altitude (we are inside the clouds)."
+ },
+ {
+  "id": "mia-83142",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "spring": 0.7,
+   "summer": 0.3
+  },
+  "seasonal_markers": [
+   "azalea"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "wild": 0.3
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "garden_park",
+    "forest"
+   ]
+  },
+  "place": {
+   "name": "Hakone Museum of Art (Shinsenkyō), Gōra, Hakone",
+   "lat": 35.25,
+   "lon": 139.05,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "crop_note": "paper margins with pencil title and signature; sheet edge visible on light backdrop",
+  "palette": [
+   "#5f8c3a",
+   "#a8a39a",
+   "#e2a6a8"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": 0.6,
+   "environment": 0.85
+  },
+  "evidence": "Bright even light, pale sky, fresh green bamboo and pink-red flowering shrubs (azaleas). Azaleas point to late spring (May).",
+  "taxonomy_friction": "Azalea (tsutsuji, ~early May) is not in the marker list; added 'azalea'. A bamboo grove inside a garden: both forest and garden_park flags; maybe a dedicated bamboo flag would help. Garden of a museum in a resort town — settlement categories are rough."
+ },
+ {
+  "id": "mia-91658",
+  "genre": "bird_and_flower",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "cloudy": 0.6,
+   "mist": 0.4
+  },
+  "wind": 0.1,
+  "time_of_day": null,
+  "moon": false,
+  "season": {
+   "spring": 0.5,
+   "summer": 0.5
+  },
+  "seasonal_markers": [],
+  "environment": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_note": "sheet with wide white margin around the image border, shown on dark backdrop",
+  "palette": [
+   "#c3c6c4",
+   "#2e2e2e",
+   "#4f9a86"
+  ],
+  "confidence": {
+   "weather": 0.3,
+   "time_of_day": 0.2,
+   "season": 0.4,
+   "environment": 0.0
+  },
+  "evidence": "Black-crowned night heron on a willow branch against flat grey ground; no moon, no rain. Leafy willow suggests spring/summer. Weather read from the grey ground only — weak.",
+  "taxonomy_friction": "Flat grey ground in shin-hanga kachō-e: is it overcast/dusk atmosphere or just a neutral background? Night herons are typically associated with night but nothing in the image shows it, so time null. Willow and heron imply water but none is shown, so environment null."
+ },
+ {
+  "id": "mia-62276",
+  "genre": "bird_and_flower",
+  "include": true,
+  "exclude_reason": null,
+  "weather": null,
+  "wind": null,
+  "time_of_day": null,
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_note": "uchiwa-e (fan print): the image is fan-shaped with an uncut handle notch at bottom; sheet edge visible; a rectangular crop includes plain paper corners",
+  "palette": [
+   "#f0ebdc",
+   "#d8434f",
+   "#3b2a4a"
+  ],
+  "confidence": {
+   "weather": 0.2,
+   "time_of_day": 0.2,
+   "season": 0.95,
+   "environment": 0.0
+  },
+  "evidence": "Close-up of white cherry blossoms; title 'Spring'. Red-to-purple gradient background is decorative bokashi, not a dusk sky, so weather and time are null.",
+  "taxonomy_friction": "Fan-shaped uchiwa-e: not listed as an extreme format, but a rectangular crop shows blank corners and the handle notch; I kept include=true — needs a format rule (maybe a format field or a mask). The poet cartouche (Ono no Komachi) adds a literary layer the schema ignores. Strong colour gradients in kachō-e can be mistaken for sunset."
+ },
+ {
+  "id": "rijks-RP-P-1956-739",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "wind": 0.3,
+  "time_of_day": {
+   "night": 0.6,
+   "dusk": 0.4
+  },
+  "moon": true,
+  "season": {
+   "autumn": 0.8,
+   "summer": 0.2
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.7,
+    "wild": 0.2,
+    "town": 0.1
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "place": {
+   "name": "Seba (Kisokaidō station), Shiojiri",
+   "lat": 36.13,
+   "lon": 137.95,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_note": "sheet almost fills the scan; thin cream margins",
+  "palette": [
+   "#4f6b8f",
+   "#5d7f72",
+   "#e9b48a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": 0.6,
+   "environment": 0.85
+  },
+  "evidence": "Full moon behind willows, pink glow on clouds near the horizon, boatmen poling on a reed-lined river; willows leaning in the wind. Autumn from full moon and reeds (classic autumn-moon imagery).",
+  "taxonomy_friction": "Full moon with reeds is a strong autumn cue, but no exact marker: 'autumn grasses, moon viewing' fits only loosely, so I left markers empty. Pink clouds plus moon blur dusk/night. Title is just 'Seba' in metadata; series (Kisokaidō) had to be read from the image."
+ },
+ {
+  "id": "rijks-RP-P-1956-737",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.9,
+   "mist": 0.1
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "moon": true,
+  "season": {
+   "autumn": 1.0
+  },
+  "seasonal_markers": [
+   "autumn_grasses_moon_viewing"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "lake": 0.5,
+    "river": 0.5
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine",
+    "bridge"
+   ]
+  },
+  "place": {
+   "name": "Ishiyama-dera, Ōmi (Lake Biwa / Seta River)",
+   "lat": 34.96,
+   "lon": 135.91,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.95
+  ],
+  "crop_note": "sheet on light backdrop; pencil inventory number below the bottom edge",
+  "palette": [
+   "#7f95b5",
+   "#6f6a63",
+   "#1f3b78"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.95,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Series Ōmi hakkei (Autumn Moon at Ishiyama): full moon high in a blue-grey sky, temple on the cliff, Seta bridge and lake in the distance.",
+  "taxonomy_friction": "The 'night' sky is a pale blue — night is conveyed only by the moon. Seta river leaving Lake Biwa: I split river/lake. Bridge is small in the distance; 'prominent' is subjective. Moon-viewing marker is a literal fit here (Eight Views' autumn moon)."
+ },
+ {
+  "id": "rijks-35",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.9,
+   "cloudy": 0.1
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "autumn": 1.0
+  },
+  "seasonal_markers": [
+   "maple"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "place": {
+   "name": "Okabe, Utsunoya Pass (Tōkaidō)",
+   "lat": 34.94,
+   "lon": 138.33,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_note": "later postcard reproduction (kaart, 90 x 141 mm) filling the scan; printed English caption strip at bottom — exclude it in display crop (image ~[0.05,0.06,0.88,0.86])",
+  "palette": [
+   "#5e6f4e",
+   "#c9bfa6",
+   "#b0523a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.7,
+   "season": 0.8,
+   "environment": 0.85
+  },
+  "evidence": "Clear pale sky, travellers carrying firewood along a mountain stream, red maple leaves on a tree. Autumn from maples.",
+  "taxonomy_friction": "This is a 20th-century postcard reproduction 'after' Hiroshige, with an English caption printed on it; the schema has no field for reproduction/state/authenticity. Maple marker peaks 20 Nov in Kantō; a single red tree among greens could be early autumn."
+ },
+ {
+  "id": "rijks-RP-P-2016-1-24",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "figure print (Kenreimon'in from a poetry series); landscape is only background",
+  "weather": {
+   "clear": 1.0
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": null,
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.045,
+   0.02,
+   0.905,
+   0.955
+  ],
+  "crop_note": "sheet on a grey backdrop with clear margins on all sides",
+  "palette": [
+   "#c3c4c2",
+   "#7f8f9e",
+   "#e0c99a"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.6,
+   "season": 0.1,
+   "environment": 0.4
+  },
+  "evidence": "Seated court lady with a book box; hills and a pagoda behind under a pale sky. Excluded as a figure print.",
+  "taxonomy_friction": "Metadata says 'scene from a kabuki play'; the landscape background is substantial (~25% of the image) but secondary. Borderline between figures_in_landscape and other."
+ },
+ {
+  "id": "rijks-RP-P-1964-810",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "surimono with figures and poems, no scene",
+  "weather": null,
+  "wind": null,
+  "time_of_day": null,
+  "moon": false,
+  "season": {
+   "winter": 0.5,
+   "spring": 0.5
+  },
+  "seasonal_markers": [],
+  "environment": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_note": "sheet nearly fills the scan; foxing/stains",
+  "palette": [
+   "#e6dfcf",
+   "#2d2a26",
+   "#b7a58c"
+  ],
+  "confidence": {
+   "weather": 0.0,
+   "time_of_day": 0.0,
+   "season": 0.3,
+   "environment": 0.0
+  },
+  "evidence": "Six women as the Six Poets with poems, plain ground; no setting. Season guessed from surimono convention (New Year), very weak.",
+  "taxonomy_friction": "Surimono are mostly New Year greetings, but nothing in the image shows it; I didn't add a marker."
+ },
+ {
+  "id": "rijks-RP-P-2004-510",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "book covers (two volumes), no image",
+  "weather": null,
+  "wind": null,
+  "time_of_day": null,
+  "moon": false,
+  "season": null,
+  "seasonal_markers": [],
+  "environment": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.95
+  ],
+  "crop_note": "two book covers side by side on white backdrop",
+  "palette": [
+   "#d8c43a",
+   "#e6e3d6",
+   "#6aa59c"
+  ],
+  "confidence": {
+   "weather": 0.0,
+   "time_of_day": 0.0,
+   "season": 0.0,
+   "environment": 0.0
+  },
+  "evidence": "Image shows two yellow book covers with title slips; nothing to tag.",
+  "taxonomy_friction": "Metadata/image mismatch: record says Hokusai manga vol. 2, but the title slips read 富嶽百景 (One Hundred Views of Fuji), vols 2 and 3. Flag for the data pipeline."
+ },
+ {
+  "id": "aic-24690",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "wind": 0.4,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "winter": 0.5,
+   "spring": 0.5
+  },
+  "seasonal_markers": [
+   "new_year"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "place": {
+   "name": "Higashi Honganji, Asakusa, Edo",
+   "lat": 35.71,
+   "lon": 139.79,
+   "precision_km": 1
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   0.99,
+   0.99
+  ],
+  "crop_note": "scan trimmed close to the sheet; thin dark edge at right and bottom",
+  "palette": [
+   "#e9e1cc",
+   "#1f4f8f",
+   "#5f8fa0"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.8,
+   "season": 0.6,
+   "environment": 0.85
+  },
+  "evidence": "Kite flying high with streamers (New Year custom, wind), roofers on the temple roof, Fuji above stylised cloud banks. Daylight; clouds are compositional bands.",
+  "taxonomy_friction": "Large stylised cloud banks cover the city: suyari convention, so not mist — but they still read as low cloud. Kites = New Year in the marker list, though kites were flown into early spring. New Year sits on the winter/spring boundary (lunar new year = spring in Edo), which makes the season vector awkward."
+ },
+ {
+  "id": "aic-34012",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.9,
+   "cloudy": 0.1
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "garden_park"
+   ]
+  },
+  "place": {
+   "name": "Hanayashiki, Dangozaka, Sendagi (Edo)",
+   "lat": 35.73,
+   "lon": 139.76,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.0,
+   0.98,
+   1.0
+  ],
+  "crop_note": "scan trimmed close to the sheet; thin margins",
+  "palette": [
+   "#efe7d4",
+   "#3f7a4c",
+   "#4f7fc4"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.85,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Cherry trees in full bloom with picnickers, pink-edged stylised cloud bands, teahouse on the hill under a pale sky with blue at the top.",
+  "taxonomy_friction": "Pink suyari-gasumi bands are pure convention; correctly ignored for mist. Pond = lake per the table, though 'pond' would be a better label."
+ },
+ {
+  "id": "aic-22819",
+  "genre": "other",
+  "include": false,
+  "exclude_reason": "beauty print (bijin-ga), likely one sheet of a diptych/triptych",
+  "weather": {
+   "clear": 1.0
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "night": 0.6,
+   "dusk": 0.4
+  },
+  "moon": true,
+  "season": {
+   "summer": 1.0
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_note": "sheet on light backdrop; torn upper-right corner with repair; worn edges",
+  "palette": [
+   "#e3d9c2",
+   "#7f9a8c",
+   "#2c2420"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.6,
+   "season": 0.6,
+   "environment": 0.3
+  },
+  "evidence": "Three women on a veranda or bridge railing with a round fan; faint moon at upper left (series 'Moon'). Fan and light robes suggest summer.",
+  "taxonomy_friction": "Excluded as bijin-ga. Environment is inferred (railing reads as a bridge or riverside veranda) — low confidence."
+ },
+ {
+  "id": "aic-10914",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "wind": 0.3,
+  "time_of_day": {
+   "dusk": 1.0
+  },
+  "moon": false,
+  "season": {
+   "spring": 0.3,
+   "summer": 0.3,
+   "autumn": 0.3,
+   "winter": 0.1
+  },
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "place": {
+   "name": "Onmaya embankment (Onmayagashi), Sumida River, Edo",
+   "lat": 35.7,
+   "lon": 139.79,
+   "precision_km": 1
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   0.99,
+   0.97
+  ],
+  "crop_note": "scan trimmed close to the sheet; museum accession number in the strip at bottom right",
+  "palette": [
+   "#e6dccb",
+   "#2a4f92",
+   "#3a3a3a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.9,
+   "season": 0.1,
+   "environment": 0.9
+  },
+  "evidence": "Title says 'sunset'; dark Fuji silhouette and pinkish horizon, ferry crossing choppy river (wind). Dark top band is ichimonji-bokashi, not night. No seasonal cue.",
+  "taxonomy_friction": "Season unknown — spread again. Fuji drawn as a dark silhouette (no snow), which is a time cue rather than a season cue. Choppy stylised waves: wind or just a convention?"
+ },
+ {
+  "id": "aic-4371",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "wind": 0.0,
+  "time_of_day": {
+   "dusk": 0.6,
+   "dawn": 0.4
+  },
+  "moon": false,
+  "season": {
+   "autumn": 0.8,
+   "winter": 0.2
+  },
+  "seasonal_markers": [
+   "wild_geese"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "none": 0.8,
+    "sea": 0.2
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "place": {
+   "name": "Hamamatsu (Tōkaidō station)",
+   "lat": 34.71,
+   "lon": 137.73,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_note": "scan trimmed to the image/sheet edge; thin dark edge at right",
+  "palette": [
+   "#e9e3cd",
+   "#6fa59a",
+   "#2f3b2a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.4,
+   "season": 0.6,
+   "environment": 0.7
+  },
+  "evidence": "Red-pink horizon glow, flight of geese over pines and Hamamatsu castle, travellers and pack horses in the street. Geese flying suggest dusk but nothing is certain — time is a partial guess; geese mark autumn.",
+  "taxonomy_friction": "Castle has no flag (landmark/castle flag might be useful). The pale band on the left may be sea/lake or mist — ambiguous. Geese flying (not descending) still used the 'wild_geese' marker."
+ }
+]

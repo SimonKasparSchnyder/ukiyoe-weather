@@ -1,0 +1,31 @@
+{
+  "categories": ["clear", "cloudy", "mist", "drizzle", "rain", "storm", "snowfall"],
+  "closeness": {
+    "clear":    {"clear": 1,   "cloudy": 0.5, "mist": 0.3, "drizzle": 0.1, "rain": 0,   "storm": 0,   "snowfall": 0},
+    "cloudy":   {"clear": 0.5, "cloudy": 1,   "mist": 0.6, "drizzle": 0.4, "rain": 0.2, "storm": 0.1, "snowfall": 0.2},
+    "mist":     {"clear": 0.3, "cloudy": 0.6, "mist": 1,   "drizzle": 0.5, "rain": 0.3, "storm": 0.1, "snowfall": 0.2},
+    "drizzle":  {"clear": 0.1, "cloudy": 0.4, "mist": 0.5, "drizzle": 1,   "rain": 0.7, "storm": 0.3, "snowfall": 0.3},
+    "rain":     {"clear": 0,   "cloudy": 0.2, "mist": 0.3, "drizzle": 0.7, "rain": 1,   "storm": 0.6, "snowfall": 0.3},
+    "storm":    {"clear": 0,   "cloudy": 0.1, "mist": 0.1, "drizzle": 0.3, "rain": 0.6, "storm": 1,   "snowfall": 0.2},
+    "snowfall": {"clear": 0,   "cloudy": 0.2, "mist": 0.2, "drizzle": 0.3, "rain": 0.3, "storm": 0.2, "snowfall": 1}
+  },
+  "wmo": {
+    "0": {"clear": 1}, "1": {"clear": 0.8, "cloudy": 0.2}, "2": {"clear": 0.4, "cloudy": 0.6}, "3": {"cloudy": 1},
+    "45": {"mist": 1}, "48": {"mist": 1},
+    "51": {"drizzle": 1}, "53": {"drizzle": 1}, "55": {"drizzle": 1},
+    "56": {"drizzle": 0.7, "snowfall": 0.3}, "57": {"drizzle": 0.7, "snowfall": 0.3},
+    "61": {"drizzle": 0.5, "rain": 0.5}, "63": {"rain": 1}, "65": {"rain": 0.5, "storm": 0.5},
+    "66": {"rain": 0.7, "snowfall": 0.3}, "67": {"rain": 0.7, "snowfall": 0.3},
+    "71": {"snowfall": 1}, "73": {"snowfall": 1}, "75": {"snowfall": 1}, "77": {"snowfall": 1},
+    "80": {"rain": 1}, "81": {"rain": 1}, "82": {"rain": 0.5, "storm": 0.5},
+    "85": {"snowfall": 1}, "86": {"snowfall": 1},
+    "95": {"storm": 1}, "96": {"storm": 1}, "99": {"storm": 1}
+  },
+  "adjustments": {
+    "visibility_fog_m": 1000, "visibility_fog_mist_share": 0.5,
+    "visibility_haze_m": 5000, "visibility_haze_mist_share": 0.2,
+    "gale_gust_kmh": 60, "gale_storm_share": 0.4,
+    "wind_zero_kmh": 15, "wind_full_kmh": 50,
+    "snow_depth_full_m": 0.10
+  }
+}

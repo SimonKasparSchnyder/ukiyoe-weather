@@ -1,0 +1,24 @@
+{
+  "group_weights": {"settlement": 0.4, "water": 0.35, "terrain": 0.25},
+  "closeness": {
+    "settlement": {
+      "city":  {"city": 1,   "town": 0.6, "rural": 0.2, "wild": 0},
+      "town":  {"city": 0.6, "town": 1,   "rural": 0.5, "wild": 0.2},
+      "rural": {"city": 0.2, "town": 0.5, "rural": 1,   "wild": 0.5},
+      "wild":  {"city": 0,   "town": 0.2, "rural": 0.5, "wild": 1}
+    },
+    "water": {
+      "none":    {"none": 1,   "river": 0.3, "lake": 0.3, "sea": 0.1, "wetland": 0.3},
+      "river":   {"none": 0.3, "river": 1,   "lake": 0.6, "sea": 0.4, "wetland": 0.5},
+      "lake":    {"none": 0.3, "river": 0.6, "lake": 1,   "sea": 0.5, "wetland": 0.5},
+      "sea":     {"none": 0.1, "river": 0.4, "lake": 0.5, "sea": 1,   "wetland": 0.3},
+      "wetland": {"none": 0.3, "river": 0.5, "lake": 0.5, "sea": 0.3, "wetland": 1}
+    },
+    "terrain": {
+      "flat":     {"flat": 1,   "hilly": 0.5, "mountain": 0.1},
+      "hilly":    {"flat": 0.5, "hilly": 1,   "mountain": 0.5},
+      "mountain": {"flat": 0.1, "hilly": 0.5, "mountain": 1}
+    }
+  },
+  "flags": ["onsen", "temple_shrine", "castle", "garden_park", "forest", "waterfall", "bridge"]
+}

@@ -1,0 +1,19 @@
+{
+  "pad_fraction": 0.03,
+  "pad_min_px": 16,
+  "fit_panel_inset_px": 16,
+
+  "shape_tolerance": 0.22,
+  "min_print_width_side": 0.3,
+  "min_print_height_below": 0.3,
+
+  "side_panel": { "width_fraction": 0.24, "min_px": 290, "max_px": 330 },
+  "below_panel": { "max_width_px": 460, "max_height_fraction": 0.45 },
+  "overlay_panel": { "max_width_px": 320, "max_height_fraction": 0.62 },
+
+  "bubble_min_edge_px": 8,
+  "minimise_ms": 340,
+  "restore_ms": 380,
+  "layout_transition_ms": 400,
+  "print_fade_ms": 800
+}
