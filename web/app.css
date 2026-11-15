@@ -27,6 +27,7 @@
   --on-accent: #fff;                  /* text on an accent-coloured button */
   --ui-scale: 1;                      /* size of the panel, buttons and dialogs */
   --u: calc(1px * var(--ui-scale));
+  --box-pad: calc(12 * var(--u)); /* inner edge spacing of the weather box and dialogs: title, text and close x */
   --mat: #f1ece0;
   --washi: #ebe3cf;
   --plain: #e9e2d3;
@@ -102,12 +103,12 @@ a { color: var(--accent); }
 }
 #panel.hidden { visibility: hidden; pointer-events: none; }
 #panel, dialog { font-size: calc(15 * var(--u)); }
-.p-head { display: flex; align-items: center; gap: calc(6 * var(--u)); padding: calc(7 * var(--u)) calc(8 * var(--u)) calc(5 * var(--u)) calc(12 * var(--u)); }
+.p-head { display: flex; align-items: center; gap: calc(6 * var(--u)); padding: var(--box-pad) var(--box-pad) calc(6 * var(--u)); }
 .place { flex: 1; min-width: 0; text-align: left; background: none; border: 0; padding: 0; cursor: pointer;
   font-weight: 600; font-size: calc(14.5 * var(--u)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .place:hover { color: var(--accent); }
 .icon-btn { background: none; border: 1px solid var(--line); border-radius: 50%; width: calc(22 * var(--u)); height: calc(22 * var(--u)); cursor: pointer; line-height: 1; padding: 0; font-size: calc(13 * var(--u)); }
-.p-body { overflow-y: auto; padding: 0 calc(12 * var(--u)) calc(9 * var(--u)); display: flex; flex-direction: column; gap: calc(7 * var(--u)); min-height: 0; }
+.p-body { overflow-y: auto; padding: 0 var(--box-pad) var(--box-pad); display: flex; flex-direction: column; gap: calc(7 * var(--u)); min-height: 0; }
 
 .ico { width: 1em; height: 1em; vertical-align: -0.12em; fill: none; stroke: currentColor; stroke-width: 1.15;
   stroke-linecap: round; stroke-linejoin: round; }
@@ -165,7 +166,7 @@ a { color: var(--accent); }
 dialog { border: 1px solid var(--line); border-radius: calc(10 * var(--u)); background: var(--panel); color: var(--ink);
   width: min(calc(440 * var(--u)), calc(100vw - calc(32 * var(--u)))); padding: 0; box-shadow: var(--shadow); }
 dialog::backdrop { background: rgba(20, 15, 10, .35); }
-.settings-form { padding: calc(16 * var(--u)) calc(18 * var(--u)); display: flex; flex-direction: column; gap: calc(12 * var(--u)); }
+.settings-form { padding: var(--box-pad); display: flex; flex-direction: column; gap: calc(12 * var(--u)); }
 .settings-form h2 { margin: 0; font-size: calc(19 * var(--u)); font-weight: 600; }
 fieldset { border: 1px solid var(--line); border-radius: calc(6 * var(--u)); padding: calc(8 * var(--u)) calc(12 * var(--u)) calc(10 * var(--u)); margin: 0; }
 legend { color: var(--muted); font-size: calc(13 * var(--u)); padding: 0 calc(4 * var(--u)); }
@@ -199,3 +200,15 @@ body:not(.dev) .dev-only { display: none !important; }
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: var(--shadow); }
 .round-btn:hover { color: var(--accent); }
 .round-btn .ico { width: calc(19 * var(--u)); height: calc(19 * var(--u)); stroke-width: 1.1; }
+
+/* close buttons: a circled x, top right of the weather box and the dialogs.
+   The button is exactly the circle, and the title line is exactly as tall as the button, so the circle sits
+   --box-pad from the top and right edges and the title --box-pad from the left edge, centred on the circle. */
+:root { --close-size: calc(22 * var(--u)); }
+.close-btn { background: none; border: 0; padding: 0; margin: 0; cursor: pointer; color: var(--muted); line-height: 0;
+  width: var(--close-size); height: var(--close-size); display: grid; place-items: center; flex: none; }
+.close-btn:hover { color: var(--accent); }
+.close-btn .ico { width: var(--close-size); height: var(--close-size); }
+.dlg-head h2, .p-head .place { line-height: var(--close-size); }
+.dlg-head { display: flex; align-items: center; justify-content: space-between; gap: calc(8 * var(--u)); }
+dialog:focus { outline: none; } /* the dialog itself holds focus when it opens; controls keep their own focus ring */

@@ -507,13 +507,20 @@ function applySurround() {
   layout();
 }
 
+/** Open a dialog with focus on the dialog itself, so no button starts out highlighted
+    (the browser would otherwise focus the first button, the close x). Tab still reaches every control. */
+function openDialog(d) {
+  d.showModal();
+  d.focus();
+}
+
 function openSettings() {
   const d = $("settings");
   d.querySelectorAll('input[name="locmode"]').forEach((r) => { r.checked = r.value === settings.locmode; });
   d.querySelectorAll('input[name="size"]').forEach((r) => { r.checked = r.value === settings.size; });
   $("fixed-name").textContent = settings.place?.name || "none yet — search below";
   $("place-results").innerHTML = "";
-  d.showModal();
+  openDialog(d);
 }
 
 function wireSettings() {
@@ -558,7 +565,7 @@ async function init() {
   $("place-btn").addEventListener("click", openSettings);
   $("settings-btn").innerHTML = ICON.gear;
   $("credits-btn").innerHTML = ICON.info;
-  $("credits-btn").addEventListener("click", () => $("credits").showModal());
+  $("credits-btn").addEventListener("click", () => openDialog($("credits")));
   // a click or tap on the print (or the paper around it) minimises the weather box
   $("stage").addEventListener("click", (e) => {
     if (settings.collapsed || e.target.closest("#panel, #controls, #expand-btn")) return;
@@ -571,6 +578,9 @@ async function init() {
     showPrint(state.chosen);
   });
   $("collapse-btn").addEventListener("click", collapsePanel);
+  document.querySelectorAll(".close-btn").forEach((b) => { b.innerHTML = ICON.close; });
+  // a tap outside a dialog (on its backdrop) closes it
+  document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
   $("expand-btn").addEventListener("click", expandPanel);
   let rt;
   window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { layout(); anchorBubble(); }, 120); });

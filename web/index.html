@@ -16,7 +16,7 @@
   <aside id="panel" aria-label="Weather">
     <header class="p-head">
       <button class="place" id="place-btn" title="Change location"><span id="place-name">Locating…</span></button>
-      <button class="icon-btn" id="collapse-btn" title="Hide panel" aria-label="Hide panel">–</button>
+      <button class="close-btn" id="collapse-btn" title="Close" aria-label="Close weather"></button>
     </header>
 
     <div class="p-body">
@@ -57,9 +57,9 @@
   </button>
 </div>
 
-<dialog id="settings">
+<dialog id="settings" tabindex="-1">
   <form method="dialog" class="settings-form">
-    <h2>Settings</h2>
+    <div class="dlg-head"><h2>Settings</h2><button value="close" class="close-btn" title="Close" aria-label="Close settings"></button></div>
     <fieldset>
       <legend>Location</legend>
       <label class="radio"><input type="radio" name="locmode" value="device"> Use this device's location</label>
@@ -75,13 +75,12 @@
       <label class="radio"><input type="radio" name="size" value="fit"> Fit to window</label>
     </fieldset>
     <p class="small dev-only"><a href="tuning.html" target="_blank" rel="noopener">Open the Matching Tuner</a> · <a href="icons.html" target="_blank" rel="noopener">Icon set</a> · <a href="colors.html" target="_blank" rel="noopener">Print colours</a></p>
-    <div class="actions"><button value="close" class="primary">Done</button></div>
   </form>
 </dialog>
 
-<dialog id="credits">
+<dialog id="credits" tabindex="-1">
   <form method="dialog" class="settings-form credits">
-    <h2>Credits</h2>
+    <div class="dlg-head"><h2>Credits</h2><button value="close" class="close-btn" title="Close" aria-label="Close credits"></button></div>
     <p><strong>Prints</strong> — public-domain scans from the
       <a href="https://collections.artsmia.org/" target="_blank" rel="noopener">Minneapolis Institute of Art</a>,
       the <a href="https://www.rijksmuseum.nl/en" target="_blank" rel="noopener">Rijksmuseum</a> and the
@@ -99,7 +98,6 @@
       <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License</a>.</p>
     <p class="small"><strong>Privacy</strong> — your location is sent only to the weather and map services above, to look up
       the weather and the geographic features around you. Settings stay in this browser.</p>
-    <div class="actions"><button value="close" class="primary">Close</button></div>
   </form>
 </dialog>
 

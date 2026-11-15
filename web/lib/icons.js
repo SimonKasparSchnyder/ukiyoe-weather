@@ -64,6 +64,8 @@ export const ICON = {
   wind: svg('<path d="M3 9h10.5a3 3 0 1 0-3-3"/><path d="M3 14h15a3 3 0 1 1-3 3"/>', "wind"),
   drop: svg('<path d="M12 3.5c3.2 4.4 5.5 7.4 5.5 10.2a5.5 5.5 0 0 1-11 0c0-2.8 2.3-5.8 5.5-10.2z"/>', "chance of rain"),
   gear: svg(`<path d="${gearPath()}"/><circle cx="12" cy="12" r="3"/>`, "settings"),
+  // circle fills the whole icon box, so the button's edge is the circle's edge (for exact spacing)
+  close: svg('<circle cx="12" cy="12" r="11.2"/><path d="M8.2 8.2l7.6 7.6M15.8 8.2l-7.6 7.6"/>', "close"),
   info: svg('<circle cx="12" cy="12" r="9.2"/><path d="M12 10.8v6"/><circle class="f" cx="12" cy="7.6" r="1.1"/>', "credits"),
 };
 
