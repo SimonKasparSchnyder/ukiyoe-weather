@@ -449,9 +449,10 @@ function renderWeather() {
     const name = i === 0 ? "Today" : new Date(d + "T12:00:00").toLocaleDateString("en", { weekday: "short" });
     const a = ((today.temperature_2m_min[i] - lo) / span) * 100, b = ((today.temperature_2m_max[i] - lo) / span) * 100;
     const pp = today.precipitation_probability_max?.[i];
+    const pp10 = pp == null ? null : Math.round(pp / 10) * 10; // to the nearest 10 %
     return `<div class="day"><span class="d">${name}</span>
       <span class="s" title="${esc(describe(today.weather_code[i])[0])}">${weatherIcon(today.weather_code[i])}</span>
-      <span class="p" title="Chance of rain">${pp >= 20 ? `${ICON.drop}${pp}%` : ""}</span>
+      <span class="p" title="Chance of rain">${pp10 >= 20 ? `${ICON.drop}${pp10}%` : ""}</span>
       <span class="range"><b style="left:${a}%;width:${Math.max(4, b - a)}%"></b></span>
       <span class="lohi">${Math.round(today.temperature_2m_min[i])}° / ${Math.round(today.temperature_2m_max[i])}°</span></div>`;
   }).join("");

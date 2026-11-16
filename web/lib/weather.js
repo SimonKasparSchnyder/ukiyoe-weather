@@ -17,7 +17,8 @@ function withTimeout(ms) {
  * to `onUpgrade` when it arrives. Both return Open-Meteo's shape.
  */
 export function fetchWeatherRace(lat, lon, timeZone, onUpgrade) {
-  const om = fetchOpenMeteo(lat, lon).then((d) => Object.assign(d, { provider: "Open-Meteo" }));
+  // Open-Meteo no longer holds up the first view, so it may take its time (it often needs 6 s or more here)
+  const om = fetchOpenMeteo(lat, lon, 30000).then((d) => Object.assign(d, { provider: "Open-Meteo" }));
   const mn = fetchMetNo(lat, lon, timeZone).then((d) => Object.assign(d, { provider: "MET Norway" }));
   return new Promise((resolve, reject) => {
     let done = false, failures = 0;
@@ -45,7 +46,7 @@ export async function fetchWeather(lat, lon, timeZone) {
   }
 }
 
-async function fetchOpenMeteo(lat, lon) {
+async function fetchOpenMeteo(lat, lon, timeoutMs = 10000) {
   const params = new URLSearchParams({
     latitude: lat.toFixed(4),
     longitude: lon.toFixed(4),
@@ -55,7 +56,7 @@ async function fetchOpenMeteo(lat, lon) {
     timezone: "auto",
     forecast_days: "4",
   });
-  const t = withTimeout(10000);
+  const t = withTimeout(timeoutMs);
   try {
     const res = await fetch(`${FORECAST}?${params}`, { signal: t.signal });
     if (!res.ok) throw new Error(`Open-Meteo ${res.status}`);

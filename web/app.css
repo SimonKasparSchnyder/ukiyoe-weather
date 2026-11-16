@@ -129,10 +129,13 @@ a { color: var(--accent); }
 .hours .t { font-variant-numeric: tabular-nums; }
 
 .days { display: flex; flex-direction: column; gap: 0; font-size: calc(12.5 * var(--u)); line-height: 1.55; }
-.day { display: grid; grid-template-columns: calc(38 * var(--u)) calc(16 * var(--u)) calc(38 * var(--u)) 1fr calc(54 * var(--u)); gap: calc(6 * var(--u)); align-items: center; }
+.day { display: grid; grid-template-columns: calc(38 * var(--u)) calc(16 * var(--u)) calc(46 * var(--u)) 1fr calc(54 * var(--u)); gap: calc(6 * var(--u)); align-items: center; }
 .day .d { color: var(--muted); }
 .day .s { color: var(--accent); text-align: center; }
-.day .p { color: var(--muted); font-size: calc(11 * var(--u)); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.day .p { color: var(--muted); font-size: calc(11 * var(--u)); font-variant-numeric: tabular-nums; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: calc(1 * var(--u)); }
+.day .p .ico { vertical-align: 0; width: 1.05em; height: 1.05em; flex: none; /* never squeezed by wide numbers like 100% */
+  position: relative; top: calc(1 * var(--u)); } /* centred by flex, then 1 px lower as an optical correction */
 .day .range { position: relative; height: calc(4 * var(--u)); background: var(--line); border-radius: calc(2 * var(--u)); }
 .day .range b { position: absolute; top: 0; bottom: 0; border-radius: calc(2 * var(--u)); background: var(--accent); opacity: .7; }
 .day .lohi { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
