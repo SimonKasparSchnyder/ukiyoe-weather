@@ -26,6 +26,7 @@ PUBLIC = [
     "fallback",
     "icons",
     "manifest.webmanifest",
+    "favicon.ico",  # copy of icons/favicon.ico for browsers that ask for /favicon.ico directly
 ]
 
 
