@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "mia-113419",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.6,
+   "drizzle": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom",
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Benkei Bridge, Akasaka, Tokyo",
+   "lat": 35.6795,
+   "lon": 139.7365,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.01,
+   0.95,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins on mount; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#8fa3a6",
+   "#3f6f8f",
+   "#e6c9c0"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.8,
+   "season": 0.9,
+   "environment": 0.85
+  },
+  "evidence": "Title 'Spring Rain'; even fine rain lines across the whole sky, umbrellas, calm air. Cherry trees in bloom and fresh willow fix spring.",
+  "taxonomy_friction": "harusame is gentle rain but drawn with clear lines over the whole image; split rain/drizzle."
+ },
+ {
+  "id": "mia-63195",
+  "genre": "landscape",
+  "include": false,
+  "exclude_reason": "same design as mia-124801 (Kanbara: Night Snow, first state), already in the collection",
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kanbara (Tōkaidō station)",
+   "lat": 35.12,
+   "lon": 138.6,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet fills scan; small album mount corners",
+  "fading": false,
+  "palette": [
+   "#2a2a2e",
+   "#e8e4dc",
+   "#8a8580"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.9,
+   "season": 0.95,
+   "environment": 0.85
+  },
+  "evidence": "Title 'Night Snow'; white flakes against a black sky, deep snow on roofs and road, hunched walkers. Night from title and dark sky.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-136606",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.8,
+   "drizzle": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "spring": 0.5,
+   "summer": 0.5
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "none": 0.7,
+    "river": 0.3
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yanagiwara embankment, Kanda River, Tokyo",
+   "lat": 35.6975,
+   "lon": 139.778,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with wide margins; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#2e3440",
+   "#4a5a6e",
+   "#e0c870"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.9,
+   "season": 0.3,
+   "environment": 0.7
+  },
+  "evidence": "Title 'Night Rain' (夜雨); murky sky, umbrellas, wet street with reflected lantern and window light. Willow in full leaf is the only season cue.",
+  "taxonomy_friction": "rain lines barely visible; rain read from title, umbrellas and wet reflections. Willow at Yanagiwara is a place attribute as much as a season cue."
+ },
+ {
+  "id": "mia-22627",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Sōmen-no-taki, Nikkō",
+   "lat": 36.766,
+   "lon": 139.591,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.01,
+   0.95,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on museum backing; edges visible",
+  "fading": false,
+  "palette": [
+   "#3a6ea5",
+   "#5a5a5e",
+   "#e8c8b8"
+  ],
+  "confidence": {
+   "weather": 0.3,
+   "time_of_day": 0.5,
+   "season": 0.8,
+   "environment": 0.85
+  },
+  "evidence": "Gorge with no real sky: dark rock surround, so weather is low-confidence fair. Blossoming (mountain) cherries flank the falls; stone Buddhist statue in a niche.",
+  "taxonomy_friction": "temple_shrine given for a devotional rock-cut statue only, no building."
+ },
+ {
+  "id": "mia-9156",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "lotus"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "lake": 0.7,
+    "river": 0.3
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "flat": 0.4
+   },
+   "flags": [
+    "waterfall"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Aoigaoka, Tameike, Akasaka, Tokyo",
+   "lat": 35.672,
+   "lon": 139.742,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; thin margins",
+  "fading": false,
+  "palette": [
+   "#a8c870",
+   "#2e4a7a",
+   "#e8b890"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": 0.4,
+   "environment": 0.75
+  },
+  "evidence": "Blue-graded clear sky over Tameike pond, even daylight. Lotus leaves dot the pond and a labourer wipes his brow in light clothing, suggesting summer.",
+  "taxonomy_friction": "lotus leaves are small dots; read as lotus per draft 3 but uncertain."
+ },
+ {
+  "id": "mia-64063",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "autumn_maples"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yōrō Falls, Gifu",
+   "lat": 35.2647,
+   "lon": 136.5277,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet fills scan",
+  "fading": false,
+  "palette": [
+   "#e8dcc0",
+   "#4a8a7a",
+   "#a83a2a"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.7,
+   "season": 0.85,
+   "environment": 0.9
+  },
+  "evidence": "Pale unprinted sky with a dark ichimonji band and a conventional red cloud band, read as plain day. Red maple foliage across the cliffs fixes autumn.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64221",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Urami-no-taki, Nikkō",
+   "lat": 36.747,
+   "lon": 139.573,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet fills scan",
+  "fading": false,
+  "palette": [
+   "#3a7a5a",
+   "#e8d8c8",
+   "#d0704a"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Pale sky with conventional red cloud band and stylised mist bands at the base, read as clear day. Only evergreen trees and orange rock, no seasonal sign.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62337",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "night": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "none": 0.8,
+    "river": 0.2
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "onsen"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yūfuku Onsen, Gōtsu, Shimane",
+   "lat": 34.946,
+   "lon": 132.334,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#2a3038",
+   "#e0e0d8",
+   "#e8a070"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.7,
+   "season": 0.95,
+   "environment": 0.75
+  },
+  "evidence": "Dense white flakes against a dark sky, deep snow on roofs and hills. Lit windows, red lanterns and a carried lantern make it evening/night, not just snow gloom.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-136648",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "mist": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.6,
+   "winter": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "wild": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "onsen"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kiga Onsen, Hakone",
+   "lat": 35.239,
+   "lon": 139.088,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; small sheet, possibly trimmed",
+  "fading": false,
+  "palette": [
+   "#b8b880",
+   "#e0c8a8",
+   "#3a4a3a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.6,
+   "season": 0.4,
+   "environment": 0.8
+  },
+  "evidence": "Soft hazy sky veiling the distant ridges, even daylight. Inscription appears to read early third month (三月上旬); bare branches on the pine-side tree fit early spring.",
+  "taxonomy_friction": "loose, sketch-like hand; treated as a finished print. Season from a dated inscription is not a listed season source (recorded as image)."
+ },
+ {
+  "id": "mia-98728",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dusk": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.5,
+    "hilly": 0.5
+   },
+   "flags": [
+    "onsen",
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.03,
+   0.97,
+   0.95
+  ],
+  "crop_shape": "rect",
+  "crop_note": "matted (sight size); crop to mat window incl. pencil-signature margin",
+  "fading": false,
+  "palette": [
+   "#e0c890",
+   "#5a8a80",
+   "#e8d0c8"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.5,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Warm yellow unclouded sky, could be late-afternoon light, so a small dusk share. Weeping cherry in full bloom over a rocky river in a hot-spring town.",
+  "taxonomy_friction": "spa unnamed in title, so place null."
+ },
+ {
+  "id": "mia-64185",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "onsen",
+    "bridge",
+    "waterfall",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shuzenji Onsen, Izu",
+   "lat": 34.97,
+   "lon": 138.927,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet fills scan",
+  "fading": false,
+  "palette": [
+   "#4a8a7a",
+   "#2a5a9a",
+   "#e8c890"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Pale sky with dark top band, plain daylight. Cedar forest and green hills only; no seasonal plants or activities.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9157",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.5,
+    "rural": 0.5
+   },
+   "water": {
+    "lake": 0.3,
+    "river": 0.3,
+    "wetland": 0.2,
+    "sea": 0.2
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Gusukudake (Jōgaku), Naha, Okinawa",
+   "lat": 26.205,
+   "lon": 127.694,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; thin margins",
+  "fading": false,
+  "palette": [
+   "#e8d0b0",
+   "#2a4a8a",
+   "#8ab870"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.6
+  },
+  "evidence": "Blue-graded clear sky with stylised cloud bands (compositional, not mist). Pines and green grass only, no seasonal cue.",
+  "taxonomy_friction": "Hokusai's Ryūkyū views are imagined from a Chinese source, so place is approximate; the red Fuji-like peak is not Fuji (fuji false). 'Castle Peak' is a place name, no castle drawn."
+ },
+ {
+  "id": "mia-63285",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "castle",
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hirosaki Castle, Aomori",
+   "lat": 40.6078,
+   "lon": 140.4636,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with hinge tabs at top and bottom excluded",
+  "fading": false,
+  "palette": [
+   "#e8d0b8",
+   "#c87860",
+   "#6aa8a0"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.7,
+   "season": 0.95,
+   "environment": 0.85
+  },
+  "evidence": "Pale warm unclouded sky behind the keep, even daylight. Weeping cherries in full bloom over the moat fix spring.",
+  "taxonomy_friction": "moat tagged as river per TAXONOMY water table."
+ },
+ {
+  "id": "mia-80155",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": null,
+  "time_null_reason": "no_cue",
+  "time_source": null,
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": null,
+  "environment_null_reason": "not_applicable",
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins",
+  "fading": false,
+  "palette": [
+   "#1e1e20",
+   "#ece8e0",
+   "#7a9a9a"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": null,
+   "season": 0.3,
+   "environment": null
+  },
+  "evidence": "Dense straight white rain lines over a black ground; black means rain gloom, not night. Egret with breeding head plumes; egret (sagi) is a summer convention.",
+  "taxonomy_friction": "no setting at all, so whole environment null; egret has no marker, season from weak convention."
+ },
+ {
+  "id": "mia-91671",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 0.6,
+   "dusk": 0.4
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 0.9,
+   "summer": 0.1
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; slight damage at top edge",
+  "fading": false,
+  "palette": [
+   "#a8d0c0",
+   "#f0e0a0",
+   "#7a7a78"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.6,
+   "season": 0.6,
+   "environment": 0.4
+  },
+  "evidence": "Large pale full moon low in a clear blue-green sky (moonlit, rising: night with dusk share). Flowering burnet (waremokō) on a grassy slope with the full moon points to autumn.",
+  "taxonomy_friction": "burnet (waremokō) is an autumn plant with no marker; autumn_grasses covers only susuki and bush clover. Rabbit-and-moon is tsukimi iconography but no offerings drawn, so no moon_viewing."
+ }
+]

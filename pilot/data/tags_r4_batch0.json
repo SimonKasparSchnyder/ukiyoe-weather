@@ -1,0 +1,1064 @@
+[
+ {
+  "id": "mia-8747",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "storm": 0.6,
+   "clear": 0.3,
+   "cloudy": 0.1
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "mountain": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Off Kanagawa, Edo Bay (open sea)",
+   "lat": 35.45,
+   "lon": 139.68,
+   "precision_km": 10
+  },
+  "fuji": true,
+  "crop": [
+   0.015,
+   0.02,
+   0.975,
+   0.965
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e6dcc4",
+   "#2a4f8c",
+   "#8fb0d0"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.7
+  },
+  "evidence": "Violent towering waves swamping boats = storm per taxonomy; sky pale with light clouds, no rain, no wind cues (waves alone don't raise wind). Snow-capped distant Fuji is not a season cue.",
+  "taxonomy_friction": "Storm here is sea-state only under a calm pale sky; 'violent waves' and 'wind-only gale' both map to storm, but this is neither rain nor wind."
+ },
+ {
+  "id": "mia-7506",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "mist": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.7,
+    "hilly": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kajikazawa, Fuji River (Kai)",
+   "lat": 35.55,
+   "lon": 138.47,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e9e2cf",
+   "#2f63a6",
+   "#6fa6a8"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale unprinted sky with blue top band (clear); broad pale zone veiling Fuji's base reads as mist. Turbulent river surf, no wind cues; no seasonal sign.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62751",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Fujimigahara, Nagoya (Owari)",
+   "lat": 35.16,
+   "lon": 136.9,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.02,
+   0.97,
+   0.965
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#ece4cc",
+   "#1f3d8a",
+   "#e0b8a0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with ichimonji-bokashi and pink horizon band (conventions) = clear daytime; cooper working outdoors over open fields. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9614",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "none": 0.6,
+    "wetland": 0.4
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shinanozaka pine avenue, Hodogaya (Tōkaidō)",
+   "lat": 35.44,
+   "lon": 139.59,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.02,
+   0.965,
+   0.965
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#d8dccd",
+   "#2b4f86",
+   "#6d9a5c"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.7
+  },
+  "evidence": "Pale sky under blue top gradation, travellers on the road in full daylight. Pines are evergreen; no seasonal cue. Brown strip read as (dry or flooded) paddies.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9152",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kagosaka Pass (Kōshū Mishima-goe)",
+   "lat": 35.44,
+   "lon": 138.88,
+   "precision_km": 5
+  },
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.02,
+   0.965,
+   0.965
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e8e2d0",
+   "#2b4e94",
+   "#6f9a8a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with blue top band, white cumulus clouds drifting around Fuji (realistic clouds, partly cloudy). Daylight travellers; no seasonal cue.",
+  "taxonomy_friction": "Billowing cumulus suggest summer but cloud type is not a season cue in draft 3."
+ },
+ {
+  "id": "mia-9154",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "mist": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shichirigahama, Kamakura (Sagami)",
+   "lat": 35.305,
+   "lon": 139.51,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.015,
+   0.02,
+   0.975,
+   0.965
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e7e1d0",
+   "#2a4a8e",
+   "#5f8f9e"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.7
+  },
+  "evidence": "Pale sky with deep blue gradation, faint pinkish haze veiling the far coast; hamlet among trees on the shore. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62742",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.5,
+    "mountain": 0.5
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tago-no-ura, near Ejiri (Suruga)",
+   "lat": 35.14,
+   "lon": 138.7,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.015,
+   0.98,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e5d9b8",
+   "#2a4e9a",
+   "#7fb06a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with blue top band; choppy waves but no wind or storm cues; salt-makers working on the beach in daylight. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-2006",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kirifuri Falls, Nikkō (Shimotsuke)",
+   "lat": 36.77,
+   "lon": 139.62,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.01,
+   0.975,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#9fc0a8",
+   "#25407a",
+   "#c8653a"
+  ],
+  "confidence": {
+   "weather": 0.3,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Close view of the falls with almost no sky; bright, even light read as clear daytime with low confidence. Green foliage only, no seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9615",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.7,
+   "clear": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ono Falls, Agematsu (Kisokaidō)",
+   "lat": 35.76,
+   "lon": 137.69,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#a8c4c8",
+   "#3a4a6a",
+   "#c85a3a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Grey sky darkening at top with pale blue clouds = overcast-to-partly-cloudy daylight; travellers resting by the falls. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-22598",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.5,
+   "clear": 0.5
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yoshino (Yamato)",
+   "lat": 34.37,
+   "lon": 135.86,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.985
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#a9c48a",
+   "#2c4c86",
+   "#c8603e"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Only a band of grey sky at the top (could be a grey bokashi); evenly lit daylight scene of men washing a horse. Yoshino's cherries are not shown; no seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62764",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "city": 0.3
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "temple_shrine",
+    "bridge",
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kameido Tenjin Shrine, Edo",
+   "lat": 35.702,
+   "lon": 139.826,
+   "precision_km": 0.5
+  },
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#efe2c6",
+   "#1f3a7a",
+   "#e8b8a0"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with blue top band and pink/blue stylised mist bands (convention, not fog) = clear daytime; visitors on the drum bridge. Kameido's wisteria is not shown; no seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9610",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 0.6,
+    "river": 0.4
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "bridge",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#a8c4d8",
+   "#24447e",
+   "#e6dcc0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Blue sky with scattered white clouds, cloud sea in the gorge below (stylised); travellers crossing in daylight. Deer on the cliff and small birds give no taxonomy season cue.",
+  "taxonomy_friction": "Deer (autumn convention in waka) not covered as a season cue; place is a province border only, so no coordinates."
+ },
+ {
+  "id": "mia-62769",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.5,
+    "wild": 0.5
+   },
+   "water": {
+    "wetland": 1.0
+   },
+   "terrain": {
+    "flat": 0.8,
+    "hilly": 0.2
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yatsuhashi, Chiryū (Mikawa)",
+   "lat": 35.02,
+   "lon": 137.06,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#e8e2cc",
+   "#3a6a9a",
+   "#e0907a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky, red-tinted hill is a colour convention; travellers in daylight. Iris (kakitsubata) leaves in the marsh at a site famous for them, but no blooms drawn - weak late-spring/early-summer cue only.",
+  "taxonomy_friction": "Iris leaves without flowers at Yatsuhashi (classic kakitsubata site): no marker for leaf-only iris, so marker omitted and season given as weak convention."
+ },
+ {
+  "id": "mia-63134",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.7,
+   "storm": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.3,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.6,
+   "dusk": 0.4
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "summer": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "series_section",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shin-Ōhashi, Sumida River, Edo",
+   "lat": 35.688,
+   "lon": 139.792,
+   "precision_km": 0.5
+  },
+  "fuji": false,
+  "crop": [
+   0.025,
+   0.015,
+   0.955,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "Picture area inside buff sheet margin; crop is the sheet edge, excluding the dark backdrop",
+  "fading": false,
+  "palette": [
+   "#7a8c96",
+   "#2a2f38",
+   "#d8a080"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.5,
+   "season": 0.8,
+   "environment": 0.8
+  },
+  "evidence": "Dense slanting rain lines from a black cloud, figures hunched and running = heavy sudden shower; title yūdachi (late-afternoon summer shower) gives day/dusk. Summer section of the series; dark sky is gloom, not night.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-57878",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "autumn_maples",
+   "wild_geese"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.5,
+    "rural": 0.5
+   },
+   "water": {
+    "lake": 0.5,
+    "wetland": 0.3,
+    "river": 0.2
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Mama, Ichikawa (Tekona Shrine)",
+   "lat": 35.735,
+   "lon": 139.92,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "Sheet edge with thin margin; seals in the sheet margin kept",
+  "fading": false,
+  "palette": [
+   "#d8e0d0",
+   "#1f3a78",
+   "#b8502a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.5,
+   "season": 0.9,
+   "environment": 0.7
+  },
+  "evidence": "Red maple leaves framing the view and a skein of geese = autumn (also the series' autumn section). Clear pale sky; red horizon band is a Hiroshige convention without a title cue, so day with small dawn/dusk shares.",
+  "taxonomy_friction": "none"
+ }
+]

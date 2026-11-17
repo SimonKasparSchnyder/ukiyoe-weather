@@ -13265,5 +13265,8722 @@
    "fuji": true,
    "evidence": "Cherry trees in bloom along the road and fields; pale sky under a blue band, bright light: clear spring day. Snow-capped Fuji in the distance is not snow on the ground."
   }
+ },
+ {
+  "id": "mia-8747",
+  "design_id": "katsushika-hokusai-under-the-wave-off-kanagawa",
+  "title": "Under the Wave off Kanagawa",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/8747",
+  "image_url": "https://img.artsmia.org/web_objects_cache/008000/700/40/8747/mia_7001682_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9568,
+   6583
+  ],
+  "crop": [
+   0.015,
+   0.02,
+   0.975,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6dcc4",
+   "#2a4f8c",
+   "#8fb0d0"
+  ],
+  "colors": {
+   "paper": "#dfcdae",
+   "accent_light": "#2c405a",
+   "accent_dark": "#5d7587",
+   "palette": [
+    "#dfcdae",
+    "#ddd1b8",
+    "#e2d1b2",
+    "#a4a69b",
+    "#e3d6be",
+    "#2c405a"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "storm": 0.6,
+    "clear": 0.3,
+    "cloudy": 0.1
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "mountain": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Off Kanagawa, Edo Bay (open sea)",
+    "lat": 35.45,
+    "lon": 139.68,
+    "precision_km": 10
+   },
+   "fuji": true,
+   "evidence": "Violent towering waves swamping boats = storm per taxonomy; sky pale with light clouds, no rain, no wind cues (waves alone don't raise wind). Snow-capped distant Fuji is not a season cue."
+  }
+ },
+ {
+  "id": "mia-7506",
+  "design_id": "katsushika-hokusai-kajikazawa-in-kai-province",
+  "title": "Kajikazawa in Kai Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/7506",
+  "image_url": "https://img.artsmia.org/web_objects_cache/007000/500/00/7506/mia_7018229_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6327,
+   4305
+  ],
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9e2cf",
+   "#2f63a6",
+   "#6fa6a8"
+  ],
+  "colors": {
+   "paper": "#dbd4c2",
+   "accent_light": "#3d6176",
+   "accent_dark": "#5f7d81",
+   "palette": [
+    "#3d6176",
+    "#dbd4c2",
+    "#979f97",
+    "#5f7d81",
+    "#ded7c5",
+    "#a0a79d"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "mist": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.7,
+     "hilly": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Kajikazawa, Fuji River (Kai)",
+    "lat": 35.55,
+    "lon": 138.47,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Pale unprinted sky with blue top band (clear); broad pale zone veiling Fuji's base reads as mist. Turbulent river surf, no wind cues; no seasonal sign."
+  }
+ },
+ {
+  "id": "mia-62751",
+  "design_id": "katsushika-hokusai-fuji-view-plain-in-owari-province",
+  "title": "Fuji View Plain in Owari Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62751",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/700/50/62751/mia_7018215_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6552,
+   4435
+  ],
+  "crop": [
+   0.02,
+   0.02,
+   0.97,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#ece4cc",
+   "#1f3d8a",
+   "#e0b8a0"
+  ],
+  "colors": {
+   "paper": "#bfbda8",
+   "accent_light": "#2e466a",
+   "accent_dark": "#527c73",
+   "palette": [
+    "#bfbda8",
+    "#dfd3ba",
+    "#d0c5ad",
+    "#dbcfb6",
+    "#4a6d70",
+    "#527c73"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Fujimigahara, Nagoya (Owari)",
+    "lat": 35.16,
+    "lon": 136.9,
+    "precision_km": 2
+   },
+   "fuji": true,
+   "evidence": "Pale sky with ichimonji-bokashi and pink horizon band (conventions) = clear daytime; cooper working outdoors over open fields. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-9614",
+  "design_id": "katsushika-hokusai-hodogaya-on-the-t-kaid",
+  "title": "Hodogaya on the Tōkaidō",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9614",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/600/10/9614/mia_7018235_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6484,
+   4454
+  ],
+  "crop": [
+   0.02,
+   0.02,
+   0.965,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d8dccd",
+   "#2b4f86",
+   "#6d9a5c"
+  ],
+  "colors": {
+   "paper": "#b4b088",
+   "accent_light": "#2d3f5e",
+   "accent_dark": "#5d7e73",
+   "palette": [
+    "#b4b088",
+    "#92a19d",
+    "#bbb79b",
+    "#898374",
+    "#415861",
+    "#5d7e73"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "none": 0.6,
+     "wetland": 0.4
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "mountain": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Shinanozaka pine avenue, Hodogaya (Tōkaidō)",
+    "lat": 35.44,
+    "lon": 139.59,
+    "precision_km": 2
+   },
+   "fuji": true,
+   "evidence": "Pale sky under blue top gradation, travellers on the road in full daylight. Pines are evergreen; no seasonal cue. Brown strip read as (dry or flooded) paddies."
+  }
+ },
+ {
+  "id": "mia-9152",
+  "design_id": "katsushika-hokusai-mishima-pass-in-kai-province",
+  "title": "Mishima Pass in Kai Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9152",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/50/9152/mia_7018207_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6527,
+   4443
+  ],
+  "crop": [
+   0.02,
+   0.02,
+   0.965,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8e2d0",
+   "#2b4e94",
+   "#6f9a8a"
+  ],
+  "colors": {
+   "paper": "#d8cdb5",
+   "accent_light": "#506f75",
+   "accent_dark": "#2b4e94",
+   "palette": [
+    "#d8cdb5",
+    "#dbd0b8",
+    "#b3b19d",
+    "#455b63",
+    "#c9bea7",
+    "#859188"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Kagosaka Pass (Kōshū Mishima-goe)",
+    "lat": 35.44,
+    "lon": 138.88,
+    "precision_km": 5
+   },
+   "fuji": true,
+   "evidence": "Pale sky with blue top band, white cumulus clouds drifting around Fuji (realistic clouds, partly cloudy). Daylight travellers; no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-9154",
+  "design_id": "katsushika-hokusai-seven-mile-beach-in-sagami-province",
+  "title": "Seven-Mile Beach in Sagami Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9154",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/50/9154/mia_7018230_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6303,
+   4342
+  ],
+  "crop": [
+   0.015,
+   0.02,
+   0.975,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e7e1d0",
+   "#2a4a8e",
+   "#5f8f9e"
+  ],
+  "colors": {
+   "paper": "#cfc6b4",
+   "accent_light": "#2e4f73",
+   "accent_dark": "#5d7b86",
+   "palette": [
+    "#cfc6b4",
+    "#3f6478",
+    "#96a39e",
+    "#c4beaf",
+    "#4a7081",
+    "#cdc4b2"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "mist": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "mountain": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Shichirigahama, Kamakura (Sagami)",
+    "lat": 35.305,
+    "lon": 139.51,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Pale sky with deep blue gradation, faint pinkish haze veiling the far coast; hamlet among trees on the shore. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-62742",
+  "design_id": "katsushika-hokusai-tago-bay-near-ejiri-on-the-t-kaid",
+  "title": "Tago Bay near Ejiri on the Tōkaidō",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62742",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/700/40/62742/mia_7018242_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6230,
+   4183
+  ],
+  "crop": [
+   0.01,
+   0.015,
+   0.98,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e5d9b8",
+   "#2a4e9a",
+   "#7fb06a"
+  ],
+  "colors": {
+   "paper": "#cabfa8",
+   "accent_light": "#2a4a6d",
+   "accent_dark": "#66806f",
+   "palette": [
+    "#cabfa8",
+    "#c5b086",
+    "#a89b7a",
+    "#c2ab80",
+    "#66806f",
+    "#cfc4ad"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "wild": 0.4
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 0.5,
+     "mountain": 0.5
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Tago-no-ura, near Ejiri (Suruga)",
+    "lat": 35.14,
+    "lon": 138.7,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Pale sky with blue top band; choppy waves but no wind or storm cues; salt-makers working on the beach in daylight. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-2006",
+  "design_id": "katsushika-hokusai-kirifuri-waterfall-at-mount-kurokami-in-s",
+  "title": "Kirifuri Waterfall at Mount Kurokami in Shimotsuke Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1832",
+  "series": "A Tour of Waterfalls in Various Provinces (Shokoku taki meguri 諸国滝廻り)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/2006",
+  "image_url": "https://img.artsmia.org/web_objects_cache/002000/000/00/2006/mia_7021696_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6640,
+   9556
+  ],
+  "crop": [
+   0.015,
+   0.01,
+   0.975,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#9fc0a8",
+   "#25407a",
+   "#c8653a"
+  ],
+  "colors": {
+   "paper": "#a9b1a0",
+   "accent_light": "#5f827e",
+   "accent_dark": "#5f827e",
+   "palette": [
+    "#728b86",
+    "#5f827e",
+    "#324457",
+    "#a9b1a0",
+    "#a7a58c",
+    "#d7d2c6"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Kirifuri Falls, Nikkō (Shimotsuke)",
+    "lat": 36.77,
+    "lon": 139.62,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Close view of the falls with almost no sky; bright, even light read as clear daytime with low confidence. Green foliage only, no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-9615",
+  "design_id": "katsushika-hokusai-the-waterfall-at-ono-on-the-kisokaid-road",
+  "title": "The Waterfall at Ono on the Kisokaidō Road",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1832",
+  "series": "A Tour of Waterfalls in Various Provinces (Shokoku taki meguri 諸国滝廻り)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9615",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/600/10/9615/mia_46418a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3607,
+   5265
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a8c4c8",
+   "#3a4a6a",
+   "#c85a3a"
+  ],
+  "colors": {
+   "paper": "#bfc4b8",
+   "accent_light": "#3a6264",
+   "accent_dark": "#7d6052",
+   "palette": [
+    "#bfc4b8",
+    "#577774",
+    "#abab99",
+    "#b2bdb4",
+    "#808e7c",
+    "#dabc95"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.7,
+    "clear": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Ono Falls, Agematsu (Kisokaidō)",
+    "lat": 35.76,
+    "lon": 137.69,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Grey sky darkening at top with pale blue clouds = overcast-to-partly-cloudy daylight; travellers resting by the falls. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-22598",
+  "design_id": "katsushika-hokusai-yoshitsune-s-horse-washing-falls-at-yoshi",
+  "title": "Yoshitsune's Horse-washing Falls at Yoshino in Yamato Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1832",
+  "series": "A Tour of Waterfalls in Various Provinces (Shokoku taki meguri 諸国滝廻り)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22598",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/500/90/22598/mia_9003572_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   8111,
+   11598
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.985
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a9c48a",
+   "#2c4c86",
+   "#c8603e"
+  ],
+  "colors": {
+   "paper": "#dad0b3",
+   "accent_light": "#415a64",
+   "accent_dark": "#ac7865",
+   "palette": [
+    "#94a279",
+    "#857a6d",
+    "#dad0b3",
+    "#3b525d",
+    "#415a64",
+    "#4d696f"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.5,
+    "clear": 0.5
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall"
+    ]
+   },
+   "place": {
+    "name": "Yoshino (Yamato)",
+    "lat": 34.37,
+    "lon": 135.86,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "Only a band of grey sky at the top (could be a grey bokashi); evenly lit daylight scene of men washing a horse. Yoshino's cherries are not shown; no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-62764",
+  "design_id": "katsushika-hokusai-the-drum-bridge-at-kameido-tenjin-shrine",
+  "title": "The Drum Bridge at Kameido Tenjin Shrine",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1834",
+  "series": "Unusual Views of Famous Bridges in Various Provinces (Shokoku meikyō kiran 諸国名橋奇覧)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62764",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/700/60/62764/mia_8029923_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   10520,
+   7126
+  ],
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe2c6",
+   "#1f3a7a",
+   "#e8b8a0"
+  ],
+  "colors": {
+   "paper": "#e9cfab",
+   "accent_light": "#314263",
+   "accent_dark": "#e8bc91",
+   "palette": [
+    "#e9cfab",
+    "#c2bca4",
+    "#c7a27d",
+    "#dcc9aa",
+    "#e7cba8",
+    "#b2b7a5"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "city": 0.3
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "bridge",
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Kameido Tenjin Shrine, Edo",
+    "lat": 35.702,
+    "lon": 139.826,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Pale sky with blue top band and pink/blue stylised mist bands (convention, not fog) = clear daytime; visitors on the drum bridge. Kameido's wisteria is not shown; no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-9610",
+  "design_id": "katsushika-hokusai-the-suspension-bridge-on-the-border-of-hi",
+  "title": "The Suspension Bridge on the Border of Hida and Etchū Provinces",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1834",
+  "series": "Unusual Views of Famous Bridges in Various Provinces (Shokoku meikyō kiran 諸国名橋奇覧)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9610",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/600/10/9610/mia_7021690_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9424,
+   6370
+  ],
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a8c4d8",
+   "#24447e",
+   "#e6dcc0"
+  ],
+  "colors": {
+   "paper": "#9ba9a1",
+   "accent_light": "#2c3c57",
+   "accent_dark": "#8ba29e",
+   "palette": [
+    "#9ba9a1",
+    "#d6cdbc",
+    "#c9bda5",
+    "#dad3c4",
+    "#c2b499",
+    "#ccc4b2"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "none": 0.6,
+     "river": 0.4
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "bridge",
+     "forest"
+    ]
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Blue sky with scattered white clouds, cloud sea in the gorge below (stylised); travellers crossing in daylight. Deer on the cliff and small birds give no taxonomy season cue."
+  }
+ },
+ {
+  "id": "mia-62769",
+  "design_id": "katsushika-hokusai-old-view-of-the-eight-part-bridge-at-yats",
+  "title": "Old View of the Eight-part Bridge at Yatsuhashi in Mikawa Province",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1834",
+  "series": "Unusual Views of Famous Bridges in Various Provinces (Shokoku meikyō kiran 諸国名橋奇覧)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62769",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/700/60/62769/mia_8029922_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9832,
+   6814
+  ],
+  "crop": [
+   0.015,
+   0.015,
+   0.975,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8e2cc",
+   "#3a6a9a",
+   "#e0907a"
+  ],
+  "colors": {
+   "paper": "#ecd1ac",
+   "accent_light": "#4b5b63",
+   "accent_dark": "#e3bc8e",
+   "palette": [
+    "#ecd1ac",
+    "#d9c8a9",
+    "#889386",
+    "#a5b1a4",
+    "#b58673",
+    "#e3bc8e"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "spring": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.5,
+     "wild": 0.5
+    },
+    "water": {
+     "wetland": 1.0
+    },
+    "terrain": {
+     "flat": 0.8,
+     "hilly": 0.2
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Yatsuhashi, Chiryū (Mikawa)",
+    "lat": 35.02,
+    "lon": 137.06,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Pale sky, red-tinted hill is a colour convention; travellers in daylight. Iris (kakitsubata) leaves in the marsh at a site famous for them, but no blooms drawn - weak late-spring/early-summer cue only."
+  }
+ },
+ {
+  "id": "mia-63134",
+  "design_id": "utagawa-hiroshige-evening-shower-over-hashi-bridge-and-atake",
+  "title": "Evening Shower over Ōhashi Bridge and Atake",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 9th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63134",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/100/30/63134/mia_6015851_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6300,
+   9198
+  ],
+  "crop": [
+   0.025,
+   0.015,
+   0.955,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#7a8c96",
+   "#2a2f38",
+   "#d8a080"
+  ],
+  "colors": {
+   "paper": "#e3cba6",
+   "accent_light": "#9b765e",
+   "accent_dark": "#9b765e",
+   "palette": [
+    "#51463d",
+    "#878c85",
+    "#e3cba6",
+    "#686a64",
+    "#939e8e",
+    "#ead3ae"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "rain": 0.7,
+    "storm": 0.3
+   },
+   "wind": 0.3,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.6,
+    "dusk": 0.4
+   },
+   "moon": false,
+   "season": {
+    "summer": 1.0
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Shin-Ōhashi, Sumida River, Edo",
+    "lat": 35.688,
+    "lon": 139.792,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Dense slanting rain lines from a black cloud, figures hunched and running = heavy sudden shower; title yūdachi (late-afternoon summer shower) gives day/dusk. Summer section of the series; dark sky is gloom, not night."
+  }
+ },
+ {
+  "id": "mia-57878",
+  "design_id": "utagawa-hiroshige-tekona-shrine-and-tsugihashi-bridge-throug",
+  "title": "Tekona Shrine and Tsugihashi Bridge through the Maples at Mount Mama",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 1st month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/57878",
+  "image_url": "https://img.artsmia.org/web_objects_cache/057000/800/70/57878/mia_49352a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3468,
+   5039
+  ],
+  "crop": [
+   0.015,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d8e0d0",
+   "#1f3a78",
+   "#b8502a"
+  ],
+  "colors": {
+   "paper": "#c3d0c3",
+   "accent_light": "#894d37",
+   "accent_dark": "#677f79",
+   "palette": [
+    "#5d574d",
+    "#5f7261",
+    "#c3d0c3",
+    "#e2dac5",
+    "#dfd5be",
+    "#cad2c6"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "autumn_maples",
+    "wild_geese"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.5,
+     "rural": 0.5
+    },
+    "water": {
+     "lake": 0.5,
+     "wetland": 0.3,
+     "river": 0.2
+    },
+    "terrain": {
+     "flat": 0.6,
+     "hilly": 0.4
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Mama, Ichikawa (Tekona Shrine)",
+    "lat": 35.735,
+    "lon": 139.92,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Red maple leaves framing the view and a skein of geese = autumn (also the series' autumn section). Clear pale sky; red horizon band is a Hiroshige convention without a title cue, so day with small dawn/dusk shares."
+  }
+ },
+ {
+  "id": "mia-63187",
+  "design_id": "utagawa-hiroshige-view-of-the-plum-garden-at-kameido",
+  "title": "View of the Plum Garden at Kameido",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1832–38",
+  "series": "Famous Places in the Eastern Capital (Tōto meisho 東都名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63187",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/100/80/63187/mia_34064a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2827,
+   1796
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9a58f",
+   "#4f9a8a",
+   "#e8dcc0",
+   "#2f3d5a"
+  ],
+  "colors": {
+   "paper": "#bd9877",
+   "accent_light": "#8a5c4c",
+   "accent_dark": "#ebb28a",
+   "palette": [
+    "#ebb28a",
+    "#4b7468",
+    "#60554a",
+    "#617869",
+    "#877764",
+    "#bd9877"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 0.7,
+    "winter": 0.3
+   },
+   "seasonal_markers": [
+    "plum_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.5,
+     "rural": 0.5
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Umeyashiki plum garden, Kameido (Edo)",
+    "lat": 35.7,
+    "lon": 139.829,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Plum trees in full white bloom with picnickers composing poems; pale sky under a pink top band (convention), daytime outing, no time cue beyond that."
+  }
+ },
+ {
+  "id": "mia-93458",
+  "design_id": "utagawa-hiroshige-snow-in-the-precincts-of-the-tenman-shrine",
+  "title": "Snow in the Precincts of the Tenman Shrine at Kameido",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1832–38",
+  "series": "Famous Places in the Eastern Capital (Tōto meisho 東都名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/93458",
+  "image_url": "https://img.artsmia.org/web_objects_cache/093000/400/50/93458/mia_47998a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4665,
+   3107
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#7d7c78",
+   "#f2efe6",
+   "#4f9fc0",
+   "#9b3a2a"
+  ],
+  "colors": {
+   "paper": "#bbaf98",
+   "accent_light": "#876a5c",
+   "accent_dark": "#876a5c",
+   "palette": [
+    "#827f71",
+    "#bbaf98",
+    "#e7d8bc",
+    "#c9baa0",
+    "#a2917c",
+    "#aca08a"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 0.8,
+    "spring": 0.2
+   },
+   "seasonal_markers": [
+    "plum_blossom",
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "bridge",
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Kameido Tenmangū shrine (Edo)",
+    "lat": 35.7025,
+    "lon": 139.8197,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "White flakes falling over snow-laden roofs, drum bridges and the shrine pond; dark grey sky is snow gloom, no lanterns. Red plum blossoms on the snowy trees."
+  }
+ },
+ {
+  "id": "mia-61545",
+  "design_id": "utagawa-hiroshige-sunrise-on-new-year-s-day-at-susaki",
+  "title": "Sunrise on New Year's Day at Susaki",
+  "artist": "Utagawa Hiroshige",
+  "date": "1853, 8th month",
+  "series": "Famous Places in Edo (Edo meisho 江戸名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61545",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/500/40/61545/20021016_mia341_2130_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2888,
+   1995
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe6d2",
+   "#3f7fb0",
+   "#e98a6a",
+   "#2e3340"
+  ],
+  "colors": {
+   "paper": "#edd9b0",
+   "accent_light": "#837166",
+   "accent_dark": "#ae8c77",
+   "palette": [
+    "#edd9b0",
+    "#ecd7ad",
+    "#d2be9b",
+    "#708d91",
+    "#bdad91",
+    "#ae8c77"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.1,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "dawn": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "new_year",
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.5,
+     "wild": 0.5
+    },
+    "water": {
+     "sea": 0.8,
+     "river": 0.2
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Susaki Benten shrine, Fukagawa (Edo)",
+    "lat": 35.6655,
+    "lon": 139.817,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Title 'first sunrise' (hatsu hinode); red sun on the sea horizon, pale clear sky. Snow on reeds, embankment and bridge, women hooded against the cold."
+  }
+ },
+ {
+  "id": "mia-61213",
+  "design_id": "utagawa-hiroshige-fukagawa-susaki-and-j-mantsubo",
+  "title": "Fukagawa Susaki and Jūmantsubo",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, intercalary 5th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61213",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/200/10/61213/mia_31954a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1736,
+   2619
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#5f7085",
+   "#efe9dc",
+   "#5a4636",
+   "#7fb7c8"
+  ],
+  "colors": {
+   "paper": "#e1cdaf",
+   "accent_light": "#75403a",
+   "accent_dark": "#83a7a2",
+   "palette": [
+    "#566a70",
+    "#83a7a2",
+    "#262422",
+    "#e1cdaf",
+    "#5e6b6f",
+    "#c6bba2"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 0.8,
+    "cloudy": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "rural": 0.3
+    },
+    "water": {
+     "sea": 0.7,
+     "wetland": 0.3
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Jūmantsubo, Fukagawa Susaki (Edo)",
+    "lat": 35.665,
+    "lon": 139.82,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Sparse white flakes in a grey-blue sky over a snow-covered reclaimed plain (winter section too). Dark sky read as snow gloom; small dusk share only as a hedge."
+  }
+ },
+ {
+  "id": "mia-61175",
+  "design_id": "utagawa-hiroshige-kinry-zan-temple-in-asakusa",
+  "title": "Kinryūzan Temple in Asakusa",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1856, 7th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61175",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/100/70/61175/mia_33238a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1945,
+   2951
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#5e6470",
+   "#f1ece0",
+   "#c0392b",
+   "#2f6b3a"
+  ],
+  "colors": {
+   "paper": "#ceba97",
+   "accent_light": "#b1352a",
+   "accent_dark": "#b1352a",
+   "palette": [
+    "#505352",
+    "#ceba97",
+    "#3e4243",
+    "#b1352a",
+    "#444748",
+    "#050405"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Sensō-ji (Kinryūzan), Asakusa (Edo)",
+    "lat": 35.7111,
+    "lon": 139.7963,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Dense falling snow, snow-laden trees and gate, visitors under umbrellas; grey sky is snow gloom (the hanging lantern is a gate lantern, not lit)."
+  }
+ },
+ {
+  "id": "mia-64834",
+  "design_id": "utagawa-hiroshige-moon-pine-in-ueno-park",
+  "title": "Moon Pine in Ueno Park",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 8th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64834",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/800/30/64834/mia_48248a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3503,
+   5181
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#dfe3d6",
+   "#8a4b2c",
+   "#2f7a55",
+   "#24407a"
+  ],
+  "colors": {
+   "paper": "#daceb1",
+   "accent_light": "#734b38",
+   "accent_dark": "#8a6a56",
+   "palette": [
+    "#734b38",
+    "#daceb1",
+    "#c7c8b0",
+    "#c7c5ac",
+    "#8fa08e",
+    "#455a52"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 0.6,
+    "summer": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 0.5,
+     "hilly": 0.5
+    },
+    "flags": [
+     "temple_shrine",
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Kiyomizu Kannon-dō, Ueno, overlooking Shinobazu Pond (Edo)",
+    "lat": 35.713,
+    "lon": 139.772,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale unprinted sky, red horizon band read as convention; no moon despite the title (the 'moon' is the looped pine). Autumn from the series section; small dark dashes on the pond may be lotus pads, hence a summer share."
+  }
+ },
+ {
+  "id": "mia-22476",
+  "design_id": "utagawa-hiroshige-suid-bridge-and-surugadai",
+  "title": "Suidō Bridge and Surugadai",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, intercalary 5th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22476",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/400/70/22476/mia_7013072_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6927,
+   10092
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d9d6c8",
+   "#3b3426",
+   "#8fc07a",
+   "#3f86c0"
+  ],
+  "colors": {
+   "paper": "#bcad91",
+   "accent_light": "#85886a",
+   "accent_dark": "#909975",
+   "palette": [
+    "#bcad91",
+    "#c7b69c",
+    "#c4b196",
+    "#474440",
+    "#6d6650",
+    "#a88d6f"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.3,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.8,
+    "spring": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "flat": 0.4
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Suidōbashi, Kanda River below Surugadai (Edo)",
+    "lat": 35.702,
+    "lon": 139.7535,
+    "precision_km": 1
+   },
+   "fuji": true,
+   "evidence": "Carp streamers and banners of the Boys' Festival (5th day, 5th month) over Surugadai, summer section; pale sky, red horizon band as convention. Streamers fill with a light breeze."
+  }
+ },
+ {
+  "id": "mia-63421",
+  "design_id": "utagawa-hiroshige-fud-falls-in-ji",
+  "title": "Fudō Falls in Ōji",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 9th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63421",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/400/20/63421/mia_33246a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1776,
+   2709
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2f7a5a",
+   "#3a3e44",
+   "#1f4fa0",
+   "#d9b07a"
+  ],
+  "colors": {
+   "paper": "#bcb191",
+   "accent_light": "#2d6954",
+   "accent_dark": "#1f4fa0",
+   "palette": [
+    "#656863",
+    "#383733",
+    "#2f3330",
+    "#727a73",
+    "#2d6954",
+    "#58544a"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 1.0
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.6,
+     "rural": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "forest",
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Fudō Falls, Ōji (Edo)",
+    "lat": 35.752,
+    "lon": 139.733,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Enclosed wooded gorge without sky; evident fair weather tagged with low confidence. Summer section, supported by a bather standing under the falls and a tea stall."
+  }
+ },
+ {
+  "id": "mia-64846",
+  "design_id": "utagawa-hiroshige-atagoshita-and-yabu-lane",
+  "title": "Atagoshita and Yabu Lane",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 12th month",
+  "series": "One Hundred Famous Views of Edo (Meisho Edo hyakkei 名所江戸百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64846",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/800/40/64846/mia_33008a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1714,
+   2604
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#5f9fb4",
+   "#f2eee4",
+   "#1f3f8a",
+   "#2e2a2a"
+  ],
+  "colors": {
+   "paper": "#e8d1b0",
+   "accent_light": "#70463d",
+   "accent_dark": "#6c9595",
+   "palette": [
+    "#6c9595",
+    "#e8d1b0",
+    "#6f685d",
+    "#9b8572",
+    "#dbc9ac",
+    "#171d28"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.8,
+     "town": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Atagoshita, Yabu Lane (Edo)",
+    "lat": 35.6635,
+    "lon": 139.749,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Heavy falling snow over snow-laden bamboo, mansion walls and a canal, walkers with snow-covered umbrellas; blue sky with dark top band is convention, no lanterns, so day."
+  }
+ },
+ {
+  "id": "mia-124796",
+  "design_id": "utagawa-hiroshige-hakone-view-of-the-lake",
+  "title": "Hakone, View of the Lake",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/124796",
+  "image_url": "https://img.artsmia.org/web_objects_cache/124000/700/90/124796/mia_7001721_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9232,
+   6257
+  ],
+  "crop": [
+   0.012,
+   0.02,
+   0.976,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#ecdcc4",
+   "#2f6fb0",
+   "#8fbf5a",
+   "#b5452e"
+  ],
+  "colors": {
+   "paper": "#cbbda1",
+   "accent_light": "#3c7073",
+   "accent_dark": "#939063",
+   "palette": [
+    "#625646",
+    "#cbbda1",
+    "#939063",
+    "#776e53",
+    "#3c7073",
+    "#cec2a6"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Hakone Pass above Lake Ashi (Tōkaidō station)",
+    "lat": 35.19,
+    "lon": 139.03,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Pale sky with purple top and orange horizon bands (convention), no weather event; travellers crossing the pass in daylight. Only seasonal hint is a snow-capped Fuji, which does not count."
+  }
+ },
+ {
+  "id": "mia-124837",
+  "design_id": "utagawa-hiroshige-yokkaichi-mie-river",
+  "title": "Yokkaichi--Mie River",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/124837",
+  "image_url": "https://img.artsmia.org/web_objects_cache/124000/800/30/124837/mia_8021161_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   8528,
+   5858
+  ],
+  "crop": [
+   0.025,
+   0.04,
+   0.95,
+   0.92
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6e2d4",
+   "#3f7fa8",
+   "#7a9a6a",
+   "#d8c890"
+  ],
+  "colors": {
+   "paper": "#a89d8c",
+   "accent_light": "#765d53",
+   "accent_dark": "#3f7fa8",
+   "palette": [
+    "#a89d8c",
+    "#c7bdac",
+    "#d1c8b7",
+    "#d4cbbb",
+    "#a38e7d",
+    "#536b68"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "storm": 0.6,
+    "cloudy": 0.4
+   },
+   "wind": 0.9,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "autumn": 0.4
+   },
+   "seasonal_markers": [
+    "willow_green"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 0.7,
+     "wetland": 0.3
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Mie River crossing, Yokkaichi (Tōkaidō station)",
+    "lat": 34.97,
+    "lon": 136.62,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Wind-only gale: hat blown away, cape billowing, willow and reeds bent, no rain lines; dull grey sky. Willow in full leaf and tall green reeds suggest summer to early autumn."
+  }
+ },
+ {
+  "id": "mia-124818",
+  "design_id": "utagawa-hiroshige-hamamatsu-scene-of-a-winter-field",
+  "title": "Hamamatsu--Scene of a Winter Field",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/124818",
+  "image_url": "https://img.artsmia.org/web_objects_cache/124000/800/10/124818/mia_8021147_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   8528,
+   5858
+  ],
+  "crop": [
+   0.025,
+   0.04,
+   0.95,
+   0.92
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8e2d0",
+   "#2f4f8a",
+   "#c0705a",
+   "#8fb89a"
+  ],
+  "colors": {
+   "paper": "#cfc5b3",
+   "accent_light": "#313e51",
+   "accent_dark": "#a88d7a",
+   "palette": [
+    "#909b85",
+    "#cfc5b3",
+    "#8c8b7b",
+    "#c3b9a5",
+    "#d2c9b7",
+    "#aeaa99"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "none": 0.8,
+     "sea": 0.2
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "castle"
+    ]
+   },
+   "place": {
+    "name": "Hamamatsu (Tōkaidō station)",
+    "lat": 34.71,
+    "lon": 137.73,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Title 'winter field'; porters warming at a bonfire, bare trees, straw stacks in harvested fields under a pale sky. Hamamatsu castle in the distance."
+  }
+ },
+ {
+  "id": "mia-124786",
+  "design_id": "utagawa-hiroshige-nihonbashi-morning-view",
+  "title": "Nihonbashi--Morning View",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/124786",
+  "image_url": "https://img.artsmia.org/web_objects_cache/124000/700/80/124786/mia_7001707_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9232,
+   6257
+  ],
+  "crop": [
+   0.015,
+   0.02,
+   0.97,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9d8b8",
+   "#3f7fc0",
+   "#c0392b",
+   "#5a5a5a"
+  ],
+  "colors": {
+   "paper": "#c4b89f",
+   "accent_light": "#825948",
+   "accent_dark": "#5a7273",
+   "palette": [
+    "#5d5043",
+    "#99846b",
+    "#7d6d59",
+    "#ac9c80",
+    "#605a4f",
+    "#c4b89f"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dawn": 0.8,
+    "day": 0.2
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Nihonbashi (Edo; start of the Tōkaidō)",
+    "lat": 35.684,
+    "lon": 139.7745,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Title 'Morning View'; a daimyo procession sets out over the bridge as fishmongers arrive, orange glow low in the sky under blue clouds."
+  }
+ },
+ {
+  "id": "mia-62039",
+  "design_id": "utagawa-hiroshige-night-rain-at-karasaki",
+  "title": "Night Rain at Karasaki",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 3rd month",
+  "series": "Eight Views of Ōmi (Ōmi hakkei 近江八景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62039",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/000/30/62039/mia_37314a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1899,
+   2819
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#9aa4b4",
+   "#3a3f4a",
+   "#2f5fa8",
+   "#d8dce0"
+  ],
+  "colors": {
+   "paper": "#c7d1cc",
+   "accent_light": "#31425e",
+   "accent_dark": "#8b6969",
+   "palette": [
+    "#c7d1cc",
+    "#605f60",
+    "#ebe0cc",
+    "#878684",
+    "#9fb7ba",
+    "#c8beb4"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "rain": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.6,
+     "wild": 0.4
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "hilly": 0.5,
+     "mountain": 0.5
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Karasaki pine and shrine, Lake Biwa (Ōtsu)",
+    "lat": 35.0564,
+    "lon": 135.8697,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Fine vertical rain lines over the whole lake scene and dark rain cloud; title 'Night Rain' (yosame) decides night, the grey palette alone would read as gloom. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-67093",
+  "design_id": "utagawa-hiroshige-weather-clearing-at-awazu",
+  "title": "Weather Clearing at Awazu",
+  "artist": "Utagawa Hiroshige; Publisher: Sakanaya Eikichi",
+  "date": "1857, 3rd month",
+  "series": "Eight Views of Ōmi (Ōmi hakkei 近江八景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/67093",
+  "image_url": "https://img.artsmia.org/web_objects_cache/067000/000/90/67093/mia_37334a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1946,
+   2726
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe6d0",
+   "#3f8fc0",
+   "#3f8a5a",
+   "#e9887a"
+  ],
+  "colors": {
+   "paper": "#e1ceb5",
+   "accent_light": "#6a8f82",
+   "accent_dark": "#a56f68",
+   "palette": [
+    "#e1ceb5",
+    "#8ca7a7",
+    "#dac1a3",
+    "#6a8f82",
+    "#65776b",
+    "#658578"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "cloudy": 0.2
+   },
+   "wind": 0.2,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.5,
+     "rural": 0.5
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 0.6,
+     "mountain": 0.4
+    },
+    "flags": [
+     "castle"
+    ]
+   },
+   "place": {
+    "name": "Awazu pine avenue near Zeze castle, Lake Biwa (Ōtsu)",
+    "lat": 34.997,
+    "lon": 135.892,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Title 'clearing weather' (seiran); bright sky with lingering grey haze on the far mountain, sails filled by a breeze. Pink and yellow horizon bands are convention, so mostly day with a split hedge."
+  }
+ },
+ {
+  "id": "mia-64057",
+  "design_id": "utagawa-hiroshige-monkey-bridge-kai-province",
+  "title": "Monkey Bridge, Kai Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "1853, 8th month",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64057",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/000/50/64057/mia_34024a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1845,
+   2727
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6d8b4",
+   "#2f6f8f",
+   "#d9634a",
+   "#3f6a52"
+  ],
+  "colors": {
+   "paper": "#dec995",
+   "accent_light": "#955442",
+   "accent_dark": "#955442",
+   "palette": [
+    "#a89e76",
+    "#29423d",
+    "#955442",
+    "#2c544b",
+    "#dec995",
+    "#46544b"
+   ]
+  },
+  "era": "edo",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "autumn_maples"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "rural": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Saruhashi (Monkey Bridge), Ōtsuki, Kai",
+    "lat": 35.616,
+    "lon": 138.987,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Red momiji framing the gorge bridge pins autumn; blue sky grading to a yellow horizon band is Hiroshige's convention, read as day. No precipitation; distant village in the valley."
+  }
+ },
+ {
+  "id": "mia-62442",
+  "design_id": "kawase-hasui-autumn-at-the-arayu-hot-spring-shiobara",
+  "title": "Autumn at the Arayu Hot Spring, Shiobara",
+  "artist": "Kawase Hasui; Publisher: Watanabe Shōzaburō",
+  "date": "Autumn 1920",
+  "series": "Souvenirs of Travel, First Collection (Tabi miyage dai isshū 旅みやげ第一集)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62442",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/400/40/62442/mia_44914a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1872,
+   2721
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e9ac4",
+   "#2d3a4a",
+   "#c99a5a",
+   "#3c4f9a"
+  ],
+  "colors": {
+   "paper": "#d0c19e",
+   "accent_light": "#468288",
+   "accent_dark": "#468288",
+   "palette": [
+    "#846a53",
+    "#d0c19e",
+    "#31302d",
+    "#3e3a34",
+    "#4e4c40",
+    "#474138"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "onsen"
+    ]
+   },
+   "place": {
+    "name": "Arayu hot spring, Shiobara",
+    "lat": 36.99,
+    "lon": 139.79,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Blue sky with white cumulus, bright daylight on the street. Title 'Autumn' plus golden/orange autumn foliage of the trees; onsen-village street of wooden inns below mountains."
+  }
+ },
+ {
+  "id": "mia-76589",
+  "design_id": "kawase-hasui-snow-at-z-j-ji-temple",
+  "title": "Snow at Zōjōji Temple",
+  "artist": "Kawase Hasui; Publisher: Kawaguchi Jirō; Carver: Maeda Kentarō; Printer: Komatsu Wasankichi",
+  "date": "1930s",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/76589",
+  "image_url": "https://img.artsmia.org/web_objects_cache/076000/500/80/76589/mia_6016055_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   7436,
+   5111
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#f2efe6",
+   "#5a7690",
+   "#c8352a",
+   "#e9b23c"
+  ],
+  "colors": {
+   "paper": "#e2d6ba",
+   "accent_light": "#8c4b3f",
+   "accent_dark": "#e9b23c",
+   "palette": [
+    "#e2d6ba",
+    "#817462",
+    "#e1d3b6",
+    "#9f8f78",
+    "#d5c9ae",
+    "#697471"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.8,
+     "town": 0.2
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Zōjōji Sanmon, Shiba, Tokyo",
+    "lat": 35.657,
+    "lon": 139.749,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Dense white flakes against a grey-blue sky, snow heavy on pines, roofs and ground; figure under a yellow umbrella. Dark sky read as snow gloom, not night (no lit lanterns)."
+  }
+ },
+ {
+  "id": "mia-76851",
+  "design_id": "kawase-hasui-snow-at-miyajima-shrine",
+  "title": "Snow at Miyajima Shrine",
+  "artist": "Kawase Hasui; Publisher: Kawaguchi Jirō; Carver: Maeda Kentarō; Printer: Komatsu Wasankichi",
+  "date": "1930s",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/76851",
+  "image_url": "https://img.artsmia.org/web_objects_cache/076000/800/50/76851/mia_6017279_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6636,
+   9625
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a9b9cc",
+   "#d23a2c",
+   "#2f5a3e",
+   "#f3f1ea"
+  ],
+  "colors": {
+   "paper": "#decfb7",
+   "accent_light": "#993230",
+   "accent_dark": "#77655d",
+   "palette": [
+    "#decfb7",
+    "#4c483e",
+    "#9d9f94",
+    "#7f8d8c",
+    "#dbcdb4",
+    "#d9cab1"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "flat": 0.4
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Itsukushima Shrine, Miyajima",
+    "lat": 34.296,
+    "lon": 132.32,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Falling flakes over the red torii, snow lying on pines, torii caps and the shore; even grey daylight, snowy mountains across the water."
+  }
+ },
+ {
+  "id": "mia-76852",
+  "design_id": "kawase-hasui-snow-at-the-sacred-bridge-in-nikk",
+  "title": "Snow at the Sacred Bridge in Nikkō",
+  "artist": "Kawase Hasui; Publisher: Kawaguchi Jirō; Carver: Maeda Kentarō; Printer: Komatsu Wasankichi",
+  "date": "1930",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/76852",
+  "image_url": "https://img.artsmia.org/web_objects_cache/076000/800/50/76852/mia_6016056_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   7387,
+   5172
+  ],
+  "crop": [
+   0.0,
+   0.01,
+   1.0,
+   0.99
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#c9d1cc",
+   "#d63a2e",
+   "#2a6fb0",
+   "#6b5e52"
+  ],
+  "colors": {
+   "paper": "#e5d8c1",
+   "accent_light": "#a36050",
+   "accent_dark": "#a36050",
+   "palette": [
+    "#e5d8c1",
+    "#988672",
+    "#c2baa2",
+    "#e3d6be",
+    "#aea892",
+    "#cdc6ac"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "bridge",
+     "temple_shrine",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Shinkyō (Sacred Bridge), Nikkō",
+    "lat": 36.754,
+    "lon": 139.606,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Thick falling flakes veil the cliffs and cedars; snow lies on rocks, bridge rails and branches. Soft grey daylight."
+  }
+ },
+ {
+  "id": "mia-34778",
+  "design_id": "yoshida-hiroshi-self-published-kumoi-cherry-trees",
+  "title": "Kumoi Cherry Trees",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1926",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/34778",
+  "image_url": "https://img.artsmia.org/web_objects_cache/034000/700/70/34778/mia_7001945_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9922,
+   7760
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#9fbfb8",
+   "#d79aa6",
+   "#4e5a4c",
+   "#f2e6b0"
+  ],
+  "colors": {
+   "paper": "#a6a796",
+   "accent_light": "#5d4d41",
+   "accent_dark": "#97786c",
+   "palette": [
+    "#5e5f54",
+    "#a6a796",
+    "#9c887b",
+    "#a7b09e",
+    "#e1d1b5",
+    "#97786c"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 0.8,
+    "mist": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.5,
+    "night": 0.5
+   },
+   "moon": true,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.6,
+     "rural": 0.4
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Weeping cherry in full bloom; full moon low in a pale blue-green twilight sky with hazy distance. Two girls stand on a grassy hill, no buildings."
+  }
+ },
+ {
+  "id": "mia-58666",
+  "design_id": "yoshida-hiroshi-self-published-sailing-boats-night",
+  "title": "Sailing Boats: Night",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1926",
+  "series": "The Inland Sea Series (Seto naikai shū 瀬戸内海集)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/58666",
+  "image_url": "https://img.artsmia.org/web_objects_cache/058000/600/60/58666/mia_9001769_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9649,
+   12988
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.95,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#24515e",
+   "#7fc0b0",
+   "#3a3d4a",
+   "#c8c0a0"
+  ],
+  "colors": {
+   "paper": "#dbd5c8",
+   "accent_light": "#456067",
+   "accent_dark": "#69807c",
+   "palette": [
+    "#dbd5c8",
+    "#34474f",
+    "#456067",
+    "#486369",
+    "#4d646a",
+    "#69807c"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "mist": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.5,
+     "town": 0.5
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Title 'Night'; overall deep blue-green palette, lights of a shore town glimmering behind moonlit sails. Calm water, soft haze; no moon drawn, no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-117464",
+  "design_id": "yoshida-hiroshi-self-published-sailing-boats-evening",
+  "title": "Sailing Boats: Evening",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1926",
+  "series": "The Inland Sea Series (Seto naikai shū 瀬戸内海集)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/117464",
+  "image_url": "https://img.artsmia.org/web_objects_cache/117000/400/60/117464/mia_9001768_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9654,
+   13036
+  ],
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d9a3a8",
+   "#6e6a72",
+   "#a37f96",
+   "#4e5468"
+  ],
+  "colors": {
+   "paper": "#e3dfd4",
+   "accent_light": "#a37f96",
+   "accent_dark": "#c6a094",
+   "palette": [
+    "#cbaea1",
+    "#e3dfd4",
+    "#caa89c",
+    "#776e71",
+    "#b18c8a",
+    "#ede9df"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "mist": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Title 'Evening' (夕); pink-violet afterglow over a calm, slightly hazy sea with boats at anchor. No precipitation, no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-80160",
+  "design_id": "yoshida-hiroshi-self-published-kagurazaka-street-after-a-nig",
+  "title": "Kagurazaka Street after a Night Rain",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1929",
+  "series": "Twelve Scenes of Tokyo (Tōkyō jūnidai 東京拾二題)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/80160",
+  "image_url": "https://img.artsmia.org/web_objects_cache/080000/100/60/80160/mia_7007098_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4705,
+   6881
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#4a4a48",
+   "#3a2a22",
+   "#e8b878",
+   "#c84a2a"
+  ],
+  "colors": {
+   "paper": "#d9c5a4",
+   "accent_light": "#97664e",
+   "accent_dark": "#97664e",
+   "palette": [
+    "#d9c5a4",
+    "#694e43",
+    "#7c5444",
+    "#a0795f",
+    "#85604c",
+    "#706258"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.9,
+    "drizzle": 0.1
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Kagurazaka, Tokyo",
+    "lat": 35.702,
+    "lon": 139.738,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Title 'after a night rain': dark overcast sky, wet street mirroring lit shopfronts and lanterns, no rain lines. Night from title and lit windows under a dark sky; stall goods give no clear season."
+  }
+ },
+ {
+  "id": "mia-58315",
+  "design_id": "yoshida-hiroshi-self-published-sailing-boats-mist",
+  "title": "Sailing Boats: Mist",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1926",
+  "series": "The Inland Sea Series (Seto naikai shū 瀬戸内海集)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/58315",
+  "image_url": "https://img.artsmia.org/web_objects_cache/058000/300/10/58315/mia_9001767_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9970,
+   12767
+  ],
+  "crop": [
+   0.04,
+   0.01,
+   0.92,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#b8b4a8",
+   "#6e6a62",
+   "#8a9aa6",
+   "#4c4a46"
+  ],
+  "colors": {
+   "paper": "#bcb1a0",
+   "accent_light": "#8a9aa6",
+   "accent_dark": "#8a9aa6",
+   "palette": [
+    "#bcb1a0",
+    "#746e65",
+    "#a2988a",
+    "#e6dfd0",
+    "#b6aa98",
+    "#888074"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "famous",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "mist": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Title 'Mist'; grey fog veils the sky and a second ship fading into the distance. Even pale light read as daytime; no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-136650",
+  "design_id": "kobayashi-kiyochika-ry-goku-in-snow",
+  "title": "Ryōgoku in Snow",
+  "artist": "Kobayashi Kiyochika",
+  "date": "1877",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136650",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/50/136650/mia_8026512_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   8991,
+   6118
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e5868",
+   "#ece8dc",
+   "#6a7aa8",
+   "#e8a888"
+  ],
+  "colors": {
+   "paper": "#d5c6b3",
+   "accent_light": "#61524c",
+   "accent_dark": "#e8a888",
+   "palette": [
+    "#5b6c6c",
+    "#566767",
+    "#d5c6b3",
+    "#58696a",
+    "#526364",
+    "#a6947e"
+   ]
+  },
+  "era": "meiji",
+  "group": "famous",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "snowfall": 0.5,
+    "cloudy": 0.5
+   },
+   "wind": 0.0,
+   "snow_ground": 0.9,
+   "time_of_day": {
+    "day": 0.7,
+    "dusk": 0.3
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Ryōgoku hirokōji, Tokyo",
+    "lat": 35.694,
+    "lon": 139.784,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Snow on roofs and a slushy street, everyone under open umbrellas beneath a dark slate sky; no flakes drawn, so implied snowfall shared with cloudy. Dark sky read as snow gloom (lamps unlit), small dusk share."
+  }
+ },
+ {
+  "id": "mia-7505",
+  "design_id": "katsushika-hokusai-south-wind-clear-weather",
+  "title": "South Wind, Clear Weather",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "1830–33",
+  "series": "Thirty-six Views of Mount Fuji (Fuji sanjūrokkei 富嶽三十六景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/7505",
+  "image_url": "https://img.artsmia.org/web_objects_cache/007000/500/00/7505/mia_7021684_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9396,
+   6503
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2c4f8a",
+   "#d9643f",
+   "#3e8a6e",
+   "#e8e4d8"
+  ],
+  "colors": {
+   "paper": "#b9b6a8",
+   "accent_light": "#3f5971",
+   "accent_dark": "#bf7250",
+   "palette": [
+    "#bf7250",
+    "#b9b6a8",
+    "#5a706f",
+    "#69827a",
+    "#49656f",
+    "#acaa9d"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "cloudy": 0.2
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dawn": 0.5,
+    "day": 0.5
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "autumn": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Mount Fuji (subject; no viewpoint)",
+    "lat": 35.36,
+    "lon": 138.73,
+    "precision_km": 20
+   },
+   "fuji": true,
+   "evidence": "Title 'South wind, clear weather'; deep blue sky with rows of small mackerel clouds. Fuji glowing red is traditionally read as early-morning sun (dawn/day split); late-summer/early-autumn south wind and mackerel clouds are a weak seasonal convention."
+  }
+ },
+ {
+  "id": "mia-63184",
+  "design_id": "utagawa-hiroshige-shower-on-nihonbashi-bridge",
+  "title": "Shower on Nihonbashi Bridge",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1832–38",
+  "series": "Famous Places in the Eastern Capital (Tōto meisho 東都名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63184",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/100/80/63184/mia_49362a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   5383,
+   3588
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe4cc",
+   "#d98c6a",
+   "#3b7fb0",
+   "#3a3a38"
+  ],
+  "colors": {
+   "paper": "#e6d8b8",
+   "accent_light": "#637b77",
+   "accent_dark": "#637b77",
+   "palette": [
+    "#e6d8b8",
+    "#deceac",
+    "#9c7f65",
+    "#31332f",
+    "#43423b",
+    "#ac9d80"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "rain": 0.8,
+    "drizzle": 0.2
+   },
+   "wind": 0.2,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.9,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "spring": 0.2,
+    "autumn": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.8,
+     "mountain": 0.2
+    },
+    "flags": [
+     "bridge",
+     "castle"
+    ]
+   },
+   "place": {
+    "name": "Nihonbashi, Edo",
+    "lat": 35.684,
+    "lon": 139.775,
+    "precision_km": 0.5
+   },
+   "fuji": true,
+   "evidence": "Dense fine rain lines over the whole sky, figures hunched under umbrellas on Nihonbashi; pink horizon band is convention, read as day. Hakuu (sudden shower) is a weak summer convention."
+  }
+ },
+ {
+  "id": "mia-22772",
+  "design_id": "utagawa-hiroshige-evening-shower-at-tadasugawara",
+  "title": "Evening Shower at Tadasugawara",
+  "artist": "Utagawa Hiroshige; Publisher: Publisher Unidentified",
+  "date": "c. 1834",
+  "series": "The Famous Places in Kyoto (Kyōto meisho no uchi 京都名所之内)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22772",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/700/70/22772/mia_34622a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2858,
+   1786
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d9d4c0",
+   "#5a5a58",
+   "#2f6fa8",
+   "#4a8a6a"
+  ],
+  "colors": {
+   "paper": "#cec3a5",
+   "accent_light": "#41787b",
+   "accent_dark": "#5c9093",
+   "palette": [
+    "#8c7e6d",
+    "#645b50",
+    "#a0927c",
+    "#cec3a5",
+    "#72695d",
+    "#c5b99c"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "rain": 0.6,
+    "storm": 0.4
+   },
+   "wind": 0.7,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.5,
+    "dusk": 0.5
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.7,
+    "autumn": 0.2,
+    "spring": 0.1
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "wild": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Tadasugawara (Kamo riverbank), Kyoto",
+    "lat": 35.036,
+    "lon": 135.772,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Heavy slanting rain, trees bent, people running bent under tilted umbrellas and hats past riverside teahouses below the dark Tadasu woods. Title 夕立 (yūdachi) gives the evening share and a summer convention."
+  }
+ },
+ {
+  "id": "mia-117504",
+  "design_id": "yoshida-hiroshi-self-published-spring-rain",
+  "title": "Spring Rain",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1935",
+  "series": "Eight Scenes of Cherry Blossom (Sakura hachidai 櫻八題)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/117504",
+  "image_url": "https://img.artsmia.org/web_objects_cache/117000/500/00/117504/mia_7007171_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4828,
+   7037
+  ],
+  "crop": [
+   0.02,
+   0.025,
+   0.945,
+   0.965
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#b8b0a6",
+   "#d8a8b4",
+   "#6e6658",
+   "#c45a3a"
+  ],
+  "colors": {
+   "paper": "#cbb695",
+   "accent_light": "#5f4f45",
+   "accent_dark": "#c45a3a",
+   "palette": [
+    "#cbb695",
+    "#ad9b7f",
+    "#aa987d",
+    "#97826c",
+    "#7c6651",
+    "#927963"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "drizzle": 0.6,
+    "rain": 0.2,
+    "cloudy": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.6,
+    "day": 0.2,
+    "night": 0.2
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "garden_park"
+    ]
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Title 'Spring Rain' (harusame); grey sky, rippled pond reflections and a woman under an umbrella, no rain lines drawn. Propped weeping cherry in bloom; English title 'Yozakura in Rain' gives the evening/night share, though the light is dim rather than dark."
+  }
+ },
+ {
+  "id": "mia-113419",
+  "design_id": "kawase-hasui-spring-rain-at-benkei-bridge",
+  "title": "Spring Rain at Benkei Bridge",
+  "artist": "Kawase Hasui; Publisher: Watanabe Shōzaburō",
+  "date": "April 1936",
+  "series": "One-hundred Views of New Tokyo (Shin Tōkyō hyakkei 新東京百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/113419",
+  "image_url": "https://img.artsmia.org/web_objects_cache/113000/400/10/113419/mia_6015110_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   5602,
+   7592
+  ],
+  "crop": [
+   0.03,
+   0.01,
+   0.95,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#8fa3a6",
+   "#3f6f8f",
+   "#e6c9c0"
+  ],
+  "colors": {
+   "paper": "#f3dbbf",
+   "accent_light": "#3f6f8f",
+   "accent_dark": "#3f6f8f",
+   "palette": [
+    "#727770",
+    "#f3dbbf",
+    "#8c8f85",
+    "#9c9d90",
+    "#858377",
+    "#a3a79a"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "rain": 0.6,
+    "drizzle": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom",
+    "willow_green"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.8,
+     "town": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.6,
+     "hilly": 0.4
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Benkei Bridge, Akasaka, Tokyo",
+    "lat": 35.6795,
+    "lon": 139.7365,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Title 'Spring Rain'; even fine rain lines across the whole sky, umbrellas, calm air. Cherry trees in bloom and fresh willow fix spring."
+  }
+ },
+ {
+  "id": "mia-136606",
+  "design_id": "kobayashi-kiyochika-rainy-night-at-yanagiwara",
+  "title": "Rainy Night at Yanagiwara",
+  "artist": "Kobayashi Kiyochika; Publisher: Fukuda Kumajirō",
+  "date": "1881",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136606",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/00/136606/mia_8026514_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9440,
+   6448
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e3440",
+   "#4a5a6e",
+   "#e0c870"
+  ],
+  "colors": {
+   "paper": "#d1c2ab",
+   "accent_light": "#4a5a6e",
+   "accent_dark": "#e0c870",
+   "palette": [
+    "#484340",
+    "#84786a",
+    "#d1c2ab",
+    "#ccbca4",
+    "#443c36",
+    "#d7c8b2"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "rain": 0.8,
+    "drizzle": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 0.5,
+    "summer": 0.5
+   },
+   "seasonal_markers": [
+    "willow_green"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "none": 0.7,
+     "river": 0.3
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Yanagiwara embankment, Kanda River, Tokyo",
+    "lat": 35.6975,
+    "lon": 139.778,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Title 'Night Rain' (夜雨); murky sky, umbrellas, wet street with reflected lantern and window light. Willow in full leaf is the only season cue."
+  }
+ },
+ {
+  "id": "mia-22627",
+  "design_id": "eisen-noodle-falls",
+  "title": "Noodle Falls",
+  "artist": "Eisen 英泉; Publisher: Yamamotoya Heikichi",
+  "date": "c. 1843–46",
+  "series": "The Famous Sights in the Mountains of Nikkō Mountains (Nikkōsan meisho no uchi 日光山名所之内)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22627",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/600/20/22627/mia_39650a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1889,
+   2784
+  ],
+  "crop": [
+   0.03,
+   0.01,
+   0.95,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3a6ea5",
+   "#5a5a5e",
+   "#e8c8b8"
+  ],
+  "colors": {
+   "paper": "#e4d9c4",
+   "accent_light": "#68848e",
+   "accent_dark": "#68848e",
+   "palette": [
+    "#827e75",
+    "#6f655e",
+    "#e4d9c4",
+    "#605954",
+    "#4f6974",
+    "#68848e"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.6,
+    "cloudy": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Sōmen-no-taki, Nikkō",
+    "lat": 36.766,
+    "lon": 139.591,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Gorge with no real sky: dark rock surround, so weather is low-confidence fair. Blossoming (mountain) cherries flank the falls; stone Buddhist statue in a niche."
+  }
+ },
+ {
+  "id": "mia-9156",
+  "design_id": "katsushika-hokusai-the-falls-at-aoigaoka-in-the-eastern-capi",
+  "title": "The Falls at Aoigaoka in the Eastern Capital",
+  "artist": "Katsushika Hokusai; Publisher: Nishimuraya Yohachi",
+  "date": "c. 1832",
+  "series": "A Tour of Waterfalls in Various Provinces (Shokoku taki meguri 諸国滝廻り)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9156",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/50/9156/mia_8029919_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   7237,
+   10369
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a8c870",
+   "#2e4a7a",
+   "#e8b890"
+  ],
+  "colors": {
+   "paper": "#cbc1a0",
+   "accent_light": "#42536d",
+   "accent_dark": "#dbb189",
+   "palette": [
+    "#bab887",
+    "#cbc1a0",
+    "#efd4af",
+    "#8f9482",
+    "#5e7d75",
+    "#a4a88e"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.8,
+    "autumn": 0.2
+   },
+   "seasonal_markers": [
+    "lotus"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "lake": 0.7,
+     "river": 0.3
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "flat": 0.4
+    },
+    "flags": [
+     "waterfall"
+    ]
+   },
+   "place": {
+    "name": "Aoigaoka, Tameike, Akasaka, Tokyo",
+    "lat": 35.672,
+    "lon": 139.742,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Blue-graded clear sky over Tameike pond, even daylight. Lotus leaves dot the pond and a labourer wipes his brow in light clothing, suggesting summer."
+  }
+ },
+ {
+  "id": "mia-64063",
+  "design_id": "utagawa-hiroshige-yo-ro-falls-mino-province",
+  "title": "Yo_ro_ Falls, Mino Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "1853, 8th month",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64063",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/000/60/64063/mia_33984a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1817,
+   2700
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8dcc0",
+   "#4a8a7a",
+   "#a83a2a"
+  ],
+  "colors": {
+   "paper": "#d5c19f",
+   "accent_light": "#6f372c",
+   "accent_dark": "#dbb676",
+   "palette": [
+    "#d5c19f",
+    "#dbb676",
+    "#ddc6a3",
+    "#5f6658",
+    "#b0b19b",
+    "#485750"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "autumn_maples"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall"
+    ]
+   },
+   "place": {
+    "name": "Yōrō Falls, Gifu",
+    "lat": 35.2647,
+    "lon": 136.5277,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale unprinted sky with a dark ichimonji band and a conventional red cloud band, read as plain day. Red maple foliage across the cliffs fixes autumn."
+  }
+ },
+ {
+  "id": "mia-64221",
+  "design_id": "utagawa-hiroshige-falls-seen-from-behind-at-nikk-mountain-sh",
+  "title": "Falls seen from Behind at Nikkō Mountain, Shimotsuke Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "1853, 8th month",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64221",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/200/20/64221/mia_34000a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1802,
+   2706
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3a7a5a",
+   "#e8d8c8",
+   "#d0704a"
+  ],
+  "colors": {
+   "paper": "#e9d3b1",
+   "accent_light": "#944c3d",
+   "accent_dark": "#944c3d",
+   "palette": [
+    "#32524a",
+    "#89695a",
+    "#e9d3b1",
+    "#6c4c41",
+    "#d7bb9f",
+    "#2e4441"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Urami-no-taki, Nikkō",
+    "lat": 36.747,
+    "lon": 139.573,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale sky with conventional red cloud band and stylised mist bands at the base, read as clear day. Only evergreen trees and orange rock, no seasonal sign."
+  }
+ },
+ {
+  "id": "mia-62337",
+  "design_id": "oda-kazuma-y-fuku-hot-spring-in-iwami",
+  "title": "Yūfuku Hot Spring in Iwami",
+  "artist": "Oda Kazuma",
+  "date": "1925",
+  "series": "Scenes of San'in (San'in fūkei)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62337",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/300/30/62337/mia_44940a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1942,
+   2853
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2a3038",
+   "#e0e0d8",
+   "#e8a070"
+  ],
+  "colors": {
+   "paper": "#bcb89f",
+   "accent_light": "#31302d",
+   "accent_dark": "#e8a070",
+   "palette": [
+    "#3c3b39",
+    "#bcb89f",
+    "#e5dbc3",
+    "#4f4e48",
+    "#c4bfa6",
+    "#dfd3b9"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "night": 0.7,
+    "dusk": 0.3
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "none": 0.8,
+     "river": 0.2
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "hilly": 0.4
+    },
+    "flags": [
+     "onsen"
+    ]
+   },
+   "place": {
+    "name": "Yūfuku Onsen, Gōtsu, Shimane",
+    "lat": 34.946,
+    "lon": 132.334,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "Dense white flakes against a dark sky, deep snow on roofs and hills. Lit windows, red lanterns and a carried lantern make it evening/night, not just snow gloom."
+  }
+ },
+ {
+  "id": "mia-136648",
+  "design_id": "kobayashi-kiyochika-distant-view-of-the-kiga-onsen-at-hakone",
+  "title": "Distant View of the Kiga Onsen at Hakone",
+  "artist": "Kobayashi Kiyochika",
+  "date": "ca. 1881",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136648",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/40/136648/mia_8026513_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   7370,
+   5024
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#b8b880",
+   "#e0c8a8",
+   "#3a4a3a"
+  ],
+  "colors": {
+   "paper": "#bba985",
+   "accent_light": "#796253",
+   "accent_dark": "#796253",
+   "palette": [
+    "#bba985",
+    "#997d65",
+    "#a29773",
+    "#aa9c75",
+    "#5e5a4a",
+    "#a18d6c"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "mist": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 0.6,
+    "winter": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "wild": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "onsen"
+    ]
+   },
+   "place": {
+    "name": "Kiga Onsen, Hakone",
+    "lat": 35.239,
+    "lon": 139.088,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Soft hazy sky veiling the distant ridges, even daylight. Inscription appears to read early third month (三月上旬); bare branches on the pine-side tree fit early spring."
+  }
+ },
+ {
+  "id": "mia-98728",
+  "design_id": "yoshida-hiroshi-self-published-a-spa-in-spring",
+  "title": "A Spa in Spring",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1940",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/98728",
+  "image_url": "https://img.artsmia.org/web_objects_cache/098000/700/20/98728/mia_7007061_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6644,
+   4516
+  ],
+  "crop": [
+   0.02,
+   0.03,
+   0.97,
+   0.95
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e0c890",
+   "#5a8a80",
+   "#e8d0c8"
+  ],
+  "colors": {
+   "paper": "#bfa378",
+   "accent_light": "#6b503f",
+   "accent_dark": "#e0c890",
+   "palette": [
+    "#6f5843",
+    "#bfa378",
+    "#79634d",
+    "#7c7059",
+    "#9c8160",
+    "#807b62"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.5,
+     "hilly": 0.5
+    },
+    "flags": [
+     "onsen",
+     "bridge"
+    ]
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Warm yellow unclouded sky, could be late-afternoon light, so a small dusk share. Weeping cherry in full bloom over a rocky river in a hot-spring town."
+  }
+ },
+ {
+  "id": "mia-64185",
+  "design_id": "utagawa-hiroshige-hot-springs-at-shuzenji-izu-province",
+  "title": "Hot Springs at Shuzenji, Izu Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "1853, 8th month",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64185",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/100/80/64185/mia_33988a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1791,
+   2686
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#4a8a7a",
+   "#2a5a9a",
+   "#e8c890"
+  ],
+  "colors": {
+   "paper": "#c7bb9a",
+   "accent_light": "#7d4738",
+   "accent_dark": "#829c94",
+   "palette": [
+    "#547669",
+    "#829c94",
+    "#4d534b",
+    "#4a423b",
+    "#6f594b",
+    "#212d2f"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "onsen",
+     "bridge",
+     "waterfall",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Shuzenji Onsen, Izu",
+    "lat": 34.97,
+    "lon": 138.927,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale sky with dark top band, plain daylight. Cedar forest and green hills only; no seasonal plants or activities."
+  }
+ },
+ {
+  "id": "mia-9157",
+  "design_id": "katsushika-hokusai-the-sacred-fountain-at-castle-peak",
+  "title": "The Sacred Fountain at Castle Peak",
+  "artist": "Katsushika Hokusai; Publisher: Moriya Jihei",
+  "date": "c. 1832",
+  "series": "Eight Views of the Ryūkyū Islands (Ryūkyū hakkei 琉球八景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9157",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/50/9157/mia_8029990_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   10438,
+   7268
+  ],
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8d0b0",
+   "#2a4a8a",
+   "#8ab870"
+  ],
+  "colors": {
+   "paper": "#efcca9",
+   "accent_light": "#3d5871",
+   "accent_dark": "#5d797b",
+   "palette": [
+    "#efcca9",
+    "#727f6e",
+    "#acb29f",
+    "#c7b793",
+    "#b6b59e",
+    "#edc7a4"
+   ]
+  },
+  "era": "edo",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.5,
+     "rural": 0.5
+    },
+    "water": {
+     "lake": 0.3,
+     "river": 0.3,
+     "wetland": 0.2,
+     "sea": 0.2
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": [
+     "waterfall",
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Gusukudake (Jōgaku), Naha, Okinawa",
+    "lat": 26.205,
+    "lon": 127.694,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Blue-graded clear sky with stylised cloud bands (compositional, not mist). Pines and green grass only, no seasonal cue."
+  }
+ },
+ {
+  "id": "mia-63285",
+  "design_id": "yoshida-hiroshi-self-published-hirosaki-castle",
+  "title": "Hirosaki Castle",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1935",
+  "series": "Eight Scenes of Cherry Blossom (Sakura hachidai 櫻八題)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63285",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/200/80/63285/mia_7007163_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4841,
+   7034
+  ],
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8d0b8",
+   "#c87860",
+   "#6aa8a0"
+  ],
+  "colors": {
+   "paper": "#d0bc9f",
+   "accent_light": "#a57957",
+   "accent_dark": "#a57957",
+   "palette": [
+    "#d0bc9f",
+    "#a9815e",
+    "#bb9973",
+    "#bfa27c",
+    "#956e4f",
+    "#af8c67"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "castle",
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Hirosaki Castle, Aomori",
+    "lat": 40.6078,
+    "lon": 140.4636,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale warm unclouded sky behind the keep, even daylight. Weeping cherries in full bloom over the moat fix spring."
+  }
+ },
+ {
+  "id": "mia-80155",
+  "design_id": "ohara-sh-son-egret-in-rain",
+  "title": "Egret in Rain",
+  "artist": "Ohara Shōson; Publisher: Watanabe Shōzaburō",
+  "date": "1928",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/80155",
+  "image_url": "https://img.artsmia.org/web_objects_cache/080000/100/50/80155/mia_7004358_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   5385,
+   7833
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#1e1e20",
+   "#ece8e0",
+   "#7a9a9a"
+  ],
+  "colors": {
+   "paper": "#dfd7c7",
+   "accent_light": "#7a9a9a",
+   "accent_dark": "#7a9a9a",
+   "palette": [
+    "#33302c",
+    "#3a3531",
+    "#dfd7c7",
+    "#35312e",
+    "#33322d",
+    "#d9d0bf"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "rain": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": null,
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "spring": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": null,
+   "place": null,
+   "fuji": false,
+   "evidence": "Dense straight white rain lines over a black ground; black means rain gloom, not night. Egret with breeding head plumes; egret (sagi) is a summer convention."
+  }
+ },
+ {
+  "id": "mia-91671",
+  "design_id": "ohara-sh-son-two-white-rabbits-under-a-full-moon",
+  "title": "Two White Rabbits Under a Full Moon",
+  "artist": "Ohara Shōson; Publisher: Kawaguchi Jirō; Carver: Itō 伊藤; Printer: Komatsu Wasankichi",
+  "date": "c. 1928–1930",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/91671",
+  "image_url": "https://img.artsmia.org/web_objects_cache/091000/600/70/91671/mia_49096a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3475,
+   5113
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.97,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#a8d0c0",
+   "#f0e0a0",
+   "#7a7a78"
+  ],
+  "colors": {
+   "paper": "#e4e0d2",
+   "accent_light": "#3e5e4f",
+   "accent_dark": "#89aca7",
+   "palette": [
+    "#e4e0d2",
+    "#909688",
+    "#ded9c9",
+    "#79877a",
+    "#bec8b8",
+    "#c2d4c1"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 0.6,
+    "dusk": 0.4
+   },
+   "moon": true,
+   "season": {
+    "autumn": 0.9,
+    "summer": 0.1
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Large pale full moon low in a clear blue-green sky (moonlit, rising: night with dusk share). Flowering burnet (waremokō) on a grassy slope with the full moon points to autumn."
+  }
+ },
+ {
+  "id": "mia-91670",
+  "design_id": "ohara-sh-son-black-crowned-night-heron-in-snow",
+  "title": "Black-crowned Night Heron in Snow",
+  "artist": "Ohara Shōson; Publisher: Kawaguchi Jirō; Engraver: Maeda Kentarō; Printer: Komatsu Wasankichi",
+  "date": "c. 1928–1930",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/91670",
+  "image_url": "https://img.artsmia.org/web_objects_cache/091000/600/70/91670/mia_49094a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3469,
+   5064
+  ],
+  "crop": [
+   0.02,
+   0.01,
+   0.965,
+   0.985
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#c9cbc8",
+   "#2f8a94",
+   "#1f4a40",
+   "#f2f0ea"
+  ],
+  "colors": {
+   "paper": "#d9d8cc",
+   "accent_light": "#578285",
+   "accent_dark": "#578285",
+   "palette": [
+    "#d9d8cc",
+    "#bbbdb2",
+    "#578285",
+    "#c4c4ba",
+    "#e1dfd4",
+    "#cacabf"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "snowfall": 0.5,
+    "cloudy": 0.5
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": null,
+    "water": {
+     "river": 0.6,
+     "wetland": 0.4
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Heavy snow on reeds, stump and riverside gabion baskets; flat grey snow sky with no clear flakes, so implied snowfall shared with cloudy. No time cue beyond grey daylight (gloom, not night)."
+  }
+ },
+ {
+  "id": "mia-91655",
+  "design_id": "ohara-sh-son-frog-in-rain",
+  "title": "Frog in Rain",
+  "artist": "Ohara Shōson",
+  "date": "c. 1928–1930",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/91655",
+  "image_url": "https://img.artsmia.org/web_objects_cache/091000/600/50/91655/mia_49066a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3625,
+   3451
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d6d6d0",
+   "#2e8a6a",
+   "#8fc8c4",
+   "#ece6d6"
+  ],
+  "colors": {
+   "paper": "#c2c2b6",
+   "accent_light": "#477d70",
+   "accent_dark": "#7ba5a1",
+   "palette": [
+    "#c2c2b6",
+    "#c8c7ba",
+    "#bebeb1",
+    "#ded8ca",
+    "#8db1ac",
+    "#babaad"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "edge",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "rain": 0.8,
+    "drizzle": 0.2
+   },
+   "wind": 0.2,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 1.0
+   },
+   "seasonal_markers": [
+    "lotus"
+   ],
+   "environment": {
+    "settlement": null,
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Dense slanted rain lines over a grey sky; frog on lotus leaves in a pond (lotus leaves count for the marker). Plain grey daylight."
+  }
+ },
+ {
+  "id": "mia-37514",
+  "design_id": "ohara-sh-son-flying-geese-and-moon",
+  "title": "Flying Geese and Moon",
+  "artist": "Ohara Shōson; Publisher: Daikokuya Heikichi",
+  "date": "before 1912",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/37514",
+  "image_url": "https://img.artsmia.org/web_objects_cache/037000/500/10/37514/mia_7004342_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3981,
+   7186
+  ],
+  "crop": [
+   0.03,
+   0.01,
+   0.945,
+   0.985
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#c8c0ae",
+   "#e6e0d0",
+   "#6b5a48",
+   "#3a3028"
+  ],
+  "colors": {
+   "paper": "#aca491",
+   "accent_light": "#716354",
+   "accent_dark": "#716354",
+   "palette": [
+    "#aca491",
+    "#b4ac9a",
+    "#b7ae9c",
+    "#aba08e",
+    "#b1a996",
+    "#b3ab98"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "clear": 0.7,
+    "mist": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": true,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "wild_geese"
+   ],
+   "environment": {
+    "settlement": null,
+    "water": null,
+    "terrain": null,
+    "flags": []
+   },
+   "place": null,
+   "fuji": false,
+   "evidence": "Full moon disc in a soft grey hazy sky; skein of wild geese flying (geese + moon = autumn). No setting at all."
+  }
+ },
+ {
+  "id": "mia-136613",
+  "design_id": "kobayashi-kiyochika-a-night-at-sumida-river",
+  "title": "A Night at Sumida River",
+  "artist": "Kobayashi Kiyochika; Publisher: Fukuda Kumajirō",
+  "date": "ca. 1881",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136613",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/10/136613/mia_8026523_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9347,
+   6282
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#4e5254",
+   "#7fb0a8",
+   "#3a2a24",
+   "#e8d890"
+  ],
+  "colors": {
+   "paper": "#dacbb6",
+   "accent_light": "#7fb0a8",
+   "accent_dark": "#e8d890",
+   "palette": [
+    "#7a7569",
+    "#dacbb6",
+    "#817a6d",
+    "#d7c8b1",
+    "#534c46",
+    "#d2c2ab"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.5,
+    "mist": 0.3,
+    "clear": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Sumida River embankment (Mukōjima), Tokyo",
+    "lat": 35.715,
+    "lon": 139.805,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Title 'yoru' (night); dark grey sky, lights reflected as vertical streaks in the river, silhouetted strollers. No moon or stars; distant shore slightly veiled. Leafy young trees give no clear season."
+  }
+ },
+ {
+  "id": "mia-136601",
+  "design_id": "kobayashi-kiyochika-rain-and-moonlight-at-gohonmatsu",
+  "title": "Rain and Moonlight at Gohonmatsu",
+  "artist": "Kobayashi Kiyochika; Publisher: Fukuda Kumajirō",
+  "date": "1880",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136601",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/00/136601/mia_8026529_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9346,
+   6383
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#5e6a68",
+   "#2e2622",
+   "#e8b890",
+   "#9aa8a0"
+  ],
+  "colors": {
+   "paper": "#d2c4b0",
+   "accent_light": "#3f3531",
+   "accent_dark": "#e8b890",
+   "palette": [
+    "#d2c4b0",
+    "#a09683",
+    "#7e7b6e",
+    "#4b3f38",
+    "#ccbda7",
+    "#413833"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.5,
+    "drizzle": 0.5
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": true,
+   "season": {
+    "autumn": 0.6,
+    "summer": 0.2,
+    "winter": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Gohonmatsu, Onagi River, Tokyo",
+    "lat": 35.6895,
+    "lon": 139.827,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Title 'rain and moon'; moon breaking through a dark broken cloud deck, wet ground with reflections, figures under umbrellas, lit steamboats on the canal. No rain lines drawn, so light rain/after-rain. Season from moon convention only."
+  }
+ },
+ {
+  "id": "mia-136590",
+  "design_id": "kobayashi-kiyochika-picture-of-barge-haulers-at-night-in-kou",
+  "title": "Picture of Barge-haulers at Night in Koume, Tokyo",
+  "artist": "Kobayashi Kiyochika; Publisher: Matsuki Heikichi",
+  "date": "August 1876",
+  "series": "Untitled series of views of Tokyo",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136590",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/500/90/136590/mia_8026527_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9356,
+   6326
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3e6a70",
+   "#c8a888",
+   "#4a3a2e",
+   "#e8dcb8"
+  ],
+  "colors": {
+   "paper": "#cdbea7",
+   "accent_light": "#66554a",
+   "accent_dark": "#3e6a70",
+   "palette": [
+    "#828d81",
+    "#725f51",
+    "#ab9b84",
+    "#cdbea7",
+    "#d2c3af",
+    "#66554a"
+   ]
+  },
+  "era": "meiji",
+  "group": "edge",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 0.7,
+    "dusk": 0.3
+   },
+   "moon": true,
+   "season": {
+    "autumn": 0.6,
+    "summer": 0.2,
+    "winter": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Hikifune canal, Koume, Tokyo",
+    "lat": 35.714,
+    "lon": 139.816,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Title 'yoru' (night); stars in a deep blue-green sky, low full moon above a fading warm horizon glow, haulers towing a barge along the pale canal. Season from moon convention (light clothing, bare feet hint summer)."
+  }
+ },
+ {
+  "id": "mia-64062",
+  "design_id": "utagawa-hiroshige-minosaki-beach-bungo-province",
+  "title": "Minosaki Beach, Bungo Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "1856, 4th month",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64062",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/000/60/64062/mia_33982a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1796,
+   2758
+  ],
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e6a9a",
+   "#5a5e60",
+   "#e89a5a",
+   "#e8dcc0"
+  ],
+  "colors": {
+   "paper": "#dcc5a5",
+   "accent_light": "#236271",
+   "accent_dark": "#e89a5a",
+   "palette": [
+    "#393734",
+    "#41413e",
+    "#2c616f",
+    "#dcc5a5",
+    "#236271",
+    "#205b6b"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.5,
+     "rural": 0.5
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "hilly": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Minosaki, Bungo Province (exact site not located)",
+    "lat": null,
+    "lon": null,
+    "precision_km": null
+   },
+   "fuji": false,
+   "evidence": "Pale sky with red top band and orange horizon glow (Hiroshige convention, no title or activity cue, so mostly day); moored boats, thatched village, sandbar into the sea. No seasonal sign."
+  }
+ },
+ {
+  "id": "mia-60815",
+  "design_id": "utagawa-hiroshige-fukuroi-dejaya-no-zu",
+  "title": "Fukuroi, dejaya no zu",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi; Publisher: Tsuruya Kiemon",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/60815",
+  "image_url": "https://img.artsmia.org/web_objects_cache/060000/800/10/60815/mia_31718a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2758,
+   1729
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8e0c8",
+   "#2a4a6a",
+   "#9ab890",
+   "#3a3a34"
+  ],
+  "colors": {
+   "paper": "#d0bf9f",
+   "accent_light": "#668573",
+   "accent_dark": "#668573",
+   "palette": [
+    "#1b1e1e",
+    "#668573",
+    "#d0bf9f",
+    "#5d5a52",
+    "#d7c5a4",
+    "#b7af93"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "autumn": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Fukuroi (Tōkaidō station)",
+    "lat": 34.75,
+    "lon": 137.925,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Pale sky with blue horizon band, bright light; outdoor tea stall with kettle over a fire, smoke drifting slightly; open fields with grown crops and distant straw stacks. Light clothing suggests summer, stacks hint at autumn."
+  }
+ },
+ {
+  "id": "mia-64609",
+  "design_id": "utagawa-hiroshige-36-crossing-motosaka-pass-goyu",
+  "title": "36, Crossing Motosaka Pass, Goyu",
+  "artist": "Utagawa Hiroshige; Publisher: Tsutaya Kichizō",
+  "date": "1855, 7th month",
+  "series": "Famous Sights of the Fifty-Three Stations (Gojūsan tsugi meisho zue 五十三次名所圖會), also known as the Vertical Tōkaidō (Tate Tōkaidō)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64609",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/600/00/64609/mia_31846a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1864,
+   2787
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#9ab8b8",
+   "#2e4a40",
+   "#3a7a6a",
+   "#e8dcc4"
+  ],
+  "colors": {
+   "paper": "#9ea997",
+   "accent_light": "#21534c",
+   "accent_dark": "#acaa8e",
+   "palette": [
+    "#9ea997",
+    "#21534c",
+    "#1b4d47",
+    "#9b957c",
+    "#7c7f6d",
+    "#a9a184"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.6,
+    "mist": 0.4
+   },
+   "wind": 0.3,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 0.5,
+    "summer": 0.5
+   },
+   "seasonal_markers": [
+    "willow_green"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "river": 0.7,
+     "lake": 0.3
+    },
+    "terrain": {
+     "hilly": 0.5,
+     "mountain": 0.5
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Honnogahara / Motosaka pass near Goyu (Tōkaidō)",
+    "lat": 34.83,
+    "lon": 137.34,
+    "precision_km": 5
+   },
+   "fuji": true,
+   "evidence": "Pale blue daylight sky; grey bokashi veils the middle distance (partly convention, partly haze). Willows in full leaf; foreground grass streaked as if wind-blown. Fuji drawn behind the dark hills."
+  }
+ },
+ {
+  "id": "mia-63232",
+  "design_id": "utagawa-hiroshige-utsu-mountain-okabe",
+  "title": "Utsu Mountain, Okabe",
+  "artist": "Utagawa Hiroshige; Publisher: Tsuruya Kiemon",
+  "date": "c. 1833",
+  "series": "From the series Fifity-three Stations of To_kaido_ Road",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63232",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/200/30/63232/mia_31608a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3103,
+   2011
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3e6a6a",
+   "#e8e0cc",
+   "#2a3a40",
+   "#c86a50"
+  ],
+  "colors": {
+   "paper": "#ece2ca",
+   "accent_light": "#698e8f",
+   "accent_dark": "#698e8f",
+   "palette": [
+    "#698e8f",
+    "#474c4b",
+    "#506061",
+    "#3c3f3f",
+    "#ece2ca",
+    "#312f2d"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 0.7,
+    "summer": 0.3
+   },
+   "seasonal_markers": [
+    "autumn_maples"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Utsunoya pass, Okabe (Tōkaidō)",
+    "lat": 34.93,
+    "lon": 138.33,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Pale sky with dark top band (convention) in a narrow gorge; one tree with red foliage beside the pass, cedar woods, stream with rapids, porters carrying firewood. Red tree read as autumn maple."
+  }
+ },
+ {
+  "id": "mia-22797",
+  "design_id": "kobayashi-kiyochika-main-gate-of-the-second-exposition-at-to",
+  "title": "Main Gate of the Second Exposition at Tokyo_",
+  "artist": "Kobayashi Kiyochika; Publisher: Fukuda Kumajirō",
+  "date": "May 1881",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22797",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/700/90/22797/mia_37670a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3003,
+   1906
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#5a9ab0",
+   "#f0b8c0",
+   "#e8dcc0",
+   "#2a3a4a"
+  ],
+  "colors": {
+   "paper": "#e7d5b3",
+   "accent_light": "#5a9ab0",
+   "accent_dark": "#e6b29d",
+   "palette": [
+    "#e7d5b3",
+    "#e8d0a7",
+    "#e3c19c",
+    "#e8d8b6",
+    "#ba9885",
+    "#d8ccab"
+   ]
+  },
+  "era": "meiji",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Ueno Park, Tokyo (2nd National Industrial Exposition gate)",
+    "lat": 35.7155,
+    "lon": 139.774,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Blue sky fading to a pink horizon in bright daylight; cherry trees in full bloom over crowds and carriages at the exposition gate, gas lamps unlit."
+  }
+ },
+ {
+  "id": "mia-22804",
+  "design_id": "utagawa-hiroshige-ii-no-42-shichirigahama-beach-in-miya",
+  "title": "No.42 Shichirigahama Beach in Miya",
+  "artist": "Utagawa Hiroshige II",
+  "date": "1865",
+  "series": "Fifty-three Stations of Tōkaidō Road (Tōkaidō gojūsan tsugi)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22804",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/800/00/22804/mia_36526a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1752,
+   2370
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e6ab0",
+   "#e8e0c4",
+   "#d02a2a",
+   "#5a5a50"
+  ],
+  "colors": {
+   "paper": "#f9edd1",
+   "accent_light": "#a61d1d",
+   "accent_dark": "#97bdb5",
+   "palette": [
+    "#978f7e",
+    "#f9edd1",
+    "#847968",
+    "#afa47f",
+    "#bdb189",
+    "#f5eace"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "castle"
+    ]
+   },
+   "place": {
+    "name": "Miya (Atsuta), Shichiri-no-watashi ferry landing, Nagoya",
+    "lat": 35.122,
+    "lon": 136.905,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Blue top band, pale sky and thin pink horizon band (convention, read as day); torii and castle-like turret wall at the ferry landing, moored boats, a woman with a parasol. No seasonal sign."
+  }
+ },
+ {
+  "id": "mia-60797",
+  "design_id": "utagawa-hiroshige-numazu-twilight-picture",
+  "title": "Numazu: Twilight Picture",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/60797",
+  "image_url": "https://img.artsmia.org/web_objects_cache/060000/700/90/60797/mia_31782a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2901,
+   1860
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2a5a7a",
+   "#1e2a2a",
+   "#e8dcc0",
+   "#c8604a"
+  ],
+  "colors": {
+   "paper": "#c0b299",
+   "accent_light": "#396e76",
+   "accent_dark": "#c8604a",
+   "palette": [
+    "#396e76",
+    "#191715",
+    "#26211f",
+    "#2a6471",
+    "#727b71",
+    "#322e2b"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.6,
+    "night": 0.4
+   },
+   "moon": true,
+   "season": {
+    "autumn": 0.6,
+    "summer": 0.2,
+    "winter": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.8,
+     "rural": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Numazu (Tōkaidō station), Kano River",
+    "lat": 35.1,
+    "lon": 138.86,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Title 'tasogare' (twilight); deep blue sky with a large full moon, pilgrims walking toward the town along the river. Season from moon convention only."
+  }
+ },
+ {
+  "id": "mia-64432",
+  "design_id": "utagawa-hiroshige-ii-giant-cedar-k-sh-province",
+  "title": "Giant Cedar, Kōshū Province",
+  "artist": "Utagawa Hiroshige II; Publisher: Sakanaya Eikichi",
+  "date": "1859, 9th month",
+  "series": "One Hundred Famous Views in the Various Provinces (Shokoku meisho hyakkei 諸国名所百景)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64432",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/400/30/64432/mia_35452a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1762,
+   2631
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#6aa860",
+   "#7a3a2a",
+   "#b8c8b8",
+   "#e8a8a0"
+  ],
+  "colors": {
+   "paper": "#ddd6b3",
+   "accent_light": "#87342f",
+   "accent_dark": "#8ab26d",
+   "palette": [
+    "#6a342b",
+    "#ddd6b3",
+    "#8ab26d",
+    "#718c5b",
+    "#607451",
+    "#86956e"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.9,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "waterfall"
+    ]
+   },
+   "place": {
+    "name": "Yatate cedar, Sasago pass (Kōshū kaidō)",
+    "lat": 35.623,
+    "lon": 138.836,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Pale sky with dark top and pink horizon bands (convention, read as day); travellers measuring the giant cedar, waterfall on the mountainside at left, small stream. No seasonal sign."
+  }
+ },
+ {
+  "id": "mia-67237",
+  "design_id": "utagawa-yoshitaki-rennyo-pine-tree-at-miyanomori",
+  "title": "Rennyo-Pine Tree at Miyanomori",
+  "artist": "Utagawa Yoshitaki",
+  "date": "19th century",
+  "series": "From the series One Hundred Views of Osaka",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/67237",
+  "image_url": "https://img.artsmia.org/web_objects_cache/067000/200/30/67237/mia_39664a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1670,
+   2388
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3e5a6e",
+   "#f2eee4",
+   "#5f8a4a",
+   "#c9473b"
+  ],
+  "colors": {
+   "paper": "#eae1ca",
+   "accent_light": "#648083",
+   "accent_dark": "#cd615e",
+   "palette": [
+    "#648083",
+    "#eae1ca",
+    "#b9ae98",
+    "#ece4cf",
+    "#dfd5bb",
+    "#c6c5ae"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "city": 0.3
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Rennyo pine, Miyanomori, Osaka (exact site uncertain)",
+    "lat": 34.69,
+    "lon": 135.51,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "White flakes falling against a dark blue sky (gloom, not night); snow lying on the pine, roofs and ground, walkers under snow-laden umbrellas. Shrine/temple buildings with stone lantern and red lanterns behind the fenced pine."
+  }
+ },
+ {
+  "id": "mia-34745",
+  "design_id": "utagawa-hiroshige-kyoto-view-of-the-great-bridge-at-sanj",
+  "title": "Kyoto: View of the Great Bridge at Sanjō",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1840–42",
+  "series": "Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi 東海道五十三次), also known as the Kyōka Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/34745",
+  "image_url": "https://img.artsmia.org/web_objects_cache/034000/700/40/34745/mia_40512a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2651,
+   1966
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9dfc6",
+   "#3f4a3a",
+   "#5aa7c4",
+   "#d98a6a"
+  ],
+  "colors": {
+   "paper": "#e9e1c3",
+   "accent_light": "#5aa7c4",
+   "accent_dark": "#d69f82",
+   "palette": [
+    "#e9e1c3",
+    "#61a2a7",
+    "#d69f82",
+    "#464845",
+    "#eae2c5",
+    "#ece4c9"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.5,
+     "mountain": 0.5
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Sanjō Ōhashi, Kyoto",
+    "lat": 35.009,
+    "lon": 135.772,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale sky with blue top band and pink horizon band (convention), no precipitation; travellers arriving across the bridge at the end of the Tōkaidō give only a small dusk share. No plants, festivals or clothing that indicate season."
+  }
+ },
+ {
+  "id": "mia-64870",
+  "design_id": "utagawa-hiroshige-fireworks-at-ry-goku-bridge",
+  "title": "Fireworks at Ryōgoku Bridge",
+  "artist": "Utagawa Hiroshige; Publisher: Izumiya Ichibei",
+  "date": "c. 1840–42",
+  "series": "Famous Places in Edo (Edo meisho 江戸名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64870",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/800/70/64870/mia_34072a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2793,
+   1746
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   0.97,
+   0.99
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#55575a",
+   "#3f8fb5",
+   "#d9552e",
+   "#2b2a28"
+  ],
+  "colors": {
+   "paper": "#b39e81",
+   "accent_light": "#34666d",
+   "accent_dark": "#d9552e",
+   "palette": [
+    "#57524a",
+    "#524c45",
+    "#34666d",
+    "#b39e81",
+    "#386b70",
+    "#4b423b"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 0.9,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": {
+    "summer": 1.0
+   },
+   "seasonal_markers": [
+    "summer_fireworks"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Ryōgoku Bridge, west bank (Yanagibashi), Edo",
+    "lat": 35.695,
+    "lon": 139.786,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Title 'Ryōgoku Fireworks'; a firework burst against a dark grey night sky, lantern-hung pleasure boats on the Sumida. Summer river-opening fireworks."
+  }
+ },
+ {
+  "id": "mia-9179",
+  "design_id": "utagawa-hiroshige-13-numazu-fuji-in-clear-weather-after-snow",
+  "title": "13, Numazu: Fuji in Clear Weather after Snow, from the Ashigara Mountains",
+  "artist": "Utagawa Hiroshige; Publisher: Tsutaya Kichizō",
+  "date": "1855, 7th month",
+  "series": "Famous Sights of the Fifty-Three Stations (Gojūsan tsugi meisho zue 五十三次名所圖會), also known as the Vertical Tōkaidō (Tate Tōkaidō)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9179",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/70/9179/PCD19981107_4659_IMG0037_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3222,
+   4593
+  ],
+  "crop": [
+   0.05,
+   0.02,
+   0.9,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#f1ede2",
+   "#26386a",
+   "#5a9fcf",
+   "#f2d75a"
+  ],
+  "colors": {
+   "paper": "#fff7db",
+   "accent_light": "#5a9fcf",
+   "accent_dark": "#d5d8c1",
+   "palette": [
+    "#fff7db",
+    "#e2d7ba",
+    "#fdf3d6",
+    "#fbf0d2",
+    "#c9b99f",
+    "#b09f8c"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.2
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 0.8,
+     "wild": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Ashigara mountains (view toward Fuji), near Numazu station",
+    "lat": 35.3,
+    "lon": 138.98,
+    "precision_km": 10
+   },
+   "fuji": true,
+   "evidence": "Title 'Fuji in Clear Weather after Snow'; snow lies on trees, roofs and bridges, sky clear with no flakes. Yellow glow at right may be morning light, so only a small dawn share."
+  }
+ },
+ {
+  "id": "mia-136600",
+  "design_id": "kobayashi-kiyochika-distant-view-of-ichinohashi-bridge-from-",
+  "title": "Distant View of Ichinohashi Bridge from the Sumida Embankment",
+  "artist": "Kobayashi Kiyochika; Publisher: Fukuda Kumajirō",
+  "date": "1880",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/136600",
+  "image_url": "https://img.artsmia.org/web_objects_cache/136000/600/00/136600/mia_8026530_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   9378,
+   6354
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2f3d3a",
+   "#d7d0b8",
+   "#e9d36a",
+   "#8a8a86"
+  ],
+  "colors": {
+   "paper": "#dcd0c1",
+   "accent_light": "#393532",
+   "accent_dark": "#e9d36a",
+   "palette": [
+    "#dcd0c1",
+    "#484c49",
+    "#9a8e7f",
+    "#54544e",
+    "#d6caba",
+    "#4b504e"
+   ]
+  },
+  "era": "meiji",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.6,
+    "cloudy": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 1.0
+   },
+   "moon": true,
+   "season": {
+    "autumn": 0.6,
+    "summer": 0.4
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Sumida (Ōkawa) embankment near Ichinohashi, Tokyo",
+    "lat": 35.691,
+    "lon": 139.79,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Full moon with halo among drifting cloud bands, dark sky, silhouetted rickshaw runner and lantern-carrier, lights reflected on the river. Season only from the moon convention (leafy branch overhead, so some summer share)."
+  }
+ },
+ {
+  "id": "mia-63249",
+  "design_id": "utagawa-hiroshige-ishiyakushi-ishiyakushi-ji",
+  "title": "Ishiyakushi, Ishiyakushi-ji",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63249",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/200/40/63249/20020924_mia341_2005_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2872,
+   1917
+  ],
+  "crop": [
+   0.02,
+   0.04,
+   0.96,
+   0.93
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe6cf",
+   "#3e6aa8",
+   "#5f8a5a",
+   "#c4553f"
+  ],
+  "colors": {
+   "paper": "#ecdcba",
+   "accent_light": "#c4553f",
+   "accent_dark": "#988176",
+   "palette": [
+    "#ecdcba",
+    "#4b4a4a",
+    "#c2b49f",
+    "#988176",
+    "#969085",
+    "#757c75"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "cloudy": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "rice_harvest"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "mountain": 0.4
+    },
+    "flags": [
+     "temple_shrine",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Ishiyakushi-ji, Ishiyakushi station (Suzuka)",
+    "lat": 34.923,
+    "lon": 136.552,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Pale sky with grey-blue top and yellow horizon band (convention), no precipitation; drying rice sheaves and harvested fields mark autumn. Temple roofs and wooded hillside behind the station."
+  }
+ },
+ {
+  "id": "mia-61301",
+  "design_id": "utagawa-hiroshige-ochanomizu",
+  "title": "Ochanomizu",
+  "artist": "Utagawa Hiroshige; Publisher: Yamadaya Shōjirō",
+  "date": "1853, 11th month",
+  "series": "Famous Places in Edo (Edo meisho 江戸名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61301",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/300/00/61301/mia_33978a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2756,
+   1768
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#4a5a66",
+   "#f0ece0",
+   "#1f4f8f",
+   "#4f9a8a"
+  ],
+  "colors": {
+   "paper": "#d2ba92",
+   "accent_light": "#184251",
+   "accent_dark": "#1f4f8f",
+   "palette": [
+    "#61655a",
+    "#d2ba92",
+    "#184251",
+    "#656d65",
+    "#ac9777",
+    "#998c71"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.2,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Ochanomizu, Kanda River gorge, Edo",
+    "lat": 35.6995,
+    "lon": 139.765,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "White flakes falling over a dark slate sky (gloom, not night) and the river; snow heavy on trees, banks and umbrellas, women hunched under tilted umbrellas. Snow at scene level fixes winter."
+  }
+ },
+ {
+  "id": "mia-61336",
+  "design_id": "utagawa-hiroshige-gokanosho-village-in-higo-province",
+  "title": "Gokanosho_ Village in Higo Province",
+  "artist": "Utagawa Hiroshige; Publisher: Koshimuraya Heisuke",
+  "date": "Feburary 1856",
+  "series": "Famous Places in the Sixty-odd Provinces (Rokujūyoshū meisho zue 六十余州名所図絵)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61336",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/300/30/61336/mia_31980a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1757,
+   2631
+  ],
+  "crop": [
+   0.01,
+   0.0,
+   0.98,
+   1.0
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8dcc4",
+   "#6f8a8f",
+   "#e8a46a",
+   "#2f6a5a"
+  ],
+  "colors": {
+   "paper": "#d2ba98",
+   "accent_light": "#275247",
+   "accent_dark": "#e8a46a",
+   "palette": [
+    "#d2ba98",
+    "#55625e",
+    "#28443b",
+    "#27372f",
+    "#6b6e65",
+    "#275247"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.6,
+    "mist": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Gokanoshō, Higo Province (mountain district)",
+    "lat": 32.54,
+    "lon": 130.95,
+    "precision_km": 15
+   },
+   "fuji": false,
+   "evidence": "Pale sky, clouds filling the valleys around the peak (atmospheric, not just bands) and an orange horizon band read as convention. A porter crosses a natural rock bridge; no seasonal plants or activities."
+  }
+ },
+ {
+  "id": "mia-117517",
+  "design_id": "yoshida-hiroshi-self-published-ueno-park",
+  "title": "Ueno Park",
+  "artist": "Yoshida Hiroshi (self-published)",
+  "date": "1937",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/117517",
+  "image_url": "https://img.artsmia.org/web_objects_cache/117000/500/10/117517/mia_7007082_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4858,
+   7068
+  ],
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6cdb8",
+   "#c9566a",
+   "#6a5a4a",
+   "#e07a3a"
+  ],
+  "colors": {
+   "paper": "#d3c2a9",
+   "accent_light": "#9f6c5b",
+   "accent_dark": "#9f6c5b",
+   "palette": [
+    "#d3c2a9",
+    "#c5ab8e",
+    "#b6917a",
+    "#a37866",
+    "#8f6f61",
+    "#875f53"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "cloudy": 0.5,
+    "mist": 0.3,
+    "clear": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "spring": 1.0
+   },
+   "seasonal_markers": [
+    "cherry_blossom"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "temple_shrine",
+     "garden_park"
+    ]
+   },
+   "place": {
+    "name": "Five-storey pagoda of Kan'ei-ji, Ueno Park, Tokyo",
+    "lat": 35.7155,
+    "lon": 139.771,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Cherry trees in full bloom around the Ueno pagoda, kimono-clad visitors. Soft, shadowless warm-grey sky and a puddle on the path suggest an overcast hazy spring day."
+  }
+ },
+ {
+  "id": "mia-61634",
+  "design_id": "utagawa-hiroshige-enjoying-the-evening-cool-at-ry-goku-bridg",
+  "title": "Enjoying the Evening Cool at Ryōgoku Bridge",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1844–45",
+  "series": "Famous Places in Edo (Kōto meisho 江都名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61634",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/600/30/61634/20021016_mia341_2124_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2852,
+   2001
+  ],
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d8cdb0",
+   "#3a3f4a",
+   "#4f7fa0",
+   "#c8382e"
+  ],
+  "colors": {
+   "paper": "#d0be9a",
+   "accent_light": "#c8382e",
+   "accent_dark": "#c8382e",
+   "palette": [
+    "#d0be9a",
+    "#514e49",
+    "#5f5c57",
+    "#434343",
+    "#7b776c",
+    "#bead8c"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.5,
+    "night": 0.5
+   },
+   "moon": false,
+   "season": {
+    "summer": 1.0
+   },
+   "seasonal_markers": [
+    "summer_fireworks"
+   ],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Ryōgoku Bridge, Sumida River, Edo",
+    "lat": 35.6935,
+    "lon": 139.7866,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Title 'Evening Cool at Ryōgoku Bridge'; red lanterns lit on pleasure boats and a small firework burst in a pale sky. Yūsuzumi under the bridge marks summer."
+  }
+ },
+ {
+  "id": "mia-63255",
+  "design_id": "utagawa-hiroshige-narumi-meibutsu-arimatsu-shibori",
+  "title": "Narumi, meibutsu Arimatsu shibori",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63255",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/200/50/63255/mia_31650a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2890,
+   1882
+  ],
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9e2cf",
+   "#2f3f5f",
+   "#5f9a9a",
+   "#d98a7a"
+  ],
+  "colors": {
+   "paper": "#d8ccb1",
+   "accent_light": "#58726e",
+   "accent_dark": "#6e8884",
+   "palette": [
+    "#373331",
+    "#d8ccb1",
+    "#58726e",
+    "#232426",
+    "#a8a796",
+    "#292b2c"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dawn": 0.1,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Arimatsu, near Narumi station",
+    "lat": 35.0675,
+    "lon": 136.969,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale sky with dark blue top and pink horizon band (convention), no precipitation; travellers passing shops selling Arimatsu shibori cloth. No seasonal plants or festivals."
+  }
+ },
+ {
+  "id": "mia-22528",
+  "design_id": "eisen-no-06-ageo-station-the-kamo-shrine",
+  "title": "No. 06, Ageo Station: The Kamo Shrine",
+  "artist": "Eisen 英泉; Publisher: Takenouchi Magohachi",
+  "date": "c. 1835–38",
+  "series": "The Sixty-nine Stations of the Kisokaidō, here called Kisokaidō 木曾街道",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22528",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/500/20/22528/mia_41020a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2818,
+   1888
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe6c8",
+   "#3f6aa8",
+   "#5a9a6a",
+   "#d98a6a"
+  ],
+  "colors": {
+   "paper": "#dcc695",
+   "accent_light": "#806258",
+   "accent_dark": "#806258",
+   "palette": [
+    "#dcc695",
+    "#dfd7be",
+    "#d9d2ba",
+    "#817564",
+    "#e2dac2",
+    "#5c6863"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "rice_harvest"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 0.7,
+     "town": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Kamo shrine, Ageo station (Nakasendō)",
+    "lat": 35.98,
+    "lon": 139.58,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Bright pale sky with blue top band, strong daylight shadows; farmers threshing and winnowing rice with straw bundles and bagged grain mark the autumn harvest. Shrine banners for Kamo Daimyōjin and grove behind."
+  }
+ },
+ {
+  "id": "mia-124828",
+  "design_id": "utagawa-hiroshige-chiry-summer-horse-fair",
+  "title": "Chiryū--Summer Horse Fair",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/124828",
+  "image_url": "https://img.artsmia.org/web_objects_cache/124000/800/20/124828/mia_8021157_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   8528,
+   5858
+  ],
+  "crop": [
+   0.03,
+   0.04,
+   0.95,
+   0.92
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9e4d6",
+   "#e06a6a",
+   "#6fa86a",
+   "#3f8aa0"
+  ],
+  "colors": {
+   "paper": "#cec3b2",
+   "accent_light": "#4a6b65",
+   "accent_dark": "#a87269",
+   "palette": [
+    "#7a856e",
+    "#cec3b2",
+    "#a39e7f",
+    "#d2c8b8",
+    "#c1b196",
+    "#d6cdbe"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "mist": 0.3
+   },
+   "wind": 0.2,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.9,
+    "dusk": 0.1
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.8,
+    "spring": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.8,
+     "town": 0.2
+    },
+    "water": {
+     "none": 0.6,
+     "wetland": 0.4
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Chiryū station horse fair grounds",
+    "lat": 35.0,
+    "lon": 137.05,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Title 'Summer Horse Fair'; tethered horses in a wide meadow, hazy blue distance and a red top band (convention); grass and willow slightly swept. Season from the fair (4th lunar month) only."
+  }
+ },
+ {
+  "id": "mia-61706",
+  "design_id": "utagawa-hiroshige-descending-geese-at-katada",
+  "title": "Descending Geese at Katada",
+  "artist": "Utagawa Hiroshige; Publisher: Yamamotoya Heikichi",
+  "date": "c. 1834–35",
+  "series": "The Eight Views of Ōmi (Ōmi hakkei no uchi 近江八景之内)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/61706",
+  "image_url": "https://img.artsmia.org/web_objects_cache/061000/700/00/61706/mia_34654a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2736,
+   1812
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#ebe5d6",
+   "#2e2e2e",
+   "#3f6aa0",
+   "#8fb8c4"
+  ],
+  "colors": {
+   "paper": "#e7d9b8",
+   "accent_light": "#3f6aa0",
+   "accent_dark": "#839d96",
+   "palette": [
+    "#e7d9b8",
+    "#e5d6b4",
+    "#98a79c",
+    "#839d96",
+    "#e9ddbd",
+    "#d3c4a2"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.5,
+    "mist": 0.3,
+    "cloudy": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.7,
+    "day": 0.3
+   },
+   "moon": false,
+   "season": {
+    "autumn": 1.0
+   },
+   "seasonal_markers": [
+    "wild_geese"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "rural": 0.4
+    },
+    "water": {
+     "lake": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "flat": 0.4
+    },
+    "flags": [
+     "temple_shrine"
+    ]
+   },
+   "place": {
+    "name": "Katada, Ukimidō, Lake Biwa",
+    "lat": 35.118,
+    "lon": 135.925,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Title 'Descending Geese' (rakugan) sets dusk; geese descending in skeins, dark top band and soft cloud streaks with haze veiling the foot of the hills. Wild geese give autumn; Ukimidō hall on stilts at left."
+  }
+ },
+ {
+  "id": "mia-27394",
+  "design_id": "kobayashi-kiyochika-view-of-onmaya-bridge",
+  "title": "View of Onmaya Bridge",
+  "artist": "Kobayashi Kiyochika",
+  "date": "c. 1879",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/27394",
+  "image_url": "https://img.artsmia.org/web_objects_cache/027000/300/90/27394/mia_7014807_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6213,
+   4140
+  ],
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.95
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#3a4440",
+   "#e8a840",
+   "#4a3a2e",
+   "#cfc6ae"
+  ],
+  "colors": {
+   "paper": "#c3b499",
+   "accent_light": "#55473e",
+   "accent_dark": "#e8a840",
+   "palette": [
+    "#c3b499",
+    "#5c584e",
+    "#57544b",
+    "#5b5045",
+    "#bfaf91",
+    "#59564d"
+   ]
+  },
+  "era": "meiji",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "storm": 0.6,
+    "rain": 0.4
+   },
+   "wind": 0.3,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "night": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 0.6,
+     "town": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Sumida River bank near Onmaya Bridge, Tokyo",
+    "lat": 35.7015,
+    "lon": 139.7915,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "A jagged orange-yellow flash with zigzag bolts in a dark sky (read as lightning), figure under an umbrella and a running figure, wet reflective ground; lit lamps along the bridge make it night. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-64661",
+  "design_id": "utagawa-hiroshige-ii-tsuchiyama",
+  "title": "Tsuchiyama",
+  "artist": "Utagawa Hiroshige II; Publisher: Itoya Shōbei",
+  "date": "1863, 4th lunar month",
+  "series": "Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/64661",
+  "image_url": "https://img.artsmia.org/web_objects_cache/064000/600/60/64661/mia_31852a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1848,
+   2704
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2e3438",
+   "#2f8a5e",
+   "#d8c27a",
+   "#c8452f"
+  ],
+  "colors": {
+   "paper": "#decd99",
+   "accent_light": "#196350",
+   "accent_dark": "#77806b",
+   "palette": [
+    "#303130",
+    "#196350",
+    "#1f3a33",
+    "#77806b",
+    "#272b2a",
+    "#2c302f"
+   ],
+   "paper_source": "tagger fallback"
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "rain": 0.9,
+    "storm": 0.1
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.8,
+     "rural": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.7,
+     "hilly": 0.3
+    },
+    "flags": [
+     "bridge"
+    ]
+   },
+   "place": {
+    "name": "Tsuchiyama (Tōkaidō station)",
+    "lat": 34.93,
+    "lon": 136.28,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "Dense vertical rain lines over the whole scene, a daimyo procession in straw rain capes crossing a bridge; the black sky is rain gloom, not night (pole lanterns are not lit). No plant, festival or clothing cue for season."
+  }
+ },
+ {
+  "id": "mia-22720",
+  "design_id": "utagawa-hiroshige-ferry-boats-at-fuji-river-in-sunsh-provinc",
+  "title": "Ferry Boats at Fuji River in Sunshū Province",
+  "artist": "Utagawa Hiroshige; Publisher: Fujiokaya Hikotarō",
+  "date": "c. 1837",
+  "series": "Famous Places of Japan (Honchō meisho 本朝名所)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/22720",
+  "image_url": "https://img.artsmia.org/web_objects_cache/022000/700/20/22720/mia_34624a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2816,
+   1733
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e8d9b4",
+   "#3d6f9a",
+   "#5f7f4a",
+   "#c9774e"
+  ],
+  "colors": {
+   "paper": "#dbc092",
+   "accent_light": "#4f3c30",
+   "accent_dark": "#d5b077",
+   "palette": [
+    "#dbc092",
+    "#4f3c30",
+    "#e1c898",
+    "#7c644a",
+    "#5d4e3c",
+    "#999f84"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.9,
+    "dawn": 0.1
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.5,
+     "wild": 0.5
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "flat": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Fuji River ferry crossing (Iwabuchi)",
+    "lat": 35.14,
+    "lon": 138.63,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Pale unprinted sky with a conventional orange-pink horizon band and no title or activity cue for dawn/dusk, so mainly day. Snow only on Fuji (not scene level); no seasonal plant or activity."
+  }
+ },
+ {
+  "id": "mia-34715",
+  "design_id": "utagawa-hiroshige-mitsuke-ferry-on-the-tenry-river",
+  "title": "Mitsuke: Ferry on the Tenryū River",
+  "artist": "Utagawa Hiroshige; Publisher: Sanoya Kihei",
+  "date": "c. 1840–42",
+  "series": "Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi 東海道五十三次), also known as the Kyōka Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/34715",
+  "image_url": "https://img.artsmia.org/web_objects_cache/034000/700/10/34715/mia_40432a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2644,
+   1947
+  ],
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#f0e6cc",
+   "#7fc3c9",
+   "#e9d36a",
+   "#2f3a33"
+  ],
+  "colors": {
+   "paper": "#e8dbbd",
+   "accent_light": "#8c766a",
+   "accent_dark": "#e8d58d",
+   "palette": [
+    "#6ba09b",
+    "#e8dbbd",
+    "#e8dbb9",
+    "#52564f",
+    "#7fada7",
+    "#e8d58d"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 0.5,
+     "wild": 0.5
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Tenryū River ferry, Mitsuke",
+    "lat": 34.72,
+    "lon": 137.8,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Pale sky with a purple top band (ichimonji) and yellow horizon band, both conventions; ferry boats and a traveller on horseback in daylight. No seasonal cue in image (kyōka poem not read as a cue)."
+  }
+ },
+ {
+  "id": "mia-60694",
+  "design_id": "utagawa-hiroshige-38-yamanaka-village-in-fujikawa",
+  "title": "38, Yamanaka Village in Fujikawa",
+  "artist": "Utagawa Hiroshige; Publisher: Tsutaya Kichizō",
+  "date": "1855, 7th month",
+  "series": "Famous Sights of the Fifty-Three Stations (Gojūsan tsugi meisho zue 五十三次名所圖會), also known as the Vertical Tōkaidō (Tate Tōkaidō)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/60694",
+  "image_url": "https://img.artsmia.org/web_objects_cache/060000/600/90/60694/mia_31676a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   1860,
+   2786
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#f2ece0",
+   "#5a6a7a",
+   "#d9b25a",
+   "#7fb3c2"
+  ],
+  "colors": {
+   "paper": "#e0c59d",
+   "accent_light": "#653c37",
+   "accent_dark": "#d9b25a",
+   "palette": [
+    "#6d6c64",
+    "#e0c59d",
+    "#d0b793",
+    "#e3c9a0",
+    "#a69b81",
+    "#8a806b"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "snowfall": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 1.0
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.8,
+     "rural": 0.2
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "hilly": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Yamanaka village near Fujikawa (Tōkaidō)",
+    "lat": 34.9,
+    "lon": 137.23,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "White flakes falling over snow-laden roofs, trees and road; travellers in straw capes and snow hats. Grey sky is snow gloom, no lanterns or moon, so day."
+  }
+ },
+ {
+  "id": "mia-104351",
+  "design_id": "kawase-hasui-the-great-buddha-at-kamakura",
+  "title": "The Great Buddha at Kamakura",
+  "artist": "Kawase Hasui; Publisher: Watanabe Shōzaburō",
+  "date": "Summer 1930",
+  "series": null,
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/104351",
+  "image_url": "https://img.artsmia.org/web_objects_cache/104000/300/50/104351/mia_1011682_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3267,
+   4800
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#2f7fc0",
+   "#4f7a72",
+   "#e0c9a0",
+   "#c8642f"
+  ],
+  "colors": {
+   "paper": "#e7e7e3",
+   "accent_light": "#2993b6",
+   "accent_dark": "#2993b6",
+   "palette": [
+    "#638888",
+    "#e7e7e3",
+    "#8ba39c",
+    "#2993b6",
+    "#e5e3dc",
+    "#465d5f"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "spring": 0.2,
+    "autumn": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "hilly": 1.0
+    },
+    "flags": [
+     "temple_shrine",
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Kōtoku-in, Kamakura",
+    "lat": 35.3167,
+    "lon": 139.5358,
+    "precision_km": 0.5
+   },
+   "fuji": false,
+   "evidence": "Deep blue sky with towering white cumulus and strong dappled sunlight; visitors at the Great Buddha. Season only weakly summer from the cumulus and hard midday light (published summer 1930)."
+  }
+ },
+ {
+  "id": "mia-63325",
+  "design_id": "eisen-no-55-k-do-cormorant-fishing-boats-on-the-nagae-river",
+  "title": "No. 55, Kōdo: Cormorant Fishing Boats on the Nagae River",
+  "artist": "Eisen 英泉; Publisher: Takenouchi Magohachi",
+  "date": "c. 1835–38",
+  "series": "The Sixty-nine Stations of the Kisokaidō, here called The Stations of the Kiso Road (Kisoji no eki 岐阻路ノ駅)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63325",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/300/20/63325/mia_41116a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2775,
+   1879
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#7fc0d8",
+   "#3a3a3a",
+   "#c86a4a",
+   "#d9c79a"
+  ],
+  "colors": {
+   "paper": "#e5dbc3",
+   "accent_light": "#967560",
+   "accent_dark": "#967560",
+   "palette": [
+    "#5a5652",
+    "#81aaab",
+    "#e5dbc3",
+    "#b09c83",
+    "#75a1a6",
+    "#967560"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 0.6,
+    "cloudy": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "dusk": 0.6,
+    "night": 0.2,
+    "day": 0.2
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.8,
+    "autumn": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.7,
+     "rural": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "hilly": 0.6,
+     "flat": 0.4
+    },
+    "flags": [
+     "forest"
+    ]
+   },
+   "place": {
+    "name": "Nagara River cormorant fishing, Gifu",
+    "lat": 35.43,
+    "lon": 136.77,
+    "precision_km": 5
+   },
+   "fuji": false,
+   "evidence": "Darkening grey sky above a reddish horizon while the cormorant boats light their cresset fires, read as dusk drifting to night. Cormorant fishing (ukai) is a summer activity; dense pine grove on the bank."
+  }
+ },
+ {
+  "id": "mia-68506",
+  "design_id": "eisen-view-of-takanawa-in-edo",
+  "title": "View of Takanawa in Edo",
+  "artist": "Eisen 英泉; Publisher: Ezakiya Kichibei",
+  "date": "early 1830s",
+  "series": "Untitled series of landscapes with Dutch letter borders",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/68506",
+  "image_url": "https://img.artsmia.org/web_objects_cache/068000/500/00/68506/mia_37642a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2714,
+   1808
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#8cc4e0",
+   "#2a2a2a",
+   "#c87a5a",
+   "#4f8a5a"
+  ],
+  "colors": {
+   "paper": "#bfccc1",
+   "accent_light": "#6c9189",
+   "accent_dark": "#af8875",
+   "palette": [
+    "#bfccc1",
+    "#b0c5be",
+    "#837266",
+    "#363a3f",
+    "#898d81",
+    "#b1a18e"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.8,
+    "cloudy": 0.2
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "mountain": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Takanawa, Edo",
+    "lat": 35.632,
+    "lon": 139.74,
+    "precision_km": 1
+   },
+   "fuji": true,
+   "evidence": "Blue sky with deep ichimonji band and white cumulus over Edo Bay; teahouses and porters by day. No seasonal plant, festival or clothing cue."
+  }
+ },
+ {
+  "id": "mia-62727",
+  "design_id": "katsushika-hokusai-line-fishing-in-the-miyato-river",
+  "title": "Line-fishing in the Miyato River",
+  "artist": "Katsushika Hokusai; Publisher: Moriya Jihei",
+  "date": "c. 1833",
+  "series": "One Thousand Pictures of the Ocean (Chie no umi 千絵の海)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/62727",
+  "image_url": "https://img.artsmia.org/web_objects_cache/062000/700/20/62727/mia_49380a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   5023,
+   3605
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e9d79a",
+   "#3d6fa0",
+   "#7fb58a",
+   "#e3a58a"
+  ],
+  "colors": {
+   "paper": "#e2dac4",
+   "accent_light": "#285065",
+   "accent_dark": "#dac38c",
+   "palette": [
+    "#566e5f",
+    "#99b0a7",
+    "#e2dac4",
+    "#dac38c",
+    "#aa936f",
+    "#88a8a4"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.1,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "spring": 0.5,
+    "summer": 0.5
+   },
+   "seasonal_markers": [
+    "willow_green"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "rural": 0.3
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Miyato River (Sumida near Asakusa), Edo",
+    "lat": 35.71,
+    "lon": 139.8,
+    "precision_km": 2
+   },
+   "fuji": false,
+   "evidence": "Pale yellow banded sky, no precipitation; fishermen at work by day. Willow in full green leaf hanging over the bank is the only season cue."
+  }
+ },
+ {
+  "id": "mia-9164",
+  "design_id": "utagawa-hiroshige-mitsuke-tenry-river-view",
+  "title": "Mitsuke: Tenryū River View",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9164",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/100/60/9164/PCD19981107_4659_IMG0022_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4467,
+   2843
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#f1ead8",
+   "#3f78b4",
+   "#9a9a90",
+   "#e2d8a8"
+  ],
+  "colors": {
+   "paper": "#ece5d2",
+   "accent_light": "#3f78b4",
+   "accent_dark": "#6584ab",
+   "palette": [
+    "#ece5d2",
+    "#e2d4b0",
+    "#fbf5e1",
+    "#6584ab",
+    "#e5dcc3",
+    "#fdf7e4"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "mist": 0.6,
+    "clear": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "wild": 0.6,
+     "rural": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Tenryū River ferry, Mitsuke",
+    "lat": 34.72,
+    "lon": 137.8,
+    "precision_km": 3
+   },
+   "fuji": false,
+   "evidence": "Far bank and grove veiled and fading into real atmospheric mist, not a stylised band; blue top gradation is ichimonji convention, so day. No seasonal cue."
+  }
+ },
+ {
+  "id": "mia-63245",
+  "design_id": "utagawa-hiroshige-kuwana-shichiri-watashi-guchi",
+  "title": "Kuwana, Shichiri watashi-guchi",
+  "artist": "Utagawa Hiroshige; Publisher: Takenouchi Magohachi",
+  "date": "c. 1832–33",
+  "series": "The Fifty-three Stations along the Tōkaidō (Tōkaidō gojūsan tsugi no uchi 東海道五十三次之内), also known as the First Tōkaidō or Hōeidō Tōkaidō",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/63245",
+  "image_url": "https://img.artsmia.org/web_objects_cache/063000/200/40/63245/20020924_mia341_2004_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   2882,
+   1938
+  ],
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.97
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#efe2c6",
+   "#2f5f8a",
+   "#c8483a",
+   "#2a2a2a"
+  ],
+  "colors": {
+   "paper": "#e9d9b7",
+   "accent_light": "#845f57",
+   "accent_dark": "#cb9d84",
+   "palette": [
+    "#e9d9b7",
+    "#3c3a3a",
+    "#eadbbb",
+    "#e8d6b4",
+    "#6e7d7c",
+    "#535555"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.3,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "town": 0.7,
+     "wild": 0.3
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": [
+     "castle"
+    ]
+   },
+   "place": {
+    "name": "Shichiri ferry landing, Kuwana",
+    "lat": 35.068,
+    "lon": 136.697,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale sky with conventional red top band and yellow horizon band, no time cue in title; ferry boats with full sails off the stone walls of Kuwana castle. No seasonal cue."
+  }
+ },
+ {
+  "id": "rijks-RP-P-1965-340",
+  "design_id": "katsushika-hokusai-boating-on-sumida-river",
+  "title": "Boating on Sumida river",
+  "artist": "Katsushika Hokusai; Katsushika Hokusai",
+  "date": null,
+  "series": null,
+  "source": "Rijksmuseum",
+  "rights": "Public Domain Mark 1.0",
+  "object_url": "https://www.rijksmuseum.nl/en/collection/RP-P-1965-340",
+  "image_url": "https://iiif.micr.io/fFHrH/full/800,/0/default.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6232,
+   4190
+  ],
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d8d2c4",
+   "#c8443a",
+   "#9a8a6a",
+   "#3a3a3a"
+  ],
+  "colors": {
+   "paper": "#d2c8b2",
+   "accent_light": "#c8443a",
+   "accent_dark": "#c8443a",
+   "palette": [
+    "#d2c8b2",
+    "#cdc2ac",
+    "#c7bfa9",
+    "#c4ac90",
+    "#a4957e",
+    "#a8a390"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 0.8,
+    "dusk": 0.2
+   },
+   "moon": false,
+   "season": {
+    "summer": 0.6,
+    "spring": 0.2,
+    "autumn": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "city": 1.0
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 1.0
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Ryōgoku, Sumida River, Edo",
+    "lat": 35.694,
+    "lon": 139.787,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Pale unprinted, faded sky with a faint pink band; red lanterns hang unlit on the pleasure boat, so mainly day. River pleasure-boating at Ryōgoku is a summer pastime, but there is no evening or fireworks cue."
+  }
+ },
+ {
+  "id": "rijks-RP-P-2022-107-827",
+  "design_id": "koizumi-kishio-mentioned-on-object-mount-fuji-and-a-farmhous",
+  "title": "Mount Fuji and a farmhouse",
+  "artist": "Koizumi Kishio (mentioned on object); Koizumi Kishio (vermeld op object)",
+  "date": null,
+  "series": null,
+  "source": "Rijksmuseum",
+  "rights": "Public Domain Mark 1.0",
+  "object_url": "https://www.rijksmuseum.nl/en/collection/RP-P-2022-107-827",
+  "image_url": "https://iiif.micr.io/hjJtc/full/800,/0/default.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6688,
+   5200
+  ],
+  "crop": [
+   0.02,
+   0.03,
+   0.96,
+   0.94
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#4fa6c8",
+   "#e2b04a",
+   "#6a4a2a",
+   "#f0ece0"
+  ],
+  "colors": {
+   "paper": "#dfc298",
+   "accent_light": "#e2b04a",
+   "accent_dark": "#e8bd72",
+   "palette": [
+    "#dfc298",
+    "#6fa6af",
+    "#e8bd72",
+    "#977f5d",
+    "#6a5749",
+    "#deac63"
+   ]
+  },
+  "era": "modern",
+  "group": "random",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "clear": 0.9,
+    "cloudy": 0.1
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 0.9,
+    "winter": 0.1
+   },
+   "seasonal_markers": [
+    "rice_harvest"
+   ],
+   "environment": {
+    "settlement": {
+     "rural": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "hilly": 0.4
+    },
+    "flags": []
+   },
+   "place": null,
+   "fuji": true,
+   "evidence": "Blue sky with small clouds, bright daylight; farmers threshing and stacking rice sheaves, strings of persimmons drying under the eaves and a persimmon tree in red leaf: late-autumn harvest."
+  }
+ },
+ {
+  "id": "rijks-AK-MAK-1582",
+  "design_id": "totoya-hokkei-mentioned-on-object-gezicht-op-enoshima",
+  "title": "Gezicht op Enoshima",
+  "artist": "Totoya Hokkei (mentioned on object); Totoya Hokkei (vermeld op object)",
+  "date": null,
+  "series": null,
+  "source": "Rijksmuseum",
+  "rights": "Public Domain Mark 1.0",
+  "object_url": "https://www.rijksmuseum.nl/en/collection/AK-MAK-1582",
+  "image_url": "https://iiif.micr.io/CYfaj/full/800,/0/default.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4578,
+   5676
+  ],
+  "crop": [
+   0.06,
+   0.045,
+   0.88,
+   0.79
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6e2d6",
+   "#b86a4a",
+   "#7a7a72",
+   "#4a5a3a"
+  ],
+  "colors": {
+   "paper": "#dcd7c1",
+   "accent_light": "#b86a4a",
+   "accent_dark": "#a17b62",
+   "palette": [
+    "#dcd7c1",
+    "#ded9c4",
+    "#b18c6f",
+    "#dbd6c0",
+    "#ccc5ae",
+    "#d4caae"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 1.0
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "winter": 0.6,
+    "spring": 0.4
+   },
+   "seasonal_markers": [
+    "new_year"
+   ],
+   "environment": {
+    "settlement": {
+     "wild": 1.0
+    },
+    "water": {
+     "sea": 1.0
+    },
+    "terrain": {
+     "flat": 0.6,
+     "mountain": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Enoshima",
+    "lat": 35.3,
+    "lon": 139.48,
+    "precision_km": 2
+   },
+   "fuji": true,
+   "evidence": "Pale unprinted sky and calm sea around Enoshima with faint Fuji; no time cue, so day by default. New Year straw-and-fern (urajiro) decoration on the surimono sets the season."
+  }
+ },
+ {
+  "id": "rijks-RP-P-1968-276",
+  "design_id": "kawase-hasui-mentioned-on-object-fuji-vanaf-het-dorp-narusaw",
+  "title": "Fuji vanaf het dorp Narusawa",
+  "artist": "Kawase Hasui (mentioned on object); Kawase Hasui (vermeld op object)",
+  "date": null,
+  "series": null,
+  "source": "Rijksmuseum",
+  "rights": "Public Domain Mark 1.0",
+  "object_url": "https://www.rijksmuseum.nl/en/collection/RP-P-1968-276",
+  "image_url": "https://iiif.micr.io/RTVlx/full/800,/0/default.jpg",
+  "local_image": null,
+  "pixel_size": [
+   6506,
+   4342
+  ],
+  "crop": [
+   0.02,
+   0.03,
+   0.96,
+   0.95
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#d6d2c6",
+   "#8a7a6a",
+   "#c89a8a",
+   "#4a5a3a"
+  ],
+  "colors": {
+   "paper": "#c9b9a0",
+   "accent_light": "#4a5a3a",
+   "accent_dark": "#c89a8a",
+   "palette": [
+    "#c9b9a0",
+    "#dbcbae",
+    "#ebdfc8",
+    "#d0c0a5",
+    "#a7987c",
+    "#ccbca3"
+   ]
+  },
+  "era": "shin_hanga",
+  "group": "random",
+  "tags": {
+   "genre": "landscape",
+   "weather": {
+    "clear": 0.6,
+    "cloudy": 0.4
+   },
+   "wind": 0.0,
+   "snow_ground": 0.0,
+   "time_of_day": {
+    "day": 1.0
+   },
+   "moon": false,
+   "season": {
+    "autumn": 0.8,
+    "winter": 0.2
+   },
+   "seasonal_markers": [],
+   "environment": {
+    "settlement": {
+     "rural": 1.0
+    },
+    "water": {
+     "none": 1.0
+    },
+    "terrain": {
+     "mountain": 0.6,
+     "flat": 0.4
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Narusawa village",
+    "lat": 35.48,
+    "lon": 138.69,
+    "precision_km": 3
+   },
+   "fuji": true,
+   "evidence": "Soft pale sky with banks of white cloud across Fuji's flank, even daylight. Russet-pink wooded slopes, bare pruned bushes in the field and orange produce drying on the house wall point to autumn (dated 10th month in the margin)."
+  }
+ },
+ {
+  "id": "rijks-RP-P-1956-644",
+  "design_id": "isoda-k-ry-sai-mentioned-on-object-arend-op-pijnboomtak-in-r",
+  "title": "Arend op pijnboomtak in regen",
+  "artist": "Isoda Kôryûsai (mentioned on object); Isoda Kôryûsai (vermeld op object)",
+  "date": null,
+  "series": null,
+  "source": "Rijksmuseum",
+  "rights": "Public Domain Mark 1.0",
+  "object_url": "https://www.rijksmuseum.nl/en/collection/RP-P-1956-644",
+  "image_url": "https://iiif.micr.io/vutRh/full/800,/0/default.jpg",
+  "local_image": null,
+  "pixel_size": [
+   4432,
+   6182
+  ],
+  "crop": [
+   0.14,
+   0.11,
+   0.82,
+   0.8
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6dcc0",
+   "#3a3434",
+   "#a8402e",
+   "#6a8a5a"
+  ],
+  "colors": {
+   "paper": "#e3d4b5",
+   "accent_light": "#816554",
+   "accent_dark": "#816554",
+   "palette": [
+    "#e3d4b5",
+    "#e4d5b6",
+    "#dbcdad",
+    "#4f4942",
+    "#c4b694",
+    "#e0d2b2"
+   ]
+  },
+  "era": "edo",
+  "group": "random",
+  "tags": {
+   "genre": "flora_fauna",
+   "weather": {
+    "rain": 0.8,
+    "drizzle": 0.2
+   },
+   "wind": 0.4,
+   "snow_ground": 0.0,
+   "time_of_day": null,
+   "moon": false,
+   "season": null,
+   "seasonal_markers": [],
+   "environment": null,
+   "place": null,
+   "fuji": false,
+   "evidence": "Hawk on a pine branch with slanting rain lines across a plain background; slant implies some wind. No time cue (flat ground with grey top tint) and evergreen pine gives no season."
+  }
  }
 ]

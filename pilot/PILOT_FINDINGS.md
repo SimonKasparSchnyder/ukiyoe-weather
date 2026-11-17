@@ -165,3 +165,22 @@ A print tagged only broadly ("spring") scored the full season match in cherry-bl
 5. **Harimaze** (several unrelated vignettes on one sheet): exclude, genre `other`.
 6. **Rain gloom vs. lit windows:** lit windows decide dusk/night; the dark sky alone doesn't.
 7. Fields: `edition` gains `derivative` (contemporary copies), `place_null_reason`; a `rotation` note when a scan is turned.
+
+# Round 4 — 105 new prints (famous designs and edge cases), tagged with taxonomy draft 3
+
+*Sample (`scripts/harvest_round4.py`): 41 famous designs looked up by title (Hokusai's Fuji views, waterfalls and bridges; Hiroshige's Edo, Tōkaidō, Ōmi and Kisokaidō views; Hasui; Yoshida), 26 edge cases from title keywords (wind and storm, showers and light rain, night rain and snow, waterfalls, hot springs, castles, maples, Ohara Shōson's birds in rain, snow and moonlight, Kiyochika's Meiji night views), 38 random landscapes; 100 from Minneapolis, 5 from the Rijksmuseum. Designs already in the collection were skipped, also under other titles or states. Only the new prints were tagged (brief: `TAGGING_BRIEF_r4.md`, same rules as round 3), so the 166 earlier tags are unchanged; merged into `data/tags_v4.json`.*
+
+## Results
+
+- **Included: 103 of 105** → **259 prints** in the app. Excluded: Kiyochika's *Moon Seen Beyond Shinagawa* (the museum image is a skewed phone photo of a framed print) and the second state of *Kanbara: Night Snow* (the first state is already in).
+- **Thin categories** (share ≥ 0.3, 259 prints vs. 156 before): rain 24 (13), snowfall 24 (10), mist 28 (16), storm 13 (8), drizzle 4 (1), night 49 (32), moon shown 22 (15), night with rain or snow 9 (3), spring rain 6 (2); flags waterfall 12 (1), onsen 6 (1), castle 15 (9); flora_fauna 11 (5); Meiji 15 (5).
+- **Season "no cue":** 88 of 259 (34 %) — Hokusai's Fuji, waterfall and bridge views mostly have no seasonal cue.
+- **Spot checks with the scoring:** a summer day by a mountain waterfall now picks Hiroshige's *Fudō Falls in Ōji*; an autumn day in an onsen town picks Hasui's *Arayu Hot Spring*; spring rain picks Hasui's *Spring Rain at Benkei Bridge*.
+
+## More candidates for draft 4
+
+8. **Markers:** cormorant fishing (`ukai`, summer), Boys' Festival carp streamers (May), burnet and other autumn plants beyond `autumn_grasses`, non-maple autumn foliage, egrets.
+9. **Weather:** a state or modifier for "just after rain" (wet streets, rain stopped); the Great Wave shows a storm only in the sea under a calm sky.
+10. **Era:** `sosaku_hanga` (creative prints, same years as shin-hanga); prints from 1912–c. 1915 fall between `meiji` and `shin_hanga`.
+11. **Crop:** a `round` crop shape for pictures set in a circle (surimono).
+12. **Moon matching:** "rain and moonlight" prints rarely match, because the current-side moon needs a mostly clear sky.

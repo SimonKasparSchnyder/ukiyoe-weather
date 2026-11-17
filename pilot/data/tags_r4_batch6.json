@@ -1,0 +1,1070 @@
+[
+ {
+  "id": "mia-64661",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.9,
+   "storm": 0.1
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tsuchiyama (Tōkaidō station)",
+   "lat": 34.93,
+   "lon": 136.28,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet nearly fills the scan; thin margin",
+  "fading": false,
+  "palette": [
+   "#2e3438",
+   "#2f8a5e",
+   "#d8c27a",
+   "#c8452f"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.75
+  },
+  "evidence": "Dense vertical rain lines over the whole scene, a daimyo procession in straw rain capes crossing a bridge; the black sky is rain gloom, not night (pole lanterns are not lit). No plant, festival or clothing cue for season.",
+  "taxonomy_friction": "The white cascade beside the procession reads as rapids rather than a true waterfall, so no waterfall flag; borderline."
+ },
+ {
+  "id": "mia-22720",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.9,
+   "dawn": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.5,
+    "wild": 0.5
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "flat": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Fuji River ferry crossing (Iwabuchi)",
+   "lat": 35.14,
+   "lon": 138.63,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan; slight trimmed edges",
+  "fading": false,
+  "palette": [
+   "#e8d9b4",
+   "#3d6f9a",
+   "#5f7f4a",
+   "#c9774e"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale unprinted sky with a conventional orange-pink horizon band and no title or activity cue for dawn/dusk, so mainly day. Snow only on Fuji (not scene level); no seasonal plant or activity.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-34715",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.5,
+    "wild": 0.5
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tenryū River ferry, Mitsuke",
+   "lat": 34.72,
+   "lon": 137.8,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "chūban sheet with blank margins inside the scan",
+  "fading": false,
+  "palette": [
+   "#f0e6cc",
+   "#7fc3c9",
+   "#e9d36a",
+   "#2f3a33"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with a purple top band (ichimonji) and yellow horizon band, both conventions; ferry boats and a traveller on horseback in daylight. No seasonal cue in image (kyōka poem not read as a cue).",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-60694",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yamanaka village near Fujikawa (Tōkaidō)",
+   "lat": 34.9,
+   "lon": 137.23,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "vertical ōban; sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#f2ece0",
+   "#5a6a7a",
+   "#d9b25a",
+   "#7fb3c2"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.6,
+   "season": 0.95,
+   "environment": 0.75
+  },
+  "evidence": "White flakes falling over snow-laden roofs, trees and road; travellers in straw capes and snow hats. Grey sky is snow gloom, no lanterns or moon, so day.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-104351",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.2,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kōtoku-in, Kamakura",
+   "lat": 35.3167,
+   "lon": 139.5358,
+   "precision_km": 0.5
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins; frame not in scan",
+  "fading": false,
+  "palette": [
+   "#2f7fc0",
+   "#4f7a72",
+   "#e0c9a0",
+   "#c8642f"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.95,
+   "season": 0.35,
+   "environment": 0.85
+  },
+  "evidence": "Deep blue sky with towering white cumulus and strong dappled sunlight; visitors at the Great Buddha. Season only weakly summer from the cumulus and hard midday light (published summer 1930).",
+  "taxonomy_friction": "Cumulus/strong sun as a summer cue is weak and not in the season-cue list; no marker for it."
+ },
+ {
+  "id": "mia-63325",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.6,
+   "night": 0.2,
+   "day": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "flat": 0.4
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Nagara River cormorant fishing, Gifu",
+   "lat": 35.43,
+   "lon": 136.77,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "horizontal ōban; sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#7fc0d8",
+   "#3a3a3a",
+   "#c86a4a",
+   "#d9c79a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.45,
+   "season": 0.7,
+   "environment": 0.8
+  },
+  "evidence": "Darkening grey sky above a reddish horizon while the cormorant boats light their cresset fires, read as dusk drifting to night. Cormorant fishing (ukai) is a summer activity; dense pine grove on the bank.",
+  "taxonomy_friction": "No marker for cormorant fishing (ukai, roughly June–September); summer vector only. Metadata 'Nagae River' = the Nagara."
+ },
+ {
+  "id": "mia-68506",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "mountain": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Takanawa, Edo",
+   "lat": 35.632,
+   "lon": 139.74,
+   "precision_km": 1
+  },
+  "fuji": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan; crop includes the printed Dutch-letter border",
+  "fading": false,
+  "palette": [
+   "#8cc4e0",
+   "#2a2a2a",
+   "#c87a5a",
+   "#4f8a5a"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.9,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Blue sky with deep ichimonji band and white cumulus over Edo Bay; teahouses and porters by day. No seasonal plant, festival or clothing cue.",
+  "taxonomy_friction": "Decorative pseudo-Dutch letter border is part of the printed sheet; a crop to the inner picture may suit display better."
+ },
+ {
+  "id": "mia-62727",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.5,
+   "summer": 0.5
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Miyato River (Sumida near Asakusa), Edo",
+   "lat": 35.71,
+   "lon": 139.8,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "chūban sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#e9d79a",
+   "#3d6fa0",
+   "#7fb58a",
+   "#e3a58a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": 0.5,
+   "environment": 0.8
+  },
+  "evidence": "Pale yellow banded sky, no precipitation; fishermen at work by day. Willow in full green leaf hanging over the bank is the only season cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9164",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "mist": 0.6,
+   "clear": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tenryū River ferry, Mitsuke",
+   "lat": 34.72,
+   "lon": 137.8,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills the scan; cut corners on the image border",
+  "fading": false,
+  "palette": [
+   "#f1ead8",
+   "#3f78b4",
+   "#9a9a90",
+   "#e2d8a8"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.75,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Far bank and grove veiled and fading into real atmospheric mist, not a stylised band; blue top gradation is ichimonji convention, so day. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-63245",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.3,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "wild": 0.3
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "castle"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shichiri ferry landing, Kuwana",
+   "lat": 35.068,
+   "lon": 136.697,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "horizontal ōban; sheet fills the scan, cut-corner border",
+  "fading": false,
+  "palette": [
+   "#efe2c6",
+   "#2f5f8a",
+   "#c8483a",
+   "#2a2a2a"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.75,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with conventional red top band and yellow horizon band, no time cue in title; ferry boats with full sails off the stone walls of Kuwana castle. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "rijks-RP-P-1965-340",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dusk": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.2,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ryōgoku, Sumida River, Edo",
+   "lat": 35.694,
+   "lon": 139.787,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "ōban sheet with narrow margin in the scan",
+  "fading": true,
+  "palette": [
+   "#d8d2c4",
+   "#c8443a",
+   "#9a8a6a",
+   "#3a3a3a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.5,
+   "season": 0.35,
+   "environment": 0.85
+  },
+  "evidence": "Pale unprinted, faded sky with a faint pink band; red lanterns hang unlit on the pleasure boat, so mainly day. River pleasure-boating at Ryōgoku is a summer pastime, but there is no evening or fireworks cue.",
+  "taxonomy_friction": "Daytime pleasure-boating (funa-asobi) fits summer_fireworks/yūsuzumi only partly, so no marker; Ryōgoku Bridge shows only as a fragment at the left edge (no bridge flag)."
+ },
+ {
+  "id": "rijks-RP-P-2022-107-827",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "modern",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.9,
+   "cloudy": 0.1
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "autumn": 0.9,
+   "winter": 0.1
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "rice_harvest"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.03,
+   0.96,
+   0.94
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on darker mount paper; crop to the sheet edge",
+  "fading": false,
+  "palette": [
+   "#4fa6c8",
+   "#e2b04a",
+   "#6a4a2a",
+   "#f0ece0"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.95,
+   "season": 0.85,
+   "environment": 0.8
+  },
+  "evidence": "Blue sky with small clouds, bright daylight; farmers threshing and stacking rice sheaves, strings of persimmons drying under the eaves and a persimmon tree in red leaf: late-autumn harvest.",
+  "taxonomy_friction": "Sōsaku-hanga print (1930s/40s) tagged era 'modern', though contemporaneous with shin-hanga; the era scheme has no sōsaku_hanga value. Fuji-foot village not identifiable, place null."
+ },
+ {
+  "id": "rijks-AK-MAK-1582",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 0.6,
+   "spring": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "new_year"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Enoshima",
+   "lat": 35.3,
+   "lon": 139.48,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.06,
+   0.045,
+   0.88,
+   0.79
+  ],
+  "crop_shape": "rect",
+  "crop_note": "surimono sheet only; excludes backing paper and colour checker",
+  "fading": false,
+  "palette": [
+   "#e6e2d6",
+   "#b86a4a",
+   "#7a7a72",
+   "#4a5a3a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.5,
+   "season": 0.6,
+   "environment": 0.75
+  },
+  "evidence": "Pale unprinted sky and calm sea around Enoshima with faint Fuji; no time cue, so day by default. New Year straw-and-fern (urajiro) decoration on the surimono sets the season.",
+  "taxonomy_friction": "Picture set in a red circle on a square surimono: crop is rect around the sheet; a circular mask would suit better. The New Year decoration is outside the view itself."
+ },
+ {
+  "id": "rijks-RP-P-1968-276",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "autumn": 0.8,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "flat": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Narusawa village",
+   "lat": 35.48,
+   "lon": 138.69,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.03,
+   0.96,
+   0.95
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with margins; signature/date in left margin",
+  "fading": false,
+  "palette": [
+   "#d6d2c6",
+   "#8a7a6a",
+   "#c89a8a",
+   "#4a5a3a"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.85,
+   "season": 0.6,
+   "environment": 0.85
+  },
+  "evidence": "Soft pale sky with banks of white cloud across Fuji's flank, even daylight. Russet-pink wooded slopes, bare pruned bushes in the field and orange produce drying on the house wall point to autumn (dated 10th month in the margin).",
+  "taxonomy_friction": "Autumn foliage on distant slopes is not clearly maple, so no autumn_maples marker."
+ },
+ {
+  "id": "rijks-RP-P-1956-644",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.8,
+   "drizzle": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.4,
+  "snow_ground": 0.0,
+  "time_of_day": null,
+  "time_null_reason": "no_cue",
+  "time_source": null,
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": null,
+  "environment_null_reason": "not_applicable",
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.14,
+   0.11,
+   0.82,
+   0.8
+  ],
+  "crop_shape": "rect",
+  "crop_note": "chūban sheet on a mount; excludes mount and inventory number",
+  "fading": false,
+  "palette": [
+   "#e6dcc0",
+   "#3a3434",
+   "#a8402e",
+   "#6a8a5a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": null,
+   "season": null,
+   "environment": null
+  },
+  "evidence": "Hawk on a pine branch with slanting rain lines across a plain background; slant implies some wind. No time cue (flat ground with grey top tint) and evergreen pine gives no season.",
+  "taxonomy_friction": "none"
+ }
+]

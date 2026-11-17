@@ -1,0 +1,1080 @@
+[
+ {
+  "id": "mia-91670",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 0.5,
+   "cloudy": 0.5
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": null,
+   "water": {
+    "river": 0.6,
+    "wetland": 0.4
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.965,
+   0.985
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet on black backdrop; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#c9cbc8",
+   "#2f8a94",
+   "#1f4a40",
+   "#f2f0ea"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.3,
+   "season": 0.95,
+   "environment": 0.5
+  },
+  "evidence": "Heavy snow on reeds, stump and riverside gabion baskets; flat grey snow sky with no clear flakes, so implied snowfall shared with cloudy. No time cue beyond grey daylight (gloom, not night).",
+  "taxonomy_friction": "Settlement left null (riverbank vignette, only a gabion as human trace). 'In Snow' title is ambiguous between falling and lying snow."
+ },
+ {
+  "id": "mia-91655",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.8,
+   "drizzle": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.2,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "lotus"
+  ],
+  "environment": {
+   "settlement": null,
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan with thin margin",
+  "fading": false,
+  "palette": [
+   "#d6d6d0",
+   "#2e8a6a",
+   "#8fc8c4",
+   "#ece6d6"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.5,
+   "season": 0.85,
+   "environment": 0.6
+  },
+  "evidence": "Dense slanted rain lines over a grey sky; frog on lotus leaves in a pond (lotus leaves count for the marker). Plain grey daylight.",
+  "taxonomy_friction": "Signature reads Koson with the same seal as mia-37514, which suggests an earlier (late Meiji/Taishō) date than the c. 1928-30 in the metadata; era kept shin_hanga per metadata. Taishō prints before c. 1915 fit no era category."
+ },
+ {
+  "id": "mia-37514",
+  "genre": "flora_fauna",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "mist": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "wild_geese"
+  ],
+  "environment": {
+   "settlement": null,
+   "water": null,
+   "terrain": null,
+   "flags": []
+  },
+  "environment_null_reason": "not_applicable",
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.01,
+   0.945,
+   0.985
+  ],
+  "crop_shape": "rect",
+  "crop_note": "narrow chūtanzaku-like sheet; small paper slip at top edge",
+  "fading": true,
+  "palette": [
+   "#c8c0ae",
+   "#e6e0d0",
+   "#6b5a48",
+   "#3a3028"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.8,
+   "season": 0.85,
+   "environment": null
+  },
+  "evidence": "Full moon disc in a soft grey hazy sky; skein of wild geese flying (geese + moon = autumn). No setting at all.",
+  "taxonomy_friction": "Background is flat grey yet the moon makes it a night sky; weather tagged clear/mist with low confidence rather than null."
+ },
+ {
+  "id": "mia-136613",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.5,
+   "mist": 0.3,
+   "clear": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Sumida River embankment (Mukōjima), Tokyo",
+   "lat": 35.715,
+   "lon": 139.805,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with wide margins and title cartouche below image",
+  "fading": false,
+  "palette": [
+   "#4e5254",
+   "#7fb0a8",
+   "#3a2a24",
+   "#e8d890"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.9,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Title 'yoru' (night); dark grey sky, lights reflected as vertical streaks in the river, silhouetted strollers. No moon or stars; distant shore slightly veiled. Leafy young trees give no clear season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-136601",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.5,
+   "drizzle": 0.5
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Gohonmatsu, Onagi River, Tokyo",
+   "lat": 35.6895,
+   "lon": 139.827,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins; title below image",
+  "fading": false,
+  "palette": [
+   "#5e6a68",
+   "#2e2622",
+   "#e8b890",
+   "#9aa8a0"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.9,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Title 'rain and moon'; moon breaking through a dark broken cloud deck, wet ground with reflections, figures under umbrellas, lit steamboats on the canal. No rain lines drawn, so light rain/after-rain. Season from moon convention only.",
+  "taxonomy_friction": "Rain-with-moon (passing shower) is a classic subject; the 'moon only at <=50% cloud' rule on the current side will rarely match it."
+ },
+ {
+  "id": "mia-136590",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hikifune canal, Koume, Tokyo",
+   "lat": 35.714,
+   "lon": 139.816,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.985,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; title along top margin",
+  "fading": false,
+  "palette": [
+   "#3e6a70",
+   "#c8a888",
+   "#4a3a2e",
+   "#e8dcb8"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.8,
+   "season": 0.3,
+   "environment": 0.7
+  },
+  "evidence": "Title 'yoru' (night); stars in a deep blue-green sky, low full moon above a fading warm horizon glow, haulers towing a barge along the pale canal. Season from moon convention (light clothing, bare feet hint summer).",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-136588",
+  "genre": "landscape",
+  "include": false,
+  "exclude_reason": "image quality: the museum image is a skewed phone photo of a framed print, with glare",
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.9,
+   "mist": 0.1
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "city": 0.3
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shinagawa, Tokyo (teahouse overlooking the bay)",
+   "lat": 35.62,
+   "lon": 139.74,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.01,
+   0.94,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "phone photo of a matted print, slightly skewed; crop approximate",
+  "fading": false,
+  "palette": [
+   "#2a4a6a",
+   "#d02a2a",
+   "#8ab8b0",
+   "#e8e4d0"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.95,
+   "season": 0.35,
+   "environment": 0.7
+  },
+  "evidence": "Full moon with halo over Edo Bay, moonlight path on the water, sailboat; viewed from a room past a red awning and a lantern painted with bellflower and grasses. Season from moon convention (the painted lantern decoration is too weak to use).",
+  "taxonomy_friction": "Image is a casual photo of a framed print, not a museum scan."
+ },
+ {
+  "id": "mia-64062",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.5,
+    "rural": 0.5
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Minosaki, Bungo Province (exact site not located)",
+   "lat": null,
+   "lon": null,
+   "precision_km": null
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan",
+  "fading": false,
+  "palette": [
+   "#2e6a9a",
+   "#5a5e60",
+   "#e89a5a",
+   "#e8dcc0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with red top band and orange horizon glow (Hiroshige convention, no title or activity cue, so mostly day); moored boats, thatched village, sandbar into the sea. No seasonal sign.",
+  "taxonomy_friction": "Named place but I could not locate Minosaki reliably; coordinates left null."
+ },
+ {
+  "id": "mia-60815",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "autumn": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Fukuroi (Tōkaidō station)",
+   "lat": 34.75,
+   "lon": 137.925,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet fills scan",
+  "fading": true,
+  "palette": [
+   "#e8e0c8",
+   "#2a4a6a",
+   "#9ab890",
+   "#3a3a34"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with blue horizon band, bright light; outdoor tea stall with kettle over a fire, smoke drifting slightly; open fields with grown crops and distant straw stacks. Light clothing suggests summer, stacks hint at autumn.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64609",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "mist": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.3,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.5,
+   "summer": 0.5
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 0.7,
+    "lake": 0.3
+   },
+   "terrain": {
+    "hilly": 0.5,
+    "mountain": 0.5
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Honnogahara / Motosaka pass near Goyu (Tōkaidō)",
+   "lat": 34.83,
+   "lon": 137.34,
+   "precision_km": 5
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "image area fills scan",
+  "fading": false,
+  "palette": [
+   "#9ab8b8",
+   "#2e4a40",
+   "#3a7a6a",
+   "#e8dcc4"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": 0.5,
+   "environment": 0.7
+  },
+  "evidence": "Pale blue daylight sky; grey bokashi veils the middle distance (partly convention, partly haze). Willows in full leaf; foreground grass streaked as if wind-blown. Fuji drawn behind the dark hills.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-63232",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "autumn": 0.7,
+   "summer": 0.3
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "autumn_maples"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Utsunoya pass, Okabe (Tōkaidō)",
+   "lat": 34.93,
+   "lon": 138.33,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "image fills scan; corners show mount hinges",
+  "fading": false,
+  "palette": [
+   "#3e6a6a",
+   "#e8e0cc",
+   "#2a3a40",
+   "#c86a50"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": 0.4,
+   "environment": 0.9
+  },
+  "evidence": "Pale sky with dark top band (convention) in a narrow gorge; one tree with red foliage beside the pass, cedar woods, stream with rapids, porters carrying firewood. Red tree read as autumn maple.",
+  "taxonomy_friction": "Single red-leaved tree is a thin autumn cue; small stream rapids not counted as waterfall."
+ },
+ {
+  "id": "mia-22797",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": [
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ueno Park, Tokyo (2nd National Industrial Exposition gate)",
+   "lat": 35.7155,
+   "lon": 139.774,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on beige mount; right edge strip excluded",
+  "fading": false,
+  "palette": [
+   "#5a9ab0",
+   "#f0b8c0",
+   "#e8dcc0",
+   "#2a3a4a"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.8,
+   "season": 0.95,
+   "environment": 0.9
+  },
+  "evidence": "Blue sky fading to a pink horizon in bright daylight; cherry trees in full bloom over crowds and carriages at the exposition gate, gas lamps unlit.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-22804",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "temple_shrine",
+    "castle"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Miya (Atsuta), Shichiri-no-watashi ferry landing, Nagoya",
+   "lat": 35.122,
+   "lon": 136.905,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "chūban sheet with decorative green frame fills scan",
+  "fading": false,
+  "palette": [
+   "#2e6ab0",
+   "#e8e0c4",
+   "#d02a2a",
+   "#5a5a50"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Blue top band, pale sky and thin pink horizon band (convention, read as day); torii and castle-like turret wall at the ferry landing, moored boats, a woman with a parasol. No seasonal sign.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-60797",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.6,
+   "night": 0.4
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Numazu (Tōkaidō station), Kano River",
+   "lat": 35.1,
+   "lon": 138.86,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "image fills scan; corners show mount hinges",
+  "fading": false,
+  "palette": [
+   "#2a5a7a",
+   "#1e2a2a",
+   "#e8dcc0",
+   "#c8604a"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.85,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Title 'tasogare' (twilight); deep blue sky with a large full moon, pilgrims walking toward the town along the river. Season from moon convention only.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64432",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.9,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yatate cedar, Sasago pass (Kōshū kaidō)",
+   "lat": 35.623,
+   "lon": 138.836,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "image fills scan",
+  "fading": false,
+  "palette": [
+   "#6aa860",
+   "#7a3a2a",
+   "#b8c8b8",
+   "#e8a8a0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with dark top and pink horizon bands (convention, read as day); travellers measuring the giant cedar, waterfall on the mountainside at left, small stream. No seasonal sign.",
+  "taxonomy_friction": "none"
+ }
+]
