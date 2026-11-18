@@ -39,7 +39,7 @@ const SCENARIOS = [
 
 const PART_LABELS = {
   weather: "weather", wind: "wind", snow_ground: "snow on ground", time_of_day: "time of day", moon: "moon",
-  season: "season", environment: "environment", environment_flags: "env. features", proximity: "proximity",
+  season: "season", environment: "environment", environment_flags: "env. features", proximity: "proximity", region: "region",
   orientation: "orientation",
 };
 

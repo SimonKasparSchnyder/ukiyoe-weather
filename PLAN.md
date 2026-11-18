@@ -203,7 +203,7 @@ Rotation (later): IIIF only rotates in 90° steps, so a small deskew angle is ap
 | Weather | Current condition vs. print's weather vector, using a **closeness table** (e.g. rain↔mist 0.5, rain↔snow 0.3, clear↔storm 0). Wind as a small modifier. |
 | Time of day | Closeness table with neighbours (e.g. dusk↔night 0.6, dawn↔dusk some credit for similar light). |
 | Season | Circular distance in the year (late winter is near early spring); seasonal markers (plum, cherry, iris, maple, …) can narrow the window. |
-| Proximity | Decays with distance to the print's real place, e.g. full score within a few km, fading over ~50 km. Zero for prints without a place. |
+| Proximity | Decays with distance to the print's real place, e.g. full score within a few km, fading over ~50 km. Zero for prints without a place. A broader region term (~150 km) adds a bonus for prints from the same part of the country, scaled down where many prints are nearby. |
 | Environment | Similarity between the location's environment vector and the print's. |
 | Orientation | Bonus when the print's aspect ratio suits the screen. |
 
@@ -221,7 +221,8 @@ Starting weights (`web/config/weights.json`), to be tuned:
   "season": 0.5,
   "environment": 0.5,
   "environment_flags": 0.15,
-  "proximity": 0.4,
+  "proximity": 0.2,
+  "region": 0.3,
   "orientation": 0.15,
   "neutral": 0.4
 }

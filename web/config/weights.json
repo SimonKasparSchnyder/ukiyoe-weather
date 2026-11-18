@@ -7,7 +7,8 @@
   "season": 0.5,
   "environment": 0.5,
   "environment_flags": 0.15,
-  "proximity": 0.4,
+  "proximity": 0.2,
+  "region": 0.3,
   "orientation": 0.15,
   "neutral": 0.4
 }

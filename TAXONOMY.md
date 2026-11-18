@@ -285,6 +285,8 @@ So an exact fit scores 1, and a print twice as wide (or tall) as the window scor
 
 **similarity = exp(−distance / scale)** with scale ~15 km (so ~1 within a few km, ~0.5 at 10 km, ~0.04 at 50 km). Prints without coordinates score 0. The coordinates are the viewpoint (see §6).
 
+A second, broader **region** term uses the same formula with a ~150 km scale, multiplied by min(1, 15 / number of prints within 150 km of the current location): full strength where only a few prints are nearby (e.g. Hiroshima, Kōchi), small where most of the collection is (Tokyo), so regional prints get shown without making Edo views even more dominant around Tokyo. Settings in `proximity.json`.
+
 ## 9. Other tagger output
 
 | Field | Values | Use |
@@ -326,7 +328,7 @@ web/config/
   time.json           categories, closeness table, sun-elevation thresholds, blend width
   season.json         season bumps, marker table with peaks and widths, hemisphere rule
   environment.json    group categories, closeness tables, group sub-weights, flag radii
-  proximity.json      distance scale
+  proximity.json      distance scales (place, region) and the region fair share
 ```
 
 Example `weights.json`:
@@ -341,7 +343,8 @@ Example `weights.json`:
   "season": 0.5,
   "environment": 0.5,
   "environment_flags": 0.15,
-  "proximity": 0.4,
+  "proximity": 0.2,
+  "region": 0.3,
   "orientation": 0.15,
   "neutral": 0.4
 }

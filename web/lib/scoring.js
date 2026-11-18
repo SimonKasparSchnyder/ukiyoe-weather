@@ -138,11 +138,18 @@ export function scorePrint(print, cur, cfg, weights = cfg.weights) {
     add("environment_flags", curFlags.filter((f) => have.has(f)).length / curFlags.length);
   }
 
-  // proximity: only when a location is set
+  // proximity: only when a location is set. Two terms:
+  //   proximity  the print shows this very place (fades within ~15 km)
+  //   region     the print is from the same part of the country (fades over ~150 km). Scaled by
+  //              cur.region_factor (set in rankPrints), so it is full where few prints are nearby and small
+  //              where many are (around Tokyo), letting regional prints show up without crowding out the rest.
   if (cur.location) {
     const p = t.place;
-    add("proximity", p && p.lat != null
-      ? Math.exp(-haversineKm(cur.location, p) / cfg.proximity.scale_km) : 0);
+    const d = p && p.lat != null ? haversineKm(cur.location, p) : null;
+    add("proximity", d == null ? 0 : Math.exp(-d / cfg.proximity.scale_km));
+    if (cfg.proximity.region_scale_km) {
+      add("region", d == null ? 0 : (cur.region_factor ?? 1) * Math.exp(-d / cfg.proximity.region_scale_km));
+    }
   }
 
   // orientation
@@ -155,7 +162,16 @@ export function scorePrint(print, cur, cfg, weights = cfg.weights) {
   return { total, parts };
 }
 
+/** Region bonus share: 1 where at most `region_fair_share` prints lie within the region scale, less where more do. */
+export function regionFactor(index, location, cfg) {
+  const { region_scale_km: r, region_fair_share: k } = cfg.proximity;
+  if (!location || !r || !k) return 1;
+  const near = index.filter((p) => p.tags.place?.lat != null && haversineKm(location, p.tags.place) <= r).length;
+  return Math.min(1, k / Math.max(1, near));
+}
+
 export function rankPrints(index, cur, cfg, weights) {
+  if (cur.location && cur.region_factor == null) cur = { ...cur, region_factor: regionFactor(index, cur.location, cfg) };
   return index
     .map((print) => ({ print, ...scorePrint(print, cur, cfg, weights) }))
     .sort((a, b) => b.total - a.total);
