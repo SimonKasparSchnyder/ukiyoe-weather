@@ -1,0 +1,1005 @@
+[
+ {
+  "id": "mia-117527",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": null,
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on grey backdrop; uneven deckled edges, small torn upper corners",
+  "fading": false,
+  "palette": [
+   "#7a5a3a",
+   "#c9b48e",
+   "#5f7a3c"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.6
+  },
+  "evidence": "Farmhouse interior; daylight and green trees under pale white clouds seen through the open doorway, hearth fire inside. No seasonal sign beyond greenery.",
+  "taxonomy_friction": "Interior scene: no genre fits well (landscape chosen because the room, not the figures, is the subject); weather only from a small doorway view. Terrain null (no_cue)."
+ },
+ {
+  "id": "rijks-5",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "title",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.3,
+    "wild": 0.7
+   },
+   "water": {
+    "lake": 0.6,
+    "river": 0.4
+   },
+   "terrain": {
+    "hilly": 0.7,
+    "mountain": 0.3
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Seta no Karahashi, Ōtsu",
+   "lat": 34.97,
+   "lon": 135.91,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.07,
+   0.11,
+   0.85,
+   0.78
+  ],
+  "crop_shape": "rect",
+  "crop_note": "small print (82 x 111 mm) mounted on larger paper; crop to the printed brown frame",
+  "fading": false,
+  "palette": [
+   "#e6e1bf",
+   "#9a5a40",
+   "#6f8a4a"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Dutch title 'Evening glow at Seta' gives dusk; pale yellowish sky with a grey cloud bank. Two-span Seta bridge over the lake outlet; no seasonal cue.",
+  "taxonomy_friction": "Small-format Hokusai print, possibly from a booklet or album; fragment left 'none' as unconfirmed."
+ },
+ {
+  "id": "mia-34725",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.5,
+   "night": 0.5
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "wild": 0.2
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Akasaka (Tōkaidō station)",
+   "lat": 34.855,
+   "lon": 137.31,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet in scan, narrow margins",
+  "fading": false,
+  "palette": [
+   "#ece4cc",
+   "#3f8a8a",
+   "#3a5a3a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.5,
+   "season": 0.3,
+   "environment": 0.7
+  },
+  "evidence": "Full moon in a pale moonlit sky over the post-station inns; travellers and a led packhorse arriving. Season only from the moon convention.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-22661",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": true,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "moon_viewing"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Seto, Kanazawa (Yokohama)",
+   "lat": 35.335,
+   "lon": 139.625,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet with clipped corners fills the scan",
+  "fading": false,
+  "palette": [
+   "#b9d3d8",
+   "#2f6f8f",
+   "#4a4a4a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": 0.8,
+   "environment": 0.8
+  },
+  "evidence": "Title 'Autumn Moon at Seto' and the full moon over the inlet give night and autumn; figures on the Seto bridge and teahouse terrace enjoying the moon, clear pale sky.",
+  "taxonomy_friction": "Season decided by the title; season_source has no 'title' option, so 'image' used."
+ },
+ {
+  "id": "mia-117523",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.4,
+   "summer": 0.6
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Suzhou canal, China",
+   "lat": 31.3,
+   "lon": 120.62,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet edge visible on all sides; deckled right edge",
+  "fading": false,
+  "palette": [
+   "#a9bccb",
+   "#8c9a5a",
+   "#d8cdb8"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": 0.5,
+   "environment": 0.8
+  },
+  "evidence": "Blue sky with white cumulus, bright daylight; willow in full leaf and light clothes, straw hats suggest late spring to summer. Arched stone bridge over a busy canal.",
+  "taxonomy_friction": "Place abroad (China): Kantō marker dates are a rough fit."
+ },
+ {
+  "id": "mia-60866",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall",
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Iwaya Kannon, Sakanoshita (Kameyama)",
+   "lat": 34.885,
+   "lon": 136.33,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "vertical sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#e9e2c8",
+   "#7fae6a",
+   "#e3b65a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Pale unprinted sky with blue top band, plain daylight; travellers by the cave shrine and waterfall in a gorge. No plants, festivals or clothing indicating season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-9161",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.2,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "autumn_maples"
+  ],
+  "environment": {
+   "settlement": null,
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tamukeyama, Nara",
+   "lat": 34.687,
+   "lon": 135.848,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with thin margins; lower edge slightly uneven",
+  "fading": false,
+  "palette": [
+   "#efe0cc",
+   "#a8473a",
+   "#2f6f8a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": 0.9,
+   "environment": 0.4
+  },
+  "evidence": "Red maple leaves blowing past Michizane's ox cart (poem on the Tamukeyama maples); pale sky with blue top band and a conventional pink horizon band read as day.",
+  "taxonomy_friction": "Genre borderline figure vs figures_in_landscape (cart and courtiers fill about half the sheet). Settlement null: no buildings, only stone lanterns."
+ },
+ {
+  "id": "mia-60858",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "sea": 0.6,
+    "river": 0.4
+   },
+   "terrain": {
+    "flat": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Numazu (Tōkaidō station)",
+   "lat": 35.095,
+   "lon": 138.86,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet in scan, thin margins",
+  "fading": false,
+  "palette": [
+   "#e6dfcc",
+   "#c8603a",
+   "#4f7f9a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.7
+  },
+  "evidence": "Pale sky with blue band, plain daylight; travellers pass a shop making katsuobushi, mountains and water with sails behind. No clear seasonal cue.",
+  "taxonomy_friction": "Bonito season (katsuo, early summer) is a possible cue, but no marker exists; left null."
+ },
+ {
+  "id": "mia-60689",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.9,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Mishima (Tōkaidō station)",
+   "lat": 35.12,
+   "lon": 138.92,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; small ink spot lower right",
+  "fading": false,
+  "palette": [
+   "#efe2c4",
+   "#4f8aa0",
+   "#e39a8a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": 0.6,
+   "environment": 0.7
+  },
+  "evidence": "Pale sky with blue top band and a conventional pink horizon band (day); parasols in calm sun, no rain lines. Pink blossoming trees by the teahouse and bank read as cherry blossom.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62375",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.2,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.2,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Awazu, Ōtsu",
+   "lat": 34.98,
+   "lon": 135.9,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.03,
+   0.95,
+   0.94
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on beige backdrop, deckled right edge",
+  "fading": false,
+  "palette": [
+   "#2f5fa8",
+   "#a8c86a",
+   "#ece4cc"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": 0.3,
+   "environment": 0.7
+  },
+  "evidence": "'Clearing storm at Awazu' theme: blue sky breaking through large white cumulus, bright light over a field with leaning pines. Towering cumulus as weak summer convention only.",
+  "taxonomy_friction": "Season from cumulus clouds is not a listed draft-3 convention; low confidence."
+ },
+ {
+  "id": "mia-62105",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.2,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hashiba ferry, Sumida River (Edo)",
+   "lat": 35.727,
+   "lon": 139.807,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "vertical sheet fills the scan",
+  "fading": false,
+  "palette": [
+   "#1f2a3a",
+   "#f0ead8",
+   "#2f6f9a"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.4,
+   "season": 0.95,
+   "environment": 0.8
+  },
+  "evidence": "Title 'Hashiba Ferry in Snow'; dense white flakes, snow on banks, trees and roofs. Dark sky is snow gloom (no lanterns), so day with a dusk share as a guess.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62419",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 1.0
+   },
+   "water": {
+    "river": 0.5,
+    "lake": 0.3,
+    "wetland": 0.2
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kuninaka plain, Sado Island",
+   "lat": 38.03,
+   "lon": 138.38,
+   "precision_km": 20
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on beige backdrop, deckled upper edge",
+  "fading": false,
+  "palette": [
+   "#2f6fb8",
+   "#3f8a3a",
+   "#f0ece0"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.8,
+   "season": 0.7,
+   "environment": 0.7
+  },
+  "evidence": "Deep blue sky with towering cumulus in strong daylight; bare-chested farmer working a water-lift conduit by green, fully grown rice fields: midsummer irrigation.",
+  "taxonomy_friction": "Sado viewpoint unspecified; coarse island coordinates given despite the province-only rule. No marker for summer irrigation of grown rice (rice_planting is too early)."
+ },
+ {
+  "id": "mia-67685",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Owari-chō, Edo (Ginza)",
+   "lat": 35.671,
+   "lon": 139.766,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.03,
+   0.98,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet incl. printed blossom border; stains upper centre",
+  "fading": false,
+  "palette": [
+   "#3f6fb0",
+   "#e8a0a0",
+   "#efe3b8"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Perspective view of a drapery storefront with crowds in daylight; pale sky with pink bands only (convention). The cherry-blossom border is decorative, not a season cue.",
+  "taxonomy_friction": "Uki-e storefront: the street scene is the subject, though figures crowd the lower half; decorative floral border could mislead a season reader."
+ },
+ {
+  "id": "mia-124863",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Minakuchi (Tōkaidō station)",
+   "lat": 34.966,
+   "lon": 136.17,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.03,
+   0.96,
+   0.95
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with central vertical fold (album mounting); thin margins",
+  "fading": false,
+  "palette": [
+   "#e9e3d0",
+   "#4f9a8a",
+   "#d8c070"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.8,
+   "season": 0.5,
+   "environment": 0.7
+  },
+  "evidence": "Women stripping and drying gourd (kanpyō), a summer activity; pale sky with blue band and greyish hills, plain daylight.",
+  "taxonomy_friction": "No marker for kanpyō making (summer); season from activity only."
+ }
+]

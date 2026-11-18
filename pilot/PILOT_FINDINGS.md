@@ -184,3 +184,22 @@ A print tagged only broadly ("spring") scored the full season match in cherry-bl
 10. **Era:** `sosaku_hanga` (creative prints, same years as shin-hanga); prints from 1912–c. 1915 fall between `meiji` and `shin_hanga`.
 11. **Crop:** a `round` crop shape for pictures set in a circle (surimono).
 12. **Moon matching:** "rain and moonlight" prints rarely match, because the current-side moon needs a mostly clear sky.
+
+# Round 5 — 104 new prints (famous series, regions, flowers), tagged with taxonomy draft 3
+
+*Sample (`scripts/harvest_round5.py`): 41 random picks from famous series and artists (Hiroshige's Kisokaidō, Famous Places in the Sixty-odd Provinces, One Hundred Famous Views of Edo; Hokusai's Fuji views; Hasui; Yoshida incl. the Alps and China), 27 edge cases (places outside Kantō and the Tōkaidō, wisteria, plum, iris, peony, kachō-e in snow and moonlight, dawn), 36 random landscapes; 103 from Minneapolis, 1 from the Rijksmuseum. Mia returns search hits in varying order, so pools are now sorted before the seeded draw — the selection repeats exactly. 19 candidates dropped after looking (actor and figure prints, keyblock and progressive proofs, a book cover, a photo of a framed print, and four designs already in under other titles). Brief: `TAGGING_BRIEF_r5.md`.*
+
+## Results
+
+- **Included: 103 of 104** → **362 prints**. Excluded: a second impression of Hiroshige's *Kannon Temple at Abumon* (Bingo), found by a title check after export.
+- **Regions** (viewpoint coordinates): west of Kansai 19 (8), north of 38° 5 (2), abroad 8 (5); Kantō/Tōkai 228, Kansai/Chūbu 59, no place 44.
+- **Markers** now present for wisteria (3; none before), plum 8 (4), autumn maples 8 (5), rice planting 6 (3); still thin: chrysanthemum, peach, rapeseed, azalea, iris.
+- **Weather/time** (share ≥ 0.3): snowfall 31, rain 27, mist 34, drizzle 7, dawn 28, night 63; flora_fauna 20.
+- **Scoring observation:** regional prints rarely win away from Tokyo, because proximity decays within ~15 km (`proximity.json`) and is weighted 0.4; flower prints without a place or environment (kachō-e) also rank below views that match the setting. **Changed:** proximity weight 0.4 → 0.2, plus a new `region` term (weight 0.3, ~150 km, scaled by min(1, 15 / prints within 150 km)). Simulated over 304 weather/time/month conditions: share of shows that are local — Hiroshima 8 → 21 %, Kōchi 5 → 10 %, Matsue 4 → 8 %; nearby prints ever shown — Hiroshima 9 → 10 of 14, Kōchi 4 → 8 of 12, Kagoshima 0 → 2 of 3; Tokyo 91 → 83 % local (less Edo-heavy). A plain region bonus without the scaling would push Tokyo to 96 % local.
+
+## More candidates for draft 4
+
+13. **Markers:** peony, water lily, bonito season, fish weirs (yana), seaweed (nori) farming, reed cutting, kanpyō drying, frozen lake, cranes, bats; plum between the winter and spring bumps.
+14. **Environment:** one `environment_null_reason` per group (settlement, water, terrain), not one for all three.
+15. **Crop:** `fan` vs `uchiwa` (folding vs round fan); the app does not use `crop_shape` yet.
+16. **Genre:** interiors with a small view outside (Yoshida's *Farmhouse*) fit no genre well.

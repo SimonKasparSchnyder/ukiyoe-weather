@@ -1,0 +1,1109 @@
+[
+ {
+  "id": "mia-67488",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.8,
+   "clear": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.6,
+   "night": 0.4
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "river": 0.6,
+    "sea": 0.4
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "flat": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hori River, Obama (Wakasa, Fukui)",
+   "lat": 35.5,
+   "lon": 135.75,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with paper margins; scan edge is sheet edge",
+  "fading": false,
+  "palette": [
+   "#4a5258",
+   "#3f6b6a",
+   "#2d2a28",
+   "#c9a86a"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Dark grey clouded sky over the bay with lit yellow windows in the storehouses: overcast evening going to night. Publication date says early autumn, but nothing in the image shows a season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-63263",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.7,
+   "spring": 0.2,
+   "autumn": 0.1
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.8,
+    "rural": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kuri ferry, Funabori (Edogawa, Tokyo)",
+   "lat": 35.68,
+   "lon": 139.86,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet inside light backing board; small hinge tabs at top and bottom excluded",
+  "fading": false,
+  "palette": [
+   "#5f95b0",
+   "#4d8a3a",
+   "#a8784a",
+   "#e8c8a8"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.9,
+   "season": 0.4,
+   "environment": 0.9
+  },
+  "evidence": "Blue sky with towering cumulus, full daylight, reflections on still water. Summer from cumulus clouds, light clothing and straw hat of the ferryman (weak; no plant marker).",
+  "taxonomy_friction": "Summer cumulus is a common shin-hanga season cue but is not a listed cue or marker."
+ },
+ {
+  "id": "mia-76579",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dusk": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "rural": 0.4
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "flat": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.01,
+   0.96,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with margins on plain backdrop",
+  "fading": false,
+  "palette": [
+   "#2f4f8f",
+   "#f2f0ea",
+   "#a46a5a",
+   "#9a8fa8"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.6,
+   "season": 0.95,
+   "environment": 0.5
+  },
+  "evidence": "Title 'clear weather after snow' (yukibare); deep blue sky, snow-laden pines and snow-covered ground. Orange-lit cloud bands suggest late afternoon, so a small dusk share.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-117498",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.5,
+   "cloudy": 0.5
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine",
+    "garden_park",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kinkaku-ji, Kyoto",
+   "lat": 35.039,
+   "lon": 135.729,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.02,
+   0.95,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with pencil signature margin on light backdrop",
+  "fading": false,
+  "palette": [
+   "#d8d8c0",
+   "#5f8a5a",
+   "#c8b878",
+   "#7f9ab0"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Pale, soft greenish-grey sky with even light and a mirror-calm pond: daytime, clear to lightly overcast. Evergreen pines and dense foliage only; no seasonal plant or activity.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-83102",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.6,
+   "clear": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.2,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "autumn": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "lingering_snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Breithorn, Zermatt area (Valais, Switzerland)",
+   "lat": 45.94,
+   "lon": 7.75,
+   "precision_km": 10
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "deckle-edged sheet on light backdrop",
+  "fading": false,
+  "palette": [
+   "#c8bfb5",
+   "#3f8fb0",
+   "#7a5a48",
+   "#8f7aa8"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.8,
+   "season": 0.6,
+   "environment": 0.9
+  },
+  "evidence": "Grey-brown cloud masses around a glaciated peak, unfrozen blue alpine lake: daytime, partly cloudy. Snowfields on the high peak with open water and only patches of snow at the shore point to summer (Yoshida's 1925 European trip).",
+  "taxonomy_friction": "Viewpoint is a lake below the Breithorn whose exact site is uncertain; coordinates are the peak at coarse precision."
+ },
+ {
+  "id": "mia-117460",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.7,
+   "cloudy": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.6,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.6,
+   "spring": 0.4
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "lingering_snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Jungfrau seen from Kleine Scheidegg area (Bernese Oberland)",
+   "lat": 46.585,
+   "lon": 7.961,
+   "precision_km": 5
+  },
+  "fuji": false,
+  "crop": [
+   0.03,
+   0.04,
+   0.95,
+   0.92
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on backdrop; museum label at lower right excluded",
+  "fading": false,
+  "palette": [
+   "#e8ecef",
+   "#2f4f8f",
+   "#d8a8a0",
+   "#6f8fa8"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.8,
+   "season": 0.4,
+   "environment": 0.9
+  },
+  "evidence": "Pale blue sky with pink-tinted cumulus around the snow peaks, bright daylight. Foreground slope still snow-covered with bare patches melting out: late spring or summer at altitude.",
+  "taxonomy_friction": "High-alpine viewpoints keep snow at the viewer's level in summer, so snow_ground and the snow/lingering_snow markers pull in opposite seasonal directions."
+ },
+ {
+  "id": "mia-117505",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "mist": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "cherry_blossom"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.5,
+    "wild": 0.5
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": [
+    "forest",
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Arashiyama, Ōi River bank, Kyoto",
+   "lat": 35.013,
+   "lon": 135.677,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet with pencil-signed margin on light backdrop",
+  "fading": false,
+  "palette": [
+   "#e8d8d0",
+   "#5f7a6a",
+   "#4f8f9a",
+   "#d8c8a0"
+  ],
+  "confidence": {
+   "weather": 0.7,
+   "time_of_day": 0.9,
+   "season": 0.95,
+   "environment": 0.9
+  },
+  "evidence": "Cherry trees in full bloom along the river (series 'Eight Scenes of Cherry Blossom'), pleasure boats, a strolling woman; small patch of pale blue sky and soft haze on the wooded hill.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-80164",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dusk": 0.7,
+   "dawn": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "mountain": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Okitsu beach (Shizuoka)",
+   "lat": 35.05,
+   "lon": 138.52,
+   "precision_km": 2
+  },
+  "fuji": true,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on light backdrop; pencil inventory number at lower right outside image",
+  "fading": false,
+  "palette": [
+   "#a8a0b0",
+   "#c86a8a",
+   "#5f5070",
+   "#8f8a80"
+  ],
+  "confidence": {
+   "weather": 0.9,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Cloudless mauve sky, Fuji flushed pink and reflected in a tidal pool. From Okitsu the visible face of Fuji is the south-west one, lit pink by the setting sun, so dusk is favoured; no title cue.",
+  "taxonomy_friction": "A heavily snow-capped Fuji hints at the cold half of the year but is explicitly not a season cue, so season stays null."
+ },
+ {
+  "id": "mia-80163",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "cloudy": 0.6,
+   "clear": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.8,
+   "spring": 0.1,
+   "autumn": 0.1
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "city": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "flat": 0.4
+   },
+   "flags": [
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Koishikawa Botanical Garden, Tokyo",
+   "lat": 35.719,
+   "lon": 139.744,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.05,
+   0.03,
+   0.9,
+   0.95
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet inside tan mount/hinge strip, which is excluded",
+  "fading": false,
+  "palette": [
+   "#3f4a48",
+   "#c8d0a0",
+   "#a07a4a",
+   "#5f8fa8"
+  ],
+  "confidence": {
+   "weather": 0.4,
+   "time_of_day": 0.8,
+   "season": 0.6,
+   "environment": 0.9
+  },
+  "evidence": "No sky visible; dark muted trees and soft even light suggest a dull, overcast day (low confidence). Water lilies in bloom on the pond point to summer.",
+  "taxonomy_friction": "Water lilies (suiren) have no marker; lotus is a different plant, so no marker was set."
+ },
+ {
+  "id": "mia-83118",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "mist": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "dawn": 0.8,
+   "day": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "summer": 0.7,
+   "autumn": 0.3
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "lingering_snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hōōzan ridge, facing Ainodake and Nōtoridake (Southern Alps)",
+   "lat": 35.7,
+   "lon": 138.3,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on light backdrop; hinge tabs at top excluded",
+  "fading": false,
+  "palette": [
+   "#c8c0a0",
+   "#c0507a",
+   "#3f4fa0",
+   "#d8c0a0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.7,
+   "season": 0.5,
+   "environment": 0.9
+  },
+  "evidence": "Cloudless pale-yellow sky, peaks flushed pink above a deep blue shadowed, hazy valley: alpenglow on west-lying peaks seen from the granite Hōōzan ridge, so dawn. Only thin snow streaks in high gullies: summer climbing season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-117507",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "shin_hanga",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "spring": 0.8,
+   "summer": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "wisteria"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.6,
+    "city": 0.4
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "garden_park"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.96,
+   0.96
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet on light backdrop",
+  "fading": false,
+  "palette": [
+   "#c8a8c8",
+   "#6f8fa8",
+   "#a07850",
+   "#8fb0a0"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.8,
+   "season": 0.9,
+   "environment": 0.7
+  },
+  "evidence": "Wisteria in full bloom hanging from a trellis over a garden pond with stone lantern; pale sky, even daylight.",
+  "taxonomy_friction": "Garden not identified, so no place; settlement around it is a guess."
+ },
+ {
+  "id": "mia-64202",
+  "genre": "landscape",
+  "include": false,
+  "exclude_reason": "same design as mia-61342 (Kannon Temple at Abumon, Bingo), another impression; that one is kept",
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "cloudy": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": true,
+  "season": {
+   "autumn": 0.6,
+   "summer": 0.2,
+   "winter": 0.2
+  },
+  "season_null_reason": null,
+  "season_source": "convention",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Abuto Kannon-dō (Bandai-ji), Fukuyama, Hiroshima",
+   "lat": 34.37,
+   "lon": 133.37,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed sheet; collector seals on left margin kept",
+  "fading": false,
+  "palette": [
+   "#9ab8b8",
+   "#4a5260",
+   "#c86a4a",
+   "#e0d8c8"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.8,
+   "season": 0.3,
+   "environment": 0.9
+  },
+  "evidence": "Full moon above the cliff-top Kannon hall, dark gradated sky with cloud bars, boats on a calm sea: moonlit night. Season only from the moon convention.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64022",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "town": 0.4
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.6,
+    "mountain": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yanase fish weirs on the Chikugo River (exact site uncertain)",
+   "lat": 33.33,
+   "lon": 130.75,
+   "precision_km": 20
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed to the printed border; scan edge is sheet edge",
+  "fading": false,
+  "palette": [
+   "#3f9ac0",
+   "#3f8a6a",
+   "#e8a070",
+   "#d8d0b0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale unprinted sky with Hiroshige's orange horizon band and pink cloud bands (convention, no title cue): day with small dawn/dusk shares. Fish weirs across the river, but no plant or festival cue.",
+  "taxonomy_friction": "Fish weirs (yana) are a seasonal activity in Japanese convention (spring/autumn), but there is no marker for them; season left null. Exact location of 'Yanase' unclear, so coarse coordinates."
+ },
+ {
+  "id": "mia-64054",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 0.7,
+    "rural": 0.3
+   },
+   "water": {
+    "river": 0.8,
+    "sea": 0.2
+   },
+   "terrain": {
+    "hilly": 0.7,
+    "mountain": 0.3
+   },
+   "flags": [
+    "bridge"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kintai Bridge, Iwakuni",
+   "lat": 34.168,
+   "lon": 132.178,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.0,
+   0.98,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed to the printed border; scan edge is sheet edge",
+  "fading": false,
+  "palette": [
+   "#7fb0c8",
+   "#2f7a6a",
+   "#e87a70",
+   "#a8704a"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Pale sky with a red horizon band and grey bokashi (Hiroshige convention, no title cue), travellers crossing the bridge and boats on the river: day. No plants or activities that show a season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-8258",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "rain": 0.7,
+   "drizzle": 0.3
+  },
+  "weather_null_reason": null,
+  "wind": 0.2,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "town": 1.0
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 0.5,
+    "mountain": 0.5
+   },
+   "flags": [
+    "bridge",
+    "castle"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Kintai Bridge, Iwakuni",
+   "lat": 34.168,
+   "lon": 132.178,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.01,
+   0.98,
+   0.98
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet; scan edge is sheet edge",
+  "fading": false,
+  "palette": [
+   "#a8c8c8",
+   "#1f3f7a",
+   "#4a8a5a",
+   "#d8a080"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.8,
+   "season": null,
+   "environment": 0.9
+  },
+  "evidence": "Fine slanting rain lines across the whole sky, travellers with umbrellas and straw raincoats on the bridge: steady rain, slight wind. Castle on the hill at left; no seasonal cue.",
+  "taxonomy_friction": "none"
+ }
+]

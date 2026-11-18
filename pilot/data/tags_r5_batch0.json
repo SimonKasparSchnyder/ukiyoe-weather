@@ -1,0 +1,1077 @@
+[
+ {
+  "id": "mia-63413",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.6,
+   "mist": 0.4
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "waterfall"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Magome Pass (Kisokaidō station 44)",
+   "lat": 35.54,
+   "lon": 137.57,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "trimmed to the printed border (rounded corners); no margin",
+  "fading": false,
+  "palette": [
+   "#efe6cf",
+   "#5d6670",
+   "#2f5f9a"
+  ],
+  "confidence": {
+   "weather": 0.6,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with flying birds; real haze veils the foot of the grey peak, so a mist share. Plain daylight, travellers on the pass; trees in leaf but no plant or festival pinning a season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-22643",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.1,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.5,
+    "town": 0.3,
+    "rural": 0.2
+   },
+   "water": {
+    "lake": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "castle"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Shiojiri Pass, view over Lake Suwa",
+   "lat": 36.09,
+   "lon": 138.02,
+   "precision_km": 3
+  },
+  "fuji": true,
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "crop_shape": "rect",
+  "crop_note": "scan is the sheet; worn corners, no margin",
+  "fading": false,
+  "palette": [
+   "#f1e9d6",
+   "#22508f",
+   "#7fae6a"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.75,
+   "season": 0.85,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with an orange top band (convention, not dusk); Lake Suwa frozen with cracked ice and people and horses walking across, snowy ranges and Fuji behind: clear winter day. Takashima castle on the shore.",
+  "taxonomy_friction": "Frozen lake is a strong winter cue with no marker (snow marker is scene-level snow; here only distant ranges are white, pass slope is green)."
+ },
+ {
+  "id": "mia-62180",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 0.5,
+   "cloudy": 0.5
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 0.6,
+   "dusk": 0.2,
+   "dawn": 0.2
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 0.5,
+    "town": 0.5
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Itahana (Kisokaidō station 15), Annaka",
+   "lat": 36.32,
+   "lon": 138.86,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with its own paper margin; scan edge = sheet edge",
+  "fading": false,
+  "palette": [
+   "#ece4d0",
+   "#6b6b6b",
+   "#c8463a"
+  ],
+  "confidence": {
+   "weather": 0.5,
+   "time_of_day": 0.4,
+   "season": 0.95,
+   "environment": 0.7
+  },
+  "evidence": "Heavy grey snow sky, snow-laden trees and hats, travellers in straw capes; no flakes drawn, so snowfall only implied (half share). Dark sky is gloom, pink horizon glow ambiguous and no lanterns, so time split.",
+  "taxonomy_friction": "Implied-snowfall rule assumes a title saying it snows; here only the image (laden hats, heavy sky) suggests it."
+ },
+ {
+  "id": "mia-62010",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "snowfall": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": {
+   "winter": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "snow"
+  ],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Ōi (Kisokaidō station 47), Ena",
+   "lat": 35.45,
+   "lon": 137.41,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.008,
+   0.07,
+   0.985,
+   0.92
+  ],
+  "crop_shape": "rect",
+  "crop_note": "white backdrop strip at top and blue edge at left excluded",
+  "fading": false,
+  "palette": [
+   "#e9e3d3",
+   "#55585e",
+   "#b8473a"
+  ],
+  "confidence": {
+   "weather": 0.95,
+   "time_of_day": 0.4,
+   "season": 0.95,
+   "environment": 0.85
+  },
+  "evidence": "Dense white flakes against a dark grey sky, travellers and horses buried in snow among snowy pines and hills. Dark sky read as snow gloom (no lanterns or moon), so day with low confidence.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-62007",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 1.0
+   },
+   "water": {
+    "none": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Tsumago (Kisokaidō station 42/43)",
+   "lat": 35.58,
+   "lon": 137.6,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.02,
+   0.98,
+   0.97
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#efe3cc",
+   "#4c9a7e",
+   "#2b2b2b"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with red horizontal bands (Hiroshige convention) and a pinkish tint, so day with small dawn/dusk shares; travellers climbing a mountain road, no seasonal plants or activities.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-61661",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "autumn": 1.0
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "autumn_grasses",
+   "autumn_maples"
+  ],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "wetland": 0.6,
+    "river": 0.4
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Otai (Kisokaidō station 22), Saku",
+   "lat": 36.27,
+   "lon": 138.47,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "scan is the sheet; worn edges, no margin",
+  "fading": false,
+  "palette": [
+   "#eadfca",
+   "#e2735a",
+   "#3a6fa3"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.5,
+   "season": 0.9,
+   "environment": 0.75
+  },
+  "evidence": "Pale sky under a red top band (convention); travellers walking through susuki pampas grass past a red-leaved maple, marshy ground with a meandering stream. Autumn from grasses and maple.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-63535",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.1,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.8,
+    "wild": 0.2
+   },
+   "water": {
+    "river": 0.6,
+    "wetland": 0.4
+   },
+   "terrain": {
+    "hilly": 0.7,
+    "mountain": 0.3
+   },
+   "flags": [
+    "bridge",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Yawata (Kisokaidō station 25), Saku",
+   "lat": 36.25,
+   "lon": 138.4,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#e8dcbf",
+   "#3f78a8",
+   "#6aa25a"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.75
+  },
+  "evidence": "Pale sky with a faint pink horizon band (convention); travellers crossing a plank bridge over a stream by flooded fields, a farmhouse in a bamboo grove. A man carries green fodder, but nothing pins a season.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-61341",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 0.7,
+    "hilly": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.01,
+   0.005,
+   0.98,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#ede4d0",
+   "#2e6f9e",
+   "#c7836a"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with a pink horizon band (convention); sailing boats hauling flatfish nets in a calm bay, town and hills on the far shore. No seasonal cue in the image.",
+  "taxonomy_friction": "Title names only Wakasa Province (no site), so place is null; flatfish season (Wakasa karei, winter) is food lore, not an allowed cue."
+ },
+ {
+  "id": "mia-64053",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Sado gold mine (Sado Kinzan), Aikawa",
+   "lat": 38.04,
+   "lon": 138.26,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "scan is the sheet; no margin",
+  "fading": false,
+  "palette": [
+   "#3f8a6a",
+   "#e8c27a",
+   "#2d5d9a"
+  ],
+  "confidence": {
+   "weather": 0.75,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Blue sky over green mountains, miners at work by adit entrances and a stream in a gorge; even daylight, no seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-61335",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "rural": 0.6,
+    "wild": 0.4
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 0.5,
+    "flat": 0.5
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Takatsu salt beach, Masuda (Iwami)",
+   "lat": 34.69,
+   "lon": 131.8,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#eee6d6",
+   "#2d6b8f",
+   "#e48a4c"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.45,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky with small orange-lit clouds and a mauve top band, workers raking and carrying brine on the salt beach; glow too slight to call dawn or dusk. Torii at the foot of the pine hill; no seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-64048",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "mist": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": {
+   "spring": 0.7,
+   "summer": 0.3
+  },
+  "season_null_reason": null,
+  "season_source": "image",
+  "seasonal_markers": [
+   "willow_green"
+  ],
+  "environment": {
+   "settlement": {
+    "town": 0.5,
+    "rural": 0.5
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "flat": 0.6,
+    "hilly": 0.4
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Hirakata on the Yodo River, view to Otokoyama",
+   "lat": 34.82,
+   "lon": 135.65,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#efe6d6",
+   "#3d8fb8",
+   "#e0605a"
+  ],
+  "confidence": {
+   "weather": 0.65,
+   "time_of_day": 0.5,
+   "season": 0.3,
+   "environment": 0.8
+  },
+  "evidence": "Pale sky; the red/pink band is a stylised mist band, with only light haze below Otokoyama. Boats on the Yodo River past villages; willows in leaf beside leafless trees suggest spring (weak).",
+  "taxonomy_friction": "Red suyari-gasumi band between mountain and river is decorative, yet a small mist share is hard to avoid since it also veils the hills."
+ },
+ {
+  "id": "mia-64194",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 0.7,
+    "flat": 0.3
+   },
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Goshiki-hama, Awaji Island",
+   "lat": 34.33,
+   "lon": 134.8,
+   "precision_km": 3
+  },
+  "fuji": false,
+  "crop": [
+   0.015,
+   0.01,
+   0.975,
+   0.985
+  ],
+  "crop_shape": "rect",
+  "crop_note": "thin museum margin; sheet edge clear",
+  "fading": false,
+  "palette": [
+   "#efe4cf",
+   "#7cc0d8",
+   "#a8492f"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with a peach horizon glow (convention); fishing boats drawing a seine net off red rocks and a pine-clad headland. No seasonal cue.",
+  "taxonomy_friction": "none"
+ },
+ {
+  "id": "mia-61338",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 0.8,
+   "dawn": 0.1,
+   "dusk": 0.1
+  },
+  "time_null_reason": null,
+  "time_source": "guess",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "river": 1.0
+   },
+   "terrain": {
+    "mountain": 1.0
+   },
+   "flags": [
+    "bridge",
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": null,
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "sheet fills scan; thin edge trimmed",
+  "fading": false,
+  "palette": [
+   "#2f6b4a",
+   "#e9dcc4",
+   "#2c5ea0"
+  ],
+  "confidence": {
+   "weather": 0.8,
+   "time_of_day": 0.5,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Pale sky with a red horizon band behind distant peaks (convention); travellers crossing a deep wooded gorge in rope baskets, river below. No seasonal cue.",
+  "taxonomy_friction": "Kago-watashi rope-basket crossing flagged as bridge though it is not one; site named only by province (Hida), so place null."
+ },
+ {
+  "id": "mia-61342",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 0.8,
+   "cloudy": 0.2
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "night": 0.7,
+   "dusk": 0.3
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.8,
+    "town": 0.2
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "hilly": 1.0
+   },
+   "flags": [
+    "temple_shrine"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Abuto Kannon (Bandai-ji), Fukuyama",
+   "lat": 34.37,
+   "lon": 133.33,
+   "precision_km": 1
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "scan is the sheet; ragged edges, no margin",
+  "fading": false,
+  "palette": [
+   "#3c5a66",
+   "#22282c",
+   "#c97c4e"
+  ],
+  "confidence": {
+   "weather": 0.55,
+   "time_of_day": 0.6,
+   "season": null,
+   "environment": 0.85
+  },
+  "evidence": "Overall dark blue-black palette with a dim sky and warm-lit temple windows on the cliff top: night (no moon drawn). Calm sea with small boats; no seasonal cue.",
+  "taxonomy_friction": "Night here rests on palette and lit windows only; no rain or snow, so the gloom rule does not apply, but no moon either."
+ },
+ {
+  "id": "mia-9180",
+  "genre": "landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "edo",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {
+   "clear": 1.0
+  },
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 0.0,
+  "time_of_day": {
+   "day": 1.0
+  },
+  "time_null_reason": null,
+  "time_source": "image",
+  "moon": false,
+  "season": null,
+  "season_null_reason": "no_cue",
+  "season_source": "none",
+  "seasonal_markers": [],
+  "environment": {
+   "settlement": {
+    "wild": 0.7,
+    "town": 0.3
+   },
+   "water": {
+    "sea": 1.0
+   },
+   "terrain": {
+    "flat": 1.0
+   },
+   "flags": [
+    "forest"
+   ]
+  },
+  "environment_null_reason": null,
+  "place": {
+   "name": "Maiko Beach, Harima",
+   "lat": 34.63,
+   "lon": 135.03,
+   "precision_km": 2
+  },
+  "fuji": false,
+  "crop": [
+   0.005,
+   0.005,
+   0.99,
+   0.99
+  ],
+  "crop_shape": "rect",
+  "crop_note": "full sheet with narrow paper margin; scan edge = sheet edge",
+  "fading": false,
+  "palette": [
+   "#e9e3cf",
+   "#3b7fb2",
+   "#b5502f"
+  ],
+  "confidence": {
+   "weather": 0.85,
+   "time_of_day": 0.7,
+   "season": null,
+   "environment": 0.8
+  },
+  "evidence": "Pale blue sky with a faint purple horizon band, waves breaking on a beach under the famous gnarled pines, teahouses on the right. Even daylight, no seasonal cue.",
+  "taxonomy_friction": "Maiko pine grove counted as forest; borderline with the 'pine avenue / scattered trees' exclusion."
+ }
+]

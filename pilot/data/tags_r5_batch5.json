@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "mia-22607",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "night": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": true,
+    "season": {
+      "autumn": 0.6,
+      "summer": 0.2,
+      "winter": 0.2
+    },
+    "season_null_reason": null,
+    "season_source": "convention",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "wild": 0.7,
+        "rural": 0.3
+      },
+      "water": {
+        "none": 1.0
+      },
+      "terrain": {
+        "hilly": 0.6,
+        "mountain": 0.4
+      },
+      "flags": [
+        "forest"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Mochizuki (Nakasendō station), Nagano",
+      "lat": 36.27,
+      "lon": 138.36,
+      "precision_km": 4
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.03,
+      0.98,
+      0.95
+    ],
+    "crop_shape": "rect",
+    "crop_note": "trimmed sheet, thin border; sheet edge clear",
+    "fading": false,
+    "palette": [
+      "#3f7fae",
+      "#c98f78",
+      "#7d7a6c",
+      "#3d5a3f"
+    ],
+    "confidence": {
+      "weather": 0.8,
+      "time_of_day": 0.95,
+      "season": 0.3,
+      "environment": 0.7
+    },
+    "evidence": "Full moon in a deep blue night sky, travellers and packhorses on a pine-lined road; no precipitation. Season only from the moon convention (autumn).",
+    "taxonomy_friction": "Mochizuki is the classic full-moon station, but the moon alone only gives the weak autumn convention."
+  },
+  {
+    "id": "mia-64345",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "night": 0.8,
+      "dusk": 0.2
+    },
+    "time_null_reason": null,
+    "time_source": "both",
+    "moon": true,
+    "season": {
+      "autumn": 1.0
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "wild_geese"
+    ],
+    "environment": {
+      "settlement": {
+        "town": 0.6,
+        "rural": 0.4
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "hilly": 0.6,
+        "flat": 0.4
+      },
+      "flags": [
+        "temple_shrine"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Matsuchiyama Shōden, Asakusa, Tokyo",
+      "lat": 35.716,
+      "lon": 139.801,
+      "precision_km": 1
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.98
+    ],
+    "crop_shape": "rect",
+    "crop_note": "image fills the scan; trimmed sheet",
+    "fading": false,
+    "palette": [
+      "#b9c4c2",
+      "#3d4a44",
+      "#6fa7c4",
+      "#e3a98f"
+    ],
+    "confidence": {
+      "weather": 0.85,
+      "time_of_day": 0.85,
+      "season": 0.95,
+      "environment": 0.8
+    },
+    "evidence": "Title 'Autumn Moon' (shūgetsu); full moon with a skein of wild geese, dark top band, Sumida river below Matsuchiyama temple hall.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-61600",
+    "genre": "figures_in_landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 0.8,
+      "dusk": 0.1,
+      "dawn": 0.1
+    },
+    "time_null_reason": null,
+    "time_source": "guess",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "town": 0.6,
+        "city": 0.4
+      },
+      "water": {
+        "sea": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": [
+        "temple_shrine"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Tomioka Hachiman Shrine, Fukagawa, Tokyo",
+      "lat": 35.672,
+      "lon": 139.799,
+      "precision_km": 1
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.04,
+      0.98,
+      0.93
+    ],
+    "crop_shape": "rect",
+    "crop_note": "sheet with margins; mount strips visible at top edge excluded",
+    "fading": false,
+    "palette": [
+      "#e9dcc0",
+      "#8a9a9e",
+      "#e89a5a",
+      "#3d4040"
+    ],
+    "confidence": {
+      "weather": 0.75,
+      "time_of_day": 0.5,
+      "season": null,
+      "environment": 0.85
+    },
+    "evidence": "Pale sky with an orange horizon band (convention, no title or activity cue) over the bay beyond the shrine grounds; worshippers strolling through the torii. No seasonal sign (a few bare trees are not decisive).",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-62489",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "shin_hanga",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "snowfall": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 1.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": {
+      "winter": 1.0
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "snow"
+    ],
+    "environment": {
+      "settlement": {
+        "rural": 0.6,
+        "wild": 0.4
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "mountain": 0.6,
+        "flat": 0.4
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Plain below Mount Ibuki, Shiga",
+      "lat": 35.39,
+      "lon": 136.36,
+      "precision_km": 10
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.98
+    ],
+    "crop_shape": "rect",
+    "crop_note": "full sheet with wide margins",
+    "fading": false,
+    "palette": [
+      "#c8c3b8",
+      "#f2efe8",
+      "#3aa0c8",
+      "#3a3a32"
+    ],
+    "confidence": {
+      "weather": 0.95,
+      "time_of_day": 0.7,
+      "season": 0.95,
+      "environment": 0.75
+    },
+    "evidence": "Falling flakes against a grey sky, snow covering pines, fields and huts along a blue river, snow-capped Ibuki behind; even dull daylight.",
+    "taxonomy_friction": "Viewpoint location estimated (plain west of Ibuki, Nagahama/Maibara side)."
+  },
+  {
+    "id": "mia-60725",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 0.8,
+      "cloudy": 0.2
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "town": 0.6,
+        "wild": 0.4
+      },
+      "water": {
+        "none": 1.0
+      },
+      "terrain": {
+        "hilly": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Sarugababa rest area, Futagawa (Tōkaidō), Toyohashi",
+      "lat": 34.73,
+      "lon": 137.44,
+      "precision_km": 3
+    },
+    "fuji": false,
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "crop_shape": "rect",
+    "crop_note": "image trimmed to edge of print",
+    "fading": false,
+    "palette": [
+      "#e8dcc4",
+      "#3e9a7a",
+      "#e8c870",
+      "#2c3a5c"
+    ],
+    "confidence": {
+      "weather": 0.7,
+      "time_of_day": 0.8,
+      "season": null,
+      "environment": 0.85
+    },
+    "evidence": "Pale sky with dark top band (convention) and a soft grey-blue band at the horizon; travellers and palanquin passing thatched teahouses below a pine-dotted hill. No seasonal cue.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-62662",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 0.8,
+      "dawn": 0.1,
+      "dusk": 0.1
+    },
+    "time_null_reason": null,
+    "time_source": "guess",
+    "moon": false,
+    "season": {
+      "summer": 0.6,
+      "spring": 0.4
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "rice_planting"
+    ],
+    "environment": {
+      "settlement": {
+        "rural": 1.0
+      },
+      "water": {
+        "wetland": 1.0
+      },
+      "terrain": {
+        "flat": 0.6,
+        "mountain": 0.4
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Hidari Fuji, near Yoshiwara (Tōkaidō), Fuji city",
+      "lat": 35.16,
+      "lon": 138.69,
+      "precision_km": 3
+    },
+    "fuji": true,
+    "crop": [
+      0.08,
+      0.04,
+      0.85,
+      0.92
+    ],
+    "crop_shape": "rect",
+    "crop_note": "decorative orange patterned mount around the print excluded",
+    "fading": false,
+    "palette": [
+      "#e8e4d4",
+      "#3fa08a",
+      "#5a8a5a",
+      "#e07a4a"
+    ],
+    "confidence": {
+      "weather": 0.85,
+      "time_of_day": 0.5,
+      "season": 0.6,
+      "environment": 0.85
+    },
+    "evidence": "Pale sky with blue top and red horizon band (convention, read as day); green flooded paddies with workers and horses in the fields, Fuji on the left behind pine trunks.",
+    "taxonomy_friction": "Field work could be ploughing/puddling rather than planting; rice_planting given with moderate confidence."
+  },
+  {
+    "id": "mia-34732",
+    "genre": "figures_in_landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "town": 1.0
+      },
+      "water": {
+        "none": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Tomida rest area, Yokkaichi (Tōkaidō)",
+      "lat": 35.0,
+      "lon": 136.64,
+      "precision_km": 2
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.98
+    ],
+    "crop_shape": "rect",
+    "crop_note": "chūban sheet with margins; small tear at left edge",
+    "fading": false,
+    "palette": [
+      "#efe6cc",
+      "#a8d4b8",
+      "#5a5a52",
+      "#c84a3a"
+    ],
+    "confidence": {
+      "weather": 0.4,
+      "time_of_day": 0.6,
+      "season": null,
+      "environment": 0.8
+    },
+    "evidence": "Street of grilled-clam (yaki-hamaguri) shops with travellers and near-naked bearers; no sky visible, bright even light read as clear day with low confidence. Bearers' undress is conventional, not a season cue.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-63434",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 0.8,
+      "dawn": 0.1,
+      "dusk": 0.1
+    },
+    "time_null_reason": null,
+    "time_source": "guess",
+    "moon": false,
+    "season": {
+      "winter": 0.6,
+      "autumn": 0.4
+    },
+    "season_null_reason": null,
+    "season_source": "series_section",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "rural": 0.6,
+        "town": 0.4
+      },
+      "water": {
+        "none": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Takadanobaba riding ground, Shinjuku, Tokyo",
+      "lat": 35.711,
+      "lon": 139.712,
+      "precision_km": 1
+    },
+    "fuji": true,
+    "crop": [
+      0.0,
+      0.0,
+      0.99,
+      1.0
+    ],
+    "crop_shape": "rect",
+    "crop_note": "trimmed to image; dark scan strip at right edge excluded",
+    "fading": false,
+    "palette": [
+      "#e8e0d0",
+      "#3e8a4e",
+      "#2a3a3a",
+      "#e89a8a"
+    ],
+    "confidence": {
+      "weather": 0.8,
+      "time_of_day": 0.5,
+      "season": 0.35,
+      "environment": 0.8
+    },
+    "evidence": "Pale sky with pink horizon band (convention, no time cue), archery target and riders on the grounds, faint Fuji on the horizon. Season from the series' winter section; small flock of birds not clearly geese.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-124809",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "album_page",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "wild": 0.7,
+        "town": 0.3
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Shimada bank of the Ōi River (Tōkaidō)",
+      "lat": 34.83,
+      "lon": 138.16,
+      "precision_km": 2
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.02,
+      0.98,
+      0.97
+    ],
+    "crop_shape": "rect",
+    "crop_note": "sheet with clipped corners and a central vertical fold (album mounting)",
+    "fading": false,
+    "palette": [
+      "#e8e0c8",
+      "#2a6ab0",
+      "#9ac8b0",
+      "#3a3a32"
+    ],
+    "confidence": {
+      "weather": 0.5,
+      "time_of_day": 0.6,
+      "season": null,
+      "environment": 0.85
+    },
+    "evidence": "Bird's-eye view of travellers and porters fording the Ōi River; no sky shown, bright even light read as clear day with low confidence. No seasonal cue.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-9178",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "snowfall": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 1.0,
+    "time_of_day": {
+      "day": 0.8,
+      "dusk": 0.2
+    },
+    "time_null_reason": null,
+    "time_source": "guess",
+    "moon": false,
+    "season": {
+      "winter": 1.0
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "snow"
+    ],
+    "environment": {
+      "settlement": {
+        "city": 1.0
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": [
+        "bridge"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Nihonbashi, Tokyo",
+      "lat": 35.684,
+      "lon": 139.774,
+      "precision_km": 1
+    },
+    "fuji": true,
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.98
+    ],
+    "crop_shape": "rect",
+    "crop_note": "full sheet with margins",
+    "fading": false,
+    "palette": [
+      "#3a3a3a",
+      "#f0ece4",
+      "#1e3a7a",
+      "#b04a3a"
+    ],
+    "confidence": {
+      "weather": 0.95,
+      "time_of_day": 0.55,
+      "season": 0.95,
+      "environment": 0.95
+    },
+    "evidence": "Title 'in Snow'; white flakes against a dark snow sky (gloom, no lanterns), snow on the bridge, boats, roofs and umbrellas; Fuji beyond.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-62171",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "snowfall": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 1.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": {
+      "winter": 1.0
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "snow"
+    ],
+    "environment": {
+      "settlement": {
+        "wild": 0.5,
+        "rural": 0.5
+      },
+      "water": {
+        "lake": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": [
+        "temple_shrine",
+        "bridge"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Inokashira Benzaiten, Mitaka, Tokyo",
+      "lat": 35.7,
+      "lon": 139.574,
+      "precision_km": 1
+    },
+    "fuji": false,
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "crop_shape": "rect",
+    "crop_note": "image trimmed to edge; corners slightly worn",
+    "fading": false,
+    "palette": [
+      "#8a8478",
+      "#f2eee6",
+      "#3a6a9a",
+      "#c8604a"
+    ],
+    "confidence": {
+      "weather": 0.95,
+      "time_of_day": 0.7,
+      "season": 0.95,
+      "environment": 0.9
+    },
+    "evidence": "Title 'Snow Scene'; dense white flakes against a grey sky, snow-laden pines and shrine roof, a figure with a snow-covered hat crossing the bridges.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-60865",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 0.6,
+      "cloudy": 0.4
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "wild": 0.8,
+        "town": 0.2
+      },
+      "water": {
+        "none": 0.6,
+        "river": 0.4
+      },
+      "terrain": {
+        "mountain": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Utsunoya Pass (Mount Utsu), Okabe (Tōkaidō)",
+      "lat": 34.94,
+      "lon": 138.33,
+      "precision_km": 2
+    },
+    "fuji": false,
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "crop_shape": "rect",
+    "crop_note": "image trimmed to edge of print",
+    "fading": false,
+    "palette": [
+      "#e8e4d8",
+      "#8a948a",
+      "#4a5a7a",
+      "#3a3a32"
+    ],
+    "confidence": {
+      "weather": 0.6,
+      "time_of_day": 0.8,
+      "season": null,
+      "environment": 0.9
+    },
+    "evidence": "Pale sky with dark top band and drifting white clouds around the peak; travellers climbing the pass road past a teahouse. Sparse, greyish trees are ambiguous, so no season cue.",
+    "taxonomy_friction": "Cloud bands sit between stylised and realistic; read as partial cloud, not mist."
+  },
+  {
+    "id": "mia-61131",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 0.8,
+      "dawn": 0.1,
+      "dusk": 0.1
+    },
+    "time_null_reason": null,
+    "time_source": "guess",
+    "moon": false,
+    "season": null,
+    "season_null_reason": "no_cue",
+    "season_source": "none",
+    "seasonal_markers": [],
+    "environment": {
+      "settlement": {
+        "wild": 0.8,
+        "rural": 0.2
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "mountain": 0.6,
+        "flat": 0.4
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Kanaya bank of the Ōi River (Tōkaidō)",
+      "lat": 34.82,
+      "lon": 138.14,
+      "precision_km": 2
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.02,
+      0.98,
+      0.97
+    ],
+    "crop_shape": "rect",
+    "crop_note": "sheet with clipped corners; worn and torn edges",
+    "fading": false,
+    "palette": [
+      "#e8d8b8",
+      "#3a6aa0",
+      "#4a4a44",
+      "#e8905a"
+    ],
+    "confidence": {
+      "weather": 0.8,
+      "time_of_day": 0.5,
+      "season": null,
+      "environment": 0.85
+    },
+    "evidence": "Pale sky with an orange top band (Hiroshige convention, no title or activity cue), porters carrying palanquins across the wide Ōi river below dark hills. No seasonal cue.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-61640",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "edo",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 1.0
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": {
+      "spring": 1.0
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "cherry_blossom"
+    ],
+    "environment": {
+      "settlement": {
+        "rural": 0.5,
+        "town": 0.5
+      },
+      "water": {
+        "none": 1.0
+      },
+      "terrain": {
+        "hilly": 1.0
+      },
+      "flags": [
+        "garden_park"
+      ]
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Asukayama, Kita, Tokyo",
+      "lat": 35.752,
+      "lon": 139.738,
+      "precision_km": 1
+    },
+    "fuji": false,
+    "crop": [
+      0.01,
+      0.01,
+      0.95,
+      0.98
+    ],
+    "crop_shape": "rect",
+    "crop_note": "sheet with margins; mount label strip at right edge excluded",
+    "fading": false,
+    "palette": [
+      "#efe6cc",
+      "#5aa080",
+      "#f0d0d4",
+      "#3a5a8a"
+    ],
+    "confidence": {
+      "weather": 0.85,
+      "time_of_day": 0.85,
+      "season": 0.95,
+      "environment": 0.85
+    },
+    "evidence": "Title 'Cherry-blossom Viewing'; cherry trees in bloom, picnicking crowds and riders on the hill, pale clear sky with a blue band.",
+    "taxonomy_friction": "none"
+  },
+  {
+    "id": "mia-117525",
+    "genre": "landscape",
+    "include": true,
+    "exclude_reason": null,
+    "era": "shin_hanga",
+    "edition": "original",
+    "fragment": "none",
+    "weather": {
+      "clear": 0.5,
+      "mist": 0.3,
+      "cloudy": 0.2
+    },
+    "weather_null_reason": null,
+    "wind": 0.0,
+    "snow_ground": 0.0,
+    "time_of_day": {
+      "day": 1.0
+    },
+    "time_null_reason": null,
+    "time_source": "image",
+    "moon": false,
+    "season": {
+      "spring": 0.5,
+      "summer": 0.5
+    },
+    "season_null_reason": null,
+    "season_source": "image",
+    "seasonal_markers": [
+      "willow_green"
+    ],
+    "environment": {
+      "settlement": {
+        "city": 1.0
+      },
+      "water": {
+        "river": 1.0
+      },
+      "terrain": {
+        "flat": 1.0
+      },
+      "flags": []
+    },
+    "environment_null_reason": null,
+    "place": {
+      "name": "Canal in central Osaka",
+      "lat": 34.69,
+      "lon": 135.5,
+      "precision_km": 5
+    },
+    "fuji": false,
+    "crop": [
+      0.03,
+      0.04,
+      0.93,
+      0.93
+    ],
+    "crop_shape": "rect",
+    "crop_note": "sheet with pencil title/signature in margin; white backdrop excluded",
+    "fading": false,
+    "palette": [
+      "#e0d2b0",
+      "#8ab8a8",
+      "#6a5a48",
+      "#c8b890"
+    ],
+    "confidence": {
+      "weather": 0.5,
+      "time_of_day": 0.7,
+      "season": 0.5,
+      "environment": 0.9
+    },
+    "evidence": "Warm, hazy tan sky with distant houses and bridge fading; even daylight, laundry hung out. Willows in full leaf give late spring/summer.",
+    "taxonomy_friction": "Exact canal not identified; Osaka city-centre coordinates with coarse precision."
+  }
+]
