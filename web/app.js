@@ -294,6 +294,14 @@ function morphKeyframes(el, target, radius, ts, opacityAt) {
 }
 const MORPH_STEPS = Array.from({ length: 25 }, (_, i) => i / 24);
 
+/**
+ * Fade an element's contents (not its background or border) with keyframes spread over `duration`, so the
+ * box morphs as a clean, empty shape while the scaling would squash its text.
+ */
+function fadeContents(el, keyframes, duration) {
+  return [...el.children].map((c) => c.animate(keyframes, { duration, easing: "linear", fill: "both" }));
+}
+
 function placeBubble() {
   const b = settings.bubble || { right: 16, bottom: 16 };
   const st = $("expand-btn").style;
@@ -340,11 +348,18 @@ async function collapsePanel() {
   const to = bubble.getBoundingClientRect();
   if (!reduceMotion()) {
     const radius = parseFloat(getComputedStyle(panel).borderTopLeftRadius); // --radius, the same as the pill's
-    const anim = panel.animate(morphKeyframes(from, to, radius, MORPH_STEPS, (t) => 1 - 0.6 * t),
-      { duration: cfg.layout.minimise_ms, easing: "cubic-bezier(.5, 0, .2, 1)", fill: "forwards" });
+    const ms = cfg.layout.minimise_ms;
+    // contents gone in the first 30 %, then the empty box shrinks into the pill
+    const fades = fadeContents(panel, [{ opacity: 1 }, { opacity: 0, offset: 0.3 }, { opacity: 0 }], ms);
+    const anim = panel.animate(morphKeyframes(from, to, radius, MORPH_STEPS, () => 1),
+      { duration: ms, easing: "cubic-bezier(.5, 0, .2, 1)", fill: "forwards" });
     await anim.finished;
     panel.classList.add("hidden");
     anim.cancel();
+    fades.forEach((f) => f.cancel());
+    bubble.style.visibility = "";
+    fadeContents(bubble, [{ opacity: 0 }, { opacity: 1 }], 180)   // the pill's temperature and symbol appear
+      .forEach((f) => f.finished.then(() => f.cancel(), () => {}));
   }
   bubble.style.visibility = "";
   settings.collapsed = true; saveSettings();
@@ -363,8 +378,12 @@ async function expandPanel() {
   requestAnimationFrame(() => { panel.style.transition = ""; });
   if (reduceMotion()) return;
   const radius = parseFloat(getComputedStyle(panel).borderTopLeftRadius);
-  panel.animate(morphKeyframes(to, from, radius, [...MORPH_STEPS].reverse(), (t) => 1 - 0.6 * t),
-    { duration: cfg.layout.restore_ms, easing: "cubic-bezier(.3, 0, .2, 1)" });
+  const ms = cfg.layout.restore_ms;
+  // the empty box grows out of the pill; its contents fade in over the last 45 %
+  const fades = fadeContents(panel, [{ opacity: 0 }, { opacity: 0, offset: 0.55 }, { opacity: 1 }], ms);
+  fades.forEach((f) => f.finished.then(() => f.cancel(), () => {}));
+  panel.animate(morphKeyframes(to, from, radius, [...MORPH_STEPS].reverse(), () => 1),
+    { duration: ms, easing: "cubic-bezier(.3, 0, .2, 1)" });
 }
 
 // ---------------------------------------------------------------- rendering
