@@ -39,7 +39,7 @@ Then open:
 2. **Weather:** Open-Meteo (current, hourly, 7 days). If it doesn't answer within 10 s, MET Norway is used instead (no snow depth there).
 3. **Sky:** sun elevation decides dawn/day/dusk/night; the moon counts as visible when it is up, more than a thin crescent, the sky is at most half cloudy and it is dark.
 4. **Surroundings:** one OpenStreetMap query per place (river, coast, buildings, farmland, onsen, temples, castle, park, forest, waterfall, bridge) plus relief from 9 elevation points. The first lookup can take a while when the Overpass servers are busy; the app shows the weather and a print meanwhile and re-ranks when the surroundings arrive.
-5. **Choice:** all prints are scored; the current print stays as long as it is still among the top 5; otherwise a weighted random pick from the top 5, avoiding the last 5 designs shown. "Another print" forces a new pick.
+5. **Choice:** all prints are scored; candidates are the top 8 that score within 0.35 of the best (`config/selection.json`). A weighted random pick among them, avoiding the last 8 designs shown. Every 10 minutes the app moves on to another candidate; if none is close enough, the current print stays. When the weather is updated (every 15 minutes) the current print stays while it is still a candidate. "Another print" forces a new pick.
 6. **Refresh:** every 15 minutes while the page is visible (Open-Meteo's current values change every 15 minutes), and straight away when you come back to the page after longer.
 
 ## Privacy

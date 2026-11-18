@@ -1,1 +1,1 @@
-{ "top_k": 5, "max_gap": 0.35, "temperature": 0.15, "avoid_recent_designs": 5 }
+{ "top_k": 8, "max_gap": 0.35, "temperature": 0.15, "avoid_recent_designs": 8, "rotate_minutes": 10 }

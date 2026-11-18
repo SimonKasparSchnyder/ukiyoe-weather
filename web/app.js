@@ -44,7 +44,7 @@ const DEFAULT_SETTINGS = { locmode: "device", place: null, surround: "washi", si
 let settings = { ...DEFAULT_SETTINGS, ...storage.getJSON(K.settings, {}) };
 settings.surround = "washi"; // Japanese paper over the print colour is the only surround
 if (!["framed", "fit"].includes(settings.size)) settings.size = DEFAULT_SETTINGS.size;
-let state = { place: null, weather: null, env: null, cur: null, ranked: [], chosen: null, lastRefresh: 0 };
+let state = { place: null, weather: null, env: null, cur: null, ranked: [], chosen: null, lastRefresh: 0, shownAt: 0 };
 if (DEBUG) window.__state = state;
 
 // load timing (shown under "Why this print" with ?debug, and in the console in developer mode)
@@ -365,6 +365,7 @@ function showPrint(r) {
   img.style.transformOrigin = `${(cx + cw / 2) * 100}% ${(cy + ch / 2) * 100}%`;
   img.style.transform = p.rotation ? `rotate(${p.rotation}deg)` : "";
   if (img.dataset.id !== p.id) {
+    state.shownAt = Date.now();
     img.classList.remove("loaded");
     img.dataset.id = p.id;
     img.dataset.fallback = p.local_image || "";
@@ -466,6 +467,24 @@ function setStatus(msg) {
 // ---------------------------------------------------------------- refresh cycle
 
 /** Recompute conditions and ranking; keep the current print if it is still a good match. */
+/**
+ * Every few minutes (selection.rotate_minutes) show another good match: a print within max_gap of the best
+ * score, preferring designs not shown recently. If no other print scores well enough, the current one stays.
+ */
+function rotateIfDue() {
+  const minutes = cfg.selection.rotate_minutes;
+  if (!minutes || document.hidden || !state.weather || !state.chosen) return;
+  if (Date.now() - state.shownAt < minutes * 60 * 1000) return;
+  state.cur = buildConditions(state.place, state.weather, state.env); // time of day moves on between weather updates
+  state.ranked = rankPrints(index, state.cur, cfg);
+  const best = state.ranked[0]?.total ?? 0;
+  const current = state.chosen.print.design_id;
+  const others = state.ranked.slice(0, cfg.selection.top_k)
+    .filter((r) => r.total >= best - cfg.selection.max_gap && r.print.design_id !== current);
+  if (others.length) rescore(true);
+  else state.shownAt = Date.now(); // nothing else fits well enough: keep this one, look again next round
+}
+
 function rescore(forcePick) {
   state.cur = buildConditions(state.place, state.weather, state.env);
   state.ranked = rankPrints(index, state.cur, cfg);
@@ -645,6 +664,8 @@ async function init() {
     if (!document.hidden && Date.now() - state.lastRefresh > REFRESH_MS) refresh();
   });
   setInterval(() => { if (!document.hidden) refresh(); }, REFRESH_MS);
+  setInterval(rotateIfDue, 30 * 1000);
+  document.addEventListener("visibilitychange", () => setTimeout(rotateIfDue, 1500)); // back after a while: a new print
   placeBubble();
   layout();
   showRememberedView();
