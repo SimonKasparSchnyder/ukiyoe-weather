@@ -203,3 +203,9 @@ A print tagged only broadly ("spring") scored the full season match in cherry-bl
 14. **Environment:** one `environment_null_reason` per group (settlement, water, terrain), not one for all three.
 15. **Crop:** `fan` vs `uchiwa` (folding vs round fan); the app does not use `crop_shape` yet.
 16. **Genre:** interiors with a small view outside (Yoshida's *Farmhouse*) fit no genre well.
+
+## Rotation and a duplicate sweep (after round 5)
+
+The app now moves on to another good match every 10 minutes (`rotate_minutes` in `selection.json`; candidates: the top 8 within 0.35 of the best, avoiding the last 8 designs). Within that score window there are usually 6–8 designs (median over 96 test conditions; 1 in only 1–2 of them), often 10 or more.
+
+Testing the rotation showed the same design twice in a row (AIC's and Mia's *Night View of Saruwaka-machi*), so the whole index was checked for designs held twice: titles normalised (AIC's "…, from the series …" and romanised titles, Dutch titles), the same artist, and a perceptual image hash to rank the candidates, then checked by eye. A plain image hash alone does not separate them — different impressions differ in colour. **10 prints left out** at export (`DUPLICATE_OF` in `scripts/export_index.py`): two museum copies, two Hokumyō copies of Hokusai designs, and the Rainstorm beneath the Summit held three times → **352 prints**. Kept: the copy that came in first, originals over copies. Yoshida's *Sailing Boats* (one composition in several colourings for different times of day) are kept as separate prints on purpose.

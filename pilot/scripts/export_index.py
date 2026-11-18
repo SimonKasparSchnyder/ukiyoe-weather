@@ -21,6 +21,21 @@ ALIASES = {"wild_geese_flying": "wild_geese", "wild_geese_descending": "wild_gee
 FALLBACK_DIR = PROJECT / "web" / "fallback"
 # Prints whose local copy we don't host (still in copyright in Japan); the app links to the museum only.
 NO_FALLBACK = {"mia-83142"}  # Yoshida Tōshi, 1954
+# The same design held twice (two museums, two impressions, or a later copy): left out of the index, so the
+# 10-minute rotation never shows one design twice in a row. Kept: the copy that came in first; originals over
+# Hokumyō's kamigata copies. Found by a title and image-similarity check over the whole index (round 5).
+DUPLICATE_OF = {
+    "mia-34745": "aic-4421",             # Kyoto: Great Bridge at Sanjō (Hōeidō Tōkaidō)
+    "mia-63441": "aic-26629",            # Night View of Saruwaka-machi (Edo hyakkei)
+    "mia-22799": "aic-24690",            # Hongan-ji at Asakusa: Hokumyō's copy of Hokusai
+    "aic-87008": "mia-9612",             # Rainstorm beneath the Summit (AIC: "Shower Below the Summit")
+    "mia-22788": "mia-9612",             # Rainstorm beneath the Summit: Hokumyō's copy
+    "mia-62752": "mia-9152",             # Mishima Pass in Kai Province ("Mishima High Road")
+    "rijks-RP-P-1973-221": "mia-65871",  # Hokusai, Snow on the Sumida River
+    "mia-61062": "mia-63210",            # Shinagawa (Hōeidō): "Departure of a Daimyō" = "Sunrise"
+    "mia-64061": "rijks-RP-P-1956-751",  # Hotohoto Festival, Izumo (Sixty-odd Provinces)
+    "mia-64489": "aic-18278",            # Hodogaya (Reisho Tōkaidō)
+}
 # scans that need turning (degrees, clockwise), found during tagging
 ROTATION = {"rijks-RP-P-1952-193": 180}  # Toyoharu, Meguro Fudō: scanned upside down
 
@@ -57,7 +72,7 @@ def copy_fallback(pid):
 index = []
 for rec in json.loads(SRC.read_text()):
     m, t = rec["meta"], rec["tags"]
-    if not t.get("include"):
+    if not t.get("include") or m["id"] in DUPLICATE_OF:
         continue
     t = dict(t)
     t["seasonal_markers"] = sorted({ALIASES.get(x, x) for x in t.get("seasonal_markers") or []})

@@ -14,7 +14,7 @@ Then open <http://localhost:8766/web/>. Add `?dev` to the address for developer 
 
 ## How it works
 
-- **Prints:** each print is tagged once, offline, with weather, time of day, season and environment (see [TAXONOMY.md](TAXONOMY.md)). The current index has 362 prints, chosen in five rounds from public-domain collections (Minneapolis Institute of Art, Rijksmuseum, Art Institute of Chicago).
+- **Prints:** each print is tagged once, offline, with weather, time of day, season and environment (see [TAXONOMY.md](TAXONOMY.md)). The current index has 352 prints, chosen in five rounds from public-domain collections (Minneapolis Institute of Art, Rijksmuseum, Art Institute of Chicago).
 - **Matching:** the app scores every print against the current conditions with adjustable weights (`web/config/`), and picks among the best matches.
 - **Publishing:** `publish.py` builds `site/` from the public parts of `web/`; a GitHub Actions workflow publishes it to GitHub Pages on every push to `main`.
 
