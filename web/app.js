@@ -1,7 +1,7 @@
 import { loadConfig, rankPrints, pickPrint, timeVectorFromSun, croppedAspect } from "./lib/scoring.js";
 import { sunElevation, isMorning, moonInfo } from "./lib/sky.js";
 import { fetchWeatherRace, mapWeather, describe, currentHourIndex } from "./lib/weather.js";
-import { getEnvironment, cachedEnvironment, searchPlaces, placeName } from "./lib/environment.js";
+import { getEnvironment, cachedEnvironment, searchPlaces, warmPlaceSearch, placeName } from "./lib/environment.js";
 import { storage } from "./lib/storage.js";
 import { ICON, weatherIcon } from "./lib/icons.js";
 
@@ -390,7 +390,7 @@ function showPrint(r) {
 }
 
 const LABELS = { weather: "weather", wind: "wind", snow_ground: "snow on the ground", time_of_day: "time of day", moon: "moon",
-  season: "season", environment: "geographic features", environment_flags: "local features", proximity: "nearby place", orientation: "fits the screen" };
+  season: "season", environment: "geographic features", environment_flags: "local features", proximity: "nearby place", region: "same region", orientation: "fits the screen" };
 
 function vecText(v) {
   return v ? Object.entries(v).sort((a, b) => b[1] - a[1]).map(([k, x]) => (x >= 0.99 ? k : `${k} ${x.toFixed(1)}`)).join(", ") : "—";
@@ -431,7 +431,7 @@ function renderWeather() {
   const riseH = today.sunrise[0] ? +today.sunrise[0].slice(11, 13) : 6;
   const setH = today.sunset[0] ? +today.sunset[0].slice(11, 13) + 1 : 18;
   const hours = [];
-  for (let i = 1; i <= 24 && hours.length < 8; i += 3) {
+  for (let i = 0; i < 8; i++) { // the current hour and the next seven
     const k = h0 + i;
     if (k >= data.hourly.time.length) break;
     const hh = +data.hourly.time[k].slice(11, 13);
@@ -566,6 +566,7 @@ function openSettings() {
   d.querySelectorAll('input[name="size"]').forEach((r) => { r.checked = r.value === settings.size; });
   $("fixed-name").textContent = settings.place?.name || "none yet — search below";
   $("place-results").innerHTML = "";
+  warmPlaceSearch();
   openDialog(d);
 }
 
@@ -578,13 +579,22 @@ function wireSettings() {
       settings.locmode = e.target.value; saveSettings(); refresh({ newPlace: true });
     }
   });
-  let timer;
+  let timer, pending;
+  $("place-search").addEventListener("focus", warmPlaceSearch);
   $("place-search").addEventListener("input", (e) => {
     clearTimeout(timer);
+    pending?.abort();                         // a newer query replaces the one still on its way
     const q = e.target.value.trim();
     if (q.length < 2) { $("place-results").innerHTML = ""; return; }
     timer = setTimeout(async () => {
-      const res = await searchPlaces(q);
+      pending = new AbortController();
+      const slow = setTimeout(() => { $("place-results").innerHTML = '<li class="searching">Searching…</li>'; }, 400);
+      let res;
+      try { res = await searchPlaces(q, pending.signal); }
+      catch (err) { if (err.name === "AbortError") return; res = null; }
+      finally { clearTimeout(slow); }
+      if (res === null) { $("place-results").innerHTML = '<li class="searching">Place search is not reachable right now.</li>'; return; }
+      if (!res.length) { $("place-results").innerHTML = '<li class="searching">No place found.</li>'; return; }
       $("place-results").innerHTML = res.map((r, i) =>
         `<li><button type="button" data-i="${i}">${esc(r.name)} <small>${esc(r.region)}</small></button></li>`).join("");
       $("place-results").onclick = (ev) => {
@@ -612,7 +622,6 @@ async function init() {
   wireSettings();
   $("place-btn").addEventListener("click", openSettings);
   $("settings-btn").innerHTML = ICON.gear;
-  $("credits-btn").innerHTML = ICON.info;
   $("credits-btn").addEventListener("click", () => openDialog($("credits")));
   // a click or tap on the print (or the paper around it) minimises the weather box
   $("stage").addEventListener("click", (e) => {

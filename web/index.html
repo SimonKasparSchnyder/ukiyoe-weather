@@ -59,7 +59,7 @@
   </aside>
 
   <div id="controls" class="controls">
-    <button id="credits-btn" class="round-btn" title="Credits" aria-label="Credits"></button>
+    <button id="credits-btn" class="pill-btn">Credits</button>
     <button id="settings-btn" class="round-btn" title="Settings" aria-label="Settings"></button>
   </div>
 
@@ -74,7 +74,7 @@
     <fieldset>
       <legend>Location</legend>
       <label class="radio"><input type="radio" name="locmode" value="device"> Use this device's location</label>
-      <label class="radio"><input type="radio" name="locmode" value="fixed"> A set place: <strong id="fixed-name">–</strong></label>
+      <label class="radio"><input type="radio" name="locmode" value="fixed"> Set a custom location: <strong id="fixed-name">–</strong></label>
       <div class="search">
         <input type="search" id="place-search" placeholder="Search a place, e.g. Kyoto" autocomplete="off">
         <ul id="place-results"></ul>
@@ -94,6 +94,8 @@
     <div class="dlg-head"><h2>Credits</h2><button value="close" class="close-btn" title="Close" aria-label="Close credits"></button></div>
     <p><strong>Ukiyo-e Weather</strong> © 2026 Simon K. Schnyder. The app's code is free to reuse under the
       <a href="https://github.com/SimonKasparSchnyder/ukiyoe-weather/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p>
+    <p><strong>Inspiration</strong> — <a href="https://rothko.joonas.wtf/" target="_blank" rel="noopener"><em>Current Rothko</em></a> by
+      <a href="https://joonas.wtf/" target="_blank" rel="noopener">Joonas Virtanen</a>.</p>
     <p><strong>Prints</strong> — public-domain scans from the
       <a href="https://collections.artsmia.org/" target="_blank" rel="noopener">Minneapolis Institute of Art</a>,
       the <a href="https://www.rijksmuseum.nl/en" target="_blank" rel="noopener">Rijksmuseum</a> and the
@@ -110,7 +112,7 @@
     <p><strong>Typeface</strong> — Source Serif 4 by Frank Grießhammer for Adobe,
       <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License</a>.</p>
     <p class="small"><strong>Privacy</strong> — your location is sent only to the weather and map services above, to look up
-      the weather and the geographic features around you. Settings stay in this browser.</p>
+      weather and geographic features around you. Settings stay in this browser.</p>
   </form>
 </dialog>
 

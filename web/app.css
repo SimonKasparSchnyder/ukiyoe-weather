@@ -162,10 +162,15 @@ a { color: var(--accent); }
 .actions button.primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
 .status { color: var(--muted); font-size: calc(11 * var(--u)); margin: 0; line-height: 1.3; }
 
-.expand { position: absolute; z-index: 5; border: 1px solid var(--line); border-radius: calc(20 * var(--u));
-  padding: calc(5 * var(--u)) calc(13 * var(--u)); cursor: pointer; font-size: calc(15 * var(--u)); display: flex; gap: calc(6 * var(--u)); align-items: baseline;
+/* pills: the minimised weather box and the Credits button share one shape, 34 units tall like the round gear button
+   (5.5 + 21 line + 5.5 padding + 2 border) */
+.expand, .pill-btn { border: 1px solid var(--line); border-radius: calc(20 * var(--u));
+  padding: calc(5.5 * var(--u)) calc(13 * var(--u)); cursor: pointer; font-size: calc(15 * var(--u)); line-height: calc(21 * var(--u));
   background: color-mix(in srgb, var(--panel) var(--panel-alpha), transparent);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: var(--shadow); }
+.expand { position: absolute; z-index: 5; display: flex; gap: calc(6 * var(--u)); align-items: baseline; }
+.pill-btn { color: var(--ink); }
+.pill-btn:hover { color: var(--accent); }
 #mini-sym { color: var(--accent); }
 .expand[hidden] { display: none; }
 
@@ -183,6 +188,7 @@ legend { color: var(--muted); font-size: calc(13 * var(--u)); padding: 0 calc(4 
 #place-results li button { width: 100%; text-align: left; background: none; border: 0; padding: calc(5 * var(--u)) calc(4 * var(--u)); cursor: pointer; border-radius: calc(4 * var(--u)); }
 #place-results li button:hover { background: var(--line); }
 #place-results small { color: var(--muted); }
+#place-results .searching { color: var(--muted); padding: calc(5 * var(--u)) calc(4 * var(--u)); }
 .small { font-size: calc(13 * var(--u)); margin: 0; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -199,7 +205,7 @@ body:not(.dev) .dev-only { display: none !important; }
 .status[hidden] { display: none; }
 .credits p { margin: 0; font-size: calc(13.5 * var(--u)); line-height: 1.45; }
 
-/* always-visible controls: credits and settings, bottom right */
+/* always-visible controls: the Credits pill and the settings gear, bottom right */
 .controls { position: absolute; z-index: 6; display: flex; gap: calc(8 * var(--u)); }
 .round-btn { width: calc(34 * var(--u)); height: calc(34 * var(--u)); border-radius: 50%; padding: 0; cursor: pointer;
   display: grid; place-items: center; color: var(--ink); border: 1px solid var(--line);

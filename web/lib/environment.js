@@ -157,13 +157,27 @@ export async function getEnvironment(lat, lon) {
 }
 
 /** Place search by name (Open-Meteo geocoding). */
-export async function searchPlaces(name) {
+const GEOCODING = "https://geocoding-api.open-meteo.com/v1/search";
+
+export async function searchPlaces(name, signal) {
   const q = new URLSearchParams({ name, count: "6", language: "en", format: "json" });
-  const res = await fetch(`https://geocoding-api.open-meteo.com/v1/search?${q}`);
+  const res = await fetch(`${GEOCODING}?${q}`, { signal });
   if (!res.ok) return [];
   return ((await res.json()).results || []).map((r) => ({
     name: r.name, region: [r.admin1, r.country].filter(Boolean).join(", "), lat: r.latitude, lon: r.longitude, timezone: r.timezone,
   }));
+}
+
+/**
+ * Open the connection to the place search ahead of typing. Its server can take ~6 s to set up an encrypted
+ * connection (measured from Japan; later requests on the same connection take ~0.3 s), so a throwaway search
+ * when the settings open means the first real search doesn't wait. At most once a minute.
+ */
+let warmedAt = 0;
+export function warmPlaceSearch() {
+  if (Date.now() - warmedAt < 60_000) return;
+  warmedAt = Date.now();
+  fetch(`${GEOCODING}?name=Tokyo&count=1&format=json`).catch(() => { warmedAt = 0; });
 }
 
 /** Short name for coordinates (OpenStreetMap Nominatim), cached. */
