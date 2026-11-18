@@ -275,9 +275,24 @@ function layout() {
 const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /** Transform that maps rectangle `a` onto rectangle `b` (transform-origin top left). */
-function rectTransform(a, b) {
-  return `translate(${b.left - a.left}px, ${b.top - a.top}px) scale(${b.width / a.width}, ${b.height / a.height})`;
+/**
+ * Keyframes that move and scale an element drawn at rect `el` so it appears at the rect between `el` (t = 0)
+ * and `target` (t = 1), for each t in `ts`. Scaling would squash the corners too, so each step sets the corner
+ * radius divided by that step's scale: the corners stay `radius` px on screen all the way (the pill and the
+ * open box share one radius). The element's transform-origin must be its top left corner.
+ */
+function morphKeyframes(el, target, radius, ts, opacityAt) {
+  return ts.map((t) => {
+    const sx = 1 + (target.width / el.width - 1) * t, sy = 1 + (target.height / el.height - 1) * t;
+    const r = Math.min(radius, (el.height * sy) / 2);
+    return {
+      transform: `translate(${(target.left - el.left) * t}px, ${(target.top - el.top) * t}px) scale(${sx}, ${sy})`,
+      borderRadius: `${r / sx}px / ${r / sy}px`,
+      opacity: opacityAt(t),
+    };
+  });
 }
+const MORPH_STEPS = Array.from({ length: 25 }, (_, i) => i / 24);
 
 function placeBubble() {
   const b = settings.bubble || { right: 16, bottom: 16 };
@@ -324,10 +339,9 @@ async function collapsePanel() {
   bubble.style.visibility = "hidden";
   const to = bubble.getBoundingClientRect();
   if (!reduceMotion()) {
-    const anim = panel.animate([
-      { transform: "none", opacity: 1, borderRadius: "8px" },
-      { transform: rectTransform(from, to), opacity: 0.4, borderRadius: `${to.height / 2}px` },
-    ], { duration: cfg.layout.minimise_ms, easing: "cubic-bezier(.5, 0, .2, 1)", fill: "forwards" });
+    const radius = parseFloat(getComputedStyle(panel).borderTopLeftRadius); // --radius, the same as the pill's
+    const anim = panel.animate(morphKeyframes(from, to, radius, MORPH_STEPS, (t) => 1 - 0.6 * t),
+      { duration: cfg.layout.minimise_ms, easing: "cubic-bezier(.5, 0, .2, 1)", fill: "forwards" });
     await anim.finished;
     panel.classList.add("hidden");
     anim.cancel();
@@ -348,10 +362,9 @@ async function expandPanel() {
   const to = panel.getBoundingClientRect();
   requestAnimationFrame(() => { panel.style.transition = ""; });
   if (reduceMotion()) return;
-  panel.animate([
-    { transform: rectTransform(to, from), opacity: 0.4, borderRadius: `${from.height / 2}px` },
-    { transform: "none", opacity: 1, borderRadius: "8px" },
-  ], { duration: cfg.layout.restore_ms, easing: "cubic-bezier(.3, 0, .2, 1)" });
+  const radius = parseFloat(getComputedStyle(panel).borderTopLeftRadius);
+  panel.animate(morphKeyframes(to, from, radius, [...MORPH_STEPS].reverse(), (t) => 1 - 0.6 * t),
+    { duration: cfg.layout.restore_ms, easing: "cubic-bezier(.3, 0, .2, 1)" });
 }
 
 // ---------------------------------------------------------------- rendering

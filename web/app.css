@@ -101,7 +101,7 @@ a { color: var(--accent); }
   position: absolute; display: flex; flex-direction: column; min-height: 0;
   background: color-mix(in srgb, var(--panel) var(--panel-alpha), transparent);
   -webkit-backdrop-filter: blur(12px) saturate(1.1); backdrop-filter: blur(12px) saturate(1.1);
-  border: 1px solid var(--line); border-radius: calc(8 * var(--u)); box-shadow: var(--shadow);
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
   transition: left var(--layout-ms, 400ms), top var(--layout-ms, 400ms), width var(--layout-ms, 400ms), height var(--layout-ms, 400ms);
   transform-origin: 0 0;
 }
@@ -164,7 +164,7 @@ a { color: var(--accent); }
 
 /* pills: the minimised weather box and the Credits button share one shape, 34 units tall like the round gear button
    (5.5 + 21 line + 5.5 padding + 2 border) */
-.expand, .pill-btn { border: 1px solid var(--line); border-radius: calc(20 * var(--u));
+.expand, .pill-btn { border: 1px solid var(--line); border-radius: var(--radius);
   padding: calc(5.5 * var(--u)) calc(13 * var(--u)); cursor: pointer; font-size: calc(15 * var(--u)); line-height: calc(21 * var(--u));
   background: color-mix(in srgb, var(--panel) var(--panel-alpha), transparent);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: var(--shadow); }
@@ -175,7 +175,7 @@ a { color: var(--accent); }
 .expand[hidden] { display: none; }
 
 /* ---------------------------------------------------------------- settings dialog */
-dialog { border: 1px solid var(--line); border-radius: calc(10 * var(--u)); background: var(--panel); color: var(--ink);
+dialog { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); color: var(--ink);
   width: min(calc(440 * var(--u)), calc(100vw - calc(32 * var(--u)))); padding: 0; box-shadow: var(--shadow); }
 dialog::backdrop { background: rgba(20, 15, 10, .35); }
 .settings-form { padding: var(--box-pad); display: flex; flex-direction: column; gap: calc(12 * var(--u)); }
@@ -218,6 +218,9 @@ body:not(.dev) .dev-only { display: none !important; }
    The button is exactly the circle, and the title line is exactly as tall as the button, so the circle sits
    --box-pad from the top and right edges and the title --box-pad from the left edge, centred on the circle. */
 :root { --close-size: calc(22 * var(--u)); }
+/* one corner radius for everything that floats over the print: half the 34-unit height of the pills and the gear
+   button, so the weather box and the dialogs have the same corners as the buttons */
+:root { --radius: calc(17 * var(--u)); }
 .close-btn { background: none; border: 0; padding: 0; margin: 0; cursor: pointer; color: var(--muted); line-height: 0;
   width: var(--close-size); height: var(--close-size); display: grid; place-items: center; flex: none; }
 .close-btn:hover { color: var(--accent); }
