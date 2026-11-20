@@ -29767,5 +29767,94 @@
    "fuji": false,
    "evidence": "Women stripping and drying gourd (kanpyō), a summer activity; pale sky with blue band and greyish hills, plain daylight."
   }
+ },
+ {
+  "id": "mia-9657",
+  "design_id": "kobayashi-kiyochika-the-second-month-matsuchiyama-in-snow-at",
+  "title": "The Second Month, Matsuchiyama in Snow at Dusk",
+  "artist": "Kobayashi Kiyochika; Publisher: Inoue Kichijirō",
+  "date": "March 1896",
+  "series": "True Views of Famous Places in Tokyo (Tōkyō meisho shinkei no uchi 東京名所真景之内)",
+  "source": "Minneapolis Institute of Art",
+  "rights": "Public Domain",
+  "object_url": "https://collections.artsmia.org/art/9657",
+  "image_url": "https://img.artsmia.org/web_objects_cache/009000/600/50/9657/mia_43594a_800.jpg",
+  "local_image": null,
+  "pixel_size": [
+   3570,
+   1890
+  ],
+  "crop": [
+   0.01,
+   0.025,
+   0.965,
+   0.945
+  ],
+  "rotation": 0,
+  "crop_shape": "rect",
+  "palette": [
+   "#e6e2d8",
+   "#9ea4a8",
+   "#2a2a30",
+   "#3d4e7a"
+  ],
+  "colors": {
+   "paper": "#eadabc",
+   "accent_light": "#3d4e7a",
+   "accent_dark": "#3d4e7a",
+   "palette": [
+    "#eadabc",
+    "#f6e7cb",
+    "#eedec2",
+    "#f4e5c8",
+    "#d2bf9f",
+    "#e0d2b6"
+   ]
+  },
+  "era": "meiji",
+  "group": "request",
+  "tags": {
+   "genre": "figures_in_landscape",
+   "weather": {
+    "snowfall": 0.7,
+    "cloudy": 0.3
+   },
+   "wind": 0.0,
+   "snow_ground": 1.0,
+   "time_of_day": {
+    "dusk": 0.6,
+    "day": 0.4
+   },
+   "moon": false,
+   "season": {
+    "winter": 0.8,
+    "spring": 0.2
+   },
+   "seasonal_markers": [
+    "snow"
+   ],
+   "environment": {
+    "settlement": {
+     "town": 0.6,
+     "city": 0.4
+    },
+    "water": {
+     "river": 1.0
+    },
+    "terrain": {
+     "flat": 0.7,
+     "hilly": 0.3
+    },
+    "flags": []
+   },
+   "place": {
+    "name": "Sumida River ferry below Matsuchiyama, Asakusa, Tokyo",
+    "lat": 35.715,
+    "lon": 139.803,
+    "precision_km": 1
+   },
+   "fuji": false,
+   "evidence": "Ferry passengers under snow-laden umbrellas, boatman in a straw rain cape; snow heavy on the trees of Matsuchiyama and the roofs along the far bank, under a flat grey sky. Title gives dusk (tasogare) and the second month (Kisaragi), but the light is still grey daylight, so a day share."
+  }
  }
 ]

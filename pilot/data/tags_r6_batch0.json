@@ -1,0 +1,40 @@
+[
+ {
+  "id": "mia-9657",
+  "genre": "figures_in_landscape",
+  "include": true,
+  "exclude_reason": null,
+  "era": "meiji",
+  "edition": "original",
+  "fragment": "none",
+  "weather": {"snowfall": 0.7, "cloudy": 0.3},
+  "weather_null_reason": null,
+  "wind": 0.0,
+  "snow_ground": 1.0,
+  "time_of_day": {"dusk": 0.6, "day": 0.4},
+  "time_null_reason": null,
+  "time_source": "both",
+  "moon": false,
+  "season": {"winter": 0.8, "spring": 0.2},
+  "season_null_reason": null,
+  "season_source": "both",
+  "seasonal_markers": ["snow"],
+  "environment": {
+   "settlement": {"town": 0.6, "city": 0.4},
+   "water": {"river": 1.0},
+   "terrain": {"flat": 0.7, "hilly": 0.3},
+   "flags": []
+  },
+  "environment_null_reason": null,
+  "place": {"name": "Sumida River ferry below Matsuchiyama, Asakusa, Tokyo", "lat": 35.715, "lon": 139.803, "precision_km": 1},
+  "fuji": false,
+  "crop": [0.01, 0.025, 0.965, 0.945],
+  "crop_shape": "rect",
+  "crop_note": "triptych; mount margin excluded on all sides, sheet joins kept",
+  "fading": false,
+  "palette": ["#e6e2d8", "#9ea4a8", "#2a2a30", "#3d4e7a"],
+  "confidence": {"weather": 0.8, "time_of_day": 0.6, "season": 0.9, "environment": 0.85},
+  "evidence": "Ferry passengers under snow-laden umbrellas, boatman in a straw rain cape; snow heavy on the trees of Matsuchiyama and the roofs along the far bank, under a flat grey sky. Title gives dusk (tasogare) and the second month (Kisaragi), but the light is still grey daylight, so a day share.",
+  "taxonomy_friction": "Second lunar month with deep snow: mostly winter, a little spring."
+ }
+]
