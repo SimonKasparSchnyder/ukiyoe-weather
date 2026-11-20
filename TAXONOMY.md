@@ -203,6 +203,8 @@ Dates are approximate for the Kantō region today. Use only these IDs; if someth
 
 A place can be several things at once (a coastal town in the mountains). So environment has **three groups**, each a soft vector with its own closeness table, plus **feature flags**.
 
+**Privacy:** the app looks these up for the device position rounded to 2 decimals (a ~1 km square), never the precise point, so the distances below are measured from the centre of that square and describe the neighbourhood rather than the exact spot.
+
 **Viewpoint vs. view:** the **terrain** and **water** groups describe the **scene in view** (mountains across the harbour count as mountain). The **place** coordinates are the **viewpoint** — where the artist stood. If there is no usable viewpoint (open sea, the mountain itself), use the subject's location with coarse precision. Places named only by a province get **no coordinates**.
 
 ### Groups
@@ -228,10 +230,10 @@ A place can be several things at once (a coastal town in the mountains). So envi
 | Category | Print | Map data |
 |---|---|---|
 | `none` | No water | No water nearby |
-| `river` | River, canal, moat, stream | River or canal within ~300 m |
+| `river` | River, canal, moat, stream | River or canal within ~500 m |
 | `lake` | Lake or pond | Lake or pond within ~500 m |
 | `sea` | Bay, beach, open sea, lagoon open to the sea | Coastline within ~2 km, fading out by ~5 km |
-| `wetland` | Flooded rice paddies, marsh, reed beds | Wetland or paddy land use within ~300 m |
+| `wetland` | Flooded rice paddies, marsh, reed beds | Wetland or paddy land use within ~500 m |
 
 |         | none | river | lake | sea | wetland |
 |---|---|---|---|---|---|
@@ -264,12 +266,12 @@ Relief comes from Open-Meteo's elevation data: the centre point plus ~8 points a
 | Flag | Print | Map data |
 |---|---|---|
 | `onsen` | Hot-spring town, bathers, steam | Hot spring or onsen bath within ~1 km |
-| `temple_shrine` | Any religious site: temple, shrine, pagoda, torii, Confucian hall | Place of worship within ~300 m (Buddhist/Shinto full credit, others half) |
+| `temple_shrine` | Any religious site: temple, shrine, pagoda, torii, Confucian hall | Place of worship within ~500 m (Buddhist/Shinto full credit, others half) |
 | `castle` | Castle, fortifications | Castle within ~1 km |
-| `garden_park` | Garden, blossom-viewing park | Park or garden within ~200 m |
-| `forest` | Real woodland or groves (not just a pine avenue or scattered trees) | Woodland within ~300 m |
+| `garden_park` | Garden, blossom-viewing park | Park or garden within ~400 m |
+| `forest` | Real woodland or groves (not just a pine avenue or scattered trees) | Woodland within ~500 m |
 | `waterfall` | Waterfall | Waterfall within ~1 km |
-| `bridge` | Bridge prominent in the scene | Bridge within ~100 m |
+| `bridge` | Bridge prominent in the scene | Bridge within ~300 m |
 
 Flags are a **bonus only**: for each flag true at the current location, a print that has it earns credit. A print having a flag the location lacks is not penalised (otherwise bridge prints, which are everywhere in ukiyo-e, would be penalised almost everywhere).
 

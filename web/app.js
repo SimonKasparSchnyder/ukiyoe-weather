@@ -1,7 +1,7 @@
 import { loadConfig, rankPrints, pickPrint, timeVectorFromSun, croppedAspect } from "./lib/scoring.js";
 import { sunElevation, isMorning, moonInfo } from "./lib/sky.js";
 import { fetchWeatherRace, mapWeather, describe, currentHourIndex } from "./lib/weather.js";
-import { getEnvironment, cachedEnvironment, searchPlaces, warmPlaceSearch, placeName } from "./lib/environment.js";
+import { getEnvironment, cachedEnvironment, searchPlaces, warmPlaceSearch, placeName, coarse } from "./lib/environment.js";
 import { storage } from "./lib/storage.js";
 import { ICON, weatherIcon } from "./lib/icons.js";
 
@@ -58,16 +58,31 @@ function mark(label) {
 
 // ---------------------------------------------------------------- location
 
+// Privacy: the device position is rounded to 2 decimals (a ~1 km square) as soon as it arrives, so the precise
+// point is never kept, stored or sent. Low accuracy is enough and spares the phone's GPS.
 function deviceLocation() {
   return new Promise((resolve) => {
     if (!navigator.geolocation) return resolve(null);
     navigator.geolocation.getCurrentPosition(
-      (p) => resolve({ lat: p.coords.latitude, lon: p.coords.longitude }),
+      (p) => resolve({ lat: coarse(p.coords.latitude), lon: coarse(p.coords.longitude) }),
       () => resolve(null),
-      { timeout: 10000, maximumAge: 10 * 60 * 1000 },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 10 * 60 * 1000 },
     );
   });
 }
+
+// Forget what older versions stored at a finer level: district-level names and the precise last position.
+(function dropFineLocationData() {
+  try {
+    for (const k of Object.keys(window.localStorage)) {
+      if (k.startsWith("ukiyoe-placename-") || k === "ukiyoe-env-cache-v2") storage.remove(k);
+    }
+  } catch { /* storage blocked: nothing stored */ }
+  const last = storage.getJSON(K.last, null);
+  if (last?.locmode === "device" && last.place && (last.place.lat !== coarse(last.place.lat) || last.place.lon !== coarse(last.place.lon))) {
+    storage.remove(K.last);
+  }
+})();
 
 async function resolvePlace() {
   if (settings.locmode === "fixed" && settings.place) return { ...settings.place, fixed: true };

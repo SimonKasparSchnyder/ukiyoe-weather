@@ -1,6 +1,7 @@
 // Current weather and forecast from Open-Meteo (free, no key), mapped to the taxonomy.
 
 import { sunElevation } from "./sky.js";
+import { coarse } from "./environment.js"; // requests send only the ~1 km grid point
 
 const FORECAST = "https://api.open-meteo.com/v1/forecast";
 const METNO = "https://api.met.no/weatherapi/locationforecast/2.0/complete";
@@ -48,8 +49,8 @@ export async function fetchWeather(lat, lon, timeZone) {
 
 async function fetchOpenMeteo(lat, lon, timeoutMs = 10000) {
   const params = new URLSearchParams({
-    latitude: lat.toFixed(4),
-    longitude: lon.toFixed(4),
+    latitude: coarse(lat).toFixed(2),
+    longitude: coarse(lon).toFixed(2),
     current: "temperature_2m,apparent_temperature,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,precipitation,is_day",
     hourly: "temperature_2m,weather_code,precipitation_probability,visibility,snow_depth",
     daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset",
@@ -111,7 +112,7 @@ async function fetchMetNo(lat, lon, timeZone) {
   const t = withTimeout(15000);
   let json;
   try {
-    const res = await fetch(`${METNO}?lat=${lat.toFixed(4)}&lon=${lon.toFixed(4)}`, { signal: t.signal });
+    const res = await fetch(`${METNO}?lat=${coarse(lat).toFixed(2)}&lon=${coarse(lon).toFixed(2)}`, { signal: t.signal });
     if (!res.ok) throw new Error(`MET Norway ${res.status}`);
     json = await res.json();
   } finally { t.done(); }

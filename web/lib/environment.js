@@ -1,35 +1,40 @@
 // Describe the surroundings of a location (TAXONOMY §6) from OpenStreetMap and elevation data.
 // Results are cached per location (~1 km grid), so each place is looked up only once.
+// Privacy: every request sends coordinates rounded to 2 decimals (a ~1 km square), never the precise point.
 
 import { storage } from "./storage.js";
 
 const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
 const ELEVATION = "https://api.open-meteo.com/v1/elevation";
-const CACHE_KEY = "ukiyoe-env-cache-v2";
+const CACHE_KEY = "ukiyoe-env-cache-v3"; // v3: wider radii for the ~1 km grid
+
+/** Round a coordinate to 2 decimals (~1.1 km north–south): the finest position that leaves this device. */
+export const coarse = (x) => Math.round(x * 100) / 100;
 const reliefRetried = new Set();
 
-// Each line is one count, in this order.
+// Each line is one count, in this order. The point is the centre of a ~1 km grid square (see coarse), not where
+// the user stands, so single features are looked for across most of that square (300–500 m) rather than close by.
 const QUERIES = [
   ["buildings", 'way["building"](around:500,{p});'],
   ["commercial", 'way["landuse"~"^(commercial|retail)$"](around:500,{p});'],
   ["farmland", 'way["landuse"~"^(farmland|paddy|orchard|meadow|farmyard)$"](around:500,{p});'],
   ["coast2", 'way["natural"="coastline"](around:2000,{p});'],
   ["coast5", 'way["natural"="coastline"](around:5000,{p});'],
-  ["river", 'way["waterway"~"^(river|canal)$"](around:300,{p});'],
+  ["river", 'way["waterway"~"^(river|canal)$"](around:500,{p});'],
   ["lake", 'nwr["natural"="water"]["water"~"^(lake|pond|reservoir|lagoon)$"](around:500,{p});'],
-  ["wetland", 'nwr["natural"="wetland"](around:300,{p});'],
+  ["wetland", 'nwr["natural"="wetland"](around:500,{p});'],
   ["onsen", 'nwr["natural"="hot_spring"](around:1000,{p});nwr["amenity"="public_bath"]["bath:type"="onsen"](around:1000,{p});'],
-  ["worship_jp", 'nwr["amenity"="place_of_worship"]["religion"~"^(buddhist|shinto)$"](around:300,{p});'],
-  ["worship", 'nwr["amenity"="place_of_worship"](around:300,{p});'],
+  ["worship_jp", 'nwr["amenity"="place_of_worship"]["religion"~"^(buddhist|shinto)$"](around:500,{p});'],
+  ["worship", 'nwr["amenity"="place_of_worship"](around:500,{p});'],
   ["castle", 'nwr["historic"="castle"](around:1000,{p});'],
-  ["garden_park", 'nwr["leisure"~"^(park|garden)$"](around:200,{p});'],
-  ["forest", 'nwr["landuse"="forest"](around:300,{p});nwr["natural"="wood"](around:300,{p});'],
+  ["garden_park", 'nwr["leisure"~"^(park|garden)$"](around:400,{p});'],
+  ["forest", 'nwr["landuse"="forest"](around:500,{p});nwr["natural"="wood"](around:500,{p});'],
   ["waterfall", 'nwr["waterway"="waterfall"](around:1000,{p});'],
-  ["bridge", 'way["bridge"="yes"](around:100,{p});'],
+  ["bridge", 'way["bridge"="yes"](around:300,{p});'],
 ];
 
 function overpassQuery(lat, lon) {
-  const p = `${lat.toFixed(5)},${lon.toFixed(5)}`;
+  const p = `${coarse(lat).toFixed(2)},${coarse(lon).toFixed(2)}`;
   const body = QUERIES.map(([, q]) => `(${q.replaceAll("{p}", p)});out count;`).join("\n");
   return `[out:json][timeout:25];\n${body}`;
 }
@@ -57,6 +62,7 @@ async function fetchCounts(lat, lon) {
 }
 
 async function fetchRelief(lat, lon) {
+  lat = coarse(lat); lon = coarse(lon);
   const pts = [[0, 0]];
   const dLat = 2 / 111, dLon = 2 / (111 * Math.cos((lat * Math.PI) / 180));
   for (let k = 0; k < 8; k++) {
@@ -180,17 +186,17 @@ export function warmPlaceSearch() {
   fetch(`${GEOCODING}?name=Tokyo&count=1&format=json`).catch(() => { warmedAt = 0; });
 }
 
-/** Short name for coordinates (OpenStreetMap Nominatim), cached. */
+/** City name for coordinates (OpenStreetMap Nominatim, city level), cached. Sends only the ~1 km grid point. */
 export async function placeName(lat, lon) {
-  const key = `ukiyoe-placename-${lat.toFixed(2)},${lon.toFixed(2)}`;
+  lat = coarse(lat); lon = coarse(lon);
+  const key = `ukiyoe-cityname-${lat.toFixed(2)},${lon.toFixed(2)}`;
   const hit = storage.get(key);
   if (hit) return hit;
   try {
-    const q = new URLSearchParams({ lat: lat.toFixed(4), lon: lon.toFixed(4), format: "jsonv2", zoom: "14", "accept-language": "en" });
+    const q = new URLSearchParams({ lat: lat.toFixed(2), lon: lon.toFixed(2), format: "jsonv2", zoom: "10", "accept-language": "en" });
     const res = await fetch(`https://nominatim.openstreetmap.org/reverse?${q}`);
     const a = (await res.json()).address || {};
-    const name = [a.suburb || a.neighbourhood || a.village || a.town || a.city_district, a.city || a.town || a.county || a.state]
-      .filter(Boolean).filter((v, i, arr) => arr.indexOf(v) === i).join(", ");
+    const name = a.city || a.town || a.village || a.municipality || a.county || a.state || "";
     if (name) storage.set(key, name);
     return name || `${lat.toFixed(2)}, ${lon.toFixed(2)}`;
   } catch {

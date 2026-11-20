@@ -44,7 +44,7 @@ Then open:
 
 ## Privacy
 
-Coordinates go only to the weather services (Open-Meteo, MET Norway), OpenStreetMap (Overpass for surroundings, Nominatim for the place name) and Open-Meteo's elevation and place-search services. Settings and caches stay in this browser.
+Coordinates go only to the weather services (Open-Meteo, MET Norway), OpenStreetMap (Overpass for surroundings, Nominatim for the city name) and Open-Meteo's elevation and place-search services. The device position is rounded to 2 decimals (about 1 km) as soon as it arrives, so no request carries anything finer, and the label shows only the city. Settings and caches stay in this browser.
 
 ## Known limits
 
