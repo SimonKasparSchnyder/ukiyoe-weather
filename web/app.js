@@ -317,6 +317,12 @@ function fadeContents(el, keyframes, duration) {
   return [...el.children].map((c) => c.animate(keyframes, { duration, easing: "linear", fill: "both" }));
 }
 
+/** The place label, in the open panel and first in the minimised pill. */
+function showPlaceName(name) {
+  $("place-name").textContent = name;
+  $("mini-place").textContent = name;
+}
+
 function placeBubble() {
   const b = settings.bubble || { right: 16, bottom: 16 };
   const st = $("expand-btn").style;
@@ -547,11 +553,11 @@ async function refresh({ forcePick = false, newPlace = false } = {}) {
       mark("locating");
       state.place = await resolvePlace();
       mark(state.place.fallback ? "location unavailable" : "location known");
-      $("place-name").textContent = state.place.name || "Here";
+      showPlaceName(state.place.name || "Here");
     }
     const p = state.place;
     if (DEV) setStatus("Updating…");
-    if (!p.name) placeName(p.lat, p.lon).then((n) => { p.name = n; $("place-name").textContent = n; });
+    if (!p.name) placeName(p.lat, p.lon).then((n) => { p.name = n; showPlaceName(n); });
     const osm = { osm: Boolean(cfg.environment.osm_features) };
     const cachedEnv = cachedEnvironment(p.lat, p.lon, osm);
     const envPromise = cachedEnv?.terrain ? Promise.resolve(cachedEnv) : getEnvironment(p.lat, p.lon, osm);
@@ -605,7 +611,7 @@ function showRememberedView() {
   state.place = last.place;
   state.weather = last.weather;
   state.env = cachedEnvironment(last.place.lat, last.place.lon, { osm: Boolean(cfg.environment.osm_features) });
-  $("place-name").textContent = last.place.name || "Here";
+  showPlaceName(last.place.name || "Here");
   rescore(false);
   mark("shown from last visit");
   return true;

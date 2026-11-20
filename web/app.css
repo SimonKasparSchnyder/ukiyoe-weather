@@ -172,6 +172,8 @@ a { color: var(--accent); }
 .pill-btn { color: var(--ink); }
 .pill-btn:hover { color: var(--accent); }
 #mini-sym { color: var(--accent); }
+#mini-place { max-width: calc(180 * var(--u)); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#mini-place:empty { display: none; }
 .expand[hidden] { display: none; }
 
 /* ---------------------------------------------------------------- settings dialog */
