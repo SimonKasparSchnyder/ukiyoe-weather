@@ -203,6 +203,8 @@ Dates are approximate for the Kantō region today. Use only these IDs; if someth
 
 A place can be several things at once (a coastal town in the mountains). So environment has **three groups**, each a soft vector with its own closeness table, plus **feature flags**.
 
+**Paused:** settlement, water and the feature flags come from OpenStreetMap (Overpass) and are switched off for now (`osm_features` in `config/environment.json`); only terrain is looked up. Prints keep their tags, so they can be switched back on.
+
 **Privacy:** the app looks these up for the device position rounded to 2 decimals (a ~1 km square), never the precise point, so the distances below are measured from the centre of that square and describe the neighbourhood rather than the exact spot.
 
 **Viewpoint vs. view:** the **terrain** and **water** groups describe the **scene in view** (mountains across the harbour count as mountain). The **place** coordinates are the **viewpoint** — where the artist stood. If there is no usable viewpoint (open sea, the mountain itself), use the subject's location with coarse precision. Places named only by a province get **no coordinates**.

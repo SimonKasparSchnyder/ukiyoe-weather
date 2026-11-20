@@ -552,8 +552,9 @@ async function refresh({ forcePick = false, newPlace = false } = {}) {
     const p = state.place;
     if (DEV) setStatus("Updating…");
     if (!p.name) placeName(p.lat, p.lon).then((n) => { p.name = n; $("place-name").textContent = n; });
-    const cachedEnv = cachedEnvironment(p.lat, p.lon);
-    const envPromise = cachedEnv?.terrain ? Promise.resolve(cachedEnv) : getEnvironment(p.lat, p.lon);
+    const osm = { osm: Boolean(cfg.environment.osm_features) };
+    const cachedEnv = cachedEnvironment(p.lat, p.lon, osm);
+    const envPromise = cachedEnv?.terrain ? Promise.resolve(cachedEnv) : getEnvironment(p.lat, p.lon, osm);
     mark("weather requested");
     state.weather = await fetchWeatherRace(p.lat, p.lon, p.timezone, (better) => {
       if (state.place !== p) return;          // the place changed meanwhile
@@ -603,7 +604,7 @@ function showRememberedView() {
   if (settings.locmode === "fixed" && (last.place?.lat !== settings.place?.lat || last.place?.lon !== settings.place?.lon)) return false;
   state.place = last.place;
   state.weather = last.weather;
-  state.env = cachedEnvironment(last.place.lat, last.place.lon);
+  state.env = cachedEnvironment(last.place.lat, last.place.lon, { osm: Boolean(cfg.environment.osm_features) });
   $("place-name").textContent = last.place.name || "Here";
   rescore(false);
   mark("shown from last visit");

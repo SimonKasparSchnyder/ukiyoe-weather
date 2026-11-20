@@ -126,16 +126,23 @@ export function classify(counts, terrain) {
   return { settlement, water, terrain: terrainVec, flags };
 }
 
+// `osm`: whether to ask OpenStreetMap (Overpass) for settlement, water and local features. Off by default
+// (config/environment.json "osm_features"): the public servers are often slow, and matching on them can show near
+// nothing but sea views at the coast. With it off, only terrain is looked up (Open-Meteo elevation).
+// Cached entries remember which kind they are, so switching it back on looks places up again.
+const matches = (hit, osm) => hit && (hit.osm ?? true) === osm;
+
 /** Cached environment for a location, or null. */
-export function cachedEnvironment(lat, lon) {
-  return storage.getJSON(CACHE_KEY, {})[`${lat.toFixed(2)},${lon.toFixed(2)}`] || null;
+export function cachedEnvironment(lat, lon, { osm = false } = {}) {
+  const hit = storage.getJSON(CACHE_KEY, {})[`${lat.toFixed(2)},${lon.toFixed(2)}`];
+  return matches(hit, osm) ? hit : null;
 }
 
 /** Environment for a location: cached, or looked up and classified. Never throws. */
-export async function getEnvironment(lat, lon) {
+export async function getEnvironment(lat, lon, { osm = false } = {}) {
   const key = `${lat.toFixed(2)},${lon.toFixed(2)}`;
   const cache = storage.getJSON(CACHE_KEY, {});
-  if (cache[key]) {
+  if (matches(cache[key], osm)) {
     const hit = cache[key];
     // the elevation service may have been down when this place was first looked up
     if (!hit.terrain && hit.raw && !reliefRetried.has(key)) {
@@ -150,6 +157,16 @@ export async function getEnvironment(lat, lon) {
     }
     return { ...hit, cached: true };
   }
+  if (!osm) {
+    let relief;
+    try { relief = await fetchRelief(lat, lon); } catch (e) {
+      return { settlement: null, water: null, terrain: null, flags: [], osm: false, error: String(e?.message || e) };
+    }
+    const env = { settlement: null, water: null, terrain: classify({}, relief).terrain, flags: [], osm: false, raw: relief };
+    cache[key] = env;
+    storage.setJSON(CACHE_KEY, cache);
+    return env;
+  }
   const [counts, terrain] = await Promise.allSettled([fetchCounts(lat, lon), fetchRelief(lat, lon)]);
   if (counts.status !== "fulfilled") {
     return { settlement: null, water: null, terrain: terrain.value ? classify({}, terrain.value).terrain : null,
@@ -157,6 +174,7 @@ export async function getEnvironment(lat, lon) {
   }
   const env = classify(counts.value, terrain.status === "fulfilled" ? terrain.value : null);
   env.raw = { ...counts.value, ...(terrain.value || {}) };
+  env.osm = true;
   cache[key] = env;
   storage.setJSON(CACHE_KEY, cache);
   return env;

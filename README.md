@@ -2,7 +2,7 @@
 
 A weather app that shows the forecast for your location together with the Japanese woodblock print (ukiyo-e) that best matches the moment: the weather, the time of day, the season and the kind of place you're in. Snow falling at dusk in a river town? Hiroshige has a print for that.
 
-The prints are public-domain scans, loaded from museum collections. Weather comes from Open-Meteo (with MET Norway as fallback), surroundings from OpenStreetMap. No account, no tracking; settings stay in your browser.
+The prints are public-domain scans, loaded from museum collections. Weather comes from Open-Meteo (with MET Norway as fallback), terrain from Open-Meteo's elevation data and the city name from OpenStreetMap. No account, no tracking; settings stay in your browser.
 
 ## Run it locally
 

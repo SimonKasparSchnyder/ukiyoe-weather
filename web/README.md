@@ -12,7 +12,7 @@ The local web app (work in progress).
 | `lib/scoring.js` | Matching engine: similarity per dimension, season curves, ranking, weighted random pick. |
 | `lib/weather.js` | Weather from Open-Meteo, with MET Norway as automatic fallback; mapping to the taxonomy. |
 | `lib/sky.js` | Sun elevation, morning/evening, moon altitude and phase. |
-| `lib/environment.js` | Surroundings from OpenStreetMap (Overpass) and relief from elevation data; cached per ~1 km; place search and names. |
+| `lib/environment.js` | Relief from elevation data, and (paused, `osm_features`) surroundings from OpenStreetMap (Overpass); cached per ~1 km; place search and names. |
 | `lib/storage.js` | Browser storage that falls back to memory when blocked. |
 | `data/index.json` | Print index. Currently the 66 included pilot prints, exported by `pilot/scripts/export_index.py`. |
 | `fonts/` | Source Serif 4 (SIL Open Font License, see `fonts/OFL.txt`). |
@@ -38,13 +38,13 @@ Then open:
 1. **Location:** the browser's location (it asks once), or a place set in Settings. Falls back to Tokyo if neither is available.
 2. **Weather:** Open-Meteo (current, hourly, 7 days). If it doesn't answer within 10 s, MET Norway is used instead (no snow depth there).
 3. **Sky:** sun elevation decides dawn/day/dusk/night; the moon counts as visible when it is up, more than a thin crescent, the sky is at most half cloudy and it is dark.
-4. **Surroundings:** one OpenStreetMap query per place (river, coast, buildings, farmland, onsen, temples, castle, park, forest, waterfall, bridge) plus relief from 9 elevation points. The first lookup can take a while when the Overpass servers are busy; the app shows the weather and a print meanwhile and re-ranks when the surroundings arrive.
+4. **Surroundings:** relief from 9 elevation points (hilly, flat, mountain). **The OpenStreetMap part is paused** (`"osm_features": false` in `config/environment.json`): the public Overpass servers were often too slow (40 s and more), and near the coast it risked showing almost nothing but sea views. The code stays; set it to `true` to bring it back. When on: one OpenStreetMap query per place (river, coast, buildings, farmland, onsen, temples, castle, park, forest, waterfall, bridge) plus relief from 9 elevation points. The first lookup can take a while when the Overpass servers are busy; the app shows the weather and a print meanwhile and re-ranks when the surroundings arrive.
 5. **Choice:** all prints are scored; candidates are the top 8 that score within 0.35 of the best (`config/selection.json`). A weighted random pick among them, avoiding the last 8 designs shown. Every 10 minutes the app moves on to another candidate; if none is close enough, the current print stays. When the weather is updated (every 15 minutes) the current print stays while it is still a candidate. "Another print" forces a new pick.
 6. **Refresh:** every 15 minutes while the page is visible (Open-Meteo's current values change every 15 minutes), and straight away when you come back to the page after longer.
 
 ## Privacy
 
-Coordinates go only to the weather services (Open-Meteo, MET Norway), OpenStreetMap (Overpass for surroundings, Nominatim for the city name) and Open-Meteo's elevation and place-search services. The device position is rounded to 2 decimals (about 1 km) as soon as it arrives, so no request carries anything finer, and the label shows only the city. Settings and caches stay in this browser.
+Coordinates go only to the weather services (Open-Meteo, MET Norway), OpenStreetMap (Nominatim for the city name; Overpass for surroundings while that is switched on) and Open-Meteo's elevation and place-search services. The device position is rounded to 2 decimals (about 1 km) as soon as it arrives, so no request carries anything finer, and the label shows only the city. Settings and caches stay in this browser.
 
 ## Known limits
 
